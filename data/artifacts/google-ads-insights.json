@@ -1,0 +1,670 @@
+{
+  "data": {
+    "ads": {
+      "dateRange": "August 11, 2026 - September 9, 2026",
+      "topAdsByConversions": [
+        {
+          "adStrength": "--",
+          "adType": "--",
+          "campaign": "--",
+          "conversions": 59,
+          "ctr": null,
+          "description": "--",
+          "headline1": "--",
+          "headline2": "--",
+          "impressions": 114
+        },
+        {
+          "adStrength": "Poor",
+          "adType": "Mobile app installs ad v2",
+          "campaign": "IOS-App | 07 Aug @026",
+          "conversions": 58,
+          "ctr": null,
+          "description": "Get better rates and lower fees than traditional banks. Fast Transfers.",
+          "headline1": "Built for Indians in USA",
+          "headline2": "Send Money to India Fast",
+          "impressions": 61
+        },
+        {
+          "adStrength": "Poor",
+          "adType": "Responsive search ad",
+          "campaign": "ST_Generic_Search_Jan28",
+          "conversions": 0,
+          "ctr": null,
+          "description": "Tired of sending money to India with hefty platform fee? Try Remit2Any for $0 platform fee",
+          "headline1": "Send Money From USA To India",
+          "headline2": "Zero Fees & No Hidden Charges",
+          "impressions": 0
+        },
+        {
+          "adStrength": "ST_Generic_Search_Jan28",
+          "adType": "",
+          "campaign": "--",
+          "conversions": 0,
+          "ctr": null,
+          "description": "Transfer USD to INR with zero fees and best exchange rate fast",
+          "headline1": "{Keyword:Send USD to INR in 1 Click}",
+          "headline2": "100% Safe & Secure",
+          "impressions": null
+        },
+        {
+          "adStrength": "--",
+          "adType": "Expanded dynamic search ad",
+          "campaign": "ST_Generic_Search_Jan28",
+          "conversions": 0,
+          "ctr": null,
+          "description": "--",
+          "headline1": "--",
+          "headline2": "--",
+          "impressions": 0
+        },
+        {
+          "adStrength": "campaign paused",
+          "adType": "Not eligible",
+          "campaign": "--",
+          "conversions": 0,
+          "ctr": null,
+          "description": "Transfer money from the USA to India at zero charges with Remit2Any",
+          "headline1": "Best Exchange Rate Guranteed",
+          "headline2": "Remit2Any",
+          "impressions": null
+        },
+        {
+          "adStrength": "Average",
+          "adType": "Responsive search ad",
+          "campaign": "ST_Generic_Search_Jan28",
+          "conversions": 0,
+          "ctr": null,
+          "description": "Tired of sending money to India with hefty platform fee? Try Remit2Any for $0 platform fee",
+          "headline1": "Send Money From USA To India",
+          "headline2": "Zero Fees & No Hidden Charges",
+          "impressions": 0
+        },
+        {
+          "adStrength": "Generic_Search_Feb14",
+          "adType": "",
+          "campaign": "--",
+          "conversions": 0,
+          "ctr": null,
+          "description": "Transfer USD to INR with zero fees and best exchange rate fast",
+          "headline1": "{Keyword:Send USD to INR in 1 Click}",
+          "headline2": "100% Safe & Secure",
+          "impressions": null
+        },
+        {
+          "adStrength": "--",
+          "adType": "Mobile app installs ad v2",
+          "campaign": "iOS-Lingual-Hindi",
+          "conversions": 0,
+          "ctr": null,
+          "description": "Send money to India at Google Rates",
+          "headline1": "Send money to India",
+          "headline2": "Free money transfers to India",
+          "impressions": 0
+        },
+        {
+          "adStrength": "Generic_Search_Feb14",
+          "adType": "",
+          "campaign": "--",
+          "conversions": 0,
+          "ctr": null,
+          "description": "Transfer USD to INR with zero fees and best exchange rate fast",
+          "headline1": "{Keyword:Send USD to INR in 1 Click}",
+          "headline2": "100% Safe & Secure",
+          "impressions": null
+        }
+      ],
+      "totalAds": 137
+    },
+    "auctionInsights": {
+      "competitors": [
+        {
+          "domain": "remitly.com",
+          "impressionShare": 44.83,
+          "impressionShareLabel": "44.83%",
+          "outrankingShare": 5.84,
+          "overlapRate": 60.75,
+          "positionAboveRate": 71.44,
+          "topOfPageRate": 84.66
+        },
+        {
+          "domain": "moneygram.com",
+          "impressionShare": 26.77,
+          "impressionShareLabel": "26.77%",
+          "outrankingShare": 8.23,
+          "overlapRate": 31.61,
+          "positionAboveRate": 64.21,
+          "topOfPageRate": 78.95
+        },
+        {
+          "domain": "xoom.com",
+          "impressionShare": 14.34,
+          "impressionShareLabel": "14.34%",
+          "outrankingShare": 8.82,
+          "overlapRate": 19.72,
+          "positionAboveRate": 73.93,
+          "topOfPageRate": 82.58
+        },
+        {
+          "domain": "google.com",
+          "impressionShare": 14.27,
+          "impressionShareLabel": "14.27%",
+          "outrankingShare": 9.62,
+          "overlapRate": 11.11,
+          "positionAboveRate": 61.78,
+          "topOfPageRate": 87.86
+        },
+        {
+          "domain": "icici.bank.in",
+          "impressionShare": 13.63,
+          "impressionShareLabel": "13.63%",
+          "outrankingShare": 8.44,
+          "overlapRate": 28.25,
+          "positionAboveRate": 64.72,
+          "topOfPageRate": 82.23
+        },
+        {
+          "domain": "xe.com",
+          "impressionShare": 10.23,
+          "impressionShareLabel": "10.23%",
+          "outrankingShare": 9.39,
+          "overlapRate": 17.46,
+          "positionAboveRate": 52.1,
+          "topOfPageRate": 71.05
+        },
+        {
+          "domain": "wise.com",
+          "impressionShare": 10,
+          "impressionShareLabel": "< 10%",
+          "outrankingShare": 9.66,
+          "overlapRate": 9.81,
+          "positionAboveRate": 65.89,
+          "topOfPageRate": 89.94
+        },
+        {
+          "domain": "bestmoney.com",
+          "impressionShare": 10,
+          "impressionShareLabel": "< 10%",
+          "outrankingShare": 9.94,
+          "overlapRate": 9.72,
+          "positionAboveRate": 38.29,
+          "topOfPageRate": 53
+        },
+        {
+          "domain": "sofi.com",
+          "impressionShare": 10,
+          "impressionShareLabel": "< 10%",
+          "outrankingShare": 9.88,
+          "overlapRate": 7.23,
+          "positionAboveRate": 59.31,
+          "topOfPageRate": 76.41
+        },
+        {
+          "domain": "felixpago.com",
+          "impressionShare": 10,
+          "impressionShareLabel": "< 10%",
+          "outrankingShare": 10.19,
+          "overlapRate": 1.75,
+          "positionAboveRate": 77.34,
+          "topOfPageRate": 89.27
+        },
+        {
+          "domain": "ofx.com",
+          "impressionShare": 10,
+          "impressionShareLabel": "< 10%",
+          "outrankingShare": 9.71,
+          "overlapRate": 9.92,
+          "positionAboveRate": 59.85,
+          "topOfPageRate": 69.87
+        },
+        {
+          "domain": "apple.com",
+          "impressionShare": 10,
+          "impressionShareLabel": "< 10%",
+          "outrankingShare": 9.84,
+          "overlapRate": 8.08,
+          "positionAboveRate": 58.47,
+          "topOfPageRate": 80.55
+        },
+        {
+          "domain": "crobo.money",
+          "impressionShare": 10,
+          "impressionShareLabel": "< 10%",
+          "outrankingShare": 9.51,
+          "overlapRate": 15.73,
+          "positionAboveRate": 50.01,
+          "topOfPageRate": 59.02
+        }
+      ],
+      "dateRange": "August 11, 2026 - September 9, 2026",
+      "note": null,
+      "topCompetitor": {
+        "domain": "remitly.com",
+        "impressionShare": 44.83,
+        "impressionShareLabel": "44.83%",
+        "outrankingShare": 5.84,
+        "overlapRate": 60.75,
+        "positionAboveRate": 71.44,
+        "topOfPageRate": 84.66
+      },
+      "xpatImpressionShare": 10.33,
+      "xpatImpressionShareLabel": "10.33%",
+      "xpatTopOfPageRate": 57.65
+    },
+    "devices": {
+      "dateRange": "August 11, 2026 - September 9, 2026",
+      "devices": [
+        {
+          "clicks": 236,
+          "conversions": 5,
+          "costUsd": 157.45,
+          "ctr": 21.97,
+          "device": "Tablets",
+          "impressions": 1074
+        },
+        {
+          "clicks": 1801,
+          "conversions": 2,
+          "costUsd": 270.92,
+          "ctr": 246.04,
+          "device": "Computers",
+          "impressions": 732
+        },
+        {
+          "clicks": 4042,
+          "conversions": 79,
+          "costUsd": null,
+          "ctr": 1161.49,
+          "device": "Mobile phones",
+          "impressions": 348
+        },
+        {
+          "clicks": 0,
+          "conversions": 0,
+          "costUsd": 0,
+          "ctr": 0,
+          "device": "TV screens",
+          "impressions": 1
+        }
+      ]
+    },
+    "landingPages": {
+      "dateRange": "August 11, 2026 - September 9, 2026",
+      "topLandingPages": [
+        {
+          "avgCpc": "USD",
+          "clicks": 634,
+          "ctr": "829",
+          "impressions": 14,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://xpat.money/money-to-India-with-zero-transfer-fees?utm_source=GA-GS--GSTE&utm_medium=GA-GS--GSTE&utm_campaign=GA-GS--GSTE&utm_term=GA-GS--GSTE"
+        },
+        {
+          "avgCpc": "USD",
+          "clicks": 520,
+          "ctr": "298",
+          "impressions": 2,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://xpat.money"
+        },
+        {
+          "avgCpc": "USD",
+          "clicks": 237,
+          "ctr": "244",
+          "impressions": 3,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://xpat.money/money-to-India-with-zero-transfer-fees?utm_source=GA-Comp&utm_medium=GA-Comp&utm_campaign=GA-Comp"
+        },
+        {
+          "avgCpc": "USD",
+          "clicks": 212,
+          "ctr": "995",
+          "impressions": 2,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://xpat.money/auth/register?utm_source=GA&utm_medium=RRI&utm_campaign=SearchI&utm_term=ga-si-rri"
+        },
+        {
+          "avgCpc": "USD",
+          "clicks": 184,
+          "ctr": "484",
+          "impressions": 2,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://xpat.money/auth/register?utm_source=GA&utm_medium=RRI&utm_campaign=SearchI"
+        },
+        {
+          "avgCpc": "USD",
+          "clicks": 175,
+          "ctr": "585",
+          "impressions": 10,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://xpat.money/auth/register?utm_source=GA-Comp&utm_medium=GA-Comp&utm_campaign=GA-Comp"
+        },
+        {
+          "avgCpc": "USD",
+          "clicks": 171,
+          "ctr": "073",
+          "impressions": 4,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://xpat.money/auth/register?utm_source=GA-pmax-2k-tc&utm_medium=GA-pmax-2k-tc&utm_campaign=GA-pmax-2k-tc&utm_term=GA-pmax-2k-tc"
+        },
+        {
+          "avgCpc": "USD",
+          "clicks": 140,
+          "ctr": "682",
+          "impressions": 10,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://play.google.com/store/apps/details?id=com.remit2any"
+        },
+        {
+          "avgCpc": "USD",
+          "clicks": 137,
+          "ctr": "817",
+          "impressions": 2,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://xpat.money/instant-money-transfer-usa-to-india?utm_source=GA&utm_medium=RRI&utm_campaign=SearchI"
+        },
+        {
+          "avgCpc": "3.52",
+          "clicks": 132,
+          "ctr": "41.38%",
+          "impressions": 319,
+          "mobileFriendlyClickRate": "--",
+          "mobileSpeedScore": "--",
+          "url": "https://xpat.money/instant-money-transfer-usa-to-india?utm_source=ga-si-cmti&utm_medium=ga-EDM&utm_campaign=ga-EDM"
+        }
+      ]
+    },
+    "searchTerms": {
+      "dateRange": "August 11, 2026 - September 9, 2026",
+      "highCtrTermCount": 20,
+      "highCtrTerms": [
+        {
+          "campaign": "EDM_Search_Brand_260526",
+          "clicks": 153,
+          "conversions": 8,
+          "ctr": "25.00%",
+          "impressions": 612,
+          "term": "xpat"
+        },
+        {
+          "campaign": "EDM_Search_Brand_260526",
+          "clicks": 150,
+          "conversions": 6,
+          "ctr": "35.38%",
+          "impressions": 424,
+          "term": "xpat money"
+        },
+        {
+          "campaign": "EDM_Search_Brand_260526",
+          "clicks": 77,
+          "conversions": 0,
+          "ctr": "22.71%",
+          "impressions": 339,
+          "term": "remit2any"
+        },
+        {
+          "campaign": "Search Ads | Intent | May 2026",
+          "clicks": 28,
+          "conversions": 1,
+          "ctr": "10.45%",
+          "impressions": 268,
+          "term": "send money to india from usa"
+        },
+        {
+          "campaign": "EDM_Search_Brand_260526",
+          "clicks": 100,
+          "conversions": 4.33,
+          "ctr": "42.55%",
+          "impressions": 235,
+          "term": "xpat money transfer"
+        },
+        {
+          "campaign": "Search Ads | Intent | May 2026",
+          "clicks": 25,
+          "conversions": 0,
+          "ctr": "10.92%",
+          "impressions": 229,
+          "term": "money transfer to india"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 7,
+          "conversions": 1,
+          "ctr": "10.77%",
+          "impressions": 65,
+          "term": "sendwave app"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 6,
+          "conversions": 0,
+          "ctr": "10.53%",
+          "impressions": 57,
+          "term": "transfer money to india from usa"
+        },
+        {
+          "campaign": "ST_Brand_Search_14 Aug 2026",
+          "clicks": 19,
+          "conversions": 1,
+          "ctr": "38.78%",
+          "impressions": 49,
+          "term": "remit2any"
+        },
+        {
+          "campaign": "Search Ads | Intent | May 2026",
+          "clicks": 6,
+          "conversions": 0,
+          "ctr": "13.33%",
+          "impressions": 45,
+          "term": "money transfer to india from usa"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 5,
+          "conversions": 0,
+          "ctr": "11.36%",
+          "impressions": 44,
+          "term": "best exchange rate for usd to inr"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 5,
+          "conversions": 0,
+          "ctr": "11.36%",
+          "impressions": 44,
+          "term": "usa to india money transfer"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 4,
+          "conversions": 0,
+          "ctr": "10.00%",
+          "impressions": 40,
+          "term": "money transfer app"
+        },
+        {
+          "campaign": "ST_Brand_Search_14 Aug 2026",
+          "clicks": 8,
+          "conversions": 1,
+          "ctr": "20.51%",
+          "impressions": 39,
+          "term": "xpat money"
+        },
+        {
+          "campaign": "Search Ads | Intent | May 2026",
+          "clicks": 6,
+          "conversions": 0,
+          "ctr": "15.79%",
+          "impressions": 38,
+          "term": "us to india money transfer"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 5,
+          "conversions": 0,
+          "ctr": "13.89%",
+          "impressions": 36,
+          "term": "frex money transfer"
+        },
+        {
+          "campaign": "Search Ads | Intent | May 2026",
+          "clicks": 4,
+          "conversions": 0,
+          "ctr": "12.12%",
+          "impressions": 33,
+          "term": "usd to inr transfer"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 4,
+          "conversions": 0,
+          "ctr": "12.12%",
+          "impressions": 33,
+          "term": "usd to inr best exchange rate"
+        },
+        {
+          "campaign": "EDM_Search_Brand_260526",
+          "clicks": 6,
+          "conversions": 1.33,
+          "ctr": "21.43%",
+          "impressions": 28,
+          "term": "xpat money reviews"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 4,
+          "conversions": 0,
+          "ctr": "14.81%",
+          "impressions": 27,
+          "term": "best way to send money to india"
+        }
+      ],
+      "lowCtrTermCount": 12,
+      "lowCtrTerms": [
+        {
+          "campaign": "Comp Brand Ads | 12 Aug 2026",
+          "clicks": 1,
+          "ctr": "0.67%",
+          "impressions": 150,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "wise app"
+        },
+        {
+          "campaign": "$2K TC Pmax 28 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 143,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "western union"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 114,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "usd inr"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 105,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "crobo money"
+        },
+        {
+          "campaign": "Search Ads | Intent | May 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 104,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "money to india"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 85,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "1 usd to inr"
+        },
+        {
+          "campaign": "Comp Brand Ads | 12 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 84,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "xoom money transfer"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 77,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "dollar to inr"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 68,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "usd to inr rate"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 64,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "icici money2india"
+        },
+        {
+          "campaign": "Generic Search _ 19 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 58,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "to inr"
+        },
+        {
+          "campaign": "Comp Brand Ads | 12 Aug 2026",
+          "clicks": 0,
+          "ctr": "0.00%",
+          "impressions": 54,
+          "issue": "Low intent — ad shown but not clicked. Consider adding as negative keyword.",
+          "term": "remitly com"
+        }
+      ],
+      "overallCtr": 7.54,
+      "totalClicks": 1647,
+      "totalImpressions": 21845,
+      "totalUniqueTerms": 4989
+    }
+  },
+  "meta": {
+    "caveats": [
+      "All reports cover the date range shown in each section — not the full campaign history.",
+      "Auction Insights only available when XPAT impression share >= 10%.",
+      "Search terms data is sampled — very low volume terms may be anonymised by Google.",
+      "Device CTR figures include all interaction types for app campaigns."
+    ],
+    "family": "google-ads-insights",
+    "generatedAt": "2026-09-10T09:44:29.169Z",
+    "provenance": "snapshot",
+    "reportsDir": "D:/Infinitra Projects/xpat/reports",
+    "source": "Google Ads UI manual CSV exports",
+    "version": 1
+  }
+}

@@ -1,0 +1,465 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  XPAT Platform — Complete infrastructure stack.
+  Deploy region: ap-southeast-2 (Sydney).
+  Source: AWS CodeCommit (no GitHub OAuth/deploy-key dependency).
+  Bedrock: called from us-east-1 via BEDROCK_AWS_REGION env var.
+
+# ---------------------------------------------------------------------------
+# Parameters
+# ---------------------------------------------------------------------------
+Parameters:
+
+  PipelineSchedule:
+    Type: String
+    Default: "rate(2 days)"
+    Description: EventBridge schedule for the ads pipeline. e.g. rate(6 hours)
+    AllowedPattern: "^(rate\\(.+\\)|cron\\(.+\\))$"
+
+  GitHubBranch:
+    Type: String
+    Default: "main"
+    Description: Branch to deploy from CodeCommit.
+
+  XpatAccessPassword:
+    Type: String
+    NoEcho: true
+    Description: App access gate password (XPAT_ACCESS_PASSWORD). Must not contain # character.
+
+  BedrockModelId:
+    Type: String
+    Description: "Bedrock cross-region inference profile. Must use us. prefix."
+
+  RawRetentionDays:
+    Type: Number
+    Default: 90
+    MinValue: 1
+    Description: Days to retain raw S3 object versions.
+
+  NormalizedRetentionDays:
+    Type: Number
+    Default: 30
+    MinValue: 1
+    Description: Days to retain old normalized S3 object versions.
+
+  LogRetentionDays:
+    Type: Number
+    Default: 14
+    AllowedValues: [1, 3, 5, 7, 14, 30, 60, 90, 120, 150, 180, 365]
+    Description: CloudWatch Lambda log retention in days.
+
+  LambdaMemoryMB:
+    Type: Number
+    Default: 512
+    MinValue: 128
+    MaxValue: 3008
+
+  LambdaTimeoutSeconds:
+    Type: Number
+    Default: 300
+    MinValue: 30
+    MaxValue: 900
+
+# ---------------------------------------------------------------------------
+# Resources
+# ---------------------------------------------------------------------------
+Resources:
+
+  # =========================================================================
+  # CODECOMMIT — references the existing repo created manually
+  # Repo name: xpat_os (created via console/CLI)
+  # =========================================================================
+
+  # NOTE: CodeCommit repo already exists (xpat_os) — we reference it by ARN
+  # rather than creating a new one to avoid conflicts.
+  # If deploying to a fresh account, uncomment CodeCommitRepo below.
+
+  # CodeCommitRepo:
+  #   Type: AWS::CodeCommit::Repository
+  #   Properties:
+  #     RepositoryName: xpat_os
+  #     RepositoryDescription: "XPAT Intelligence Platform"
+
+  # =========================================================================
+  # DYNAMODB — Conversation history for Ad Analyst chat
+  # =========================================================================
+
+  ConversationsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: xpat-ad-conversations
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: sessionId
+          AttributeType: S
+        - AttributeName: createdAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: sessionId
+          KeyType: HASH
+        - AttributeName: createdAt
+          KeyType: RANGE
+      TimeToLiveSpecification:
+        AttributeName: expiresAt
+        Enabled: true
+      Tags:
+        - Key: Project
+          Value: xpat
+
+  AmplifyServiceRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: xpat-amplify-service-role
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: amplify.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AdministratorAccess-Amplify
+      Policies:
+        - PolicyName: S3ArtifactRead
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: s3:GetObject
+                Resource: !Sub "arn:aws:s3:::xpat-ads-normalized-${AWS::AccountId}/*"
+        - PolicyName: BedrockInvoke
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - bedrock:InvokeModel
+                  - bedrock:InvokeModelWithResponseStream
+                Resource: "*"
+        - PolicyName: DynamoDBConversations
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:PutItem
+                  - dynamodb:GetItem
+                  - dynamodb:Query
+                  - dynamodb:UpdateItem
+                  - dynamodb:DeleteItem
+                Resource: !GetAtt ConversationsTable.Arn
+        - PolicyName: CodeCommitAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - codecommit:GitPull
+                  - codecommit:GetRepository
+                  - codecommit:GetBranch
+                  - codecommit:GetCommit
+                  - codecommit:UploadArchive
+                  - codecommit:GetUploadArchiveStatus
+                Resource: !Sub "arn:aws:codecommit:${AWS::Region}:${AWS::AccountId}:xpat_os"
+      Tags:
+        - Key: Project
+          Value: xpat
+
+  AmplifyApp:
+    Type: AWS::Amplify::App
+    Properties:
+      Name: xpat-os
+      Description: "XPAT Intelligence Platform — Next.js app"
+      Repository: !Sub "https://git-codecommit.${AWS::Region}.amazonaws.com/v1/repos/xpat_os"
+      IAMServiceRole: !GetAtt AmplifyServiceRole.Arn
+      Platform: WEB_COMPUTE
+      BuildSpec: |
+        version: 1
+        frontend:
+          phases:
+            preBuild:
+              commands:
+                - corepack enable
+                - corepack prepare pnpm@11.7.0 --activate
+                - pnpm install --frozen-lockfile
+            build:
+              commands:
+                - pnpm build
+          artifacts:
+            baseDirectory: .next
+            files:
+              - "**/*"
+          cache:
+            paths:
+              - node_modules/**/*
+              - .next/cache/**/*
+      EnvironmentVariables:
+        - Name: XPAT_ACCESS_PASSWORD
+          Value: !Ref XpatAccessPassword
+        - Name: BEDROCK_AWS_REGION
+          Value: "us-east-1"
+        - Name: BEDROCK_MODEL_ID
+          Value: !Ref BedrockModelId
+        - Name: NORMALIZED_BUCKET_NAME
+          Value: !Sub "xpat-ads-normalized-${AWS::AccountId}"
+        - Name: CONVERSATIONS_TABLE
+          Value: !Ref ConversationsTable
+        - Name: NEXT_TELEMETRY_DISABLED
+          Value: "1"
+      Tags:
+        - Key: Project
+          Value: xpat
+
+  AmplifyBranch:
+    Type: AWS::Amplify::Branch
+    Properties:
+      AppId: !GetAtt AmplifyApp.AppId
+      BranchName: !Ref GitHubBranch
+      EnableAutoBuild: true
+      EnablePullRequestPreview: false
+      Framework: "Next.js - SSR"
+      Stage: PRODUCTION
+      Tags:
+        - Key: Project
+          Value: xpat
+
+  # =========================================================================
+  # S3 STORAGE (ap-southeast-2)
+  # =========================================================================
+
+  RawBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "xpat-ads-raw-${AWS::AccountId}"
+      AccessControl: Private
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
+      LifecycleConfiguration:
+        Rules:
+          - Id: ExpireOldVersions
+            Status: Enabled
+            NoncurrentVersionExpiration:
+              NoncurrentDays: !Ref RawRetentionDays
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      Tags:
+        - Key: Project
+          Value: xpat-ads
+
+  NormalizedBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "xpat-ads-normalized-${AWS::AccountId}"
+      AccessControl: Private
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
+      LifecycleConfiguration:
+        Rules:
+          - Id: ExpireOldVersions
+            Status: Enabled
+            NoncurrentVersionExpiration:
+              NoncurrentDays: !Ref NormalizedRetentionDays
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      Tags:
+        - Key: Project
+          Value: xpat-ads
+
+  # =========================================================================
+  # PIPELINE — Lambda + Secrets + Scheduler (ap-southeast-2)
+  # =========================================================================
+
+  AdsCredentialsSecret:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Name: xpat/ads/credentials
+      Description: "Meta + Google Ads credentials. Populated by deploy.mjs."
+      SecretString: '{"placeholder":"run deploy.mjs to populate"}'
+      Tags:
+        - Key: Project
+          Value: xpat-ads
+
+  PipelineLambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: xpat-ads-pipeline-role
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: [s3:PutObject, s3:GetObject]
+                Resource:
+                  - !Sub "arn:aws:s3:::xpat-ads-raw-${AWS::AccountId}/*"
+                  - !Sub "arn:aws:s3:::xpat-ads-normalized-${AWS::AccountId}/*"
+        - PolicyName: SecretsManagerRead
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: secretsmanager:GetSecretValue
+                Resource: !Ref AdsCredentialsSecret
+      Tags:
+        - Key: Project
+          Value: xpat-ads
+
+  PipelineLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: /aws/lambda/xpat-ads-pipeline
+      RetentionInDays: !Ref LogRetentionDays
+
+  PipelineLambda:
+    Type: AWS::Lambda::Function
+    DependsOn: PipelineLogGroup
+    Properties:
+      FunctionName: xpat-ads-pipeline
+      Description: "Pulls Meta + Google Ads, saves raw to S3, writes normalized artifact."
+      Runtime: nodejs22.x
+      Handler: handler.handler
+      Role: !GetAtt PipelineLambdaRole.Arn
+      MemorySize: !Ref LambdaMemoryMB
+      Timeout: !Ref LambdaTimeoutSeconds
+      Code:
+        ZipFile: |
+          export const handler = async () => {
+            throw new Error("Lambda not yet deployed. Run: node aws-scripts/deploy.mjs");
+          };
+      Environment:
+        Variables:
+          RAW_BUCKET_NAME: !Sub "xpat-ads-raw-${AWS::AccountId}"
+          NORMALIZED_BUCKET_NAME: !Sub "xpat-ads-normalized-${AWS::AccountId}"
+          SECRET_ARN: !Ref AdsCredentialsSecret
+      Tags:
+        - Key: Project
+          Value: xpat-ads
+
+  PipelineSchedulerRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: xpat-ads-scheduler-role
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: scheduler.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: InvokePipelineLambda
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: lambda:InvokeFunction
+                Resource: !GetAtt PipelineLambda.Arn
+      Tags:
+        - Key: Project
+          Value: xpat-ads
+
+  PipelineScheduleRule:
+    Type: AWS::Scheduler::Schedule
+    Properties:
+      Name: xpat-ads-pipeline-schedule
+      ScheduleExpression: !Ref PipelineSchedule
+      ScheduleExpressionTimezone: UTC
+      FlexibleTimeWindow:
+        Mode: "OFF"
+      Target:
+        Arn: !GetAtt PipelineLambda.Arn
+        RoleArn: !GetAtt PipelineSchedulerRole.Arn
+        RetryPolicy:
+          MaximumRetryAttempts: 2
+          MaximumEventAgeInSeconds: 3600
+
+  PipelineErrorAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: xpat-ads-pipeline-errors
+      AlarmDescription: "Pipeline Lambda errored — ad data may be stale."
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions:
+        - Name: FunctionName
+          Value: xpat-ads-pipeline
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+
+# ---------------------------------------------------------------------------
+# Outputs
+# ---------------------------------------------------------------------------
+Outputs:
+
+  CodeCommitCloneUrl:
+    Description: HTTPS clone URL for the CodeCommit repo.
+    Value: !Sub "https://git-codecommit.${AWS::Region}.amazonaws.com/v1/repos/xpat_os"
+    Export:
+      Name: !Sub "${AWS::StackName}-CodeCommitUrl"
+
+  AmplifyAppId:
+    Description: Amplify app ID.
+    Value: !GetAtt AmplifyApp.AppId
+    Export:
+      Name: !Sub "${AWS::StackName}-AmplifyAppId"
+
+  AmplifyDefaultDomain:
+    Description: Live app URL.
+    Value: !Sub "https://${GitHubBranch}.${AmplifyApp.DefaultDomain}"
+    Export:
+      Name: !Sub "${AWS::StackName}-AppUrl"
+
+  RawBucketName:
+    Description: S3 bucket for raw API responses.
+    Value: !Ref RawBucket
+    Export:
+      Name: !Sub "${AWS::StackName}-RawBucket"
+
+  NormalizedBucketName:
+    Description: S3 bucket for normalized artifact.
+    Value: !Ref NormalizedBucket
+    Export:
+      Name: !Sub "${AWS::StackName}-NormalizedBucket"
+
+  LambdaFunctionName:
+    Description: Pipeline Lambda function name.
+    Value: !Ref PipelineLambda
+    Export:
+      Name: !Sub "${AWS::StackName}-LambdaFunction"
+
+  SecretArn:
+    Description: Secrets Manager ARN for ads credentials.
+    Value: !Ref AdsCredentialsSecret
+    Export:
+      Name: !Sub "${AWS::StackName}-SecretArn"
+
+  ScheduleName:
+    Description: EventBridge schedule name.
+    Value: !Ref PipelineScheduleRule

@@ -1,0 +1,1120 @@
+{
+  "data": {
+    "allocations": {
+      "31000US10420": {
+        "activeIndianStudents": 888,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US10580": {
+        "activeIndianStudents": 762,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US10740": {
+        "activeIndianStudents": 296,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US10900": {
+        "activeIndianStudents": 663,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US11100": {
+        "activeIndianStudents": 90,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US11180": {
+        "activeIndianStudents": 104,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US11200": {
+        "activeIndianStudents": 372,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US11260": {
+        "activeIndianStudents": 24,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US11460": {
+        "activeIndianStudents": 1062,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US11540": {
+        "activeIndianStudents": 139,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US11640": {
+        "activeIndianStudents": 3,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US11700": {
+        "activeIndianStudents": 32,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12020": {
+        "activeIndianStudents": 105,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12060": {
+        "activeIndianStudents": 7393,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12100": {
+        "activeIndianStudents": 2355,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12220": {
+        "activeIndianStudents": 382,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12260": {
+        "activeIndianStudents": 147,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12420": {
+        "activeIndianStudents": 5329,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12540": {
+        "activeIndianStudents": 480,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12580": {
+        "activeIndianStudents": 6701,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12940": {
+        "activeIndianStudents": 309,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US12980": {
+        "activeIndianStudents": 68,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US13140": {
+        "activeIndianStudents": 106,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US13380": {
+        "activeIndianStudents": 50,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US13780": {
+        "activeIndianStudents": 137,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US13820": {
+        "activeIndianStudents": 2001,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US13980": {
+        "activeIndianStudents": 396,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US14010": {
+        "activeIndianStudents": 537,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US14020": {
+        "activeIndianStudents": 819,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US14260": {
+        "activeIndianStudents": 166,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US14460": {
+        "activeIndianStudents": 21142,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US14500": {
+        "activeIndianStudents": 323,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US14540": {
+        "activeIndianStudents": 970,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US14740": {
+        "activeIndianStudents": 12,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US14860": {
+        "activeIndianStudents": 2795,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US15180": {
+        "activeIndianStudents": 80,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US15380": {
+        "activeIndianStudents": 620,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US15500": {
+        "activeIndianStudents": 61,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US15540": {
+        "activeIndianStudents": 77,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US15940": {
+        "activeIndianStudents": 102,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US15980": {
+        "activeIndianStudents": 168,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US16300": {
+        "activeIndianStudents": 169,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US16580": {
+        "activeIndianStudents": 430,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US16620": {
+        "activeIndianStudents": 98,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US16700": {
+        "activeIndianStudents": 309,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US16740": {
+        "activeIndianStudents": 2913,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US16820": {
+        "activeIndianStudents": 652,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US16860": {
+        "activeIndianStudents": 332,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US16980": {
+        "activeIndianStudents": 21229,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17020": {
+        "activeIndianStudents": 23,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17140": {
+        "activeIndianStudents": 3487,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17300": {
+        "activeIndianStudents": 119,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17410": {
+        "activeIndianStudents": 2684,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17420": {
+        "activeIndianStudents": 61,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17780": {
+        "activeIndianStudents": 372,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17820": {
+        "activeIndianStudents": 195,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17860": {
+        "activeIndianStudents": 677,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17900": {
+        "activeIndianStudents": 673,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US17980": {
+        "activeIndianStudents": 108,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US18020": {
+        "activeIndianStudents": 1106,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US18140": {
+        "activeIndianStudents": 5703,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US18580": {
+        "activeIndianStudents": 93,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US18700": {
+        "activeIndianStudents": 46,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US18880": {
+        "activeIndianStudents": 82,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US19100": {
+        "activeIndianStudents": 19819,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US19140": {
+        "activeIndianStudents": 27,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US19340": {
+        "activeIndianStudents": 226,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US19430": {
+        "activeIndianStudents": 862,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US19500": {
+        "activeIndianStudents": 52,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US19660": {
+        "activeIndianStudents": 161,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US19740": {
+        "activeIndianStudents": 2414,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US19780": {
+        "activeIndianStudents": 527,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US19820": {
+        "activeIndianStudents": 12054,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US20100": {
+        "activeIndianStudents": 1795,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US20500": {
+        "activeIndianStudents": 451,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US20700": {
+        "activeIndianStudents": 76,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US21060": {
+        "activeIndianStudents": 472,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US21340": {
+        "activeIndianStudents": 140,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US21500": {
+        "activeIndianStudents": 96,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US21660": {
+        "activeIndianStudents": 42,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US21780": {
+        "activeIndianStudents": 201,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US22020": {
+        "activeIndianStudents": 223,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US22180": {
+        "activeIndianStudents": 83,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US22220": {
+        "activeIndianStudents": 1840,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US22420": {
+        "activeIndianStudents": 170,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US22500": {
+        "activeIndianStudents": 59,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US22660": {
+        "activeIndianStudents": 161,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US23060": {
+        "activeIndianStudents": 753,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US23420": {
+        "activeIndianStudents": 854,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US23540": {
+        "activeIndianStudents": 385,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US23580": {
+        "activeIndianStudents": 41,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US24340": {
+        "activeIndianStudents": 554,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US24580": {
+        "activeIndianStudents": 288,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US24660": {
+        "activeIndianStudents": 337,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US24780": {
+        "activeIndianStudents": 48,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US24860": {
+        "activeIndianStudents": 542,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US25060": {
+        "activeIndianStudents": 284,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US25180": {
+        "activeIndianStudents": 84,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US25420": {
+        "activeIndianStudents": 771,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US25540": {
+        "activeIndianStudents": 5066,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US26420": {
+        "activeIndianStudents": 11695,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US26620": {
+        "activeIndianStudents": 920,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US26900": {
+        "activeIndianStudents": 8541,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US26980": {
+        "activeIndianStudents": 149,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US27060": {
+        "activeIndianStudents": 124,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US27140": {
+        "activeIndianStudents": 1184,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US27260": {
+        "activeIndianStudents": 1046,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US27340": {
+        "activeIndianStudents": 32,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US27620": {
+        "activeIndianStudents": 206,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US28020": {
+        "activeIndianStudents": 295,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US28140": {
+        "activeIndianStudents": 7000,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US28420": {
+        "activeIndianStudents": 24,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US28450": {
+        "activeIndianStudents": 139,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US28660": {
+        "activeIndianStudents": 82,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US28700": {
+        "activeIndianStudents": 78,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US28740": {
+        "activeIndianStudents": 37,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US28880": {
+        "activeIndianStudents": 304,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US28940": {
+        "activeIndianStudents": 491,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29180": {
+        "activeIndianStudents": 178,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29200": {
+        "activeIndianStudents": 1686,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29300": {
+        "activeIndianStudents": 36,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29340": {
+        "activeIndianStudents": 43,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29460": {
+        "activeIndianStudents": 254,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29540": {
+        "activeIndianStudents": 106,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29620": {
+        "activeIndianStudents": 704,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29740": {
+        "activeIndianStudents": 63,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29820": {
+        "activeIndianStudents": 168,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US29940": {
+        "activeIndianStudents": 454,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US30150": {
+        "activeIndianStudents": 557,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US30460": {
+        "activeIndianStudents": 2675,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US30500": {
+        "activeIndianStudents": 116,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US30700": {
+        "activeIndianStudents": 123,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US30780": {
+        "activeIndianStudents": 671,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US30980": {
+        "activeIndianStudents": 41,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US31080": {
+        "activeIndianStudents": 5510,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US31140": {
+        "activeIndianStudents": 8166,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US31180": {
+        "activeIndianStudents": 99,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US31340": {
+        "activeIndianStudents": 168,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US31420": {
+        "activeIndianStudents": 50,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US31540": {
+        "activeIndianStudents": 1394,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US31700": {
+        "activeIndianStudents": 4213,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US31740": {
+        "activeIndianStudents": 381,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US32580": {
+        "activeIndianStudents": 119,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US32820": {
+        "activeIndianStudents": 1312,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US32900": {
+        "activeIndianStudents": 245,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33100": {
+        "activeIndianStudents": 3259,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33220": {
+        "activeIndianStudents": 62,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33260": {
+        "activeIndianStudents": 47,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33340": {
+        "activeIndianStudents": 2285,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33460": {
+        "activeIndianStudents": 2894,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33660": {
+        "activeIndianStudents": 269,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33700": {
+        "activeIndianStudents": 346,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33740": {
+        "activeIndianStudents": 56,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33860": {
+        "activeIndianStudents": 531,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US33910": {
+        "activeIndianStudents": 27,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US34060": {
+        "activeIndianStudents": 106,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US34820": {
+        "activeIndianStudents": 71,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US34900": {
+        "activeIndianStudents": 36,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US34940": {
+        "activeIndianStudents": 99,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US34980": {
+        "activeIndianStudents": 2146,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US35300": {
+        "activeIndianStudents": 853,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US35380": {
+        "activeIndianStudents": 252,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US35620": {
+        "activeIndianStudents": 33320,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US35660": {
+        "activeIndianStudents": 95,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US35840": {
+        "activeIndianStudents": 213,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US35980": {
+        "activeIndianStudents": 406,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US36100": {
+        "activeIndianStudents": 146,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US36260": {
+        "activeIndianStudents": 55,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US36420": {
+        "activeIndianStudents": 1604,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US36500": {
+        "activeIndianStudents": 20,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US36540": {
+        "activeIndianStudents": 497,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US36740": {
+        "activeIndianStudents": 2492,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US37100": {
+        "activeIndianStudents": 383,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US37340": {
+        "activeIndianStudents": 226,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US37860": {
+        "activeIndianStudents": 58,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US37900": {
+        "activeIndianStudents": 335,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US37980": {
+        "activeIndianStudents": 9029,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US38060": {
+        "activeIndianStudents": 12884,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US38300": {
+        "activeIndianStudents": 1570,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US38860": {
+        "activeIndianStudents": 212,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US38900": {
+        "activeIndianStudents": 1122,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US38940": {
+        "activeIndianStudents": 135,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US39300": {
+        "activeIndianStudents": 544,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US39340": {
+        "activeIndianStudents": 122,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US39540": {
+        "activeIndianStudents": 88,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US39580": {
+        "activeIndianStudents": 2946,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US39740": {
+        "activeIndianStudents": 94,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US39820": {
+        "activeIndianStudents": 19,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US39900": {
+        "activeIndianStudents": 60,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US40060": {
+        "activeIndianStudents": 4256,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US40140": {
+        "activeIndianStudents": 1230,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US40220": {
+        "activeIndianStudents": 415,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US40340": {
+        "activeIndianStudents": 137,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US40380": {
+        "activeIndianStudents": 316,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US40420": {
+        "activeIndianStudents": 137,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US40900": {
+        "activeIndianStudents": 2007,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US40980": {
+        "activeIndianStudents": 90,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US41180": {
+        "activeIndianStudents": 10651,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US41420": {
+        "activeIndianStudents": 51,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US41500": {
+        "activeIndianStudents": 72,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US41620": {
+        "activeIndianStudents": 698,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US41700": {
+        "activeIndianStudents": 1444,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US41740": {
+        "activeIndianStudents": 1638,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US41860": {
+        "activeIndianStudents": 8599,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US41940": {
+        "activeIndianStudents": 6947,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US41980": {
+        "activeIndianStudents": 11,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42020": {
+        "activeIndianStudents": 33,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42100": {
+        "activeIndianStudents": 76,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42200": {
+        "activeIndianStudents": 63,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42220": {
+        "activeIndianStudents": 104,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42340": {
+        "activeIndianStudents": 172,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42540": {
+        "activeIndianStudents": 268,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42580": {
+        "activeIndianStudents": 916,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42660": {
+        "activeIndianStudents": 2758,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42680": {
+        "activeIndianStudents": 37,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US42940": {
+        "activeIndianStudents": 94,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US43300": {
+        "activeIndianStudents": 49,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US43340": {
+        "activeIndianStudents": 45,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US43620": {
+        "activeIndianStudents": 578,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US43640": {
+        "activeIndianStudents": 52,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US43780": {
+        "activeIndianStudents": 426,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US43900": {
+        "activeIndianStudents": 189,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US44060": {
+        "activeIndianStudents": 20,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US44100": {
+        "activeIndianStudents": 137,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US44140": {
+        "activeIndianStudents": 463,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US44180": {
+        "activeIndianStudents": 378,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US44300": {
+        "activeIndianStudents": 123,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US44660": {
+        "activeIndianStudents": 165,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US44700": {
+        "activeIndianStudents": 1309,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US45060": {
+        "activeIndianStudents": 178,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US45220": {
+        "activeIndianStudents": 193,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US45300": {
+        "activeIndianStudents": 2647,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US45460": {
+        "activeIndianStudents": 194,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US45780": {
+        "activeIndianStudents": 433,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US45820": {
+        "activeIndianStudents": 481,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US45940": {
+        "activeIndianStudents": 9728,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US46060": {
+        "activeIndianStudents": 1025,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US46140": {
+        "activeIndianStudents": 686,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US46220": {
+        "activeIndianStudents": 314,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US46340": {
+        "activeIndianStudents": 45,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US46520": {
+        "activeIndianStudents": 37,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US46540": {
+        "activeIndianStudents": 41,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US46700": {
+        "activeIndianStudents": 170,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US47220": {
+        "activeIndianStudents": 436,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US47260": {
+        "activeIndianStudents": 1607,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US47300": {
+        "activeIndianStudents": 62,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US47380": {
+        "activeIndianStudents": 68,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US47580": {
+        "activeIndianStudents": 43,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US47700": {
+        "activeIndianStudents": 161,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US47900": {
+        "activeIndianStudents": 2096,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US47930": {
+        "activeIndianStudents": 734,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US47940": {
+        "activeIndianStudents": 44,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US48620": {
+        "activeIndianStudents": 1568,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US48900": {
+        "activeIndianStudents": 38,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US49020": {
+        "activeIndianStudents": 134,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US49180": {
+        "activeIndianStudents": 153,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US49340": {
+        "activeIndianStudents": 3554,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US49620": {
+        "activeIndianStudents": 80,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US49660": {
+        "activeIndianStudents": 105,
+        "allocationMethod": "state-ai-pop-share"
+      },
+      "31000US49700": {
+        "activeIndianStudents": 382,
+        "allocationMethod": "state-ai-pop-share"
+      }
+    },
+    "release": "August 2025 SEVIS Data Mapping Tool",
+    "sevis": {
+      "activeStudents": 370378,
+      "country": "INDIA",
+      "states": {
+        "AK": 24,
+        "AL": 4416,
+        "AR": 2511,
+        "AZ": 13909,
+        "CA": 30589,
+        "CO": 3093,
+        "CT": 9854,
+        "DC": 2096,
+        "DE": 2711,
+        "FL": 11601,
+        "GA": 8121,
+        "GU": 0,
+        "HI": 37,
+        "IA": 1219,
+        "ID": 166,
+        "IL": 22856,
+        "IN": 13887,
+        "KS": 2883,
+        "KY": 12284,
+        "LA": 936,
+        "MA": 25531,
+        "MD": 6901,
+        "ME": 212,
+        "MI": 15154,
+        "MN": 3031,
+        "MO": 18912,
+        "MP": 1,
+        "MS": 1468,
+        "MT": 66,
+        "NC": 7093,
+        "ND": 223,
+        "NE": 620,
+        "NH": 4770,
+        "NJ": 12519,
+        "NM": 359,
+        "NV": 228,
+        "NY": 35866,
+        "OH": 14265,
+        "OK": 2455,
+        "OR": 1261,
+        "PA": 12876,
+        "PR": 14,
+        "RI": 544,
+        "SC": 1844,
+        "SD": 578,
+        "TN": 4632,
+        "TX": 39716,
+        "UT": 875,
+        "VA": 7628,
+        "VI": 0,
+        "VT": 77,
+        "WA": 2885,
+        "WI": 4333,
+        "WV": 204,
+        "WY": 44
+      }
+    }
+  },
+  "meta": {
+    "caveats": [
+      "Market student counts are allocated from state-level India active-student totals by Asian Indian population share."
+    ],
+    "family": "students",
+    "generatedAt": "2026-07-05T00:00:00.000Z",
+    "method": "Parsed India active-student state totals and allocated to markets by Asian Indian population share.",
+    "provenance": "grounded",
+    "refreshCadence": "per SEVIS data mapping release",
+    "source": "Study in the States SEVIS Data Mapping Tool August 2025",
+    "version": 1
+  }
+}

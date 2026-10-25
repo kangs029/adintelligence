@@ -1,0 +1,397 @@
+{
+  "data": {
+    "enabledCampaignIds": [
+      "24194994193",
+      "24127354718",
+      "24255450614",
+      "23875790790",
+      "24156745636",
+      "23867726121"
+    ],
+    "enabledCampaigns": [
+      {
+        "channelType": "PERFORMANCE_MAX",
+        "id": "24194994193",
+        "name": "$2K TC Pmax 28 Aug 2026",
+        "status": "ENABLED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "24127354718",
+        "name": "Comp Brand Ads | 12 Aug 2026",
+        "status": "ENABLED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "24255450614",
+        "name": "Competitor Keywords 16 Sep 2026",
+        "status": "ENABLED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23875790790",
+        "name": "EDM_Search_Brand_260526",
+        "status": "ENABLED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "24156745636",
+        "name": "Generic Search _ 19 Aug 2026",
+        "status": "ENABLED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23867726121",
+        "name": "Search Ads | Intent | May 2026",
+        "status": "ENABLED"
+      }
+    ],
+    "pausedCampaigns": [
+      {
+        "channelType": "PERFORMANCE_MAX",
+        "id": "24240014803",
+        "name": "$2K TC Pmax 28 Aug 2026 #2",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DEMAND_GEN",
+        "id": "24234626864",
+        "name": "$2k Demand Gen - 2026-09-09",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DEMAND_GEN",
+        "id": "23763798194",
+        "name": "EDM-Demand Gen-RT-160426",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23335661685",
+        "name": "EDM_APP_INSTALL_IOS_081225",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23256371015",
+        "name": "EDM_APP_INSTALL_IOS_121125",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23507902931",
+        "name": "EDM_APP_SignUp_Android_280126",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "PERFORMANCE_MAX",
+        "id": "23462382855",
+        "name": "EDM_Anaganaga_P-Max_160126",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23571824568",
+        "name": "EDM_Appinstall_Android_180226#New",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23190782564",
+        "name": "EDM_Appinstall_Android_271025",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23249100627",
+        "name": "EDM_Appinstall_Android_271025 #2",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23738388466",
+        "name": "EDM_Comp_alternatives_080426",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23640545036",
+        "name": "EDM_IOS_In_App_Action_(Purchase)10032026",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "PERFORMANCE_MAX",
+        "id": "23409981780",
+        "name": "EDM_Mana Shankara Varaprasad Garu_P-Max_311225",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23853084120",
+        "name": "EDM_New_Generic_Priceing_Update_May_2026",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "PERFORMANCE_MAX",
+        "id": "23581837105",
+        "name": "EDM_Performance_Max_signup_180226",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DEMAND_GEN",
+        "id": "23407620887",
+        "name": "EDM_Rajasaab_Dispaly291225",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "PERFORMANCE_MAX",
+        "id": "23414409059",
+        "name": "EDM_Rajasaab_Pmax_301225_LP#2",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "PERFORMANCE_MAX",
+        "id": "23412452773",
+        "name": "EDM_Rajasaab_Pmax_301225_LP_1",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22613704497",
+        "name": "EDM_ST_ToF_Display_Language",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23982359517",
+        "name": "G-App 30 Jun 2026",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "24116635174",
+        "name": "G-App 30 Jun 2026 #2",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23564667764",
+        "name": "Generic_Search_Feb14",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "24111713993",
+        "name": "IOS-App | 07 Aug @026",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "PERFORMANCE_MAX",
+        "id": "22742244870",
+        "name": "Internal_Performance Max",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23897348811",
+        "name": "MATA Event | 20 June 2026",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "PERFORMANCE_MAX",
+        "id": "21530194741",
+        "name": "Remit2Any",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22058403586",
+        "name": "ST_BoF_Display_Remarketing",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22886503086",
+        "name": "ST_BoF_Display_Remarketing_365D",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23816300150",
+        "name": "ST_Brand_Search_04052026",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "22267303838",
+        "name": "ST_Brand_Search_14 Aug 2026",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23810939937",
+        "name": "ST_Brand_Search_Feb21 #2",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22179196956",
+        "name": "ST_Display_Custom_Seg_TCPA_Feb1",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22172625971",
+        "name": "ST_Display_Custom_Segment",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22034033007",
+        "name": "ST_Display_Placements",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23814310077",
+        "name": "ST_Generic_Search_050526",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "22172092703",
+        "name": "ST_Generic_Search_Jan28",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23644143739",
+        "name": "ST_Generic_Search_Mar10 (New)",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "22044091432",
+        "name": "ST_Search_Competitors",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23348659130",
+        "name": "ST_Search_Competitors_Kyc verified_101225",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23687143622",
+        "name": "ST_Search_Competitors_New (Mar 24)",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "22640833893",
+        "name": "ST_Search_Remittance_Tax",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DEMAND_GEN",
+        "id": "23053209242",
+        "name": "ST_ToF_DemandGen_Unapproved",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DEMAND_GEN",
+        "id": "23056895899",
+        "name": "ST_ToF_Demand_Gen #2",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DEMAND_GEN",
+        "id": "23056919683",
+        "name": "ST_ToF_Demand_Gen #3",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22620282212",
+        "name": "ST_ToF_Display_Interest",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22721247278",
+        "name": "ST_ToF_Display_Web_Compareremit",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22629614536",
+        "name": "ST_ToF_Display_Website",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "DISPLAY",
+        "id": "22714835981",
+        "name": "ST_ToF_Display_Website #2",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23057889001",
+        "name": "ST_ToF_Search_Informational_Keyword",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23992630973",
+        "name": "Search Intent_India_USA to India_02 June 2026",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "SEARCH",
+        "id": "23535778007",
+        "name": "Search_February",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23638403663",
+        "name": "iOS-Lingual-Gujarati",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23632962858",
+        "name": "iOS-Lingual-Hindi",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23632951341",
+        "name": "iOS-Lingual-Tamil",
+        "status": "PAUSED"
+      },
+      {
+        "channelType": "MULTI_CHANNEL",
+        "id": "23621485188",
+        "name": "iOS-Lingual-Telugu",
+        "status": "PAUSED"
+      }
+    ],
+    "totalEnabled": 6,
+    "totalPaused": 55
+  },
+  "meta": {
+    "caveats": [
+      "Active campaign IDs are fetched live from Google Ads at time of script run.",
+      "Re-run this script when campaigns are enabled, paused, or removed.",
+      "Future: replace with scheduled cron job for automatic refresh."
+    ],
+    "family": "active-campaigns",
+    "generatedAt": "2026-09-28T12:50:15.803Z",
+    "provenance": "snapshot",
+    "refreshCadence": "manual run — run scripts/get-active-campaigns.mjs when campaigns change",
+    "source": "Google Ads API — campaign status live fetch",
+    "version": 1
+  }
+}

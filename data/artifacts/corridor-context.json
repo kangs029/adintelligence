@@ -1,0 +1,31 @@
+{
+  "data": {
+    "indiaInboundRemittances": {
+      "amountUsd": 137674533895.686,
+      "sourceLabel": "World Bank Open Data, personal remittances received",
+      "sourceUrl": "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT?locations=IN",
+      "year": 2024
+    },
+    "method": "Derived metro estimate = US-to-India corridor estimate multiplied by the market share of national Asian Indian population.",
+    "rounding": "Display rounds to one decimal billion for values above $1B, nearest $100M below $1B, and never implies precision.",
+    "usShare": {
+      "sourceLabel": "RBI Bulletin March 2025, Sixth Round of India's Remittances Survey",
+      "sourceUrl": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=23260",
+      "valuePct": 27.7,
+      "yearLabel": "2023-24"
+    }
+  },
+  "meta": {
+    "caveats": [
+      "Per-market values are derived order-of-magnitude estimates.",
+      "The allocation uses Asian Indian population share, not observed Xpat transfers."
+    ],
+    "family": "corridor-context",
+    "generatedAt": "2026-07-06T00:00:00.000Z",
+    "method": "Fetched World Bank India inbound remittances and combined them with the latest RBI US-source share for a derived corridor estimate.",
+    "provenance": "derived",
+    "refreshCadence": "annual when World Bank and RBI remittance data refresh",
+    "source": "World Bank Open Data and RBI Bulletin",
+    "version": 1
+  }
+}

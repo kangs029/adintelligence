@@ -1,0 +1,56 @@
+{
+  "moments": [
+    {
+      "id": "school-fees-july",
+      "name": "School-fee planning",
+      "start": "2026-07-15",
+      "end": "2026-08-31",
+      "play": "Run checklist content for family education, fee deadlines, and rate-check habits.",
+      "sourceNote": "Curated from common India academic fee windows. Verify school-specific dates before publishing."
+    },
+    {
+      "id": "ganesh-chaturthi-2026",
+      "name": "Ganesh Chaturthi",
+      "start": "2026-09-14",
+      "end": "2026-09-16",
+      "play": "Prepare community-event source tags for temple and cultural association surfaces.",
+      "sourceNote": "Curated Indian festival calendar moment. Local event dates need organizer verification."
+    },
+    {
+      "id": "diwali-2026",
+      "name": "Diwali",
+      "start": "2026-11-07",
+      "end": "2026-11-10",
+      "play": "Coordinate family-support creative with community surfaces and creator promo-code seeds.",
+      "sourceNote": "Curated festival window. Confirm region-specific event calendars before launch."
+    },
+    {
+      "id": "wedding-season-winter-2026",
+      "name": "Winter wedding season",
+      "start": "2026-11-15",
+      "end": "2027-02-15",
+      "play": "Test planning copy around larger family obligations with documentation clarity.",
+      "sourceNote": "Curated seasonal planning window, not a demand forecast."
+    },
+    {
+      "id": "us-bonus-season-2027",
+      "name": "US bonus season",
+      "start": "2027-01-15",
+      "end": "2027-03-15",
+      "play": "Queue rate-check and documentation reminders for recurring-transfer planners.",
+      "sourceNote": "Curated US compensation timing window, not employer-specific evidence."
+    },
+    {
+      "id": "india-tax-deadline-2027",
+      "name": "India tax filing deadline",
+      "start": "2027-07-01",
+      "end": "2027-07-31",
+      "play": "Use education copy only after policy and tax wording is reviewed.",
+      "sourceNote": "Curated from India individual income-tax filing season. Tax rules can change."
+    }
+  ],
+  "meta": {
+    "curatedAt": "2026-07-06",
+    "source": "Curated remittance-planning calendar for demo copy. Dates are planning windows, not forecasts."
+  }
+}

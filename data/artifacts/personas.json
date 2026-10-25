@@ -1,0 +1,236 @@
+{
+  "data": {
+    "personas": [
+      {
+        "complianceNotes": [
+          "Use LCA only as an employer/workforce proxy.",
+          "Recommendation language only, never a hard label."
+        ],
+        "description": "Mid-career Indian professionals around large technology and services employers.",
+        "evidenceRequirements": [
+          "LCA filing density",
+          "Median household income",
+          "Asian Indian concentration"
+        ],
+        "fitWeights": {
+          "anchorMix": 0.1,
+          "concentration": 0.15,
+          "income": 0.25,
+          "lcaDensity": 0.35,
+          "population": 0.15
+        },
+        "id": "h1b-mid-career",
+        "messageAngles": [
+          "Reliability for recurring family support",
+          "Transparent USD to INR quote comparison",
+          "Employer-adjacent proof, not employee targeting"
+        ],
+        "name": "H1B mid-career professional",
+        "signals": [
+          "High LCA density",
+          "High household income",
+          "Large Asian Indian population"
+        ]
+      },
+      {
+        "complianceNotes": [
+          "Treat anchors as community presence evidence.",
+          "Do not infer household obligations from public data."
+        ],
+        "description": "Residents likely to evaluate remittance tools for family support occasions.",
+        "evidenceRequirements": [
+          "Asian Indian population",
+          "Temple and grocery anchor mix",
+          "Local concentration"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.2,
+          "concentration": 0.2,
+          "groceries": 0.2,
+          "population": 0.25,
+          "temples": 0.15
+        },
+        "id": "family-remitter",
+        "messageAngles": [
+          "Simple comparison before sending money",
+          "Trust, reliability, and support clarity",
+          "Community-surface testing near groceries and temples"
+        ],
+        "name": "Family remitter",
+        "signals": [
+          "Large resident base",
+          "Grocery anchors",
+          "Temple anchors"
+        ]
+      },
+      {
+        "complianceNotes": [
+          "Student counts are state-allocated and estimated.",
+          "Do not imply school-level enrollment without owned or school data."
+        ],
+        "description": "Indian graduate students and OPT workers who may need low-friction setup.",
+        "evidenceRequirements": [
+          "Student share",
+          "Student volume",
+          "Campus channel availability"
+        ],
+        "fitWeights": {
+          "anchorMix": 0.1,
+          "concentration": 0.1,
+          "population": 0.1,
+          "studentShare": 0.45,
+          "studentVolume": 0.25
+        },
+        "id": "graduate-student-opt",
+        "messageAngles": [
+          "First US banking and remittance setup",
+          "Clear fees and support path",
+          "Campus-adjacent education"
+        ],
+        "name": "Graduate student and OPT",
+        "signals": [
+          "High student share",
+          "High student volume",
+          "Campus channel fit"
+        ]
+      },
+      {
+        "complianceNotes": [
+          "Use education framing, not financial advice.",
+          "Do not imply funnel outcomes from public discussion."
+        ],
+        "description": "People comparing remittance options for the first time after arriving or changing banks.",
+        "evidenceRequirements": [
+          "Student share",
+          "Community anchors",
+          "Review pain themes"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.2,
+          "concentration": 0.15,
+          "groceries": 0.15,
+          "studentShare": 0.35,
+          "temples": 0.15
+        },
+        "id": "first-time-remitter",
+        "messageAngles": [
+          "Step-by-step setup clarity",
+          "Fee and timing transparency",
+          "Support expectations before sending"
+        ],
+        "name": "First-time remitter",
+        "signals": [
+          "Student-heavy market",
+          "Community anchors",
+          "Setup and support pain"
+        ]
+      },
+      {
+        "complianceNotes": [
+          "Recommendations are market hypotheses.",
+          "Do not infer investment intent from income alone."
+        ],
+        "description": "Higher-income returning-NRI households evaluating larger or less frequent transfers.",
+        "evidenceRequirements": [
+          "Income",
+          "Asian Indian population",
+          "Local concentration"
+        ],
+        "fitWeights": {
+          "anchorMix": 0.1,
+          "concentration": 0.2,
+          "income": 0.4,
+          "population": 0.25,
+          "temples": 0.05
+        },
+        "id": "returning-nri-investor",
+        "messageAngles": [
+          "Quote transparency for larger transfers",
+          "Documentation clarity",
+          "Reference market benchmark comparison"
+        ],
+        "name": "Returning-NRI investor",
+        "signals": [
+          "High income",
+          "Large resident base",
+          "Community presence"
+        ]
+      },
+      {
+        "complianceNotes": [
+          "Seasonality is a planning hypothesis.",
+          "Budget bands must stay labeled as estimates."
+        ],
+        "description": "Households likely to compare options during filing and family-obligation windows.",
+        "evidenceRequirements": [
+          "Income",
+          "LCA density",
+          "Resident population"
+        ],
+        "fitWeights": {
+          "concentration": 0.15,
+          "income": 0.3,
+          "lcaDensity": 0.2,
+          "population": 0.2,
+          "studentVolume": 0.15
+        },
+        "id": "tax-season-remitter",
+        "messageAngles": [
+          "Plan-ahead transfer checklist",
+          "Support availability during deadlines",
+          "Estimated test budget and clear kill criteria"
+        ],
+        "name": "Tax-season remitter",
+        "signals": [
+          "Income",
+          "LCA density",
+          "Student and family timing"
+        ]
+      },
+      {
+        "complianceNotes": [
+          "Competitor-switcher is a hypothesis from public pain signals.",
+          "Do not claim competitor performance or user switching."
+        ],
+        "description": "People dissatisfied with fees, rates, support, or timing in public reviews and threads.",
+        "evidenceRequirements": [
+          "Review pain themes",
+          "Large resident population",
+          "Community anchor density"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.25,
+          "concentration": 0.2,
+          "groceries": 0.1,
+          "population": 0.35,
+          "temples": 0.1
+        },
+        "id": "competitor-switcher",
+        "messageAngles": [
+          "Transparent comparison",
+          "Support and timing clarity",
+          "Public pain point response"
+        ],
+        "name": "Competitor-switcher",
+        "signals": [
+          "Public review pain",
+          "Large market",
+          "Anchor density"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "caveats": [
+      "Persona fit scores are recommendations with confidence, never hard labels.",
+      "Public data supports hypotheses about where to test, not performance claims."
+    ],
+    "family": "personas",
+    "generatedAt": "2026-07-03T00:00:00.000Z",
+    "method": "Curated persona definitions scored by a pure function over market features named in the data spec.",
+    "provenance": "derived",
+    "refreshCadence": "manual when playbook strategy changes",
+    "source": "Xpat OS PRD and derived market artifacts",
+    "version": 1
+  }
+}

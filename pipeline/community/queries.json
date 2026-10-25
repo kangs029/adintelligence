@@ -1,0 +1,29 @@
+{
+  "version": 8,
+  "queries": [
+    {
+      "query": "send money india from US",
+      "subreddits": ["nri", "h1b"]
+    },
+    {
+      "query": "remittance india H1B",
+      "subreddits": ["nri", "h1b"]
+    },
+    {
+      "query": "wise remitly india",
+      "subreddits": ["nri", "h1b", "ABCDesis"]
+    },
+    {
+      "query": "NRE transfer USA",
+      "subreddits": ["nri", "h1b"]
+    },
+    {
+      "query": "transfer failed india USD",
+      "subreddits": ["nri", "h1b"]
+    },
+    {
+      "query": "send money parents india USA",
+      "subreddits": ["nri", "h1b"]
+    }
+  ]
+}

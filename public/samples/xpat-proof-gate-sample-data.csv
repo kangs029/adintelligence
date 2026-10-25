@@ -1,0 +1,4 @@
+sample_data,market_geoid,geo_name,state,cost,conversions,first_transfers,clicks,impressions,platform,campaign,baseline_group
+true,31000US41940,San Jose-Sunnyvale-Santa Clara,CA,125,12,12,84,2400,Google Ads,Sample data for demo San Jose comparison terms,
+true,31000US19100,Dallas-Fort Worth-Arlington,TX,90,14,12,120,3100,Google Ads,Sample data for demo Dallas comparison terms,
+true,,Unknown Metro,CA,25,1,1,10,300,Google Ads,Sample data for demo unmapped row,

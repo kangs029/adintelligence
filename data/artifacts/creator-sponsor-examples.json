@@ -1,0 +1,35 @@
+{
+  "data": {
+    "dependencyNote": "The Playbook links to /signals#creators. If the Signals creator evidence round is not merged, keep this link stable and treat these rows as ported v1 evidence.",
+    "examples": [
+      {
+        "brand": "Aspora",
+        "capturedAt": "2026-06-17",
+        "creator": "Keerthi's FinFo NRI",
+        "evidence": "Recent NRI remittance video description includes an Aspora download link and code KEERTHI2026.",
+        "sourceUrl": "https://www.youtube.com/watch?v=6TErOV2S5e4"
+      },
+      {
+        "brand": "Crobo",
+        "capturedAt": "2026-06-17",
+        "creator": "MoneywithSwAbi",
+        "evidence": "Recent NRI video mentions Crobo gift-card link and says the creator personally uses Crobo for India transfers.",
+        "sourceUrl": "https://www.youtube.com/watch?v=xPH_tnbZvUI"
+      }
+    ],
+    "signalsHref": "/signals#creators"
+  },
+  "meta": {
+    "caveats": [
+      "Ported v1 creator rows preserve original evidence dates.",
+      "Observed sponsor examples prove a public content surface, not sponsor terms or outcomes."
+    ],
+    "family": "creator-sponsor-examples",
+    "generatedAt": "2026-07-06T00:00:00.000Z",
+    "method": "Curated v1 creator evidence rows ported without changing capturedAt dates.",
+    "provenance": "snapshot",
+    "refreshCadence": "weekly with creator evidence refresh",
+    "source": "v1 grounded competitors creator rows",
+    "version": 1
+  }
+}

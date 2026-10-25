@@ -1,0 +1,740 @@
+<title>Xpat OS · Design Mockup</title>
+<style>
+  :root{
+    --bg-page:#0B0C0F; --bg-surface:#14161B; --bg-raised:#1B1E25; --bg-overlay:#232730;
+    --ink-1:#F2F3F5; --ink-2:#A8ADB8; --ink-3:#6C7280;
+    --line-h:rgba(255,255,255,.08); --line-s:rgba(255,255,255,.16);
+    --accent:#2DD4BF; --accent-ink:#062E2A; --accent-dim:rgba(45,212,191,.12);
+    --good:#0CA30C; --warning:#FAB219; --serious:#EC835A; --critical:#D03B3B;
+    --t1:#2DD4BF; --t2:#1FA396; --t3:#177A72; --t4:#3A4148;
+    --c-xpat:#2DD4BF; --c-remitly:#3987E5; --c-wise:#9085E9; --c-xoom:#C98500; --c-wu:#E66767;
+    --sans:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box;margin:0}
+  html{background:var(--bg-page)}
+  body{font:14px/22px var(--sans);color:var(--ink-1);background:var(--bg-page);-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .mockbar{background:#1B1030;border-bottom:1px solid var(--line-h);padding:6px 24px;font:11px/16px var(--mono);color:#B9A8E8;display:flex;gap:16px;flex-wrap:wrap}
+  .mockbar b{color:#D8CCF6;font-weight:600}
+  /* ---------- shell ---------- */
+  .nav{display:flex;align-items:center;gap:28px;height:56px;padding:0 24px;border-bottom:1px solid var(--line-h);background:var(--bg-page);position:sticky;top:0;z-index:50}
+  .brand{font:600 14px/1 var(--mono);letter-spacing:.04em;display:flex;align-items:center;gap:8px}
+  .brand i{width:8px;height:8px;border-radius:99px;background:var(--accent);display:inline-block}
+  .tabs{display:flex;gap:4px;flex:1}
+  .tab{font:500 13px/1 var(--sans);color:var(--ink-2);padding:10px 12px;border-radius:8px;border:0;background:none;cursor:pointer}
+  .tab:hover{background:var(--bg-raised);color:var(--ink-1)}
+  .tab[aria-selected="true"]{color:var(--accent);background:var(--accent-dim)}
+  .tab:focus-visible,.btn:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .fresh{font:11px/16px var(--mono);color:var(--ink-3)}
+  .fresh b{color:var(--ink-2);font-weight:500}
+  /* ---------- primitives ---------- */
+  .chip{display:inline-flex;align-items:center;gap:5px;font:500 11px/16px var(--sans);letter-spacing:.02em;padding:2px 9px;border-radius:999px;border:1px solid;white-space:nowrap}
+  .chip.live{color:var(--accent);border-color:var(--accent);background:rgba(45,212,191,.10)}
+  .chip.live i{width:6px;height:6px;border-radius:99px;background:var(--accent);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+  @media (prefers-reduced-motion:reduce){.chip.live i{animation:none}}
+  .chip.snap{color:#5598E7;border-color:#5598E7;background:rgba(85,152,231,.10)}
+  .chip.grounded{color:#9085E9;border-color:#9085E9;background:rgba(144,133,233,.10)}
+  .chip.derived{color:#C98500;border-color:#C98500;background:rgba(201,133,0,.10)}
+  .chip.conn{color:var(--ink-3);border-color:var(--ink-3);border-style:dashed}
+  .tierchip{display:inline-flex;align-items:center;gap:6px;font:500 11px/16px var(--sans);padding:2px 9px;border-radius:999px;background:var(--bg-raised);border:1px solid var(--line-h);color:var(--ink-2)}
+  .tierchip i{width:8px;height:8px;border-radius:99px;display:inline-block}
+  .card{background:var(--bg-surface);border:1px solid var(--line-h);border-radius:10px;padding:16px}
+  .cardhead{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+  .cardhead h3{font:600 14px/20px var(--sans)}
+  .cardfoot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid var(--line-h)}
+  .src{font:12.5px/18px var(--sans);color:var(--ink-3);text-decoration:none;border-bottom:1px dotted transparent}
+  .src:hover{color:var(--ink-2);border-bottom-color:var(--ink-3)}
+  .src::after{content:"↗";font-size:11px;margin-left:3px}
+  .cap{font:11px/16px var(--mono);color:var(--ink-3)}
+  .num{font-variant-numeric:tabular-nums;font-family:var(--mono)}
+  .muted{color:var(--ink-3)} .sec{color:var(--ink-2)}
+  .boundary{font:12.5px/18px var(--sans);color:var(--ink-3);border-left:2px solid var(--line-s);padding:2px 0 2px 10px;margin:10px 0}
+  .btn{font:500 13px/1 var(--sans);padding:9px 14px;border-radius:8px;border:1px solid var(--line-s);background:var(--bg-raised);color:var(--ink-1);cursor:pointer}
+  .btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+  .btn.ghost{background:none;border-color:transparent;color:var(--ink-2)}
+  /* page scaffold */
+  .page{display:none}
+  .page.on{display:block}
+  .wrap{max-width:1280px;margin:0 auto;padding:24px}
+  .phead h1{font:600 20px/28px var(--sans)}
+  .phead p{color:var(--ink-2);margin-top:2px}
+  .kpis{display:flex;gap:0;border:1px solid var(--line-h);border-radius:10px;background:var(--bg-surface);margin-top:16px;overflow-x:auto}
+  .kpi{padding:14px 20px;min-width:150px;flex:1}
+  .kpi+.kpi{border-left:1px solid var(--line-h)}
+  .kpi .l{font:500 11px/16px var(--sans);letter-spacing:.02em;color:var(--ink-3)}
+  .kpi .v{font:600 24px/32px var(--sans);font-variant-numeric:tabular-nums;margin-top:2px}
+  .kpi .d{font:12.5px/18px var(--sans);color:var(--ink-3)}
+  .kpi .d.up{color:var(--good)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  @media(max-width:900px){.grid2,.grid3{grid-template-columns:1fr}.maplayout{grid-template-columns:1fr !important}.drawer{position:static !important;width:auto !important;height:auto !important}}
+  section{margin-top:28px}
+  section>h2{font:600 16px/24px var(--sans);margin-bottom:4px}
+  section>.sub{color:var(--ink-3);font-size:12.5px;margin-bottom:12px}
+  /* ---------- map page ---------- */
+  .maplayout{display:grid;grid-template-columns:260px 1fr;gap:16px;margin-top:16px}
+  .rail{display:flex;flex-direction:column;gap:14px}
+  .rail .card{padding:14px}
+  .rail h4{font:500 11px/16px var(--sans);letter-spacing:.02em;color:var(--ink-3);margin-bottom:8px}
+  .seg{display:flex;flex-wrap:wrap;gap:6px}
+  .seg button{font:500 12px/16px var(--sans);padding:5px 10px;border-radius:999px;border:1px solid var(--line-h);background:none;color:var(--ink-2);cursor:pointer}
+  .seg button.on{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
+  .checkrow{display:flex;align-items:center;gap:8px;font:13px/22px var(--sans);color:var(--ink-2)}
+  .mapstage{position:relative;border:1px solid var(--line-h);border-radius:10px;background:radial-gradient(1200px 600px at 60% 30%,#10141B 0%,#0B0C0F 70%);overflow:hidden;min-height:560px}
+  .mapnote{position:absolute;bottom:136px;left:12px;z-index:5}
+  .maplegend{position:absolute;bottom:12px;left:12px;background:rgba(20,22,27,.92);border:1px solid var(--line-h);border-radius:8px;padding:10px 12px;font:11px/18px var(--sans);color:var(--ink-2);z-index:5}
+  .maplegend .row{display:flex;align-items:center;gap:8px}
+  .dot{border-radius:99px;display:inline-block}
+  .mapkpis{position:absolute;top:12px;right:452px;display:flex;gap:8px;z-index:5;flex-wrap:wrap;justify-content:flex-end}
+  .mapkpis .mk{background:rgba(20,22,27,.92);border:1px solid var(--line-h);border-radius:8px;padding:8px 12px}
+  .mapkpis .l{font:500 10px/14px var(--sans);letter-spacing:.02em;color:var(--ink-3)}
+  .mapkpis .v{font:600 16px/22px var(--sans);font-variant-numeric:tabular-nums}
+  svg .usa{fill:#141820;stroke:rgba(255,255,255,.14);stroke-width:1}
+  svg .grat{stroke:rgba(255,255,255,.04);stroke-width:1}
+  svg .mkt{stroke:#0B0C0F;stroke-width:1.5;cursor:pointer;opacity:.9}
+  svg .mkt:hover{opacity:1;stroke:var(--ink-1)}
+  svg .mkt.sel{stroke:#fff;stroke-width:2}
+  svg text.mlbl{font:11px var(--sans);fill:var(--ink-2)}
+  .tip{position:absolute;left:14%;top:58%;background:var(--bg-overlay);border:1px solid var(--line-s);border-radius:8px;padding:8px 10px;font:12px/17px var(--sans);box-shadow:0 8px 32px rgba(0,0,0,.45);z-index:6;pointer-events:none}
+  .tip b{font-weight:600}
+  /* drawer */
+  .drawer{background:var(--bg-surface);border:1px solid var(--line-h);border-radius:10px;box-shadow:0 8px 32px rgba(0,0,0,.45);width:420px;position:absolute;right:12px;top:12px;bottom:12px;overflow:auto;z-index:10}
+  .drawer .dh{position:sticky;top:0;background:var(--bg-surface);padding:16px;border-bottom:1px solid var(--line-h);z-index:2}
+  .drawer .dh .r1{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+  .drawer h3{font:600 16px/22px var(--sans)}
+  .drawer .db{padding:16px;display:flex;flex-direction:column;gap:16px}
+  .dsec h4{font:500 11px/16px var(--sans);letter-spacing:.02em;color:var(--ink-3);margin-bottom:8px}
+  .statrow{display:flex;justify-content:space-between;gap:8px;font:13px/24px var(--sans);color:var(--ink-2)}
+  .statrow b{color:var(--ink-1);font-weight:600;font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:13px}
+  .anchor{display:flex;justify-content:space-between;gap:8px;font:13px/24px var(--sans)}
+  .anchor .k{color:var(--ink-2)}
+  .relia{display:inline-block;font:500 11px/16px var(--sans);padding:1px 8px;border-radius:999px;background:rgba(12,163,12,.12);color:#4CC94C;border:1px solid rgba(12,163,12,.4)}
+  /* ---------- tables ---------- */
+  table{width:100%;border-collapse:collapse;font:13px/20px var(--sans)}
+  th{font:500 11px/16px var(--sans);letter-spacing:.02em;color:var(--ink-3);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line-s);white-space:nowrap}
+  td{padding:9px 10px;border-bottom:1px solid var(--line-h);vertical-align:middle}
+  tr:hover td{background:var(--bg-raised)}
+  td.r,th.r{text-align:right}
+  .prov{display:inline-flex;align-items:center;gap:7px;font-weight:500}
+  .prov i{width:9px;height:9px;border-radius:99px;display:inline-block}
+  .best{color:var(--accent);font-weight:600}
+  .tablewrap{overflow-x:auto}
+  /* charts */
+  .chart{margin-top:8px}
+  .chart svg{display:block;width:100%;height:auto}
+  .axis{font:10.5px var(--mono);fill:var(--ink-3)}
+  .gridline{stroke:rgba(255,255,255,.06)}
+  .slbl{font:11px var(--sans);font-weight:600}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font:12px/16px var(--sans);color:var(--ink-2);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .legend i{width:10px;height:3px;border-radius:2px;display:inline-block}
+  .hbar{display:grid;grid-template-columns:130px 1fr 44px;align-items:center;gap:10px;font:12.5px/26px var(--sans);color:var(--ink-2)}
+  .hbar .bar{height:14px;border-radius:0 4px 4px 0;background:var(--accent)}
+  .hbar .pct{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;color:var(--ink-1)}
+  /* competitor cards */
+  .comp .cardhead h3{display:flex;align-items:center;gap:8px}
+  .logo{width:22px;height:22px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;font:700 10px/1 var(--mono);color:#0B0C0F}
+  .claims{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .claims span{font:11px/16px var(--sans);padding:2px 8px;border-radius:6px;background:var(--bg-raised);color:var(--ink-2);border:1px solid var(--line-h)}
+  /* ads gallery */
+  .ads{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  @media(max-width:900px){.ads{grid-template-columns:repeat(2,1fr)}}
+  .ad{background:var(--bg-surface);border:1px solid var(--line-h);border-radius:10px;overflow:hidden}
+  .ad .shot{height:110px;display:flex;align-items:center;justify-content:center;font:11px var(--mono);color:var(--ink-3);border-bottom:1px solid var(--line-h)}
+  .ad .body{padding:10px 12px}
+  .ad .h{font:500 12.5px/17px var(--sans)}
+  .ad .m{display:flex;justify-content:space-between;margin-top:8px;align-items:center}
+  /* signals */
+  .thread{display:flex;flex-direction:column;gap:4px;padding:12px 0;border-bottom:1px solid var(--line-h)}
+  .thread:last-child{border-bottom:0}
+  .thread .t{font:500 13.5px/19px var(--sans)}
+  .thread .meta{display:flex;gap:10px;flex-wrap:wrap;font:11px/16px var(--mono);color:var(--ink-3)}
+  .ttag{font:11px/16px var(--sans);padding:1px 7px;border-radius:6px;background:var(--bg-raised);border:1px solid var(--line-h);color:var(--ink-2)}
+  .creator{display:flex;flex-direction:column;gap:6px}
+  .creator .nm{display:flex;justify-content:space-between;align-items:center}
+  .creator .nm b{font:600 13.5px/18px var(--sans)}
+  .vid{font:12.5px/18px var(--sans);color:var(--ink-2);display:flex;justify-content:space-between;gap:8px}
+  /* connector needed */
+  .connbox{border:1px dashed var(--line-s);border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:8px;background:none}
+  .connbox .t{font:600 14px/20px var(--sans);display:flex;gap:8px;align-items:center;color:var(--ink-2)}
+  .connbox code{font:12px/18px var(--mono);background:var(--bg-raised);border:1px solid var(--line-h);border-radius:6px;padding:8px 10px;display:block;color:var(--ink-2);overflow-x:auto;white-space:pre}
+  .unlock{font:12.5px/18px var(--sans);color:var(--ink-3)}
+  /* playbook */
+  .pick{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:14px}
+  .pick .search{flex:1;min-width:220px;background:var(--bg-raised);border:1px solid var(--line-h);border-radius:8px;color:var(--ink-3);padding:9px 12px;font:13px var(--sans)}
+  .pick .qc{font:500 12px/16px var(--sans);padding:6px 12px;border-radius:999px;border:1px solid var(--line-h);background:none;color:var(--ink-2);cursor:pointer}
+  .pick .qc.on{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
+  .persona .fit{display:flex;align-items:center;gap:10px;margin:8px 0 4px}
+  .fitbar{flex:1;height:6px;border-radius:99px;background:var(--bg-raised);overflow:hidden}
+  .fitbar i{display:block;height:100%;background:var(--accent);border-radius:99px}
+  .fitv{font:600 13px var(--mono);font-variant-numeric:tabular-nums}
+  .why{font:12.5px/19px var(--sans);color:var(--ink-3)}
+  .why b{color:var(--ink-2);font-weight:500}
+  .chanrow{display:grid;grid-template-columns:24px 1.2fr 2fr 1fr .9fr;gap:12px;align-items:center;padding:12px 10px;border-bottom:1px solid var(--line-h);font:13px/19px var(--sans)}
+  .chanrow:hover{background:var(--bg-raised)}
+  .chanrow .n{font:600 12px var(--mono);color:var(--ink-3)}
+  .chanrow .cn{font-weight:600}
+  .chanrow .ev{color:var(--ink-2);font-size:12.5px}
+  .chanrow .bud{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:12.5px}
+  .surface{display:grid;grid-template-columns:110px 1fr auto;gap:12px;padding:10px;border-bottom:1px solid var(--line-h);font:13px/19px var(--sans);align-items:center}
+  .surface .k{font:500 11px/16px var(--sans);letter-spacing:.02em;color:var(--ink-3)}
+  .exp{border-left:2px solid var(--accent);padding-left:14px;display:flex;flex-direction:column;gap:8px}
+  .exp .hy{font:500 14px/21px var(--sans)}
+  .exp .row{display:flex;gap:18px;flex-wrap:wrap;font:12.5px/18px var(--sans);color:var(--ink-2)}
+  .exp .row b{color:var(--ink-1);font-family:var(--mono);font-weight:600;font-size:12.5px}
+  .notprove{font:12.5px/18px var(--sans);color:var(--serious);opacity:.85}
+  .mspec td,.mspec th{font-family:var(--mono);font-size:12px}
+  footer{margin-top:40px;border-top:1px solid var(--line-h);padding:20px 24px;display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between;font:11px/18px var(--mono);color:var(--ink-3)}
+</style>
+
+<div class="mockbar"><b>DESIGN MOCKUP</b> <span>static reference for implementation · all data illustrative, sourced shapes match docs/02-DATA-SPEC.md</span> <span>map renders via MapLibre GL in the app · charts via Recharts</span></div>
+
+<nav class="nav">
+  <span class="brand"><i></i>XPAT&nbsp;OS</span>
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-p="map">Market Map</button>
+    <button class="tab" role="tab" aria-selected="false" data-p="comp">Competitors</button>
+    <button class="tab" role="tab" aria-selected="false" data-p="sig">Signals</button>
+    <button class="tab" role="tab" aria-selected="false" data-p="play">Playbook</button>
+  </div>
+  <span class="fresh">data as of <b>Jul 2, 2026</b> · <a class="src" href="#">sources</a></span>
+</nav>
+
+<!-- ================= PAGE 1 · MARKET MAP ================= -->
+<div class="page on" id="p-map">
+  <div class="wrap">
+    <div class="phead">
+      <h1>Market Map</h1>
+      <p>Where the US Asian Indian audience is, tiered by evidence. Click a market for its proof.</p>
+    </div>
+    <div class="maplayout">
+      <aside class="rail">
+        <div class="card">
+          <h4>MARKET TIER</h4>
+          <div class="seg">
+            <button class="on">1 · Launch planning</button>
+            <button class="on">2 · Growth</button>
+            <button class="on">3 · Discovery</button>
+            <button>4 · Audit hold</button>
+          </div>
+          <label class="checkrow" style="margin-top:10px"><input type="checkbox"> show audit inventory</label>
+        </div>
+        <div class="card">
+          <h4>STATE</h4>
+          <div class="search" style="background:var(--bg-raised);border:1px solid var(--line-h);border-radius:8px;color:var(--ink-3);padding:8px 12px;font-size:13px">All states ▾</div>
+        </div>
+        <div class="card">
+          <h4>MIN ASIAN INDIAN POPULATION</h4>
+          <div style="padding:4px 2px 2px">
+            <div style="height:4px;border-radius:99px;background:var(--bg-raised);position:relative">
+              <div style="position:absolute;left:0;width:22%;height:100%;background:var(--accent);border-radius:99px"></div>
+              <div style="position:absolute;left:22%;top:-5px;width:14px;height:14px;border-radius:99px;background:var(--ink-1)"></div>
+            </div>
+            <div class="cap" style="margin-top:8px">≥ 10,000</div>
+          </div>
+        </div>
+        <div class="card">
+          <h4>COMMUNITY ANCHORS</h4>
+          <label class="checkrow"><input type="checkbox" checked> ▲ temples</label>
+          <label class="checkrow"><input type="checkbox" checked> ● groceries</label>
+          <label class="checkrow"><input type="checkbox" checked> ◆ cricket</label>
+          <label class="checkrow"><input type="checkbox"> ■ theaters</label>
+        </div>
+        <div class="card">
+          <h4>PRESETS</h4>
+          <button class="btn" style="width:100%">Surprise pockets</button>
+          <div class="cap" style="margin-top:6px">tier 2-3, ≥3× US share, outside top-10 metros</div>
+          <button class="btn ghost" style="width:100%;margin-top:8px">Reset filters</button>
+        </div>
+      </aside>
+
+      <div class="mapstage">
+        <div class="mapnote"><span class="chip grounded">GROUNDED · ACS 2024 5yr</span></div>
+        <div class="mapkpis">
+          <div class="mk"><div class="l">QUALIFIED MARKETS</div><div class="v">21</div></div>
+          <div class="mk"><div class="l">AI POPULATION COVERED</div><div class="v">3.1M</div></div>
+          <div class="mk"><div class="l">COMMUNITY ANCHORS</div><div class="v">1,847</div></div>
+        </div>
+
+        <svg viewBox="0 0 980 560" role="img" aria-label="US map of Asian Indian audience markets">
+          <g class="grat">
+            <line x1="0" y1="140" x2="980" y2="140"/><line x1="0" y1="280" x2="980" y2="280"/><line x1="0" y1="420" x2="980" y2="420"/>
+            <line x1="245" y1="0" x2="245" y2="560"/><line x1="490" y1="0" x2="490" y2="560"/><line x1="735" y1="0" x2="735" y2="560"/>
+          </g>
+          <path class="usa" d="M5,26 L39,13 L504,13 L532,22 L598,35 L684,70 L718,94 L720,147 L703,173 L779,147 L777,138 L821,120 L850,101 L904,94 L946,50 L975,96 L963,116 L918,145 L930,177 L896,182 L862,199 L847,234 L828,276 L837,315 L794,346 L745,385 L737,414 L752,462 L754,534 L732,519 L713,475 L701,436 L651,420 L608,425 L590,447 L527,436 L477,473 L472,519 L439,508 L401,440 L313,390 L237,401 L172,374 L134,374 L110,342 L76,331 L52,285 L42,258 L10,201 L12,136 L17,74 Z"/>
+          <!-- tier 3 -->
+          <circle class="mkt" cx="221" cy="195" r="6" fill="var(--t3)"/><circle class="mkt" cx="656" cy="215" r="6" fill="var(--t3)"/>
+          <circle class="mkt" cx="710" cy="210" r="6" fill="var(--t3)"/><circle class="mkt" cx="514" cy="232" r="6" fill="var(--t3)"/>
+          <circle class="mkt" cx="646" cy="293" r="5" fill="var(--t3)"/><circle class="mkt" cx="149" cy="131" r="5" fill="var(--t3)"/>
+          <!-- tier 2 -->
+          <circle class="mkt" cx="39" cy="90" r="7" fill="var(--t2)"/><circle class="mkt" cx="61" cy="241" r="8" fill="var(--t2)"/>
+          <circle class="mkt" cx="134" cy="366" r="8" fill="var(--t2)"/><circle class="mkt" cx="218" cy="355" r="9" fill="var(--t2)"/>
+          <circle class="mkt" cx="338" cy="217" r="8" fill="var(--t2)"/><circle class="mkt" cx="536" cy="101" r="8" fill="var(--t2)"/>
+          <circle class="mkt" cx="708" cy="158" r="8" fill="var(--t2)"/><circle class="mkt" cx="718" cy="474" r="8" fill="var(--t2)"/>
+          <circle class="mkt" cx="737" cy="462" r="7" fill="var(--t2)"/><circle class="mkt" cx="747" cy="315" r="7" fill="var(--t2)"/>
+          <!-- tier 1 -->
+          <circle class="mkt" cx="46" cy="44" r="11" fill="var(--t1)"/><circle class="mkt" cx="46" cy="258" r="14" fill="var(--t1)"/>
+          <circle class="mkt sel" cx="51" cy="268" r="16" fill="var(--t1)"/><circle class="mkt" cx="115" cy="341" r="12" fill="var(--t1)"/>
+          <circle class="mkt" cx="477" cy="368" r="15" fill="var(--t1)"/><circle class="mkt" cx="461" cy="423" r="8" fill="var(--t1)"/>
+          <circle class="mkt" cx="500" cy="434" r="13" fill="var(--t1)"/><circle class="mkt" cx="630" cy="169" r="15" fill="var(--t1)"/>
+          <circle class="mkt" cx="686" cy="347" r="12" fill="var(--t1)"/><circle class="mkt" cx="783" cy="302" r="7" fill="var(--t1)"/>
+          <circle class="mkt" cx="811" cy="234" r="15" fill="var(--t1)"/><circle class="mkt" cx="842" cy="210" r="11" fill="var(--t1)"/>
+          <circle class="mkt" cx="862" cy="195" r="22" fill="var(--t1)"/><circle class="mkt" cx="911" cy="158" r="10" fill="var(--t1)"/>
+          <text class="mlbl" x="878" y="176">NY-NJ</text>
+          <text class="mlbl" x="452" y="352">Dallas</text>
+          <text class="mlbl" x="608" y="152">Chicago</text>
+        </svg>
+
+        <div class="tip"><b>San Jose-Sunnyvale-Santa Clara</b><br><span class="sec">Tier 1 · Launch planning</span><br><span class="num">202,245</span> Asian Indian · <span class="num">7.4×</span> US share</div>
+
+        <div class="maplegend">
+          <div class="row"><span class="dot" style="width:8px;height:8px;background:var(--t1)"></span> Tier 1 launch planning</div>
+          <div class="row"><span class="dot" style="width:8px;height:8px;background:var(--t2)"></span> Tier 2 growth</div>
+          <div class="row"><span class="dot" style="width:8px;height:8px;background:var(--t3)"></span> Tier 3 discovery</div>
+          <div class="row" style="margin-top:4px"><span class="dot" style="width:14px;height:14px;border:1px solid var(--ink-3)"></span> size = AI population</div>
+        </div>
+
+        <!-- drawer -->
+        <aside class="drawer">
+          <div class="dh">
+            <div class="r1">
+              <div>
+                <h3>San Jose-Sunnyvale-Santa Clara</h3>
+                <div class="cap">CA · 31000US41940 · score <span class="num">94</span></div>
+              </div>
+              <button class="btn ghost" aria-label="close">✕</button>
+            </div>
+            <div style="display:flex;gap:8px;margin-top:8px">
+              <span class="tierchip"><i style="background:var(--t1)"></i>Tier 1 · Launch planning</span>
+              <span class="chip grounded">GROUNDED · ACS 2024 5yr</span>
+            </div>
+          </div>
+          <div class="db">
+            <div class="dsec">
+              <h4>POPULATION</h4>
+              <div class="statrow"><span>Asian Indian population</span><b>202,245 ± 5,199</b></div>
+              <div class="statrow"><span>Local share</span><b>10.3%</b></div>
+              <div class="statrow"><span>Multiple of US share</span><b>7.4×</b></div>
+              <div class="statrow"><span>Estimate reliability</span><span class="relia">high</span></div>
+              <div class="cardfoot" style="margin-top:8px"><a class="src" href="#">Census Reporter · B02015</a><span class="cap">release 2024 5yr</span></div>
+            </div>
+            <div class="dsec">
+              <h4>COMMUNITY ANCHORS · 65 mapped · 3.2 per 10k</h4>
+              <div class="anchor"><span class="k">▲ Sunnyvale Hindu Temple &amp; Community Center</span><a class="src" href="#">OSM</a></div>
+              <div class="anchor"><span class="k">● India Cash &amp; Carry</span><a class="src" href="#">OSM</a></div>
+              <div class="anchor"><span class="k">● Bharat Bazar</span><a class="src" href="#">OSM</a></div>
+              <div class="anchor"><span class="k">◆ California Cricket Academy</span><a class="src" href="#">OSM</a></div>
+              <button class="btn ghost" style="align-self:start;padding-left:0">Show all 65 →</button>
+            </div>
+            <div class="dsec">
+              <h4>EMPLOYMENT PROXY</h4>
+              <div class="statrow"><span>LCA filings, FY2026</span><b>18,410</b></div>
+              <div class="statrow"><span>Top employers</span><span class="sec" style="text-align:right;font-size:12.5px">Apple, Google, Cisco, Nvidia</span></div>
+              <p class="boundary">Employer filing intent only. Not approval counts, headcount, nationality, or individual location proof.</p>
+            </div>
+            <div class="dsec">
+              <h4>STUDENTS</h4>
+              <div class="statrow"><span>Active Indian students, CA share allocated</span><b>~14,900</b></div>
+              <div class="cap">SEVIS state-level, allocation labeled in methodology</div>
+            </div>
+            <div class="dsec">
+              <h4>CINEMA FOOTPRINT</h4>
+              <div class="statrow"><span>Theaters carrying major Indian releases</span><b>11</b></div>
+              <div class="cap">from Pushpa 2 release footprint · snapshot Dec 2025</div>
+            </div>
+            <div style="display:flex;gap:8px">
+              <button class="btn primary" style="flex:1">Open playbook →</button>
+              <button class="btn" style="flex:1">Competitor pressure →</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= PAGE 2 · COMPETITORS ================= -->
+<div class="page" id="p-comp">
+  <div class="wrap">
+    <div class="phead">
+      <h1>Competitors</h1>
+      <p>Live price position, visible creative, and real review pain across the USD to INR corridor.</p>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><div class="l">MID-MARKET USD→INR</div><div class="v num">89.42</div><div class="d">ECB reference · 14:05 PT</div></div>
+      <div class="kpi"><div class="l">BEST COMPETITOR RATE</div><div class="v num">89.42</div><div class="d">Wise, fee $8.72</div></div>
+      <div class="kpi"><div class="l">XPAT MARGIN VS MID</div><div class="v num">0.36%</div><div class="d up">best effective price today</div></div>
+      <div class="kpi"><div class="l">ADS CAPTURED · 30D</div><div class="v num">47</div><div class="d">Meta + Google libraries</div></div>
+      <div class="kpi"><div class="l">REVIEWS MINED</div><div class="v num">2,412</div><div class="d">App Store + Play, 90d</div></div>
+    </div>
+
+    <section>
+      <div class="cardhead"><h2>Rate check · send $1,000 to India</h2><span class="chip live"><i></i>LIVE</span></div>
+      <div class="card tablewrap">
+        <table>
+          <thead><tr><th>Provider</th><th class="r">Quoted rate</th><th class="r">Fee</th><th class="r">Recipient gets</th><th class="r">Effective margin vs mid</th><th>Source</th><th>As of</th></tr></thead>
+          <tbody>
+            <tr><td class="prov"><i style="background:var(--c-xpat)"></i>Xpat</td><td class="r num best">89.10</td><td class="r num">$0.00</td><td class="r num best">₹89,100</td><td class="r num best">0.36%</td><td><a class="src" href="#">xpat.money</a></td><td class="cap">14:05 PT</td></tr>
+            <tr><td class="prov"><i style="background:var(--c-wise)"></i>Wise</td><td class="r num">89.42</td><td class="r num">$8.72</td><td class="r num">₹88,640</td><td class="r num">0.87%</td><td><a class="src" href="#">wise.com</a></td><td class="cap">14:05 PT</td></tr>
+            <tr><td class="prov"><i style="background:var(--c-remitly)"></i>Remitly</td><td class="r num">88.65</td><td class="r num">$1.99</td><td class="r num">₹88,474</td><td class="r num">1.06%</td><td><a class="src" href="#">remitly.com</a></td><td class="cap">14:05 PT</td></tr>
+            <tr><td class="prov"><i style="background:var(--c-xoom)"></i>Xoom</td><td class="r num">88.20</td><td class="r num">$0.00</td><td class="r num">₹88,200</td><td class="r num">1.36%</td><td><a class="src" href="#">xoom.com</a></td><td class="cap">14:05 PT</td></tr>
+            <tr><td class="prov"><i style="background:var(--c-wu)"></i>Western Union</td><td class="r num">87.95</td><td class="r num">$2.99</td><td class="r num">₹87,688</td><td class="r num">1.94%</td><td><a class="src" href="#">westernunion.com</a></td><td class="cap"><span class="chip snap">SNAPSHOT · Jul 1</span></td></tr>
+          </tbody>
+        </table>
+        <p class="boundary" style="margin-bottom:0">Quotes are public list prices for $1,000 bank transfer. Promotional first-transfer rates excluded and noted on provider cards.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Effective margin vs mid-market · 90 days</h2>
+      <div class="sub">Lower is cheaper for the customer. One measure, one axis.</div>
+      <div class="card chart">
+        <svg viewBox="0 0 900 240">
+          <line class="gridline" x1="48" y1="30" x2="852" y2="30"/><text class="axis" x="8" y="34">2.0%</text>
+          <line class="gridline" x1="48" y1="90" x2="852" y2="90"/><text class="axis" x="8" y="94">1.5%</text>
+          <line class="gridline" x1="48" y1="150" x2="852" y2="150"/><text class="axis" x="8" y="154">1.0%</text>
+          <line class="gridline" x1="48" y1="210" x2="852" y2="210"/><text class="axis" x="8" y="214">0.5%</text>
+          <text class="axis" x="48" y="232">Apr 3</text><text class="axis" x="430" y="232">May 18</text><text class="axis" x="752" y="232">Jul 2</text>
+          <polyline fill="none" stroke="var(--c-wu)" stroke-width="2" points="48,42 180,38 320,46 460,40 600,36 720,44 800,38"/>
+          <polyline fill="none" stroke="var(--c-xoom)" stroke-width="2" points="48,108 180,116 320,104 460,112 600,120 720,110 800,106"/>
+          <polyline fill="none" stroke="var(--c-remitly)" stroke-width="2" points="48,130 180,124 320,136 460,128 600,140 720,132 800,142"/>
+          <polyline fill="none" stroke="var(--c-wise)" stroke-width="2" points="48,158 180,162 320,156 460,166 600,160 720,168 800,164"/>
+          <polyline fill="none" stroke="var(--c-xpat)" stroke-width="2.5" points="48,196 180,190 320,200 460,194 600,204 720,198 800,224"/>
+          <circle cx="800" cy="224" r="4" fill="var(--c-xpat)"/>
+          <text class="slbl" x="806" y="40" fill="var(--c-wu)">WU</text>
+          <text class="slbl" x="806" y="108" fill="var(--c-xoom)">Xoom</text>
+          <text class="slbl" x="806" y="146" fill="var(--c-remitly)">Remitly</text>
+          <text class="slbl" x="806" y="168" fill="var(--c-wise)">Wise</text>
+          <text class="slbl" x="806" y="226" fill="var(--c-xpat)">Xpat</text>
+        </svg>
+        <div class="legend">
+          <span><i style="background:var(--c-xpat)"></i>Xpat</span><span><i style="background:var(--c-wise)"></i>Wise</span>
+          <span><i style="background:var(--c-remitly)"></i>Remitly</span><span><i style="background:var(--c-xoom)"></i>Xoom</span>
+          <span><i style="background:var(--c-wu)"></i>Western Union</span>
+          <span class="muted">· hover for crosshair + values (implementation)</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Positioning snapshots</h2>
+      <div class="sub">Captured from each provider's US to India landing page.</div>
+      <div class="grid3">
+        <div class="card comp">
+          <div class="cardhead"><h3><span class="logo" style="background:var(--c-remitly)">R</span>Remitly</h3><span class="chip snap">SNAPSHOT · Jun 28</span></div>
+          <p class="sec">"Send money to India in minutes." Leads with speed and a promo first-transfer rate.</p>
+          <div class="claims"><span>promo rate 90.10 first transfer</span><span>speed: minutes</span><span>$1.99 fee economy</span></div>
+          <div class="cardfoot"><a class="src" href="#">remitly.com/us/en/india</a><span class="cap">captured 2026-06-28</span></div>
+        </div>
+        <div class="card comp">
+          <div class="cardhead"><h3><span class="logo" style="background:var(--c-wise)">W</span>Wise</h3><span class="chip snap">SNAPSHOT · Jun 28</span></div>
+          <p class="sec">"The mid-market rate, always." Leads with transparency and fee honesty.</p>
+          <div class="claims"><span>mid-market rate</span><span>transparent fee</span><span>multi-currency account</span></div>
+          <div class="cardfoot"><a class="src" href="#">wise.com/us/send-money/india</a><span class="cap">captured 2026-06-28</span></div>
+        </div>
+        <div class="card comp">
+          <div class="cardhead"><h3><span class="logo" style="background:var(--c-xoom)">X</span>Xoom</h3><span class="chip snap">SNAPSHOT · Jun 28</span></div>
+          <p class="sec">"Powered by PayPal." Leads with brand trust and fee-free promos on bank deposits.</p>
+          <div class="claims"><span>PayPal trust</span><span>fee-free promo</span><span>doorstep delivery</span></div>
+          <div class="cardfoot"><a class="src" href="#">xoom.com</a><span class="cap">captured 2026-06-28</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Public ad evidence</h2>
+      <div class="sub">Meta Ad Library and Google Ads Transparency Center sweeps, weekly.</div>
+      <div class="ads">
+        <div class="ad"><div class="shot">[ ad screenshot ]</div><div class="body"><div class="h">"Zero fees to India. Every time."</div><div class="m"><span class="ttag">Remitly · Meta</span><span class="cap">Jun 26</span></div></div></div>
+        <div class="ad"><div class="shot">[ ad screenshot ]</div><div class="body"><div class="h">"₹ at the real rate. No markups."</div><div class="m"><span class="ttag">Wise · Google</span><span class="cap">Jun 25</span></div></div></div>
+        <div class="ad"><div class="shot">[ ad screenshot ]</div><div class="body"><div class="h">"First transfer free. 90.1 INR promo."</div><div class="m"><span class="ttag">Remitly · Meta</span><span class="cap">Jun 22</span></div></div></div>
+        <div class="ad"><div class="shot">[ ad screenshot ]</div><div class="body"><div class="h">"Send with PayPal-grade security."</div><div class="m"><span class="ttag">Xoom · Meta</span><span class="cap">Jun 20</span></div></div></div>
+      </div>
+      <p class="boundary">Public creative proves visible footprint. It does not prove spend, targeting, delivery, or performance.</p>
+    </section>
+
+    <section>
+      <h2>Review pain themes · last 90 days</h2>
+      <div class="sub">Rule-based classifier over App Store + Google Play reviews. Click a theme for real excerpts.</div>
+      <div class="grid2">
+        <div class="card">
+          <div class="cardhead"><h3>Remitly · 812 reviews</h3><span class="chip derived">DERIVED</span></div>
+          <div class="hbar"><span>KYC friction</span><div><div class="bar" style="width:78%;background:#177A72"></div></div><span class="pct">28%</span></div>
+          <div class="hbar"><span>Transfer delays</span><div><div class="bar" style="width:61%;background:#1FA396"></div></div><span class="pct">22%</span></div>
+          <div class="hbar"><span>Rate complaints</span><div><div class="bar" style="width:50%;background:#25BCA8"></div></div><span class="pct">18%</span></div>
+          <div class="hbar"><span>Support quality</span><div><div class="bar" style="width:39%;background:#2DD4BF"></div></div><span class="pct">14%</span></div>
+          <div class="cardfoot"><a class="src" href="#">excerpts (23)</a><span class="cap">stores: iOS + Play</span></div>
+        </div>
+        <div class="card">
+          <div class="cardhead"><h3>Xpat · 96 reviews</h3><span class="chip derived">DERIVED</span></div>
+          <div class="hbar"><span>KYC friction</span><div><div class="bar" style="width:64%;background:#177A72"></div></div><span class="pct">31%</span></div>
+          <div class="hbar"><span>App bugs</span><div><div class="bar" style="width:43%;background:#1FA396"></div></div><span class="pct">21%</span></div>
+          <div class="hbar"><span>Transfer delays</span><div><div class="bar" style="width:33%;background:#25BCA8"></div></div><span class="pct">16%</span></div>
+          <div class="hbar"><span>Support quality</span><div><div class="bar" style="width:25%;background:#2DD4BF"></div></div><span class="pct">12%</span></div>
+          <div class="cardfoot"><a class="src" href="#">excerpts (11)</a><span class="cap">seeing our own pain builds trust</span></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- ================= PAGE 3 · SIGNALS ================= -->
+<div class="page" id="p-sig">
+  <div class="wrap">
+    <div class="phead">
+      <h1>Signals</h1>
+      <p>What the community is saying, dated honestly, and the creators whose audience overlaps.</p>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><div class="l">RECENT THREADS · 60D</div><div class="v num">34</div><div class="d">7 subreddits</div></div>
+      <div class="kpi"><div class="l">HISTORICAL THREADS</div><div class="v num">128</div><div class="d">since Jan 2025</div></div>
+      <div class="kpi"><div class="l">CREATORS IDENTIFIED</div><div class="v num">19</div><div class="d">YouTube, audience-fit reviewed</div></div>
+      <div class="kpi"><div class="l">REVIEW EXCERPTS</div><div class="v num">2,412</div><div class="d">cross-competitor</div></div>
+      <div class="kpi"><div class="l">SEARCH TRENDS</div><div class="v" style="font-size:14px;line-height:32px;color:var(--ink-3)">connector needed</div><div class="d">manual upload path</div></div>
+    </div>
+
+    <section>
+      <div class="cardhead"><h2>Community demand threads</h2><span class="chip snap">SNAPSHOT · Jul 1</span></div>
+      <div class="sub">publishedAt is when the thread was posted. capturedAt is when our sweep found it. Old threads never masquerade as this week's demand.</div>
+      <div class="grid2">
+        <div class="card">
+          <div class="cardhead"><h3>Recent · published within 60 days</h3></div>
+          <div class="thread">
+            <span class="t">Remitly held my transfer for 6 days for "verification", family needed it for a medical bill</span>
+            <div class="meta"><span>r/nri</span><span>published 2026-06-24</span><span>captured 2026-07-01</span><span class="num">↑412 · 138 comments</span></div>
+            <div style="display:flex;gap:6px"><span class="ttag">transfer delays</span><span class="ttag">competitor: Remitly</span></div>
+          </div>
+          <div class="thread">
+            <span class="t">Best USD INR rate right now? Comparing Wise vs Xpat vs Remitly for a large transfer</span>
+            <div class="meta"><span>r/IndiaInvestments</span><span>published 2026-06-18</span><span>captured 2026-07-01</span><span class="num">↑186 · 94 comments</span></div>
+            <div style="display:flex;gap:6px"><span class="ttag">rate comparison</span><span class="ttag">mentions Xpat</span></div>
+          </div>
+          <div class="thread">
+            <span class="t">KYC rejected 3 times on two apps, is this normal for new H1B holders?</span>
+            <div class="meta"><span>r/h1b</span><span>published 2026-06-11</span><span>captured 2026-07-01</span><span class="num">↑97 · 61 comments</span></div>
+            <div style="display:flex;gap:6px"><span class="ttag">KYC friction</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardhead"><h3>Historical · context, not current demand</h3></div>
+          <div class="thread">
+            <span class="t">PSA: hidden exchange-rate markup is the real fee. Did the math on 5 providers</span>
+            <div class="meta"><span>r/ABCDesis</span><span>published 2025-11-02</span><span>captured 2026-07-01</span><span class="num">↑1.2k · 340 comments</span></div>
+            <div style="display:flex;gap:6px"><span class="ttag">rate transparency</span></div>
+          </div>
+          <div class="thread">
+            <span class="t">Sending money home for parents' expenses: recurring transfer setups compared</span>
+            <div class="meta"><span>r/nri</span><span>published 2025-08-19</span><span>captured 2026-07-01</span><span class="num">↑233 · 77 comments</span></div>
+            <div style="display:flex;gap:6px"><span class="ttag">family remitter</span><span class="ttag">recurring</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="cardhead"><h2>Creator radar</h2><span class="chip snap">SNAPSHOT · Jun 30</span></div>
+      <div class="grid3">
+        <div class="card creator">
+          <div class="nm"><b>NRI Money Guide</b><span class="num sec">214K subs</span></div>
+          <span class="why"><b>Fit:</b> NRE/NRO, remittance comparisons, US tax for NRIs. English + Hindi.</span>
+          <div class="vid"><span>"Cheapest way to send $10k to India, 2026 edition"</span><span class="cap">May 2026</span></div>
+          <div class="vid"><span>"NRE vs NRO explained in 8 minutes"</span><span class="cap">Apr 2026</span></div>
+          <div class="cardfoot"><a class="src" href="#">channel</a><span class="cap">no outreach, no pricing implied</span></div>
+        </div>
+        <div class="card creator">
+          <div class="nm"><b>H1B Dollars</b><span class="num sec">88K subs</span></div>
+          <span class="why"><b>Fit:</b> H1B finance, first-year-in-US money setup, remittance how-tos.</span>
+          <div class="vid"><span>"Your first month in the US: banking + sending money home"</span><span class="cap">Jun 2026</span></div>
+          <div class="vid"><span>"I compared 6 remittance apps so you don't have to"</span><span class="cap">Mar 2026</span></div>
+          <div class="cardfoot"><a class="src" href="#">channel</a><span class="cap">audience-fit: reviewed</span></div>
+        </div>
+        <div class="card creator">
+          <div class="nm"><b>Telugu Wallet</b><span class="num sec">61K subs</span></div>
+          <span class="why"><b>Fit:</b> Telugu-language personal finance for US NRIs. Dallas + Bay Area audience skew.</span>
+          <div class="vid"><span>"డాలర్లు ఇండియాకి: rates, fees, tricks"</span><span class="cap">Jun 2026</span></div>
+          <div class="vid"><span>"H1B నుంచి Green Card: money checklist"</span><span class="cap">May 2026</span></div>
+          <div class="cardfoot"><a class="src" href="#">channel</a><span class="cap">regional-language wedge</span></div>
+        </div>
+      </div>
+      <p class="boundary">Public channels with audience overlap. No outreach has occurred and no pricing is implied.</p>
+    </section>
+
+    <section>
+      <h2>Search demand</h2>
+      <div class="connbox">
+        <span class="t">⚡ Connector needed · Google Trends export</span>
+        <p class="sec" style="font-size:13px">Automated trends capture proved unreliable. Upload a Trends CSV for the query set below and this panel renders interest-over-time by state.</p>
+        <code>queries: "send money to india", "usd to inr transfer", "remitly vs wise",
+"xpat money", "best remittance app india"
+format: CSV · week, query, region, interest_0_100</code>
+        <span class="unlock">Unlocks: demand seasonality + state-level interest overlay on the Market Map.</span>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- ================= PAGE 4 · PLAYBOOK ================= -->
+<div class="page" id="p-play">
+  <div class="wrap">
+    <div class="phead">
+      <h1>Playbook</h1>
+      <p>Pick one market. Get its evidence, personas, channels, and a testable plan with a measurement path.</p>
+    </div>
+    <div class="pick">
+      <div class="search">Search markets… (grouped by tier)</div>
+      <button class="qc">San Jose</button>
+      <button class="qc">Dallas</button>
+      <button class="qc on">Detroit-Warren-Dearborn</button>
+      <button class="qc">Indianapolis</button>
+      <button class="qc">Houston</button>
+    </div>
+
+    <div class="kpis">
+      <div class="kpi"><div class="l">MARKET</div><div class="v" style="font-size:16px;line-height:32px">Detroit-Warren-Dearborn</div><div class="d">Tier 2 · growth · score 71</div></div>
+      <div class="kpi"><div class="l">ASIAN INDIAN POP</div><div class="v num">51,300</div><div class="d">± 2,140 · ACS 2024 5yr</div></div>
+      <div class="kpi"><div class="l">× US SHARE</div><div class="v num">2.6×</div><div class="d">local share 1.2%</div></div>
+      <div class="kpi"><div class="l">ANCHORS</div><div class="v num">42</div><div class="d">12 ▲ · 24 ● · 6 ◆</div></div>
+      <div class="kpi"><div class="l">BENCHMARK MARKET</div><div class="v" style="font-size:16px;line-height:32px">Dallas</div><div class="d">nearest Tier 1 analog</div></div>
+    </div>
+
+    <section>
+      <div class="cardhead"><h2>Personas · scored for this market</h2><span class="chip derived">DERIVED</span></div>
+      <div class="sub">Recommendations with confidence, not labels. Score contributions are shown so the reasoning is inspectable.</div>
+      <div class="grid3">
+        <div class="card persona">
+          <div class="cardhead"><h3>Family remitter</h3><span class="tierchip"><i style="background:var(--good)"></i>high confidence</span></div>
+          <div class="fit"><div class="fitbar"><i style="width:78%"></i></div><span class="fitv">0.78</span></div>
+          <p class="why"><b>Why:</b> established community (42 anchors, +0.24) · median household income profile (+0.19) · low student share (+0.11) · auto-industry employer mix (+0.09)</p>
+        </div>
+        <div class="card persona">
+          <div class="cardhead"><h3>Mid-career professional</h3><span class="tierchip"><i style="background:var(--warning)"></i>medium confidence</span></div>
+          <div class="fit"><div class="fitbar"><i style="width:64%"></i></div><span class="fitv">0.64</span></div>
+          <p class="why"><b>Why:</b> LCA filings 1,840/yr (+0.21) · engineering employer cluster (+0.16) · thinner tech-corridor signal than benchmark (-0.08)</p>
+        </div>
+        <div class="card persona">
+          <div class="cardhead"><h3>Student / OPT</h3><span class="tierchip"><i style="background:var(--serious)"></i>low confidence</span></div>
+          <div class="fit"><div class="fitbar"><i style="width:41%"></i></div><span class="fitv">0.41</span></div>
+          <p class="why"><b>Why:</b> moderate campus presence UMich/Wayne State (+0.14) · weak remittance-intent signals in local threads (-0.12)</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="cardhead"><h2>Channel plan · ranked for Detroit + family remitter</h2><span class="chip derived">DERIVED</span></div>
+      <div class="card" style="padding:4px 12px">
+        <div class="chanrow" style="border-bottom:1px solid var(--line-s)">
+          <span class="n">#</span><span class="n">CHANNEL</span><span class="n">WHY HERE</span><span class="n">TEST BUDGET · EST</span><span class="n">SUCCESS METRIC</span>
+        </div>
+        <div class="chanrow">
+          <span class="n">1</span><span class="cn">Google Search · branded competitor + corridor terms</span>
+          <span class="ev">34 recent threads show comparison-shopping intent · benchmark Dallas playbook <a class="src" href="#">evidence</a></span>
+          <span class="bud">$2,000-3,500 / 4 wk</span><span class="ev">signups per $, vs Dallas ref</span>
+        </div>
+        <div class="chanrow">
+          <span class="n">2</span><span class="cn">Grocery retail media · 24 mapped stores</span>
+          <span class="ev">Patel Brothers Troy + 23 anchors, weekly family footfall <a class="src" href="#">anchors</a></span>
+          <span class="bud">$800-1,500 / 4 wk</span><span class="ev">QR scans → installs</span>
+        </div>
+        <div class="chanrow">
+          <span class="n">3</span><span class="cn">Cricket league sponsorship · 6 grounds</span>
+          <span class="ev">Michigan Cricket Association season runs Apr-Sep <a class="src" href="#">anchors</a></span>
+          <span class="bud">$500-1,200 / season</span><span class="ev">promo-code redemptions</span>
+        </div>
+        <div class="chanrow" style="border-bottom:0">
+          <span class="n">4</span><span class="cn">Regional-language creator · Telugu/Hindi finance</span>
+          <span class="ev">2 creators with MI-skewing audience identified <a class="src" href="#">creator radar</a></span>
+          <span class="bud">$1,000-2,000 / video</span><span class="ev">UTM'd link installs</span>
+        </div>
+      </div>
+      <p class="boundary">Budgets are suggested test bands, estimates. Benchmarks reference the Dallas playbook, not generic industry numbers.</p>
+    </section>
+
+    <section>
+      <div class="cardhead"><h2>Offline activation surfaces · from this market's actual anchors</h2><span class="chip grounded">GROUNDED · OSM Jun 2026</span></div>
+      <div class="card" style="padding:4px 12px">
+        <div class="surface"><span class="k">GROCERY</span><span>Patel Brothers, Troy · flyer + shelf QR near money-order counter</span><a class="src" href="#">OSM</a></div>
+        <div class="surface"><span class="k">TEMPLE</span><span>Bharatiya Temple, Troy · community-event sponsorship, festival calendar</span><a class="src" href="#">OSM</a></div>
+        <div class="surface"><span class="k">CRICKET</span><span>Lyon Oaks cricket grounds · boundary banner, jersey badge</span><a class="src" href="#">OSM</a></div>
+        <div class="surface" style="border-bottom:0"><span class="k">THEATER</span><span>Emagine Novi · lobby QR during major Indian releases</span><a class="src" href="#">cinema footprint</a></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="cardhead"><h2>Experiment plan</h2><span class="chip derived">DERIVED</span></div>
+      <div class="card exp">
+        <span class="hy">EXP-DET-01 · Branded-competitor search converts comparison shoppers in Detroit at parity with the Dallas reference</span>
+        <div class="row"><span>Budget <b>$3,000</b></span><span>Duration <b>4 weeks</b></span><span>Primary metric <b>signup CPA</b></span><span>Success <b>≤ 1.3× Dallas ref</b></span><span>Kill <b>&gt; 2× ref at week 2</b></span></div>
+        <p class="sec" style="font-size:13px">Setup: exact-match terms from the recent-thread query set, LP variant with rate-transparency framing (mirrors Wise pain, review theme #3), geo-fenced to CBSA counties.</p>
+        <p class="notprove">What this does not prove: market-level CAC, KYC completion, or LTV. Those require Xpat funnel data joined to campaign exports.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="cardhead"><h2>Measurement spec · phase 2 wiring</h2><span class="chip grounded">CONVENTION</span></div>
+      <div class="card tablewrap mspec">
+        <table>
+          <thead><tr><th>Field</th><th>Convention</th></tr></thead>
+          <tbody>
+            <tr><td>utm_source</td><td>google | meta | grocery-qr | cricket | creator-&lt;id&gt;</td></tr>
+            <tr><td>utm_campaign</td><td>det-fam-2026q3-exp01</td></tr>
+            <tr><td>MMP events</td><td>install → signup → kyc_start → kyc_complete → first_transfer → repeat_transfer</td></tr>
+            <tr><td>join key</td><td>campaign name ↔ ad-account export ↔ funnel export</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>What we need from Xpat</h2>
+      <div class="grid2">
+        <div class="connbox">
+          <span class="t">⚡ Google Ads + Meta Ads exports</span>
+          <code>campaign, ad_group, term, geo, spend, clicks,
+conversions, conversion_name, date, device, final_url</code>
+          <span class="unlock">Unlocks: real CAC per market vs the public-opportunity score. The scale/stop/change decision.</span>
+        </div>
+        <div class="connbox">
+          <span class="t">⚡ App funnel export (MMP or internal)</span>
+          <code>event, campaign, source, medium, date, geo
+events: install, signup, kyc_start, kyc_complete,
+        first_transfer, repeat_transfer</code>
+          <span class="unlock">Unlocks: which markets and channels produce KYC-complete users, not just installs.</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;margin-top:16px;align-items:center">
+        <button class="btn" disabled style="opacity:.5">Generate market brief</button>
+        <span class="cap">AI briefs arrive in phase 2</span>
+        <span style="flex:1"></span>
+        <button class="btn primary">Print dossier</button>
+      </div>
+    </section>
+  </div>
+</div>
+
+<footer>
+  <div>
+    <b style="color:var(--ink-2)">PROVENANCE</b> &nbsp;
+    <span class="chip live" style="margin-right:6px"><i></i>LIVE</span>
+    <span class="chip snap" style="margin-right:6px">SNAPSHOT</span>
+    <span class="chip grounded" style="margin-right:6px">GROUNDED</span>
+    <span class="chip derived" style="margin-right:6px">DERIVED</span>
+    <span class="chip conn">CONNECTOR NEEDED</span>
+  </div>
+  <div>
+    markets · ACS 2024 5yr · quarterly &nbsp;|&nbsp; anchors · OSM · monthly &nbsp;|&nbsp; ads/reviews/threads · weekly &nbsp;|&nbsp; fx · live + daily snapshot
+  </div>
+</footer>
+
+<script>
+  const tabs=document.querySelectorAll('.tab');
+  const pages={map:'p-map',comp:'p-comp',sig:'p-sig',play:'p-play'};
+  tabs.forEach(t=>t.addEventListener('click',()=>{
+    tabs.forEach(x=>x.setAttribute('aria-selected','false'));
+    t.setAttribute('aria-selected','true');
+    document.querySelectorAll('.page').forEach(p=>p.classList.remove('on'));
+    document.getElementById(pages[t.dataset.p]).classList.add('on');
+    window.scrollTo(0,0);
+  }));
+</script>

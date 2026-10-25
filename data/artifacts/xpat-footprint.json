@@ -1,0 +1,43 @@
+{
+  "data": {
+    "observations": [
+      {
+        "accessMethod": "manual_snapshot",
+        "capturedAt": "2026-06-17T00:00:00.000Z",
+        "confidence": "high",
+        "id": "obs_007",
+        "recommendedUse": "Use as the first owned visibility benchmark across Search, YouTube, and Play placements.",
+        "sourcePlatform": "Google Ads Transparency Center",
+        "sourceUrl": "https://adstransparency.google.com/advertiser/AR05946074718833475585?region=US",
+        "summary": "Google Ads Transparency Center shows verified advertiser Remit2Any Inc in the United States with 57 public ads. Placement filters show 32 Google Search ads, 45 YouTube ads, 4 Google Play ads, and 0 Google Maps or Shopping ads. Placement counts overlap and should not be summed.",
+        "title": "Owned brand has visible Google ad footprint"
+      },
+      {
+        "accessMethod": "manual_snapshot",
+        "capturedAt": "2026-06-17T00:00:00.000Z",
+        "confidence": "high",
+        "id": "obs_008",
+        "recommendedUse": "Track Xpat's Meta event-ticket motion separately from remittance competitor ads.",
+        "sourcePlatform": "Meta Ad Library",
+        "sourceUrl": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=US&q=xpat%20money&search_type=keyword_unordered&media_type=all",
+        "summary": "Meta Ad Library keyword search for xpat money shows active Xpat Events ads promoting Telugu event tickets, Xpat.money sponsorship, Xpat.events booking, and XPATSPECIAL offers. The same query also returns unrelated expat-travel rows, so Xpat-specific filtering is required before analysis.",
+        "title": "Xpat event ads are visible on Meta"
+      }
+    ],
+    "status": "ok",
+    "summary": "Xpat has visible public ad-library presence, including Telugu community event sponsorships. Use this as a dated footprint benchmark only."
+  },
+  "meta": {
+    "caveats": [
+      "Placement counts overlap and should not be summed.",
+      "Public footprint visibility does not prove targeting, delivery, or customer outcomes."
+    ],
+    "family": "xpat-footprint",
+    "generatedAt": "2026-06-17T00:00:00.000Z",
+    "method": "Port v1 observations obs_007 and obs_008 from data/raw/v1-port/competitor-observations.json with original capture dates.",
+    "provenance": "snapshot",
+    "refreshCadence": "weekly manual ad library review",
+    "source": "v1 data/grounded/competitor-observations.json observations",
+    "version": 1
+  }
+}

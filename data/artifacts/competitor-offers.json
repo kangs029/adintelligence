@@ -1,0 +1,129 @@
+{
+  "data": {
+    "records": [
+      {
+        "capturedAt": "2026-06-17",
+        "evidenceLabel": "Remitly official India page plus Meta source gap",
+        "id": "v1-offer-01",
+        "observation": "Official India offer page captured; Meta still needs corridor filtering",
+        "offer": "Remitly official US-to-India page shows a first-transfer special rate, zero fees, and India payout-bank logos. Broad Meta keyword results still prove public activity, but off-corridor Spanish/LatAm examples should not lead the Xpat client view.",
+        "priority": "high",
+        "provider": "Remitly",
+        "sourceUrl": "https://www.remitly.com/us/en/india"
+      },
+      {
+        "capturedAt": "2026-06-17",
+        "evidenceLabel": "Xoom official India page plus Meta source gap",
+        "id": "v1-offer-02",
+        "observation": "Official India offer page captured; Meta samples demoted",
+        "offer": "Xoom official India page shows a promotional first time rate, no Xoom transfer fees on eligible transactions, and India transfer calculator state. Earlier Mexico-skewed Meta examples are retained only as a filtering gap.",
+        "priority": "actionable",
+        "provider": "Xoom",
+        "sourceUrl": "https://www.xoom.com/india/send-money"
+      },
+      {
+        "capturedAt": "2026-06-17",
+        "evidenceLabel": "Meta Ad Library keyword search",
+        "id": "v1-offer-03",
+        "observation": "India-corridor Meta ads visible",
+        "offer": "ICICI Bank - NRI Services has active Money2India creative around a 40 paise better first-transfer rate and promo IND40.",
+        "priority": "high",
+        "provider": "ICICI Money2India",
+        "sourceUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=ICICI%20Money2India&search_type=keyword_unordered&media_type=all"
+      },
+      {
+        "capturedAt": "2026-06-17",
+        "evidenceLabel": "Meta Ad Library plus YouTube recent search",
+        "id": "v1-offer-04",
+        "observation": "Creator/content signal stronger than Meta ad signal",
+        "offer": "Meta keyword search did not return a clean Aspora remittance ad, but recent YouTube results show Aspora mentions, promo codes, and Google-rate claims in NRI/remittance content.",
+        "priority": "high",
+        "provider": "Aspora",
+        "sourceUrl": "https://www.youtube.com/results?search_query=Aspora+money+transfer+India&sp=EgIIAw%253D%253D"
+      },
+      {
+        "capturedAt": "2026-06-17",
+        "evidenceLabel": "Wise official India page plus Meta source gap",
+        "id": "v1-offer-05",
+        "observation": "Official India pricing page captured; Meta keyword search remains noisy",
+        "offer": "Wise official US-to-India page shows low-fee, fast-arrival, rate-lock, and fee transparency messaging. Meta keyword search is still too noisy to count as clean Wise paid activity without advertiser filtering.",
+        "priority": "monitor",
+        "provider": "Wise",
+        "sourceUrl": "https://wise.com/us/send-money/send-money-to-india"
+      },
+      {
+        "capturedAt": "2026-06-17",
+        "evidenceLabel": "Meta Ad Library plus YouTube recent search",
+        "id": "v1-offer-06",
+        "observation": "No active US Meta keyword match; creator signal exists",
+        "offer": "Meta keyword search returned no active US Crobo money-transfer ads. Recent YouTube NRI search still surfaced Crobo mention in creator content.",
+        "priority": "actionable",
+        "provider": "Crobo",
+        "sourceUrl": "https://www.youtube.com/results?search_query=NRI+money+transfer+India&sp=EgIIAw%253D%253D"
+      },
+      {
+        "capturedAt": "2026-04-20",
+        "evidenceLabel": "Aspora site, App Store, Trustpilot older lead",
+        "id": "v1-offer-07",
+        "observation": "Proof-needed: new competitor surfaced",
+        "offer": "Apr 20 older lead surfaced Aspora, formerly Vance, as a competitor with NRI positioning, Google-rate FX language, and referral-bonus messaging.",
+        "priority": "high",
+        "provider": "Aspora",
+        "sourceUrl": "https://www.aspora.com/"
+      },
+      {
+        "capturedAt": "2026-04-20",
+        "evidenceLabel": "YouTube #RemitlyPartner older sample",
+        "id": "v1-offer-08",
+        "observation": "Proof-needed: India corridor gap in creator channel",
+        "offer": "Apr 20 older lead found Remitly partner examples skewing Latino and African diaspora, with no confirmed Indian-diaspora creator in that sample.",
+        "priority": "actionable",
+        "provider": "Remitly",
+        "sourceUrl": "https://www.youtube.com/watch?v=A4ckhTd261Q"
+      },
+      {
+        "capturedAt": "2026-04-20",
+        "evidenceLabel": "Instagram reels older sample",
+        "id": "v1-offer-09",
+        "observation": "Proof-needed: micro-creator promo-code playbook",
+        "offer": "Apr 20 older lead captured a Crobo creator playbook built around comments, direct-message code delivery, and low-cost creator acquisition.",
+        "priority": "immediate",
+        "provider": "Crobo",
+        "sourceUrl": "https://www.instagram.com/reel/DGdgPeiP-qD/"
+      },
+      {
+        "capturedAt": "2026-04-20",
+        "evidenceLabel": "moneysmylife.com older lead",
+        "id": "v1-offer-10",
+        "observation": "Proof-needed: referral program watch item",
+        "offer": "Apr 20 older lead marked Xoom referral-program pause as a possible switcher window. This needs refresh before external use.",
+        "priority": "monitor",
+        "provider": "Xoom",
+        "sourceUrl": "https://www.moneysmylife.com/xoom-promotions/"
+      },
+      {
+        "capturedAt": "2026-04-20",
+        "evidenceLabel": "Wise blog and YouTube older lead",
+        "id": "v1-offer-11",
+        "observation": "Proof-needed: remittance-tax education hook",
+        "offer": "Apr 20 older lead found a Jan 2026 remittance-tax content angle. Useful for creator education, but policy details need current review before publishing.",
+        "priority": "content-angle",
+        "provider": "Market",
+        "sourceUrl": "https://wise.com/us/blog/remittance-tax"
+      }
+    ]
+  },
+  "meta": {
+    "caveats": [
+      "Dated public offer evidence. Intro offers change frequently; re-verify before citing in a meeting.",
+      "Offer observations are source evidence, not proof of budget, targeting, delivery, or performance."
+    ],
+    "family": "competitor-offers",
+    "generatedAt": "2026-07-06T00:00:00.000Z",
+    "method": "Ported from v1 grounded competitors signals. Original capturedAt dates are preserved.",
+    "provenance": "snapshot",
+    "refreshCadence": "manual v1 port",
+    "source": "data/raw/v1-port/competitors.json",
+    "version": 1
+  }
+}

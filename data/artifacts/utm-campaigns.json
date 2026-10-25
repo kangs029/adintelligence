@@ -1,0 +1,2524 @@
+{
+  "meta": {
+    "family": "utm-campaigns",
+    "source": "Metabase prod read database — v_acquisition_data_clean",
+    "generatedAt": "2026-09-02T07:17:57.223Z",
+    "refreshCadence": "daily manual run",
+    "provenance": "snapshot",
+    "version": 1,
+    "caveats": [
+      "utm_campaign values are set by the marketing team in UTM links and may not match campaign names in Meta or Google Ads.",
+      "Rows with utm_campaign = '{campaignname}' are excluded — these indicate a broken UTM template in Google Ads.",
+      "user_count is the number of distinct users acquired via each campaign+source+medium combination."
+    ]
+  },
+  "data": {
+    "totalCampaigns": 313,
+    "campaigns": [
+      {
+        "utm_campaign": "cr_profile",
+        "utm_source": "compareremit",
+        "utm_medium": "profile",
+        "user_count": 1555,
+        "first_seen": "2024-09-01T00:00:00Z",
+        "last_seen": "2026-09-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "22058403586",
+        "utm_source": "google",
+        "utm_medium": "display",
+        "user_count": 1051,
+        "first_seen": "2025-07-26T00:00:00Z",
+        "last_seen": "2026-04-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpatevents",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 561,
+        "first_seen": "2023-01-30T00:00:00Z",
+        "last_seen": "2026-08-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "tta-mega-convention-only-50-tickets-available-xpat-money-special-charlotte-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 525,
+        "first_seen": "2024-12-15T00:00:00Z",
+        "last_seen": "2026-07-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "oscar-winning-maestro-m-m-keeravani-live-in-concert-dallas-frisco-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 508,
+        "first_seen": "2024-09-14T00:00:00Z",
+        "last_seen": "2026-07-26T00:00:00Z"
+      },
+      {
+        "utm_campaign": "st_generic_search_jan28",
+        "utm_source": "st_google_ads",
+        "utm_medium": "paid_search",
+        "user_count": 451,
+        "first_seen": "2024-08-12T00:00:00Z",
+        "last_seen": "2026-01-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_event_photos",
+        "utm_source": "offline",
+        "utm_medium": "cpc",
+        "user_count": 433,
+        "first_seen": "2025-05-29T00:00:00Z",
+        "last_seen": "2026-08-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Brand_Search_Feb21",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 431,
+        "first_seen": "2024-05-28T00:00:00Z",
+        "last_seen": "2026-08-17T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Search_Competitors_0912",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 360,
+        "first_seen": "2024-10-21T00:00:00Z",
+        "last_seen": "2026-01-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Generic_Search_Jan28",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 319,
+        "first_seen": "2024-11-26T00:00:00Z",
+        "last_seen": "2026-07-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Generic_Search_Jan28 ",
+        "utm_source": "google",
+        "utm_medium": "ppc",
+        "user_count": 297,
+        "first_seen": "2024-09-02T00:00:00Z",
+        "last_seen": "2026-02-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "EDM_Search_Brand_260526",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 272,
+        "first_seen": "2024-06-09T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Search_CompetitorsKycverified",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 259,
+        "first_seen": "2023-11-12T00:00:00Z",
+        "last_seen": "2026-04-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_iant_aug_15_2026",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 253,
+        "first_seen": "2026-08-01T00:00:00Z",
+        "last_seen": "2026-08-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "tta_july_17_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 251,
+        "first_seen": "2026-07-17T00:00:00Z",
+        "last_seen": "2026-07-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "b9b3a5d2-271f-487e-aafa-d2163dd13c12",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 226,
+        "first_seen": "2025-02-10T00:00:00Z",
+        "last_seen": "2026-07-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_sandiego_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 221,
+        "first_seen": "2026-05-30T00:00:00Z",
+        "last_seen": "2026-05-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_newjersey",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 202,
+        "first_seen": "2026-05-03T00:00:00Z",
+        "last_seen": "2026-05-07T00:00:00Z"
+      },
+      {
+        "utm_campaign": "mata_june_19_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 200,
+        "first_seen": "2026-06-04T00:00:00Z",
+        "last_seen": "2026-06-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_raleigh_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 193,
+        "first_seen": "2026-02-20T00:00:00Z",
+        "last_seen": "2026-05-09T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_austin",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 161,
+        "first_seen": "2026-06-06T00:00:00Z",
+        "last_seen": "2026-06-18T00:00:00Z"
+      },
+      {
+        "utm_campaign": "c8e01079-d412-46d3-9fe3-eaf766508359",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 158,
+        "first_seen": "2026-06-05T00:00:00Z",
+        "last_seen": "2026-06-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_iant_aug_15_2026",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 157,
+        "first_seen": "2026-08-15T00:00:00Z",
+        "last_seen": "2026-08-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Generic_Search_Mar10",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 156,
+        "first_seen": "2024-10-17T00:00:00Z",
+        "last_seen": "2026-06-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ata_2026",
+        "utm_source": null,
+        "utm_medium": null,
+        "user_count": 149,
+        "first_seen": "2026-03-05T00:00:00Z",
+        "last_seen": "2026-08-03T00:00:00Z"
+      },
+      {
+        "utm_campaign": "rajasaab_campaign",
+        "utm_source": "promotion",
+        "utm_medium": "cpc",
+        "user_count": 149,
+        "first_seen": "2023-10-09T00:00:00Z",
+        "last_seen": "2026-02-17T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_giftcards_0526",
+        "utm_source": "offline_events",
+        "utm_medium": "qr",
+        "user_count": 145,
+        "first_seen": "2026-06-13T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_raleigh",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 143,
+        "first_seen": "2025-01-22T00:00:00Z",
+        "last_seen": "2026-05-12T00:00:00Z"
+      },
+      {
+        "utm_campaign": "a68c152e-456c-4097-b338-2375ad4dfec9",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 142,
+        "first_seen": "2025-01-23T00:00:00Z",
+        "last_seen": "2026-06-21T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_dallas",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 141,
+        "first_seen": "2026-06-07T00:00:00Z",
+        "last_seen": "2026-06-12T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_tta_event",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 140,
+        "first_seen": "2026-07-15T00:00:00Z",
+        "last_seen": "2026-07-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ata_2026",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 138,
+        "first_seen": "2026-08-01T00:00:00Z",
+        "last_seen": "2026-08-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "SearchI",
+        "utm_source": "GA",
+        "utm_medium": "RRI",
+        "user_count": 131,
+        "first_seen": "2026-06-17T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_atlanta",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 125,
+        "first_seen": "2026-05-29T00:00:00Z",
+        "last_seen": "2026-05-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_denver",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 121,
+        "first_seen": "2025-05-06T00:00:00Z",
+        "last_seen": "2026-06-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "abac7ad2-e722-4d50-b53f-1c47d74876a8",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 119,
+        "first_seen": "2026-06-06T00:00:00Z",
+        "last_seen": "2026-06-13T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_columbus_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 119,
+        "first_seen": "2026-05-08T00:00:00Z",
+        "last_seen": "2026-05-08T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_dallas_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 118,
+        "first_seen": "2026-06-06T00:00:00Z",
+        "last_seen": "2026-06-06T00:00:00Z"
+      },
+      {
+        "utm_campaign": "bec2da85-6e76-451c-88f0-9f660e6deb26",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 117,
+        "first_seen": "2026-06-09T00:00:00Z",
+        "last_seen": "2026-06-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "tta-mega-convention-2026-general-charlotte-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 111,
+        "first_seen": "2025-01-11T00:00:00Z",
+        "last_seen": "2026-07-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_austin_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 110,
+        "first_seen": "2026-06-05T00:00:00Z",
+        "last_seen": "2026-06-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "EDM_New_Generic_Priceing_Update_May_2026",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 104,
+        "first_seen": "2025-03-02T00:00:00Z",
+        "last_seen": "2026-07-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_tampa_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 101,
+        "first_seen": "2026-06-12T00:00:00Z",
+        "last_seen": "2026-06-12T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_sacramento",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 100,
+        "first_seen": "2026-05-21T00:00:00Z",
+        "last_seen": "2026-06-13T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_virginia",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 99,
+        "first_seen": "2026-05-01T00:00:00Z",
+        "last_seen": "2026-05-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "holi2026_seattle_photos",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 98,
+        "first_seen": "2026-03-04T00:00:00Z",
+        "last_seen": "2026-03-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_bayarea",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 98,
+        "first_seen": "2026-05-21T00:00:00Z",
+        "last_seen": "2026-05-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_seattle_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 96,
+        "first_seen": "2026-06-13T00:00:00Z",
+        "last_seen": "2026-06-13T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_columbus",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 94,
+        "first_seen": "2026-05-08T00:00:00Z",
+        "last_seen": "2026-05-09T00:00:00Z"
+      },
+      {
+        "utm_campaign": "f887bf0a-eb4e-4a2f-9afd-b806fed6af22",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 93,
+        "first_seen": "2026-06-17T00:00:00Z",
+        "last_seen": "2026-07-26T00:00:00Z"
+      },
+      {
+        "utm_campaign": "22629614536",
+        "utm_source": "google",
+        "utm_medium": "display",
+        "user_count": 91,
+        "first_seen": "2025-07-25T00:00:00Z",
+        "last_seen": "2026-05-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "SM2026",
+        "utm_source": "offline",
+        "utm_medium": "cpc",
+        "user_count": 91,
+        "first_seen": "2024-04-21T00:00:00Z",
+        "last_seen": "2026-05-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_phoenix_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 91,
+        "first_seen": "2026-05-15T00:00:00Z",
+        "last_seen": "2026-05-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_atlanta_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 89,
+        "first_seen": "2026-05-29T00:00:00Z",
+        "last_seen": "2026-05-29T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ata_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 86,
+        "first_seen": "2026-07-31T00:00:00Z",
+        "last_seen": "2026-08-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_newjersey_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 85,
+        "first_seen": "2026-05-02T00:00:00Z",
+        "last_seen": "2026-05-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "akhil_referral_code",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 84,
+        "first_seen": "2026-04-22T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_city_dfw_event",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 84,
+        "first_seen": "2026-08-22T00:00:00Z",
+        "last_seen": "2026-08-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "onelink",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 80,
+        "first_seen": "2024-01-31T00:00:00Z",
+        "last_seen": "2026-08-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_jax_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 80,
+        "first_seen": "2025-11-30T00:00:00Z",
+        "last_seen": "2026-05-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "d6acd2de-b641-4d1e-a845-4236322f8fac",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 79,
+        "first_seen": "2026-03-08T00:00:00Z",
+        "last_seen": "2026-06-06T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_sacramento_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 77,
+        "first_seen": "2026-05-23T00:00:00Z",
+        "last_seen": "2026-05-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_sandiego",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 76,
+        "first_seen": "2026-05-30T00:00:00Z",
+        "last_seen": "2026-06-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_city_phl_event",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 74,
+        "first_seen": "2026-06-20T00:00:00Z",
+        "last_seen": "2026-06-21T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_virginia_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 74,
+        "first_seen": "2025-11-19T00:00:00Z",
+        "last_seen": "2026-05-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "mmk_2026_07_25_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 71,
+        "first_seen": "2026-07-25T00:00:00Z",
+        "last_seen": "2026-07-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "pc_310725",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 70,
+        "first_seen": "2024-04-24T00:00:00Z",
+        "last_seen": "2025-09-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "holi2026_bellevue_photos",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 69,
+        "first_seen": "2024-05-25T00:00:00Z",
+        "last_seen": "2026-03-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_tampa",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 65,
+        "first_seen": "2026-06-12T00:00:00Z",
+        "last_seen": "2026-06-13T00:00:00Z"
+      },
+      {
+        "utm_campaign": "pc_ntu_240725",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 63,
+        "first_seen": "2023-11-26T00:00:00Z",
+        "last_seen": "2025-09-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "rcl_semi_finalists",
+        "utm_source": "rcl",
+        "utm_medium": "whatsapp",
+        "user_count": 63,
+        "first_seen": "2026-04-24T00:00:00Z",
+        "last_seen": "2026-06-11T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_jax",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 62,
+        "first_seen": "2026-05-15T00:00:00Z",
+        "last_seen": "2026-05-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "onelink",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 60,
+        "first_seen": "2024-01-03T00:00:00Z",
+        "last_seen": "2025-10-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "msg_campaign",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 59,
+        "first_seen": "2024-10-30T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_chicago_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 56,
+        "first_seen": "2026-06-21T00:00:00Z",
+        "last_seen": "2026-06-21T00:00:00Z"
+      },
+      {
+        "utm_campaign": "feda9516-52e4-488b-8991-eae32461f5da",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 55,
+        "first_seen": "2026-08-29T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "rockstar-dsp-music-concert-live-in-bay-area-san-jose-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 55,
+        "first_seen": "2026-06-19T00:00:00Z",
+        "last_seen": "2026-06-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_phoenix",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 55,
+        "first_seen": "2026-05-16T00:00:00Z",
+        "last_seen": "2026-05-17T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_columbus_tickets",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 53,
+        "first_seen": "2026-05-06T00:00:00Z",
+        "last_seen": "2026-05-11T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_denver_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 53,
+        "first_seen": "2026-06-14T00:00:00Z",
+        "last_seen": "2026-06-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_ToF_Web_Conv_Payment_Apps_Indian_Expats",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 52,
+        "first_seen": "2025-04-11T00:00:00Z",
+        "last_seen": "2025-09-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "698c404f-671e-4b6c-b351-2572fb6737d0",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 51,
+        "first_seen": "2026-06-01T00:00:00Z",
+        "last_seen": "2026-06-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "bata_june_26_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 51,
+        "first_seen": "2026-06-24T00:00:00Z",
+        "last_seen": "2026-06-26T00:00:00Z"
+      },
+      {
+        "utm_campaign": "GA-GS--GSTE",
+        "utm_source": "GA-GS--GSTE",
+        "utm_medium": "GA-GS--GSTE",
+        "user_count": 49,
+        "first_seen": "2026-08-19T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_bayarea_organic",
+        "utm_source": "offline",
+        "utm_medium": "event_inferred",
+        "user_count": 49,
+        "first_seen": "2026-05-22T00:00:00Z",
+        "last_seen": "2026-05-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_miriyala_jacksonville_26",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 49,
+        "first_seen": "2026-05-12T00:00:00Z",
+        "last_seen": "2026-05-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "pc_270725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 47,
+        "first_seen": "2024-11-18T00:00:00Z",
+        "last_seen": "2025-07-29T00:00:00Z"
+      },
+      {
+        "utm_campaign": "onelink_ret",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 46,
+        "first_seen": "2023-12-23T00:00:00Z",
+        "last_seen": "2026-08-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "5548d243-05b6-4393-8e10-61b114d1f744",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 43,
+        "first_seen": "2026-05-28T00:00:00Z",
+        "last_seen": "2026-05-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "passport_corporate_campaign",
+        "utm_source": "passport_unlimited",
+        "utm_medium": "cpc",
+        "user_count": 43,
+        "first_seen": "2025-05-13T00:00:00Z",
+        "last_seen": "2026-08-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "holi2026_bellevue_photos",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 42,
+        "first_seen": "2026-03-18T00:00:00Z",
+        "last_seen": "2026-03-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "EDM_Search_Com_New_Comp_List_march",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 41,
+        "first_seen": "2026-03-26T00:00:00Z",
+        "last_seen": "2026-04-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Brand_Search_Feb21",
+        "utm_source": "google",
+        "utm_medium": "ppc",
+        "user_count": 41,
+        "first_seen": "2024-05-03T00:00:00Z",
+        "last_seen": "2026-03-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Search_Competitors",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 41,
+        "first_seen": "2024-11-18T00:00:00Z",
+        "last_seen": "2026-03-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Search_Competitors_kyc",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 41,
+        "first_seen": "2025-03-04T00:00:00Z",
+        "last_seen": "2026-02-18T00:00:00Z"
+      },
+      {
+        "utm_campaign": "GA-Comp",
+        "utm_source": "GA-Comp",
+        "utm_medium": "GA-Comp",
+        "user_count": 40,
+        "first_seen": "2026-08-13T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat-special-sonu-nigam-live-in-concert-simply-sonu-revolution-tour-san-jose-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 39,
+        "first_seen": "2026-07-27T00:00:00Z",
+        "last_seen": "2026-08-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "mata-2-day-convention-dsp-live-in-concert-only-50-tickets-available-xpat-money-special-oaks-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 38,
+        "first_seen": "2026-06-18T00:00:00Z",
+        "last_seen": "2026-06-21T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_ToF_Web_Conv_Broad_FinancialCategory_Language",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 37,
+        "first_seen": "2025-09-19T00:00:00Z",
+        "last_seen": "2025-11-08T00:00:00Z"
+      },
+      {
+        "utm_campaign": "hindi",
+        "utm_source": "fb",
+        "utm_medium": "social",
+        "user_count": 36,
+        "first_seen": "2026-02-21T00:00:00Z",
+        "last_seen": "2026-03-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "65c16132-b0a6-4089-bc42-0e07edcc6a92",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 35,
+        "first_seen": "2026-06-12T00:00:00Z",
+        "last_seen": "2026-06-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Generic_Search_Feb14",
+        "utm_source": "googleads",
+        "utm_medium": "ppc",
+        "user_count": 34,
+        "first_seen": "2026-02-17T00:00:00Z",
+        "last_seen": "2026-02-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "onelink_activation",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 31,
+        "first_seen": "2024-05-04T00:00:00Z",
+        "last_seen": "2026-06-07T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_photos",
+        "utm_source": "offline",
+        "utm_medium": "cpc",
+        "user_count": 31,
+        "first_seen": "2026-05-02T00:00:00Z",
+        "last_seen": "2026-07-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "95f8549b-f892-4b04-9cc2-74ecd0eb8040",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 29,
+        "first_seen": "2026-05-22T00:00:00Z",
+        "last_seen": "2026-06-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "a_nt_u_030725",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 28,
+        "first_seen": "2024-07-22T00:00:00Z",
+        "last_seen": "2025-08-11T00:00:00Z"
+      },
+      {
+        "utm_campaign": "pc_240725",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 28,
+        "first_seen": "2024-02-02T00:00:00Z",
+        "last_seen": "2025-07-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "bitsaa_2025",
+        "utm_source": "event",
+        "utm_medium": "flyer",
+        "user_count": 27,
+        "first_seen": "2025-08-01T00:00:00Z",
+        "last_seen": "2026-05-07T00:00:00Z"
+      },
+      {
+        "utm_campaign": "EDM_ADV+ – Copy",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 27,
+        "first_seen": "2025-06-13T00:00:00Z",
+        "last_seen": "2026-02-09T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_ToF_Web_Conv_FinancialCategory_Finance_Language",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 27,
+        "first_seen": "2025-08-02T00:00:00Z",
+        "last_seen": "2026-02-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "5fff67ef-afe3-44c4-a1ab-5eabf7672d43",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 26,
+        "first_seen": "2026-05-22T00:00:00Z",
+        "last_seen": "2026-07-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "popshow_va26",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 26,
+        "first_seen": "2026-08-23T00:00:00Z",
+        "last_seen": "2026-08-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_miriyala_atlanta_26",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 26,
+        "first_seen": "2026-05-14T00:00:00Z",
+        "last_seen": "2026-05-29T00:00:00Z"
+      },
+      {
+        "utm_campaign": "EDM_ST_ToF_Display_Language",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 25,
+        "first_seen": "2026-03-25T00:00:00Z",
+        "last_seen": "2026-04-09T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_dsp_mata1",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 25,
+        "first_seen": "2026-06-19T00:00:00Z",
+        "last_seen": "2026-06-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "holi2026_usa",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 24,
+        "first_seen": "2026-02-26T00:00:00Z",
+        "last_seen": "2026-03-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Search_Competitors_Kyc verified_101225",
+        "utm_source": "google",
+        "utm_medium": "ppc",
+        "user_count": 24,
+        "first_seen": "2026-02-19T00:00:00Z",
+        "last_seen": "2026-02-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "939dfe7c-c426-402a-b8eb-ea8d70fc054e",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 23,
+        "first_seen": "2026-05-22T00:00:00Z",
+        "last_seen": "2026-05-29T00:00:00Z"
+      },
+      {
+        "utm_campaign": " ST_Search_Competitors",
+        "utm_source": "google",
+        "utm_medium": "ppc",
+        "user_count": 22,
+        "first_seen": "2026-02-19T00:00:00Z",
+        "last_seen": "2026-02-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "holi2026_seattle_photos",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 22,
+        "first_seen": "2026-03-18T00:00:00Z",
+        "last_seen": "2026-03-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "pc_040825",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 22,
+        "first_seen": "2024-05-05T00:00:00Z",
+        "last_seen": "2025-08-06T00:00:00Z"
+      },
+      {
+        "utm_campaign": "escrow_claim",
+        "utm_source": "remit2any",
+        "utm_medium": "sms",
+        "user_count": 21,
+        "first_seen": "2024-10-08T00:00:00Z",
+        "last_seen": "2026-08-09T00:00:00Z"
+      },
+      {
+        "utm_campaign": "pc_200725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 20,
+        "first_seen": "2024-09-10T00:00:00Z",
+        "last_seen": "2025-11-06T00:00:00Z"
+      },
+      {
+        "utm_campaign": "SearchI",
+        "utm_source": "GA",
+        "utm_medium": "HER",
+        "user_count": 20,
+        "first_seen": "2026-06-17T00:00:00Z",
+        "last_seen": "2026-07-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "malyali",
+        "utm_source": "fb",
+        "utm_medium": "social",
+        "user_count": 19,
+        "first_seen": "2026-02-22T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Brand_Search_Feb21",
+        "utm_source": "googleads",
+        "utm_medium": "cpc",
+        "user_count": 19,
+        "first_seen": "2025-02-27T00:00:00Z",
+        "last_seen": "2026-04-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "atu_FRNDSHPDAY25_060825",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 17,
+        "first_seen": "2024-07-18T00:00:00Z",
+        "last_seen": "2025-08-07T00:00:00Z"
+      },
+      {
+        "utm_campaign": "GA-pmax-2k-tc",
+        "utm_source": "GA-pmax-2k-tc",
+        "utm_medium": "GA-pmax-2k-tc",
+        "user_count": 17,
+        "first_seen": "2026-08-29T00:00:00Z",
+        "last_seen": "2026-09-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_darudesi_26",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 17,
+        "first_seen": "2026-05-04T00:00:00Z",
+        "last_seen": "2026-05-08T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_seattle",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 17,
+        "first_seen": "2026-06-14T00:00:00Z",
+        "last_seen": "2026-06-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "7ff02742-9a0e-4af4-b86e-56a59c07a87c",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 15,
+        "first_seen": "2024-10-03T00:00:00Z",
+        "last_seen": "2026-06-10T00:00:00Z"
+      },
+      {
+        "utm_campaign": "8583d986-c956-4a22-8191-0bbf59234879",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 15,
+        "first_seen": "2026-05-28T00:00:00Z",
+        "last_seen": "2026-06-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "a_nt_u_110625",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 15,
+        "first_seen": "2023-03-14T00:00:00Z",
+        "last_seen": "2025-08-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "469fd455-7b34-43b3-9943-9a48dfceac11",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 13,
+        "first_seen": "2026-05-21T00:00:00Z",
+        "last_seen": "2026-05-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ext_rajasaab_campaign",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 13,
+        "first_seen": "2026-01-02T00:00:00Z",
+        "last_seen": "2026-01-12T00:00:00Z"
+      },
+      {
+        "utm_campaign": "aoj_mv_campaign",
+        "utm_source": "google",
+        "utm_medium": "EA",
+        "user_count": 12,
+        "first_seen": "2026-01-17T00:00:00Z",
+        "last_seen": "2026-01-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "fb4a",
+        "utm_source": "apps.facebook.com",
+        "utm_medium": null,
+        "user_count": 11,
+        "first_seen": "2026-01-25T00:00:00Z",
+        "last_seen": "2026-05-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "signin",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 11,
+        "first_seen": "2026-05-20T00:00:00Z",
+        "last_seen": "2026-05-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "tds_250625",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 11,
+        "first_seen": "2024-09-15T00:00:00Z",
+        "last_seen": "2025-07-28T00:00:00Z"
+      },
+      {
+        "utm_campaign": "telugu",
+        "utm_source": "fb",
+        "utm_medium": "social",
+        "user_count": 11,
+        "first_seen": "2026-02-22T00:00:00Z",
+        "last_seen": "2026-03-09T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat-special-rang-de-basanti-the-neon-edition-ft-mumbai-s-dj-notorious-san-jose-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 11,
+        "first_seen": "2026-07-25T00:00:00Z",
+        "last_seen": "2026-08-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "cr_profile/?c=usd_inr",
+        "utm_source": "compareremit",
+        "utm_medium": "profile",
+        "user_count": 10,
+        "first_seen": "2025-12-12T00:00:00Z",
+        "last_seen": "2026-08-04T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ganpati-bappa-morya-san-ramon-bay-areas-grandest-ganesh-festival-free-pooja-thalis-special-darsha...",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 10,
+        "first_seen": "2026-08-29T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "iOShindi",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 10,
+        "first_seen": "2026-03-06T00:00:00Z",
+        "last_seen": "2026-03-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "watg-daawat-2026-monroe-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 10,
+        "first_seen": "2026-06-20T00:00:00Z",
+        "last_seen": "2026-06-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "22044091432",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 9,
+        "first_seen": "2025-08-20T00:00:00Z",
+        "last_seen": "2025-10-06T00:00:00Z"
+      },
+      {
+        "utm_campaign": "8237ec6c-9fff-48b5-b8b5-e91a34bb4cc4",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 9,
+        "first_seen": "2026-06-24T00:00:00Z",
+        "last_seen": "2026-07-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_dsp_mata3",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 9,
+        "first_seen": "2026-06-20T00:00:00Z",
+        "last_seen": "2026-06-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "bitsaa_2025",
+        "utm_source": "event",
+        "utm_medium": "standee",
+        "user_count": 8,
+        "first_seen": "2025-08-01T00:00:00Z",
+        "last_seen": "2026-05-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "domain_click",
+        "utm_source": "trustpilot",
+        "utm_medium": "company_profile",
+        "user_count": 8,
+        "first_seen": "2025-07-14T00:00:00Z",
+        "last_seen": "2026-08-28T00:00:00Z"
+      },
+      {
+        "utm_campaign": "dsp-live-in-concert-the-ultimate-grand-finale-oaks-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 8,
+        "first_seen": "2026-06-18T00:00:00Z",
+        "last_seen": "2026-06-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ga-EDM",
+        "utm_source": "ga-si-cmti",
+        "utm_medium": "ga-EDM",
+        "user_count": 8,
+        "first_seen": "2026-08-08T00:00:00Z",
+        "last_seen": "2026-08-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_BoF_Web_Visitors",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 8,
+        "first_seen": "2025-07-22T00:00:00Z",
+        "last_seen": "2025-10-29T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_chicago",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 8,
+        "first_seen": "2026-06-20T00:00:00Z",
+        "last_seen": "2026-07-26T00:00:00Z"
+      },
+      {
+        "utm_campaign": "8d92fba6-0f56-44b9-b545-0bef03ca77a4",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 7,
+        "first_seen": "2026-06-08T00:00:00Z",
+        "last_seen": "2026-06-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "atu_040725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 7,
+        "first_seen": "2024-12-01T00:00:00Z",
+        "last_seen": "2025-07-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "band-capricio-rise-tour-2026-live-in-new-jersey-jersey-city-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 7,
+        "first_seen": "2026-08-30T00:00:00Z",
+        "last_seen": "2026-09-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "dtr_campaign",
+        "utm_source": "movie_event",
+        "utm_medium": "fb_cpc",
+        "user_count": 7,
+        "first_seen": "2026-03-20T00:00:00Z",
+        "last_seen": "2026-03-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "EDM_AA+_AP_051125",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 7,
+        "first_seen": "2025-11-08T00:00:00Z",
+        "last_seen": "2026-02-03T00:00:00Z"
+      },
+      {
+        "utm_campaign": "gujarati",
+        "utm_source": "fb",
+        "utm_medium": "social",
+        "user_count": 7,
+        "first_seen": "2026-02-21T00:00:00Z",
+        "last_seen": "2026-02-28T00:00:00Z"
+      },
+      {
+        "utm_campaign": "orange-street-zindagi-charlotte-nc-charlotte-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 7,
+        "first_seen": "2026-08-13T00:00:00Z",
+        "last_seen": "2026-09-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "rcl_26",
+        "utm_source": "event",
+        "utm_medium": "event",
+        "user_count": 7,
+        "first_seen": "2026-03-07T00:00:00Z",
+        "last_seen": "2026-04-18T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Generic_Search_Jan28",
+        "utm_source": "googleads",
+        "utm_medium": "cpc",
+        "user_count": 7,
+        "first_seen": "2026-02-18T00:00:00Z",
+        "last_seen": "2026-04-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Search_CompetitorsKycverified",
+        "utm_source": "googleads",
+        "utm_medium": "cpc",
+        "user_count": 7,
+        "first_seen": "2026-03-08T00:00:00Z",
+        "last_seen": "2026-04-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "tta-mega-convention-2026-donor-charlotte-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 7,
+        "first_seen": "2026-07-01T00:00:00Z",
+        "last_seen": "2026-07-10T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_jacksonville",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 7,
+        "first_seen": "2026-05-15T00:00:00Z",
+        "last_seen": "2026-05-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "charlotte-tana-team-square-5k-walk-run-concord-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 6,
+        "first_seen": "2026-08-28T00:00:00Z",
+        "last_seen": "2026-08-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "referral",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 6,
+        "first_seen": "2024-03-15T00:00:00Z",
+        "last_seen": "2025-11-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_city_sea_event",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 6,
+        "first_seen": "2024-08-02T00:00:00Z",
+        "last_seen": "2026-06-07T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_cmh_columbus",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 6,
+        "first_seen": "2026-05-09T00:00:00Z",
+        "last_seen": "2026-05-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_events_teenmaar26sea",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 6,
+        "first_seen": "2026-05-30T00:00:00Z",
+        "last_seen": "2026-08-10T00:00:00Z"
+      },
+      {
+        "utm_campaign": "1f1f3095-d8fc-4f0f-a56a-19d14f410215",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 5,
+        "first_seen": "2026-06-01T00:00:00Z",
+        "last_seen": "2026-06-18T00:00:00Z"
+      },
+      {
+        "utm_campaign": "antu_060825",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 5,
+        "first_seen": "2024-07-30T00:00:00Z",
+        "last_seen": "2025-07-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "GA_SMUI_U_I_02_June_2026",
+        "utm_source": "GA_SMUI_U_I_02_June_2026",
+        "utm_medium": "GA_SMUI_U_I_SA",
+        "user_count": 5,
+        "first_seen": "2026-07-04T00:00:00Z",
+        "last_seen": "2026-07-06T00:00:00Z"
+      },
+      {
+        "utm_campaign": "iant-presents-anand-bazaar-india-s-independence-day-celebrations-2026-frisco-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 5,
+        "first_seen": "2026-08-15T00:00:00Z",
+        "last_seen": "2026-08-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "nc_040825",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 5,
+        "first_seen": "2024-09-18T00:00:00Z",
+        "last_seen": "2025-01-28T00:00:00Z"
+      },
+      {
+        "utm_campaign": "remit2any_usa_india",
+        "utm_source": "google",
+        "utm_medium": "search",
+        "user_count": 5,
+        "first_seen": "2025-10-01T00:00:00Z",
+        "last_seen": "2025-10-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "SearchI",
+        "utm_source": "GA",
+        "utm_medium": "InTransfer",
+        "user_count": 5,
+        "first_seen": "2026-06-22T00:00:00Z",
+        "last_seen": "2026-06-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_city_mdw_event",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 5,
+        "first_seen": "2026-06-21T00:00:00Z",
+        "last_seen": "2026-07-12T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_dsp_mata4",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 5,
+        "first_seen": "2026-06-20T00:00:00Z",
+        "last_seen": "2026-06-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "22980088458",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 4,
+        "first_seen": "2025-09-10T00:00:00Z",
+        "last_seen": "2025-10-03T00:00:00Z"
+      },
+      {
+        "utm_campaign": "abhishek_campaign",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 4,
+        "first_seen": "2025-12-01T00:00:00Z",
+        "last_seen": "2026-03-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "atu_210525",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 4,
+        "first_seen": "2024-09-08T00:00:00Z",
+        "last_seen": "2025-04-11T00:00:00Z"
+      },
+      {
+        "utm_campaign": "a_nt_u_220625",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 4,
+        "first_seen": "2025-02-11T00:00:00Z",
+        "last_seen": "2025-08-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "base_plus_150",
+        "utm_source": "passport_unlimited",
+        "utm_medium": "cpc",
+        "user_count": 4,
+        "first_seen": "2026-02-13T00:00:00Z",
+        "last_seen": "2026-02-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "escrow_claim",
+        "utm_source": "remit2any",
+        "utm_medium": "app",
+        "user_count": 4,
+        "first_seen": "2026-04-01T00:00:00Z",
+        "last_seen": "2026-07-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ga-si-aplriwi",
+        "utm_source": "ga-si-aplriwi",
+        "utm_medium": "ga-si-aplriwi",
+        "user_count": 4,
+        "first_seen": "2026-08-06T00:00:00Z",
+        "last_seen": "2026-08-29T00:00:00Z"
+      },
+      {
+        "utm_campaign": "holi2026_bellevue_photos",
+        "utm_source": "event",
+        "utm_medium": "event",
+        "user_count": 4,
+        "first_seen": "2026-03-14T00:00:00Z",
+        "last_seen": "2026-03-17T00:00:00Z"
+      },
+      {
+        "utm_campaign": "j_a_kytn_290725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 4,
+        "first_seen": "2025-07-09T00:00:00Z",
+        "last_seen": "2025-07-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ltiMJntiJ_110725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 4,
+        "first_seen": "2025-01-09T00:00:00Z",
+        "last_seen": "2025-05-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "malayali",
+        "utm_source": "fb",
+        "utm_medium": "social",
+        "user_count": 4,
+        "first_seen": "2026-02-23T00:00:00Z",
+        "last_seen": "2026-03-10T00:00:00Z"
+      },
+      {
+        "utm_campaign": "may26_liq",
+        "utm_source": "seattle_list",
+        "utm_medium": "email_noauto",
+        "user_count": 4,
+        "first_seen": "2026-05-29T00:00:00Z",
+        "last_seen": "2026-06-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "n_r_u_w_kytn_010725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 4,
+        "first_seen": "2025-07-17T00:00:00Z",
+        "last_seen": "2025-08-26T00:00:00Z"
+      },
+      {
+        "utm_campaign": "profile",
+        "utm_source": "cr",
+        "utm_medium": "listing",
+        "user_count": 4,
+        "first_seen": "2025-12-25T00:00:00Z",
+        "last_seen": "2026-04-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "rajasaab_campaign",
+        "utm_source": null,
+        "utm_medium": null,
+        "user_count": 4,
+        "first_seen": "2025-12-30T00:00:00Z",
+        "last_seen": "2026-01-08T00:00:00Z"
+      },
+      {
+        "utm_campaign": "Signup_HomePgae",
+        "utm_source": "fb",
+        "utm_medium": "social",
+        "user_count": 4,
+        "first_seen": "2026-02-11T00:00:00Z",
+        "last_seen": "2026-02-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "souls-for-soles-music-for-two-missions-bellevue-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 4,
+        "first_seen": "2026-07-11T00:00:00Z",
+        "last_seen": "2026-07-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "tds_110725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 4,
+        "first_seen": "2024-10-13T00:00:00Z",
+        "last_seen": "2025-03-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_dsp_mata5",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 4,
+        "first_seen": "2026-06-19T00:00:00Z",
+        "last_seen": "2026-06-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "120216274292390105",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 3,
+        "first_seen": "2025-06-27T00:00:00Z",
+        "last_seen": "2026-01-28T00:00:00Z"
+      },
+      {
+        "utm_campaign": "aoj_mv_campaign",
+        "utm_source": "fb",
+        "utm_medium": "EA",
+        "user_count": 3,
+        "first_seen": "2026-01-17T00:00:00Z",
+        "last_seen": "2026-01-18T00:00:00Z"
+      },
+      {
+        "utm_campaign": "b-f-s-durgotsav-festival-free-entry-renton-wa-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 3,
+        "first_seen": "2026-08-30T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "EDM_Search_Com_New_Comp_List_march",
+        "utm_source": "googleads",
+        "utm_medium": "cpc",
+        "user_count": 3,
+        "first_seen": "2026-04-01T00:00:00Z",
+        "last_seen": "2026-04-17T00:00:00Z"
+      },
+      {
+        "utm_campaign": "georgiam_campaign",
+        "utm_source": "whatsapp",
+        "utm_medium": "gm_whatsapp",
+        "user_count": 3,
+        "first_seen": "2026-02-05T00:00:00Z",
+        "last_seen": "2026-02-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "hindi",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 3,
+        "first_seen": "2026-03-05T00:00:00Z",
+        "last_seen": "2026-03-06T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ig4a",
+        "utm_source": "apps.instagram.com",
+        "utm_medium": null,
+        "user_count": 3,
+        "first_seen": "2026-02-09T00:00:00Z",
+        "last_seen": "2026-02-18T00:00:00Z"
+      },
+      {
+        "utm_campaign": "iOS_malayalam",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 3,
+        "first_seen": "2026-03-12T00:00:00Z",
+        "last_seen": "2026-03-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "msg_campaign",
+        "utm_source": "google",
+        "utm_medium": "ig_bio",
+        "user_count": 3,
+        "first_seen": "2026-01-13T00:00:00Z",
+        "last_seen": "2026-01-26T00:00:00Z"
+      },
+      {
+        "utm_campaign": "oct_400x650.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 3,
+        "first_seen": "2025-10-27T00:00:00Z",
+        "last_seen": "2025-11-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "referral_120725_2",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 3,
+        "first_seen": "2024-11-25T00:00:00Z",
+        "last_seen": "2025-06-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "sonu_show",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 3,
+        "first_seen": "2026-08-30T00:00:00Z",
+        "last_seen": "2026-08-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_BoF_Web_Visitors_30Days",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 3,
+        "first_seen": "2025-10-15T00:00:00Z",
+        "last_seen": "2025-11-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Generic_Search_Mar10",
+        "utm_source": "googleads",
+        "utm_medium": "cpc",
+        "user_count": 3,
+        "first_seen": "2026-04-16T00:00:00Z",
+        "last_seen": "2026-05-03T00:00:00Z"
+      },
+      {
+        "utm_campaign": "usd2inrtransfer",
+        "utm_source": null,
+        "utm_medium": null,
+        "user_count": 3,
+        "first_seen": "2026-06-23T00:00:00Z",
+        "last_seen": "2026-08-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "videoviews",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 3,
+        "first_seen": "2026-03-27T00:00:00Z",
+        "last_seen": "2026-04-08T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_charolette",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 3,
+        "first_seen": "2026-07-19T00:00:00Z",
+        "last_seen": "2026-07-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_dsp_mata2",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 3,
+        "first_seen": "2026-06-20T00:00:00Z",
+        "last_seen": "2026-06-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_philly",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 3,
+        "first_seen": "2026-06-19T00:00:00Z",
+        "last_seen": "2026-06-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_seattle",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 3,
+        "first_seen": "2026-08-02T00:00:00Z",
+        "last_seen": "2026-08-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "22172092703",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 2,
+        "first_seen": "2025-07-25T00:00:00Z",
+        "last_seen": "2025-12-03T00:00:00Z"
+      },
+      {
+        "utm_campaign": "22640833893",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 2,
+        "first_seen": "2025-06-24T00:00:00Z",
+        "last_seen": "2025-06-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "4d9180fc-a1a4-47f9-9d22-1d433c077290",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 2,
+        "first_seen": "2026-07-02T00:00:00Z",
+        "last_seen": "2026-07-03T00:00:00Z"
+      },
+      {
+        "utm_campaign": "april_600x450.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 2,
+        "first_seen": "2025-04-14T00:00:00Z",
+        "last_seen": "2026-04-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "april_970x90.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 2,
+        "first_seen": "2026-05-04T00:00:00Z",
+        "last_seen": "2026-06-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "atta_2026",
+        "utm_source": null,
+        "utm_medium": null,
+        "user_count": 2,
+        "first_seen": "2026-07-29T00:00:00Z",
+        "last_seen": "2026-07-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "cb_ipl2026_V2",
+        "utm_source": "cricbuzz",
+        "utm_medium": "display",
+        "user_count": 2,
+        "first_seen": "2026-05-11T00:00:00Z",
+        "last_seen": "2026-05-26T00:00:00Z"
+      },
+      {
+        "utm_campaign": "dallas",
+        "utm_source": "offline",
+        "utm_medium": "cpc",
+        "user_count": 2,
+        "first_seen": "2024-06-22T00:00:00Z",
+        "last_seen": "2026-05-13T00:00:00Z"
+      },
+      {
+        "utm_campaign": "dtr_campaign",
+        "utm_source": "movie_event",
+        "utm_medium": "cpc",
+        "user_count": 2,
+        "first_seen": "2026-03-20T00:00:00Z",
+        "last_seen": "2026-03-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "EDM_Comp_alternatives_080426",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 2,
+        "first_seen": "2026-04-08T00:00:00Z",
+        "last_seen": "2026-04-08T00:00:00Z"
+      },
+      {
+        "utm_campaign": "EDM_Web_Signup_HomePgae_230126",
+        "utm_source": "fb",
+        "utm_medium": "social",
+        "user_count": 2,
+        "first_seen": "2026-01-28T00:00:00Z",
+        "last_seen": "2026-02-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "exp",
+        "utm_source": "internal",
+        "utm_medium": "e_and_wa",
+        "user_count": 2,
+        "first_seen": "2025-05-15T00:00:00Z",
+        "last_seen": "2025-06-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ext_rajasaab_campaign",
+        "utm_source": "google",
+        "utm_medium": "ig_bio",
+        "user_count": 2,
+        "first_seen": "2026-01-07T00:00:00Z",
+        "last_seen": "2026-01-08T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ext_rajasaab_campaign",
+        "utm_source": "google",
+        "utm_medium": "NRIPage",
+        "user_count": 2,
+        "first_seen": "2026-01-04T00:00:00Z",
+        "last_seen": "2026-01-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "gujarati",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 2,
+        "first_seen": "2026-03-06T00:00:00Z",
+        "last_seen": "2026-03-06T00:00:00Z"
+      },
+      {
+        "utm_campaign": "hara-hara-mahadeva-east-brunswick-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 2,
+        "first_seen": "2026-07-08T00:00:00Z",
+        "last_seen": "2026-07-09T00:00:00Z"
+      },
+      {
+        "utm_campaign": "kytn_290425",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 2,
+        "first_seen": "2025-02-14T00:00:00Z",
+        "last_seen": "2025-07-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "malayalam",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 2,
+        "first_seen": "2026-03-06T00:00:00Z",
+        "last_seen": "2026-03-08T00:00:00Z"
+      },
+      {
+        "utm_campaign": "onelink_activation",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 2,
+        "first_seen": "2024-03-28T00:00:00Z",
+        "last_seen": "2024-11-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "payday_atu_010725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 2,
+        "first_seen": "2024-12-03T00:00:00Z",
+        "last_seen": "2024-12-29T00:00:00Z"
+      },
+      {
+        "utm_campaign": "SM2026",
+        "utm_source": null,
+        "utm_medium": null,
+        "user_count": 2,
+        "first_seen": "2023-01-19T00:00:00Z",
+        "last_seen": "2025-07-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_BoF_Web_Visitors_180-30Days",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 2,
+        "first_seen": "2025-09-06T00:00:00Z",
+        "last_seen": "2025-09-10T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_ToF_Lead_Enforce_FB_Group",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 2,
+        "first_seen": "2025-03-04T00:00:00Z",
+        "last_seen": "2025-07-17T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_ToF_test_Indian_Expats_july25",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 2,
+        "first_seen": "2025-09-09T00:00:00Z",
+        "last_seen": "2025-10-06T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_ToF_Web_Conv_Indian_Expats_Finance",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 2,
+        "first_seen": "2025-08-10T00:00:00Z",
+        "last_seen": "2025-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "tamil",
+        "utm_source": "fb",
+        "utm_medium": "social",
+        "user_count": 2,
+        "first_seen": "2026-03-11T00:00:00Z",
+        "last_seen": "2026-03-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "telugu",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 2,
+        "first_seen": "2026-03-12T00:00:00Z",
+        "last_seen": "2026-03-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "test_mock_transfer",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 2,
+        "first_seen": "2026-03-25T00:00:00Z",
+        "last_seen": "2026-03-28T00:00:00Z"
+      },
+      {
+        "utm_campaign": "tta-mega-convention-2026-sponsor-charlotte-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 2,
+        "first_seen": "2026-07-02T00:00:00Z",
+        "last_seen": "2026-07-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_aparna_varma_26",
+        "utm_source": "online_video",
+        "utm_medium": "online",
+        "user_count": 2,
+        "first_seen": "2026-05-08T00:00:00Z",
+        "last_seen": "2026-05-18T00:00:00Z"
+      },
+      {
+        "utm_campaign": "{campaignid}",
+        "utm_source": "google",
+        "utm_medium": "display",
+        "user_count": 2,
+        "first_seen": "2025-12-31T00:00:00Z",
+        "last_seen": "2026-03-26T00:00:00Z"
+      },
+      {
+        "utm_campaign": "2025_feb_payday_coupon_extended",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 1,
+        "first_seen": "2024-09-18T00:00:00Z",
+        "last_seen": "2024-09-18T00:00:00Z"
+      },
+      {
+        "utm_campaign": "8989aaf7-1f8f-4a71-9678-d918ae268fe2",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 1,
+        "first_seen": "2026-06-03T00:00:00Z",
+        "last_seen": "2026-06-03T00:00:00Z"
+      },
+      {
+        "utm_campaign": "aanchalsrivastava",
+        "utm_source": "instagram",
+        "utm_medium": "influencer",
+        "user_count": 1,
+        "first_seen": "2025-07-21T00:00:00Z",
+        "last_seen": "2025-07-21T00:00:00Z"
+      },
+      {
+        "utm_campaign": "amraa-fresh-mangoes-seattle-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 1,
+        "first_seen": "2026-07-01T00:00:00Z",
+        "last_seen": "2026-07-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "aoj_mv_campaign",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2026-01-16T00:00:00Z",
+        "last_seen": "2026-01-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "april_300x300.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2026-04-25T00:00:00Z",
+        "last_seen": "2026-04-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ata_2026",
+        "utm_source": "ig",
+        "utm_medium": "social",
+        "user_count": 1,
+        "first_seen": "2026-08-02T00:00:00Z",
+        "last_seen": "2026-08-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ata_2026",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 1,
+        "first_seen": "2026-07-31T00:00:00Z",
+        "last_seen": "2026-07-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "atu_040725",
+        "utm_source": "wa",
+        "utm_medium": "messaging",
+        "user_count": 1,
+        "first_seen": "2025-03-19T00:00:00Z",
+        "last_seen": "2025-03-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "august_300x250.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-09-01T00:00:00Z",
+        "last_seen": "2025-09-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "a_kntn_01-13_0725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2025-07-30T00:00:00Z",
+        "last_seen": "2025-07-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "a_kntn_100625",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2025-02-15T00:00:00Z",
+        "last_seen": "2025-02-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "a_t_u_e_r_o_250525",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2024-11-04T00:00:00Z",
+        "last_seen": "2024-11-04T00:00:00Z"
+      },
+      {
+        "utm_campaign": "carnatic-classical-evening-seattle-wa-2027",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 1,
+        "first_seen": "2026-08-30T00:00:00Z",
+        "last_seen": "2026-08-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "cb_ipl2026",
+        "utm_source": "cricbuzz",
+        "utm_medium": "display",
+        "user_count": 1,
+        "first_seen": "2026-04-13T00:00:00Z",
+        "last_seen": "2026-04-13T00:00:00Z"
+      },
+      {
+        "utm_campaign": "d04cc368-bdcb-42dc-af3e-756e7366dce4",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 1,
+        "first_seen": "2026-07-01T00:00:00Z",
+        "last_seen": "2026-07-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "dec_400x650.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-12-20T00:00:00Z",
+        "last_seen": "2025-12-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "dec_600x450.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-12-20T00:00:00Z",
+        "last_seen": "2025-12-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "dec_970x90.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-12-17T00:00:00Z",
+        "last_seen": "2025-12-17T00:00:00Z"
+      },
+      {
+        "utm_campaign": "dtr_campaign",
+        "utm_source": "movie_event",
+        "utm_medium": "ig_bio",
+        "user_count": 1,
+        "first_seen": "2026-04-07T00:00:00Z",
+        "last_seen": "2026-04-07T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ext_rajasaab_campaign",
+        "utm_source": "promotion",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2025-12-31T00:00:00Z",
+        "last_seen": "2025-12-31T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ga-si-intr",
+        "utm_source": "ga-si-intr",
+        "utm_medium": "ga-si-intr",
+        "user_count": 1,
+        "first_seen": "2026-08-10T00:00:00Z",
+        "last_seen": "2026-08-10T00:00:00Z"
+      },
+      {
+        "utm_campaign": "georgiam_campaign",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2026-02-05T00:00:00Z",
+        "last_seen": "2026-02-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "iOSpujabi",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 1,
+        "first_seen": "2026-03-13T00:00:00Z",
+        "last_seen": "2026-03-13T00:00:00Z"
+      },
+      {
+        "utm_campaign": "iOS_gujarati",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 1,
+        "first_seen": "2026-03-14T00:00:00Z",
+        "last_seen": "2026-03-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "july_600x450.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-07-24T00:00:00Z",
+        "last_seen": "2025-07-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "june_400x650.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-06-28T00:00:00Z",
+        "last_seen": "2025-06-28T00:00:00Z"
+      },
+      {
+        "utm_campaign": "june_600x450.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-06-29T00:00:00Z",
+        "last_seen": "2025-06-29T00:00:00Z"
+      },
+      {
+        "utm_campaign": "june_970x90.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-06-30T00:00:00Z",
+        "last_seen": "2025-06-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "kytn_240525",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2025-04-04T00:00:00Z",
+        "last_seen": "2025-04-04T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ltnMahmt1t_110725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2025-03-23T00:00:00Z",
+        "last_seen": "2025-03-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "mock_transfer",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2026-05-14T00:00:00Z",
+        "last_seen": "2026-05-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "oct_160x600.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-11-14T00:00:00Z",
+        "last_seen": "2025-11-14T00:00:00Z"
+      },
+      {
+        "utm_campaign": "oct_600x450.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-10-27T00:00:00Z",
+        "last_seen": "2025-10-27T00:00:00Z"
+      },
+      {
+        "utm_campaign": "payday_may25_010525",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2025-03-15T00:00:00Z",
+        "last_seen": "2025-03-15T00:00:00Z"
+      },
+      {
+        "utm_campaign": "profile",
+        "utm_source": "rf",
+        "utm_medium": "listing",
+        "user_count": 1,
+        "first_seen": "2026-02-13T00:00:00Z",
+        "last_seen": "2026-02-13T00:00:00Z"
+      },
+      {
+        "utm_campaign": "punjabi",
+        "utm_source": "fb",
+        "utm_medium": "paid",
+        "user_count": 1,
+        "first_seen": "2026-03-05T00:00:00Z",
+        "last_seen": "2026-03-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "rajasaab",
+        "utm_source": null,
+        "utm_medium": null,
+        "user_count": 1,
+        "first_seen": "2025-11-30T00:00:00Z",
+        "last_seen": "2025-11-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "rajasaab_campaign",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2025-12-02T00:00:00Z",
+        "last_seen": "2025-12-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "rd_and_refdoublebonus",
+        "utm_source": "WA",
+        "utm_medium": "messaging",
+        "user_count": 1,
+        "first_seen": "2024-09-07T00:00:00Z",
+        "last_seen": "2024-09-07T00:00:00Z"
+      },
+      {
+        "utm_campaign": "referral_120725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2025-06-25T00:00:00Z",
+        "last_seen": "2025-06-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "remittance_tax_150525",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2024-11-25T00:00:00Z",
+        "last_seen": "2024-11-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "remittance_tax_kntn_170525",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2025-03-25T00:00:00Z",
+        "last_seen": "2025-03-25T00:00:00Z"
+      },
+      {
+        "utm_campaign": "rt_kcnt_260225",
+        "utm_source": "WA",
+        "utm_medium": "messaging",
+        "user_count": 1,
+        "first_seen": "2025-02-23T00:00:00Z",
+        "last_seen": "2025-02-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "Seattleholi",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2026-02-26T00:00:00Z",
+        "last_seen": "2026-02-26T00:00:00Z"
+      },
+      {
+        "utm_campaign": "sekhar-master-dance-workshop-new-york-2026",
+        "utm_source": "xpat_events",
+        "utm_medium": "partner_signin",
+        "user_count": 1,
+        "first_seen": "2026-09-02T00:00:00Z",
+        "last_seen": "2026-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "september_160x600.jpg",
+        "utm_source": "cr",
+        "utm_medium": "ad",
+        "user_count": 1,
+        "first_seen": "2025-09-24T00:00:00Z",
+        "last_seen": "2025-09-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "SI-BMTWC",
+        "utm_source": "SI-BMTWC",
+        "utm_medium": "SI-BMTWC",
+        "user_count": 1,
+        "first_seen": "2026-08-02T00:00:00Z",
+        "last_seen": "2026-08-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "SMIZF",
+        "utm_source": "NRIPage",
+        "utm_medium": "banner",
+        "user_count": 1,
+        "first_seen": "2026-01-30T00:00:00Z",
+        "last_seen": "2026-01-30T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Generic_Search_Feb14",
+        "utm_source": "googleads",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2026-02-22T00:00:00Z",
+        "last_seen": "2026-02-22T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_Search_Competitors_0912",
+        "utm_source": "google",
+        "utm_medium": "cps",
+        "user_count": 1,
+        "first_seen": "2026-02-05T00:00:00Z",
+        "last_seen": "2026-02-05T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_ToF_Test_Clubbed_Interest_Sep1",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 1,
+        "first_seen": "2025-09-02T00:00:00Z",
+        "last_seen": "2025-09-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "ST_ToF_Traffic_LPV_Language_Telugu",
+        "utm_source": "facebook",
+        "utm_medium": "paid_social",
+        "user_count": 1,
+        "first_seen": "2025-08-02T00:00:00Z",
+        "last_seen": "2025-08-02T00:00:00Z"
+      },
+      {
+        "utm_campaign": "test",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2025-12-01T00:00:00Z",
+        "last_seen": "2025-12-01T00:00:00Z"
+      },
+      {
+        "utm_campaign": "test_1234",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2025-12-08T00:00:00Z",
+        "last_seen": "2025-12-08T00:00:00Z"
+      },
+      {
+        "utm_campaign": "test_1234",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2025-12-03T00:00:00Z",
+        "last_seen": "2025-12-03T00:00:00Z"
+      },
+      {
+        "utm_campaign": "test_12345",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2025-12-19T00:00:00Z",
+        "last_seen": "2025-12-19T00:00:00Z"
+      },
+      {
+        "utm_campaign": "test_mock_transfer",
+        "utm_source": "movie_event",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2026-03-24T00:00:00Z",
+        "last_seen": "2026-03-24T00:00:00Z"
+      },
+      {
+        "utm_campaign": "usb_campaign",
+        "utm_source": "google",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2026-03-23T00:00:00Z",
+        "last_seen": "2026-03-23T00:00:00Z"
+      },
+      {
+        "utm_campaign": "usb_campaign",
+        "utm_source": "movie_event",
+        "utm_medium": "cpc",
+        "user_count": 1,
+        "first_seen": "2026-03-20T00:00:00Z",
+        "last_seen": "2026-03-20T00:00:00Z"
+      },
+      {
+        "utm_campaign": "uwo1t_140725",
+        "utm_source": "email",
+        "utm_medium": "mailer",
+        "user_count": 1,
+        "first_seen": "2025-03-11T00:00:00Z",
+        "last_seen": "2025-03-11T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_events_sea26",
+        "utm_source": "offline",
+        "utm_medium": "qr",
+        "user_count": 1,
+        "first_seen": "2026-05-16T00:00:00Z",
+        "last_seen": "2026-05-16T00:00:00Z"
+      },
+      {
+        "utm_campaign": "xpat_ram_miriyala_phoenix_26",
+        "utm_source": "offline_events",
+        "utm_medium": "offline",
+        "user_count": 1,
+        "first_seen": "2026-05-15T00:00:00Z",
+        "last_seen": "2026-05-15T00:00:00Z"
+      }
+    ]
+  }
+}

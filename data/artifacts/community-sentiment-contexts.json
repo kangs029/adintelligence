@@ -1,0 +1,494 @@
+{
+  "data": {
+    "1year": {
+      "byCompany": {
+        "Remitly": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 5,
+            "positive": 1,
+            "total": 6
+          }
+        },
+        "Western Union": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 0,
+            "positive": 0,
+            "total": 1
+          }
+        },
+        "Wise": {
+          "contexts": {
+            "negative": [],
+            "positive": [
+              {
+                "id": "wise-positive-1",
+                "label": "Wise for reliable recurring transfers",
+                "summary": "People view Wise as a dependable solution for regular, long-term money transfers to India, including loan repayments and ongoing financial obligations.",
+                "threadIds": [
+                  "t3_1so92fl",
+                  "t3_1u7glrg"
+                ]
+              },
+              {
+                "id": "wise-positive-2",
+                "label": "Wise for first-time international payments",
+                "summary": "Users consider Wise a trustworthy option when making their first international money transfer to India, particularly for significant amounts.",
+                "threadIds": [
+                  "t3_1so92fl",
+                  "t3_1u7glrg"
+                ]
+              }
+            ]
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 6,
+            "positive": 2,
+            "total": 8
+          }
+        },
+        "XPAT": {
+          "contexts": {
+            "negative": [
+              {
+                "id": "xpat-negative-1",
+                "label": "Crypto-based transfer concerns",
+                "summary": "People warn that XPAT uses cryptocurrency for money transfers, raising concerns about potential regulatory violations.",
+                "threadIds": [
+                  "t3_1uwkspk"
+                ]
+              }
+            ],
+            "positive": []
+          },
+          "counts": {
+            "negative": 1,
+            "neutral": 3,
+            "positive": 1,
+            "total": 5
+          }
+        },
+        "Xoom": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 4,
+            "positive": 1,
+            "total": 5
+          }
+        }
+      },
+      "overall": {
+        "contexts": {
+          "negative": [
+            {
+              "id": "overall-negative-1",
+              "label": "Restrictive regulations on bidirectional transfers",
+              "summary": "Users report significant difficulties moving money in both directions between US and India, with limited options and regulatory barriers making transfers increasingly impossible.",
+              "threadIds": [
+                "t3_1ti0sgh",
+                "t3_1w1toac"
+              ]
+            },
+            {
+              "id": "overall-negative-2",
+              "label": "Excessive taxation and fees on NRI transactions",
+              "summary": "NRIs feel unfairly burdened by disproportionate taxes and fees imposed by Indian authorities despite their economic contributions through remittances and investments.",
+              "threadIds": [
+                "t3_1vxs1w7",
+                "t3_1w5keo8"
+              ]
+            },
+            {
+              "id": "overall-negative-3",
+              "label": "Unreliable and risky remittance services",
+              "summary": "Users express concerns about the trustworthiness and legality of remittance platforms, including warnings about unregulated services using questionable methods like cryptocurrency.",
+              "threadIds": [
+                "t3_1ti0sgh",
+                "t3_1uwkspk"
+              ]
+            }
+          ],
+          "positive": [
+            {
+              "id": "overall-positive-1",
+              "label": "Direct UPI delivery convenience",
+              "summary": "Users value services that deliver money directly to UPI wallets like PhonePe, eliminating unnecessary banking intermediaries.",
+              "threadIds": [
+                "t3_1s7jxwe"
+              ]
+            },
+            {
+              "id": "overall-positive-2",
+              "label": "Fee-saving transfer options",
+              "summary": "People actively seek and share ways to reduce or eliminate transfer fees through referral programs and promotional offers.",
+              "threadIds": [
+                "t3_1q92csi"
+              ]
+            }
+          ]
+        },
+        "counts": {
+          "negative": 5,
+          "neutral": 24,
+          "positive": 2,
+          "total": 31
+        }
+      }
+    },
+    "3months": {
+      "byCompany": {
+        "Remitly": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 0,
+            "positive": 0,
+            "total": 1
+          }
+        },
+        "Western Union": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 0,
+            "positive": 0,
+            "total": 0
+          }
+        },
+        "Wise": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 2,
+            "positive": 0,
+            "total": 2
+          }
+        },
+        "XPAT": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 0,
+            "positive": 0,
+            "total": 1
+          }
+        },
+        "Xoom": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 0,
+            "positive": 0,
+            "total": 1
+          }
+        }
+      },
+      "overall": {
+        "contexts": {
+          "negative": [
+            {
+              "id": "overall-negative-1",
+              "label": "Excessive taxes and fees on NRI transfers",
+              "summary": "Indian authorities impose disproportionately high taxes and fees on NRI remittances and property transactions despite NRIs contributing significantly to India's economy through investments and money transfers.",
+              "threadIds": [
+                "t3_1vxs1w7",
+                "t3_1w5keo8"
+              ]
+            },
+            {
+              "id": "overall-negative-2",
+              "label": "Restrictive regulations blocking outbound transfers",
+              "summary": "India's regulatory framework makes it extremely difficult or nearly impossible for Indian residents to send money abroad to family members, creating asymmetrical barriers compared to inbound remittances.",
+              "threadIds": [
+                "t3_1w1toac"
+              ]
+            },
+            {
+              "id": "overall-negative-3",
+              "label": "Untrustworthy and risky remittance services",
+              "summary": "Alternative remittance platforms and apps use questionable methods like cryptocurrency that may violate regulations, putting users at legal and financial risk.",
+              "threadIds": [
+                "t3_1uwkspk"
+              ]
+            }
+          ],
+          "positive": []
+        },
+        "counts": {
+          "negative": 4,
+          "neutral": 15,
+          "positive": 0,
+          "total": 19
+        }
+      }
+    },
+    "all": {
+      "byCompany": {
+        "Remitly": {
+          "contexts": {
+            "negative": [],
+            "positive": [
+              {
+                "id": "remitly-positive-1",
+                "label": "Reliable for recurring monthly transfers",
+                "summary": "People view Remitly as a dependable option for setting up consistent monthly money transfers to India for ongoing financial obligations.",
+                "threadIds": [
+                  "t3_1el8vfe",
+                  "t3_1u7glrg"
+                ]
+              }
+            ]
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 9,
+            "positive": 2,
+            "total": 11
+          }
+        },
+        "Western Union": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 0,
+            "positive": 0,
+            "total": 1
+          }
+        },
+        "Wise": {
+          "contexts": {
+            "negative": [],
+            "positive": [
+              {
+                "id": "wise-positive-1",
+                "label": "Wise works with Indian bank accounts",
+                "summary": "People confirm that Wise can successfully transfer money to various Indian bank account types including regular accounts, NRE, and NRO accounts.",
+                "threadIds": [
+                  "t3_1ahkkm4",
+                  "t3_1el8vfe",
+                  "t3_1so92fl",
+                  "t3_1u7glrg"
+                ]
+              },
+              {
+                "id": "wise-positive-2",
+                "label": "Wise suitable for recurring transfers",
+                "summary": "Users view Wise as a reliable option for setting up regular, long-term monthly transfers for ongoing financial obligations like loan repayments.",
+                "threadIds": [
+                  "t3_1el8vfe",
+                  "t3_1u7glrg"
+                ]
+              },
+              {
+                "id": "wise-positive-3",
+                "label": "Wise competitive for USD-INR exchange",
+                "summary": "People consider Wise as a good alternative to traditional bank forex rates when converting between USD and INR.",
+                "threadIds": [
+                  "t3_1ahkkm4",
+                  "t3_1so92fl"
+                ]
+              }
+            ]
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 9,
+            "positive": 4,
+            "total": 13
+          }
+        },
+        "XPAT": {
+          "contexts": {
+            "negative": [
+              {
+                "id": "xpat-negative-1",
+                "label": "Crypto-based transfer concerns",
+                "summary": "People warn that XPAT uses cryptocurrency for money transfers, raising concerns about potential regulatory violations.",
+                "threadIds": [
+                  "t3_1uwkspk"
+                ]
+              }
+            ],
+            "positive": [
+              {
+                "id": "xpat-positive-1",
+                "label": "Competitive transfer rates",
+                "summary": "People highlight that Remit2Any offers competitive or best-in-class transfer rates for US to India money transfers.",
+                "threadIds": [
+                  "t3_1hl9idy"
+                ]
+              },
+              {
+                "id": "xpat-positive-2",
+                "label": "Reliable for family support",
+                "summary": "Users rely on Remit2Any as a dependable service for sending money to help family members in India.",
+                "threadIds": [
+                  "t3_1rcfpln"
+                ]
+              },
+              {
+                "id": "xpat-positive-3",
+                "label": "Cryptocurrency-based transfer mechanism",
+                "summary": "People recognize that Remit2Any uses cryptocurrency as the underlying vehicle for facilitating transfers between US and Indian bank accounts.",
+                "threadIds": [
+                  "t3_1nfq0bn",
+                  "t3_1rcfpln"
+                ]
+              }
+            ]
+          },
+          "counts": {
+            "negative": 1,
+            "neutral": 4,
+            "positive": 3,
+            "total": 8
+          }
+        },
+        "Xoom": {
+          "contexts": {
+            "negative": [],
+            "positive": []
+          },
+          "counts": {
+            "negative": 0,
+            "neutral": 7,
+            "positive": 1,
+            "total": 8
+          }
+        }
+      },
+      "overall": {
+        "contexts": {
+          "negative": [
+            {
+              "id": "overall-negative-1",
+              "label": "Excessive fees and unfavorable rates",
+              "summary": "Users report losing significant money through high fees and poor exchange rates when transferring funds, with limited better alternatives available.",
+              "threadIds": [
+                "t3_1j8qkl8",
+                "t3_1ti0sgh"
+              ]
+            },
+            {
+              "id": "overall-negative-2",
+              "label": "Regulatory barriers and restrictions",
+              "summary": "People face increasing regulatory obstacles and service limitations when trying to move money between India and USA, with platforms removing options and eligibility requirements becoming stricter.",
+              "threadIds": [
+                "t3_1ti0sgh",
+                "t3_1uwkspk",
+                "t3_1w1toac"
+              ]
+            },
+            {
+              "id": "overall-negative-3",
+              "label": "Unfair taxation of NRI remittances",
+              "summary": "NRIs feel penalized by Indian tax authorities despite their economic contributions through remittances and investments, facing disproportionate fees and taxes.",
+              "threadIds": [
+                "t3_1vxs1w7",
+                "t3_1w5keo8"
+              ]
+            }
+          ],
+          "positive": [
+            {
+              "id": "overall-positive-1",
+              "label": "Direct UPI delivery convenience",
+              "summary": "Users appreciate remittance services that support direct UPI transfers to recipients' mobile wallets, eliminating unnecessary banking intermediaries.",
+              "threadIds": [
+                "t3_1lt6scs",
+                "t3_1s7jxwe"
+              ]
+            },
+            {
+              "id": "overall-positive-2",
+              "label": "Comparing transfer service options",
+              "summary": "Community members actively evaluate and share experiences with different remittance platforms like Wise, Remitly, and TapTapSend to find the best solution.",
+              "threadIds": [
+                "t3_1l3shba",
+                "t3_1q92csi",
+                "t3_1s7jxwe"
+              ]
+            },
+            {
+              "id": "overall-positive-3",
+              "label": "Reducing transfer costs and fees",
+              "summary": "Users seek ways to minimize remittance fees through referral programs, promotional offers, and identifying services with better exchange rates.",
+              "threadIds": [
+                "t3_1l3shba",
+                "t3_1lmmzck",
+                "t3_1q92csi"
+              ]
+            }
+          ]
+        },
+        "counts": {
+          "negative": 6,
+          "neutral": 45,
+          "positive": 5,
+          "total": 56
+        }
+      }
+    }
+  },
+  "meta": {
+    "caveats": [
+      "Each theme represents patterns across multiple posts, not a single post.",
+      "Neutral posts are counted but not themed.",
+      "Per-company themes only include threads that mention that company.",
+      "Source: community-threads.json — US↔India money transfer discussions.",
+      "Themes generated by Claude Haiku from classified Reddit threads.",
+      "XPAT includes Remit2Any (former name) mentions."
+    ],
+    "companies": [
+      "Remitly",
+      "Western Union",
+      "Wise",
+      "Xoom",
+      "XPAT"
+    ],
+    "family": "community-sentiment-contexts",
+    "generatedAt": "2026-09-23T12:03:58.882Z",
+    "method": "Haiku identifies 3-5 recurring themes per sentiment group, per company, per time window.",
+    "provenance": "derived",
+    "source": "community-threads",
+    "sourceGeneratedAt": "2026-09-17T00:00:00.000Z",
+    "timeWindows": [
+      "1year",
+      "3months",
+      "all"
+    ],
+    "version": 2
+  }
+}

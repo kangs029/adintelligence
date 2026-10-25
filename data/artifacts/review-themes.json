@@ -1,0 +1,3045 @@
+{
+  "data": {
+    "groups": [
+      {
+        "averageRating": 3.2,
+        "competitor": "Xpat",
+        "sampleSize": 34,
+        "store": "ios",
+        "themes": [
+          {
+            "count": 16,
+            "examples": [
+              {
+                "date": "2026-01-29T11:49:06.000Z",
+                "id": "13688950333",
+                "rating": 1,
+                "store": "ios",
+                "text": "I used their service for multiple transactions, every time transactions was delayed. I think they are doing manual service. Worst customer service, If you report the delay issue - they simply say apologies but never give any information on delay. Don’t waste your hard earned money using this kind cheap services.",
+                "title": "Poor Customer Service"
+              },
+              {
+                "date": "2026-05-08T07:11:59.000Z",
+                "id": "14040627900",
+                "rating": 1,
+                "store": "ios",
+                "text": "While sending money , this app said immediate transfer. But it didn’t transfer and they said will transfer in next day 9.45 pm. But money not credited on next day also. I am still waiting for money. So not reliable . This app is like scamping. Customer support also not working",
+                "title": "Not satisfied"
+              },
+              {
+                "date": "2026-05-13T14:34:28.000Z",
+                "id": "14060084098",
+                "rating": 1,
+                "store": "ios",
+                "text": "The support team is worst. They don’t credit your money on time. It’s been 3 days since i initiated the transfer, but they didn’t deliver the funds yet.",
+                "title": "Never use this app!"
+              }
+            ],
+            "sharePct": 47.1,
+            "theme": "Support"
+          },
+          {
+            "count": 17,
+            "examples": [
+              {
+                "date": "2025-10-15T03:37:48.000Z",
+                "id": "13267968619",
+                "rating": 1,
+                "store": "ios",
+                "text": "Please avoid this App",
+                "title": "Delay in payments"
+              },
+              {
+                "date": "2026-01-02T03:35:30.000Z",
+                "id": "13583734939",
+                "rating": 1,
+                "store": "ios",
+                "text": "This is application will always delay the money to deliver the amount to represent reviser account",
+                "title": "Always late delivery"
+              },
+              {
+                "date": "2026-01-29T11:49:06.000Z",
+                "id": "13688950333",
+                "rating": 1,
+                "store": "ios",
+                "text": "I used their service for multiple transactions, every time transactions was delayed. I think they are doing manual service. Worst customer service, If you report the delay issue - they simply say apologies but never give any information on delay. Don’t waste your hard earned money using this kind cheap services.",
+                "title": "Poor Customer Service"
+              }
+            ],
+            "sharePct": 50,
+            "theme": "Speed"
+          },
+          {
+            "count": 18,
+            "examples": [
+              {
+                "date": "2026-04-02T02:47:33.000Z",
+                "id": "13912806086",
+                "rating": 2,
+                "store": "ios",
+                "text": "Exchange rates are competitive and the app works fine normally. But when a transaction issue caused my account to be frozen, support was unable to resolve it or give any ETA even after 12+ hours. If you have urgent financial needs, look elsewhere.",
+                "title": "Support is not good"
+              },
+              {
+                "date": "2026-06-30T11:14:41.000Z",
+                "id": "14244663143",
+                "rating": 1,
+                "store": "ios",
+                "text": "They promise google rates but not true. Hectic process to transfer money. Too many junk notifications no real value.",
+                "title": "Not really google rate"
+              }
+            ],
+            "sharePct": 52.9,
+            "theme": "Rates"
+          },
+          {
+            "count": 2,
+            "examples": [],
+            "sharePct": 5.9,
+            "theme": "Fees"
+          },
+          {
+            "count": 21,
+            "examples": [
+              {
+                "date": "2026-05-08T07:11:59.000Z",
+                "id": "14040627900",
+                "rating": 1,
+                "store": "ios",
+                "text": "While sending money , this app said immediate transfer. But it didn’t transfer and they said will transfer in next day 9.45 pm. But money not credited on next day also. I am still waiting for money. So not reliable . This app is like scamping. Customer support also not working",
+                "title": "Not satisfied"
+              },
+              {
+                "date": "2026-05-13T14:34:28.000Z",
+                "id": "14060084098",
+                "rating": 1,
+                "store": "ios",
+                "text": "The support team is worst. They don’t credit your money on time. It’s been 3 days since i initiated the transfer, but they didn’t deliver the funds yet.",
+                "title": "Never use this app!"
+              },
+              {
+                "date": "2026-05-28T21:54:59.000Z",
+                "id": "14117183820",
+                "rating": 1,
+                "store": "ios",
+                "text": "I don't think it's useful, As I mentioned above if we login and create account, we need to provide all personal details like Bank account, Visa documents which is irrelevant and data we are putting in and goes to so called \"Mokshgna Technologies\" not sure this is reputed company!! Seems it's local developers developed and providing services to transfer amount to India. From my opinion this is recommended ot safe to provide personal details!!",
+                "title": "Unnecessary to use this app, since we have trustworthy apps like Remitly."
+              }
+            ],
+            "sharePct": 61.8,
+            "theme": "App bugs"
+          },
+          {
+            "count": 4,
+            "examples": [
+              {
+                "date": "2025-03-01T04:25:04.000Z",
+                "id": "12367714795",
+                "rating": 1,
+                "store": "ios",
+                "text": "Why is it so difficult to update bank details . What’s a pathetic app. Why is so difficult ?",
+                "title": "Why is so pathetic to get kyc and bank details updated . What’s a pathetic app."
+              },
+              {
+                "date": "2026-05-28T21:54:59.000Z",
+                "id": "14117183820",
+                "rating": 1,
+                "store": "ios",
+                "text": "I don't think it's useful, As I mentioned above if we login and create account, we need to provide all personal details like Bank account, Visa documents which is irrelevant and data we are putting in and goes to so called \"Mokshgna Technologies\" not sure this is reputed company!! Seems it's local developers developed and providing services to transfer amount to India. From my opinion this is recommended ot safe to provide personal details!!",
+                "title": "Unnecessary to use this app, since we have trustworthy apps like Remitly."
+              }
+            ],
+            "sharePct": 11.8,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 7,
+            "examples": [
+              {
+                "date": "2025-03-19T21:04:30.000Z",
+                "id": "12440204057",
+                "rating": 1,
+                "store": "ios",
+                "text": "It’s so horrible app that I never see till now … pls don’t use it looks like scam",
+                "title": "Sk"
+              },
+              {
+                "date": "2025-09-24T22:48:07.000Z",
+                "id": "13180468978",
+                "rating": 1,
+                "store": "ios",
+                "text": "I faced a very serious issue after initiating the transaction. The transaction amount was supposed to be received in the receiver bank after 3 hrs of transaction but it never happened. When I noticed that amount was not credited into receiver bank account and asked the support team they are telling me they will look into it but they are not giving any exact information about the safety of the amount. Moreover they are not giving any information why they missed the payment, simply saying we will look it this issue and escalated the issue with our team. No proper response, delayed reply. I suggest everyone, do not use this app for money transfer. Kindly use other trusted apps that most of the people use. If given a chance I will give a negative -100 rating for the service.",
+                "title": "Inconsistent money transfer app( do no use / trust)"
+              },
+              {
+                "date": "2026-05-28T21:54:59.000Z",
+                "id": "14117183820",
+                "rating": 1,
+                "store": "ios",
+                "text": "I don't think it's useful, As I mentioned above if we login and create account, we need to provide all personal details like Bank account, Visa documents which is irrelevant and data we are putting in and goes to so called \"Mokshgna Technologies\" not sure this is reputed company!! Seems it's local developers developed and providing services to transfer amount to India. From my opinion this is recommended ot safe to provide personal details!!",
+                "title": "Unnecessary to use this app, since we have trustworthy apps like Remitly."
+              }
+            ],
+            "sharePct": 20.6,
+            "theme": "Trust and safety"
+          }
+        ],
+        "window": {
+          "from": "2025-03-01",
+          "to": "2026-06-30"
+        }
+      },
+      {
+        "averageRating": 3.4,
+        "competitor": "Aspora",
+        "sampleSize": 82,
+        "store": "ios",
+        "themes": [
+          {
+            "count": 17,
+            "examples": [
+              {
+                "date": "2026-03-10T18:00:19.000Z",
+                "id": "13834248156",
+                "rating": 1,
+                "store": "ios",
+                "text": "This app is one of the worst I’ve used. There’s no real customer support, and I have no idea where my money went. I’ve sent several emails and only got delayed, dismissive replies that closed the issue without solving anything. The whole experience feels like a scam and a complete waste of time. It’s not even worth for a single star.",
+                "title": "Frustrating Experience with Poor Support and Unresolved Payment Issues"
+              },
+              {
+                "date": "2026-04-01T02:43:16.000Z",
+                "id": "13909117605",
+                "rating": 1,
+                "store": "ios",
+                "text": "Extremely poor customer service my money was stuck since 7 days and none of them are responding",
+                "title": "Very bad service"
+              },
+              {
+                "date": "2026-05-21T16:36:48.000Z",
+                "id": "14089896873",
+                "rating": 1,
+                "store": "ios",
+                "text": "It works fine until finally one day it doesn’t work. Nobody knows why, their customer support is pathetic, you cannot reach them and 72 hours SLA they have for themselves is a joke. I had a query opened for more than 6 months with no resolution.",
+                "title": "Pathetic service"
+              }
+            ],
+            "sharePct": 20.7,
+            "theme": "Support"
+          },
+          {
+            "count": 22,
+            "examples": [
+              {
+                "date": "2025-10-07T20:02:13.000Z",
+                "id": "13237068818",
+                "rating": 1,
+                "store": "ios",
+                "text": "They give competitive exchange rates but usually takes 2 business days to transfer the money while Remitly is good instant transfer. However remitly also gives good rates if it takes 2 days to transfer. Not worth it as compared to Remitly and westernUnion.",
+                "title": "Slow transfer"
+              },
+              {
+                "date": "2025-12-04T13:37:36.000Z",
+                "id": "13474210079",
+                "rating": 1,
+                "store": "ios",
+                "text": "I usually send money to India through Remitly, but this time I decided to try a different app because it was showing the Google exchange rate and said the transfer would take just 5-10 minutes. However, it has now been 3 days and my money is still stuck, and they’re saying I may have to wait another 1-2 days. The biggest problem is that the app doesn’t clearly show the real processing time upfront. After talking to a few friends, they all told me they faced the same delays with Aspora. So based on my experience, I would not recommend this app for urgent transfers. It’s only okay if you can wait at least a week, but definitely not for emergency use.",
+                "title": "Worst app"
+              },
+              {
+                "date": "2026-03-03T16:44:39.000Z",
+                "id": "13810112428",
+                "rating": 1,
+                "store": "ios",
+                "text": "I had an extremely frustrating experience with Aspora and I strongly advise others to think twice before using this app. First and foremost, there is no option to cancel a transaction once it has been initiated - for any reason whatsoever. Whether you entered the wrong recipient details, the wrong amount, or simply change your mind, there is absolutely no way to cancel it. This is a very basic feature that almost every other remittance provider offers at your fingertips, yet Aspora fails to provide it. I reached out to their Support team within 12 hours of initiating my transaction. At that time, my funds had not yet been debited. I waited for more than 1 1/2 hours on their chat support just to request cancellation. The response? They claimed they had escalated the issue to their technical team, but nothing was resolved. To make matters worse: 1. there is no effective cancellation support . 2. callback requests are ignored. I never received a call back even after 24+ hours. 3. chat support is slow and completely unhelpful. 4. funds were eventually debited, but the INR has still not been credited. Even though I contacted them before the debit happened, they were unable to assist. Their support is practically useless when something actually goes wrong. I chose Aspora just to save 40 paise compared to other providers, and I deeply regret that decision. When everything goes smoothly, any provider seems fine. But a company’s true reliability shows when there is a problem and this is where aspora completely failed. I’ve learned my lesson: it’s better to go with a trusted and well-established provider like Remitly rather than trying to save a few cents and ending up with such a stressful experience. I have never written a review for any app before. This is my first time doing so - only because I don’t want someone else to go through the same stressful and frustrating experience that I did. Extremely disappointing service overall.",
+                "title": "Pathetic service"
+              }
+            ],
+            "sharePct": 26.8,
+            "theme": "Rates"
+          },
+          {
+            "count": 26,
+            "examples": [
+              {
+                "date": "2026-03-03T16:44:39.000Z",
+                "id": "13810112428",
+                "rating": 1,
+                "store": "ios",
+                "text": "I had an extremely frustrating experience with Aspora and I strongly advise others to think twice before using this app. First and foremost, there is no option to cancel a transaction once it has been initiated - for any reason whatsoever. Whether you entered the wrong recipient details, the wrong amount, or simply change your mind, there is absolutely no way to cancel it. This is a very basic feature that almost every other remittance provider offers at your fingertips, yet Aspora fails to provide it. I reached out to their Support team within 12 hours of initiating my transaction. At that time, my funds had not yet been debited. I waited for more than 1 1/2 hours on their chat support just to request cancellation. The response? They claimed they had escalated the issue to their technical team, but nothing was resolved. To make matters worse: 1. there is no effective cancellation support . 2. callback requests are ignored. I never received a call back even after 24+ hours. 3. chat support is slow and completely unhelpful. 4. funds were eventually debited, but the INR has still not been credited. Even though I contacted them before the debit happened, they were unable to assist. Their support is practically useless when something actually goes wrong. I chose Aspora just to save 40 paise compared to other providers, and I deeply regret that decision. When everything goes smoothly, any provider seems fine. But a company’s true reliability shows when there is a problem and this is where aspora completely failed. I’ve learned my lesson: it’s better to go with a trusted and well-established provider like Remitly rather than trying to save a few cents and ending up with such a stressful experience. I have never written a review for any app before. This is my first time doing so - only because I don’t want someone else to go through the same stressful and frustrating experience that I did. Extremely disappointing service overall.",
+                "title": "Pathetic service"
+              },
+              {
+                "date": "2026-03-10T18:00:19.000Z",
+                "id": "13834248156",
+                "rating": 1,
+                "store": "ios",
+                "text": "This app is one of the worst I’ve used. There’s no real customer support, and I have no idea where my money went. I’ve sent several emails and only got delayed, dismissive replies that closed the issue without solving anything. The whole experience feels like a scam and a complete waste of time. It’s not even worth for a single star.",
+                "title": "Frustrating Experience with Poor Support and Unresolved Payment Issues"
+              },
+              {
+                "date": "2026-03-11T05:32:23.000Z",
+                "id": "13835827671",
+                "rating": 1,
+                "store": "ios",
+                "text": "Aspora claims to be one of the fastest ways to send money, but in reality transfers take 2-3 days, which is very misleading. After submitting the payment, the app suddenly shows messages like “processing delayed due to high transaction volume.” If there are delays, users should be informed before confirming the transaction, not after the payment is already submitted. The lack of transparency and proper status updates makes the whole experience frustrating and unreliable.",
+                "title": "Lack of transparency"
+              }
+            ],
+            "sharePct": 31.7,
+            "theme": "Speed"
+          },
+          {
+            "count": 4,
+            "examples": [
+              {
+                "date": "2025-12-25T14:20:46.000Z",
+                "id": "13553596347",
+                "rating": 1,
+                "store": "ios",
+                "text": "today trying to sing up for this app not able get verification code don't know it's trusted or not. don't west time",
+                "title": "not able to register aap"
+              },
+              {
+                "date": "2026-02-09T23:24:32.000Z",
+                "id": "13732248619",
+                "rating": 1,
+                "store": "ios",
+                "text": "I did use this app 4-5 times and each time i send funds they need my bank statement. On top of that their teams wants to know where I earn that funds from.. what’s their issue?? I mean it’s my personal details why should anyone share that with this random app?? And in fact they will deduct the amount from your bank account and block it in their app for 3-5 business days and come back for more documents. They are making more money withholding our hard earned money. Poor service and team.",
+                "title": "Delayed verification"
+              }
+            ],
+            "sharePct": 4.9,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 48,
+            "examples": [
+              {
+                "date": "2026-03-12T09:42:54.000Z",
+                "id": "13839662527",
+                "rating": 1,
+                "store": "ios",
+                "text": "Worst money transfer app.",
+                "title": "Worst app !!!!! The transfer would fail and they will not take accountability."
+              },
+              {
+                "date": "2026-04-11T00:42:13.000Z",
+                "id": "13944658156",
+                "rating": 1,
+                "store": "ios",
+                "text": "I used this app for urgent transaction to india, during the hurry i used my saving account instead of checkin account. Saving account doesn’t have enough money. But this transaction went through to my india account, now my account got blocked. They should block me before the transaction instead they blocked me after transaction went through",
+                "title": "DON’T USE THIS APP, MY INDIAN ACCOUNT GOT BLOCKED 😡"
+              },
+              {
+                "date": "2026-04-30T16:57:58.000Z",
+                "id": "14013395684",
+                "rating": 1,
+                "store": "ios",
+                "text": "Waste of time",
+                "title": "Worst App"
+              }
+            ],
+            "sharePct": 58.5,
+            "theme": "App bugs"
+          },
+          {
+            "count": 6,
+            "examples": [
+              {
+                "date": "2026-02-16T05:35:12.000Z",
+                "id": "13754483406",
+                "rating": 1,
+                "store": "ios",
+                "text": "Worst experience of having a nonsense services getting my payment blocked from past 12 days i am suffering like anything begging and requesting to refund my transferred amount. I request all people not to use this transfer app anymore 🙏🏼🙏🏼🙏🏼 very bad experience",
+                "title": "Fraud App- Be aware Off"
+              },
+              {
+                "date": "2026-03-10T18:00:19.000Z",
+                "id": "13834248156",
+                "rating": 1,
+                "store": "ios",
+                "text": "This app is one of the worst I’ve used. There’s no real customer support, and I have no idea where my money went. I’ve sent several emails and only got delayed, dismissive replies that closed the issue without solving anything. The whole experience feels like a scam and a complete waste of time. It’s not even worth for a single star.",
+                "title": "Frustrating Experience with Poor Support and Unresolved Payment Issues"
+              },
+              {
+                "date": "2026-04-11T00:42:13.000Z",
+                "id": "13944658156",
+                "rating": 1,
+                "store": "ios",
+                "text": "I used this app for urgent transaction to india, during the hurry i used my saving account instead of checkin account. Saving account doesn’t have enough money. But this transaction went through to my india account, now my account got blocked. They should block me before the transaction instead they blocked me after transaction went through",
+                "title": "DON’T USE THIS APP, MY INDIAN ACCOUNT GOT BLOCKED 😡"
+              }
+            ],
+            "sharePct": 7.3,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 9,
+            "examples": [
+              {
+                "date": "2026-01-20T10:14:40.000Z",
+                "id": "13654942035",
+                "rating": 2,
+                "store": "ios",
+                "text": "I have heard great things about Aspora’s exchange rates and low fees. However, I am disappointed that I cannot send money from Kuwait yet. Please consider adding Kuwait to your supported countries so we can also benefit from your transparent transfer services.",
+                "title": "Need this in Kuwait!"
+              }
+            ],
+            "sharePct": 11,
+            "theme": "Fees"
+          }
+        ],
+        "window": {
+          "from": "2023-08-29",
+          "to": "2026-06-18"
+        }
+      },
+      {
+        "averageRating": 3.5,
+        "competitor": "Wise",
+        "sampleSize": 498,
+        "store": "ios",
+        "themes": [
+          {
+            "count": 112,
+            "examples": [
+              {
+                "date": "2026-06-29T13:55:22.000Z",
+                "id": "14241011784",
+                "rating": 1,
+                "store": "ios",
+                "text": "Slow service and the processing time is too long. Not recommend this app for transferring money",
+                "title": "Slow in processing"
+              },
+              {
+                "date": "2026-07-02T16:10:18.000Z",
+                "id": "14254345222",
+                "rating": 1,
+                "store": "ios",
+                "text": "Wise has standard answers that are unhelpful This is the second experience where my money from my US bank has not arrived at Wise. My bank shows it was sent. Last time Wise sent the money back to my US account. And the only answer I received from Wise was it can take up to 4 days for the money to arrive in your Wise account. The same issue is happening again. So this morning I sent a small amount in the same fashion and it arrived in minutes. But when I ask the 3rd customer service person why one wire took minutes and three days later the first wire has not arrived I get the same “it can take up to 4 days…” I will find a new online bank as soon as I can find out what happened to my original transfer.",
+                "title": "So dissatisfied"
+              },
+              {
+                "date": "2026-07-03T16:47:07.000Z",
+                "id": "14258682596",
+                "rating": 1,
+                "store": "ios",
+                "text": "I sent a friend money in Kenya from the United States and it’s taking entirely too long for the person to receive the payment. This is very bad.",
+                "title": "Very slow progress"
+              }
+            ],
+            "sharePct": 22.5,
+            "theme": "Speed"
+          },
+          {
+            "count": 12,
+            "examples": [
+              {
+                "date": "2026-06-17T02:04:20.000Z",
+                "id": "14191746294",
+                "rating": 1,
+                "store": "ios",
+                "text": "Constantly locking my account, absolutely horrendous app, DO NOT RECOMMEND",
+                "title": "Verification is absolutely horrendous"
+              },
+              {
+                "date": "2026-06-20T07:08:13.000Z",
+                "id": "14204241101",
+                "rating": 1,
+                "store": "ios",
+                "text": "Worst app to send money. Registering a new account doesn’t work! Uploading a picture of the document does NOT work at all!",
+                "title": "Horrible app"
+              },
+              {
+                "date": "2026-07-02T21:54:18.000Z",
+                "id": "14255425169",
+                "rating": 1,
+                "store": "ios",
+                "text": "For days they have restricted access to my own money out of the blue for normal usage and will not release it no matter the adherence to their requests for identity verification and say they need time. It makes them unreliable as a trusted place for your money because they don’t care what restricting your access to your own funds does to you personally and will not allow you any access til they take days to do what they could instantly but refuse because they are too big to care no matter how many times you call. Still no access to my own money. Absolutely do not recommend using them.",
+                "title": "Will lock up your money"
+              }
+            ],
+            "sharePct": 2.4,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 168,
+            "examples": [
+              {
+                "date": "2026-07-01T16:28:21.000Z",
+                "id": "14250159769",
+                "rating": 1,
+                "store": "ios",
+                "text": "Once again, this app is not safe to use they allow scammers. They are not insured by any means so I do not recommend using this app. There are other other ways to pay for services and send money like Venmo, and PayPal do not use wise. * update Wise response is for me to contact the merchant (scammer) and my bank! I do not recommend! Update I was told to reach out to wise and they did absolutely nothing again they allow and facilitate away for scammers to scam people!",
+                "title": "Not FDIC insured & Allie scammers"
+              },
+              {
+                "date": "2026-07-01T19:38:06.000Z",
+                "id": "14250787155",
+                "rating": 1,
+                "store": "ios",
+                "text": "I’ve tried to add money with Apply Pay, debit card and ACH transfer. App won’t work. AI “customer service” worthless. I’ll be deleting.",
+                "title": "App doesn’t work."
+              },
+              {
+                "date": "2026-07-02T12:58:11.000Z",
+                "id": "14253628100",
+                "rating": 1,
+                "store": "ios",
+                "text": "Not easy to use. Banks flag this app and cancellation buttons don’t work.",
+                "title": "No customer service"
+              }
+            ],
+            "sharePct": 33.7,
+            "theme": "App bugs"
+          },
+          {
+            "count": 35,
+            "examples": [
+              {
+                "date": "2026-06-18T07:01:46.000Z",
+                "id": "14196347723",
+                "rating": 1,
+                "store": "ios",
+                "text": "I don’t trust them, I am contacting Interpol tomorrow. The rep wouldn’t tell what country they are out of. I found it’s Estonia,and offices in London and New York, they’ve tied my money up for days. And asked for me to cancel and send the money again. Crooks",
+                "title": "Led me on for days"
+              },
+              {
+                "date": "2026-06-27T12:52:32.000Z",
+                "id": "14232676778",
+                "rating": 1,
+                "store": "ios",
+                "text": "What’s wrong with your company? Why is your app broken in a different way every other week. And we’re supposed to trust you with our money?!?",
+                "title": "Vibe coded financial app - buggy"
+              },
+              {
+                "date": "2026-07-01T16:28:21.000Z",
+                "id": "14250159769",
+                "rating": 1,
+                "store": "ios",
+                "text": "Once again, this app is not safe to use they allow scammers. They are not insured by any means so I do not recommend using this app. There are other other ways to pay for services and send money like Venmo, and PayPal do not use wise. * update Wise response is for me to contact the merchant (scammer) and my bank! I do not recommend! Update I was told to reach out to wise and they did absolutely nothing again they allow and facilitate away for scammers to scam people!",
+                "title": "Not FDIC insured & Allie scammers"
+              }
+            ],
+            "sharePct": 7,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 39,
+            "examples": [
+              {
+                "date": "2026-05-20T23:17:14.000Z",
+                "id": "14087331729",
+                "rating": 1,
+                "store": "ios",
+                "text": "Wise has the best transfer rates, but they fail on two areas: 1. Their redesigned app is the worst I have seen in a long time. They use too much real estate on blank spaces and hide useful information. 2. There is no further enhancements on the product. U.S. citizens cannot get interest bearing accounts, you cannot hide unwanted contacts in your send list. You cannot trade/ buy Bitcoin nor have they added any other currencies in a while, eg Argentine Peso.",
+                "title": "New App Design is Awful!!!!"
+              },
+              {
+                "date": "2026-05-21T20:23:30.000Z",
+                "id": "14090537816",
+                "rating": 1,
+                "store": "ios",
+                "text": "I needed the money the same day as always I was used to sent it, and it went thru 5 days after with a lower exchange rate. So disappointed.",
+                "title": "Transfer taking longer"
+              },
+              {
+                "date": "2026-06-11T09:20:51.000Z",
+                "id": "14169214103",
+                "rating": 1,
+                "store": "ios",
+                "text": "When I first started using this service in October 2024 I would receive my money in minutes no matter the amount now sometimes I get it immediately if and sometimes I don’t sometimes you’re telling me four or five days. Your service is definitely not what it used to be and I think you’re just using my money to make money on the daily rate of interest.",
+                "title": "Money transfer"
+              }
+            ],
+            "sharePct": 7.8,
+            "theme": "Rates"
+          },
+          {
+            "count": 50,
+            "examples": [
+              {
+                "date": "2026-06-25T16:24:55.000Z",
+                "id": "14225228395",
+                "rating": 1,
+                "store": "ios",
+                "text": "This app is about as rough as it gets. My account went negative because there was a fraudulent chargeback and wise notified me saying if I didn’t add money back to my account there would be further action taken. No issue I suppose, except it has to be a bank wire which required a $25 fee on top of the $6 fee to add into the app. Why am I paying $31 extra dollars to payback a bank that allowed a fraudulent charge in the first place. Inexcusable.",
+                "title": "Horrendous Service"
+              },
+              {
+                "date": "2026-06-29T23:43:29.000Z",
+                "id": "14242864667",
+                "rating": 1,
+                "store": "ios",
+                "text": "They make mistakes and charge you for their own mistakes.",
+                "title": "Full of bugs"
+              },
+              {
+                "date": "2026-07-01T15:01:25.000Z",
+                "id": "14249838610",
+                "rating": 1,
+                "store": "ios",
+                "text": "Usually I can count on Wise to transfer my money quickly and efficiently. Today I received notice that I’m missing payments because my deposit did not arrive in my account on time. They say I’m having to wait 3-5 business days? This is not the type of service I’m used to from Wise! They are giving me a bad mark on my credit and now I have to pay late fees. Unacceptable Wise!!!",
+                "title": "Late transfer"
+              }
+            ],
+            "sharePct": 10,
+            "theme": "Fees"
+          },
+          {
+            "count": 56,
+            "examples": [
+              {
+                "date": "2026-07-02T21:54:18.000Z",
+                "id": "14255425169",
+                "rating": 1,
+                "store": "ios",
+                "text": "For days they have restricted access to my own money out of the blue for normal usage and will not release it no matter the adherence to their requests for identity verification and say they need time. It makes them unreliable as a trusted place for your money because they don’t care what restricting your access to your own funds does to you personally and will not allow you any access til they take days to do what they could instantly but refuse because they are too big to care no matter how many times you call. Still no access to my own money. Absolutely do not recommend using them.",
+                "title": "Will lock up your money"
+              },
+              {
+                "date": "2026-07-03T18:06:57.000Z",
+                "id": "14258947684",
+                "rating": 1,
+                "store": "ios",
+                "text": "Used to really love these guys, but I transferred some money to my girlfriend and they canceled her account because they thought it was fraudulent. Customer service was of no help.",
+                "title": "Cancelled account of gf"
+              },
+              {
+                "date": "2026-07-04T16:31:48.000Z",
+                "id": "14262715196",
+                "rating": 1,
+                "store": "ios",
+                "text": "Customer service is poor to non existent. Sometimes it works and many times it just doesn’t work at all. Unreliable and frustrating.",
+                "title": "Unreliable"
+              }
+            ],
+            "sharePct": 11.2,
+            "theme": "Support"
+          }
+        ],
+        "window": {
+          "from": "2026-05-18",
+          "to": "2026-07-05"
+        }
+      },
+      {
+        "averageRating": 3.6,
+        "competitor": "Xoom",
+        "sampleSize": 500,
+        "store": "android",
+        "themes": [
+          {
+            "count": 120,
+            "examples": [
+              {
+                "date": "2026-05-14T01:14:54.322Z",
+                "id": "186d2ac2-0e0c-4b99-a655-c594fcbfe4eb",
+                "rating": 1,
+                "store": "android",
+                "text": "nService is getting worse and worse. Asking private questions like who are we sending to. Stupid I am not a robot and SLOW TRANSFERS! Also we need option to choose method of payment every time. Not randomly. App chokes and caprures the money without completing transaction. Update 2025: App malfunctions, steals money. No help from customer service! BEWARE! BEWARE! This company will FRAUDENYLY BLOCK YOUR ACCOUNT.",
+                "title": ""
+              },
+              {
+                "date": "2026-05-23T00:38:27.252Z",
+                "id": "8d0beb26-2387-4242-99c9-34f2e1e5324e",
+                "rating": 1,
+                "store": "android",
+                "text": "app will work on old phone but not new phone. when I enter correct login info they app says \"sorry, we're having trouble at the moment\" but I can go login on old phone",
+                "title": ""
+              },
+              {
+                "date": "2026-07-04T13:04:10.891Z",
+                "id": "a07072ab-ad78-4624-8f62-745a908a552b",
+                "rating": 1,
+                "store": "android",
+                "text": "hard to login to Xoom. confusing with the PayPal login should only be One login for both but it doesn't work that way.",
+                "title": ""
+              }
+            ],
+            "sharePct": 24,
+            "theme": "App bugs"
+          },
+          {
+            "count": 19,
+            "examples": [
+              {
+                "date": "2026-01-15T11:44:26.770Z",
+                "id": "d98ce34d-a65a-46a9-b8e2-15318c763694",
+                "rating": 1,
+                "store": "android",
+                "text": "Terrible. Unreliable. No customer service. They straight up stole my money and tell me it arrived. Never arrived, do NOT trust them. When calling you will get an automated robot, you cannot get ahold of an actual human. They steal from people. It's a disgrace",
+                "title": ""
+              },
+              {
+                "date": "2026-02-05T05:28:23.586Z",
+                "id": "caee9055-0873-4624-b505-2800235fc035",
+                "rating": 1,
+                "store": "android",
+                "text": "I used Xoom for bout 10 years with no issues. Suddenly, my last transfer was declined, and my account was blocked. Support said it was due to a policy violation but couldn't tell me what policy or what I did wrong. Just \"security reasons.\"' No verification process, no warning, no chance to fix it. The whole thing felt vague and arbitrary. There are better options out there. I no longer recommend Xoom.",
+                "title": ""
+              },
+              {
+                "date": "2026-06-12T22:58:55.267Z",
+                "id": "5dd67f4b-e1c8-491f-8001-41f4232480bb",
+                "rating": 1,
+                "store": "android",
+                "text": "Money was transferred from my Paypal account to a mysterious account number in Bank of Ireland. I got no cooperation to resolve the matter, instead I was getting AI generated response soon after all my emails to explain the fraud. Very impersonal crowd. Never to be used again. No one listens to Customer complaints.",
+                "title": ""
+              }
+            ],
+            "sharePct": 3.8,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 21,
+            "examples": [
+              {
+                "date": "2026-04-17T15:42:59.956Z",
+                "id": "10039b85-ed48-4859-86c4-d66ed768246c",
+                "rating": 1,
+                "store": "android",
+                "text": "I have used this app for the past 8 to 10 years and it was good. but in the past few months it's been only issues with it from exchange rates, fees go up and down like crazy depending on amount of money. to most recently the money been delay for no reason whatsoever. it's just one problem after another. I really hope they fixed this issues but until then not using this app. and definitely don't recommend it to others.",
+                "title": ""
+              },
+              {
+                "date": "2026-06-20T18:27:35.120Z",
+                "id": "b23a7b66-0c69-4e87-8c7b-25569e44388e",
+                "rating": 1,
+                "store": "android",
+                "text": "Just another PayPal company that charges high fees and has a terrible spread, go with Sendwave for much better rates and just a $0.49 fee!",
+                "title": ""
+              },
+              {
+                "date": "2026-07-01T21:23:48.544Z",
+                "id": "7064a758-d66d-459c-b3e4-d4f48c9ab87e",
+                "rating": 1,
+                "store": "android",
+                "text": "Rates are too low !!",
+                "title": ""
+              }
+            ],
+            "sharePct": 4.2,
+            "theme": "Rates"
+          },
+          {
+            "count": 24,
+            "examples": [
+              {
+                "date": "2026-04-17T15:42:59.956Z",
+                "id": "10039b85-ed48-4859-86c4-d66ed768246c",
+                "rating": 1,
+                "store": "android",
+                "text": "I have used this app for the past 8 to 10 years and it was good. but in the past few months it's been only issues with it from exchange rates, fees go up and down like crazy depending on amount of money. to most recently the money been delay for no reason whatsoever. it's just one problem after another. I really hope they fixed this issues but until then not using this app. and definitely don't recommend it to others.",
+                "title": ""
+              },
+              {
+                "date": "2026-04-27T18:07:07.408Z",
+                "id": "a6ca1cd8-d4f7-4ebc-8cd2-06712f545d49",
+                "rating": 1,
+                "store": "android",
+                "text": "I have used Xoom through PayPal for close to 8 months now, and despite the fact that they show one amount as the fee then switch it once you complete the transaction to a slightly higher amount, it wasn't enough to bother me. However, 2 days ago, I sent myself money, yet when Xoom said it was available, it was not available when I got to the bank. I requested a cancelation through PayPal and Xoom, but neither want to give me my money back. DON'T USE!!!",
+                "title": ""
+              },
+              {
+                "date": "2026-06-20T18:27:35.120Z",
+                "id": "b23a7b66-0c69-4e87-8c7b-25569e44388e",
+                "rating": 1,
+                "store": "android",
+                "text": "Just another PayPal company that charges high fees and has a terrible spread, go with Sendwave for much better rates and just a $0.49 fee!",
+                "title": ""
+              }
+            ],
+            "sharePct": 4.8,
+            "theme": "Fees"
+          },
+          {
+            "count": 30,
+            "examples": [
+              {
+                "date": "2026-05-14T01:14:54.322Z",
+                "id": "186d2ac2-0e0c-4b99-a655-c594fcbfe4eb",
+                "rating": 1,
+                "store": "android",
+                "text": "nService is getting worse and worse. Asking private questions like who are we sending to. Stupid I am not a robot and SLOW TRANSFERS! Also we need option to choose method of payment every time. Not randomly. App chokes and caprures the money without completing transaction. Update 2025: App malfunctions, steals money. No help from customer service! BEWARE! BEWARE! This company will FRAUDENYLY BLOCK YOUR ACCOUNT.",
+                "title": ""
+              },
+              {
+                "date": "2026-05-29T23:55:35.144Z",
+                "id": "b310518f-9a90-4fbf-870b-a0f78324b09e",
+                "rating": 1,
+                "store": "android",
+                "text": "Put my transaction into pending status on a usual 5-15 mins process transaction without a clear reason. Customer service team were not keen in assisting to resolve the issue. Going through the most terrible experience in remittance in my whole life. Not recommended to use.",
+                "title": ""
+              },
+              {
+                "date": "2026-06-05T06:58:34.266Z",
+                "id": "d53669c9-442d-40af-a93a-220c36b833c3",
+                "rating": 1,
+                "store": "android",
+                "text": "hey XOOM! I've been trying to get help and reached out; haven't heard anything (going on 3 days). Why is my transfer delayed after I've sent money previously with no issue? Now, I can't even log in...i'll change my review rating if I get any immediate help",
+                "title": ""
+              }
+            ],
+            "sharePct": 6,
+            "theme": "Support"
+          },
+          {
+            "count": 48,
+            "examples": [
+              {
+                "date": "2026-05-14T01:14:54.322Z",
+                "id": "186d2ac2-0e0c-4b99-a655-c594fcbfe4eb",
+                "rating": 1,
+                "store": "android",
+                "text": "nService is getting worse and worse. Asking private questions like who are we sending to. Stupid I am not a robot and SLOW TRANSFERS! Also we need option to choose method of payment every time. Not randomly. App chokes and caprures the money without completing transaction. Update 2025: App malfunctions, steals money. No help from customer service! BEWARE! BEWARE! This company will FRAUDENYLY BLOCK YOUR ACCOUNT.",
+                "title": ""
+              },
+              {
+                "date": "2026-06-05T06:58:34.266Z",
+                "id": "d53669c9-442d-40af-a93a-220c36b833c3",
+                "rating": 1,
+                "store": "android",
+                "text": "hey XOOM! I've been trying to get help and reached out; haven't heard anything (going on 3 days). Why is my transfer delayed after I've sent money previously with no issue? Now, I can't even log in...i'll change my review rating if I get any immediate help",
+                "title": ""
+              },
+              {
+                "date": "2026-06-22T01:39:15.486Z",
+                "id": "0818470f-df9f-48c8-ad4b-464991a1895b",
+                "rating": 1,
+                "store": "android",
+                "text": "they say in begining cash will be available in minutes.. in the end it won't be available untill tomorrow morning🤦‍♀️🤦‍♀️",
+                "title": ""
+              }
+            ],
+            "sharePct": 9.6,
+            "theme": "Speed"
+          },
+          {
+            "count": 9,
+            "examples": [
+              {
+                "date": "2026-02-05T05:28:23.586Z",
+                "id": "caee9055-0873-4624-b505-2800235fc035",
+                "rating": 1,
+                "store": "android",
+                "text": "I used Xoom for bout 10 years with no issues. Suddenly, my last transfer was declined, and my account was blocked. Support said it was due to a policy violation but couldn't tell me what policy or what I did wrong. Just \"security reasons.\"' No verification process, no warning, no chance to fix it. The whole thing felt vague and arbitrary. There are better options out there. I no longer recommend Xoom.",
+                "title": ""
+              },
+              {
+                "date": "2026-03-11T03:22:19.840Z",
+                "id": "b5d87195-c52b-4980-a018-6728e8fc80d0",
+                "rating": 1,
+                "store": "android",
+                "text": "the login process keeps looping the captcha when signing in with PayPal. I am unable to access the app at all as the captcha endlessly loops images to verify.",
+                "title": ""
+              },
+              {
+                "date": "2026-03-21T04:34:59.244Z",
+                "id": "280ee162-9d41-4d73-aab1-471af0011419",
+                "rating": 1,
+                "store": "android",
+                "text": "Keeps saying unable to verify our credit card! We called our card support and they said it was a PayPal issue. There was no way to speak to a live PayPal rep....",
+                "title": ""
+              }
+            ],
+            "sharePct": 1.8,
+            "theme": "KYC friction"
+          }
+        ],
+        "window": {
+          "from": "2025-08-02",
+          "to": "2026-07-04"
+        }
+      },
+      {
+        "averageRating": 3.7,
+        "competitor": "Xoom",
+        "sampleSize": 500,
+        "store": "ios",
+        "themes": [
+          {
+            "count": 12,
+            "examples": [
+              {
+                "date": "2026-06-15T17:49:29.000Z",
+                "id": "14186500996",
+                "rating": 1,
+                "store": "ios",
+                "text": "This app is a joke. I’m a user of PayPal from 2012 and they are now saying that they can’t verify me. What a clown company!",
+                "title": "Can’t verify"
+              },
+              {
+                "date": "2026-06-24T01:25:53.000Z",
+                "id": "14218800789",
+                "rating": 1,
+                "store": "ios",
+                "text": "I was able to send money one day and the next my account was closed. Called customer service only for them to tell me that they couldn’t verify my information, there was no way they can help, and I can never use the app again. After telling me that I can try through PayPal only for them to go back and say that wouldn’t work either. Basically I’m never allowed to use this app. I can assure you I will never try again to use it(not that I could) or let anyone I know use it. 0stars",
+                "title": "Customer Service and the whole company Sucks!"
+              },
+              {
+                "date": "2026-07-01T21:04:34.000Z",
+                "id": "14251042253",
+                "rating": 1,
+                "store": "ios",
+                "text": "So basically, my transaction got stuck for some sort of verification and when I call customer care, she says we cannot make your transaction because we could not verify your information and I said what’s the reason what’s not there she says we cannot share those information so I said, that means I cannot make my transaction?? And she said yes, so I said do I have to uninstall this app? It’s not useful. She says yes, you should uninstall l. Wth",
+                "title": "Hilarious how customer support team responded"
+              }
+            ],
+            "sharePct": 2.4,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 25,
+            "examples": [
+              {
+                "date": "2026-04-03T02:08:54.000Z",
+                "id": "13916292715",
+                "rating": 1,
+                "store": "ios",
+                "text": "I regret using xoom. Sent money to overseas gf a few times successfully and this fourth time, she did not receive the money. Her bank says she has no pending transactions clearly Xooms end. I’m out 60 bucks entirely unless they actually fix it . They are saying they won’t even investigate without me uploading her bank statements. I’m going to but extremely annoying. Wish I had just used western union instead. Regular PayPal even. Is better although exchange rate is horrible.",
+                "title": "Don’t trust"
+              },
+              {
+                "date": "2026-04-06T02:21:34.000Z",
+                "id": "13927195858",
+                "rating": 1,
+                "store": "ios",
+                "text": "I tried sending money, it was bigger sum, after it got blocked, I was asked to send my source of income proof and then my tax returns, later I was told that there is limit on sending money! Wasted my time and made me anxious over it for days, wasted time speaking with representatives, it could have been told to me when I was trying to send it at first! Very bad experience with Zoom",
+                "title": "Limits"
+              },
+              {
+                "date": "2026-05-27T16:50:27.000Z",
+                "id": "14112515897",
+                "rating": 1,
+                "store": "ios",
+                "text": "I initiated a transaction almost a week ago, and the status kept showing “Security Check in Process.” I waited patiently and then contacted customer support. They told me I needed to verify some details - even though I had already completed verification on both my PayPal and Xoom accounts. The representative said I should have received an email with the required verification steps, but I never received any email at all. When I informed them about this, they simply apologized and gave me another number to call, saying that team would verify my details and process the transaction. I then called the second team, answered every question they asked, verified all my details, and waited on the line as instructed. After all of that, they suddenly told me they were canceling the transaction because they were “unable to verify” my account. The most frustrating part is that they refused to explain what exactly they could not verify. I repeatedly told them that I am the owner of the account, this was a self-transfer, and I was fully willing to provide any additional information needed. But they kept hiding behind “security reasons” and refused to give any explanation. It honestly feels suspicious that after delaying the transfer for nearly a week, they canceled it and asked me to create a new transaction on the same day - when the exchange rate had become worse. I cannot see any other logical reason for this behavior. I also asked to escalate the issue or file a complaint, but I did not receive any proper response. This experience completely destroyed my trust in Xoom. If they cannot explain issues to the actual account owner who is ready to verify everything, then who will they explain it to? Strongly do not recommend using Xoom for money transfers.",
+                "title": "Worst money transfer experience I have ever had with Xoom"
+              }
+            ],
+            "sharePct": 5,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 28,
+            "examples": [
+              {
+                "date": "2026-06-18T08:30:29.000Z",
+                "id": "14196540951",
+                "rating": 1,
+                "store": "ios",
+                "text": "I’ve moved on to a diff app. These guys have the worse customer service emails in my life, its already been 3 weeks and they cant even comprehend basic email messages to help me. And they dont reply to your email reply, they keep telling you to email them again which opens up a new case and then dont even solve your issue and then if you reply to that email clarifying what you actually need, they dont respond making you start over everytime. I’ve been on my 6th email chain and they can’t even get it right. I’ve moved on to WISE.",
+                "title": "Slowest customer service in my life"
+              },
+              {
+                "date": "2026-06-24T01:25:53.000Z",
+                "id": "14218800789",
+                "rating": 1,
+                "store": "ios",
+                "text": "I was able to send money one day and the next my account was closed. Called customer service only for them to tell me that they couldn’t verify my information, there was no way they can help, and I can never use the app again. After telling me that I can try through PayPal only for them to go back and say that wouldn’t work either. Basically I’m never allowed to use this app. I can assure you I will never try again to use it(not that I could) or let anyone I know use it. 0stars",
+                "title": "Customer Service and the whole company Sucks!"
+              },
+              {
+                "date": "2026-07-01T21:04:34.000Z",
+                "id": "14251042253",
+                "rating": 1,
+                "store": "ios",
+                "text": "So basically, my transaction got stuck for some sort of verification and when I call customer care, she says we cannot make your transaction because we could not verify your information and I said what’s the reason what’s not there she says we cannot share those information so I said, that means I cannot make my transaction?? And she said yes, so I said do I have to uninstall this app? It’s not useful. She says yes, you should uninstall l. Wth",
+                "title": "Hilarious how customer support team responded"
+              }
+            ],
+            "sharePct": 5.6,
+            "theme": "Support"
+          },
+          {
+            "count": 36,
+            "examples": [
+              {
+                "date": "2026-05-27T16:50:27.000Z",
+                "id": "14112515897",
+                "rating": 1,
+                "store": "ios",
+                "text": "I initiated a transaction almost a week ago, and the status kept showing “Security Check in Process.” I waited patiently and then contacted customer support. They told me I needed to verify some details - even though I had already completed verification on both my PayPal and Xoom accounts. The representative said I should have received an email with the required verification steps, but I never received any email at all. When I informed them about this, they simply apologized and gave me another number to call, saying that team would verify my details and process the transaction. I then called the second team, answered every question they asked, verified all my details, and waited on the line as instructed. After all of that, they suddenly told me they were canceling the transaction because they were “unable to verify” my account. The most frustrating part is that they refused to explain what exactly they could not verify. I repeatedly told them that I am the owner of the account, this was a self-transfer, and I was fully willing to provide any additional information needed. But they kept hiding behind “security reasons” and refused to give any explanation. It honestly feels suspicious that after delaying the transfer for nearly a week, they canceled it and asked me to create a new transaction on the same day - when the exchange rate had become worse. I cannot see any other logical reason for this behavior. I also asked to escalate the issue or file a complaint, but I did not receive any proper response. This experience completely destroyed my trust in Xoom. If they cannot explain issues to the actual account owner who is ready to verify everything, then who will they explain it to? Strongly do not recommend using Xoom for money transfers.",
+                "title": "Worst money transfer experience I have ever had with Xoom"
+              },
+              {
+                "date": "2026-05-29T14:57:57.000Z",
+                "id": "14119769707",
+                "rating": 1,
+                "store": "ios",
+                "text": "The lack of responsibility in part of this company, they asked you for all the documentation under the sun for then ask you to wait upwards of 30/40min after you already made a 40min line for the lack of cashiers to then face another hold time for the lack of dollars. CaribeExpress forces you exchange at the boot that way the can benefit from the down/upswing of the rate. They have a speedy line for people to change dollars to pesos as they have a “retainer”… they have them a “2 step verification” when once you sit and wait they send you to another teller that’s trying to again confirm some local country information….🫠🫠🫠…while their owners sit in Miami protected and shield as what they do is illegal in the DR.",
+                "title": "CaribeExpress"
+              },
+              {
+                "date": "2026-06-16T18:53:15.000Z",
+                "id": "14190554824",
+                "rating": 1,
+                "store": "ios",
+                "text": "This app has low exchange. And the customer service will delete your account for any reason. I have used this app for more than 5 years and it changed because of one customer Service phone call. Save your self some time and download other transfer app",
+                "title": "Don’t do it guys"
+              }
+            ],
+            "sharePct": 7.2,
+            "theme": "Rates"
+          },
+          {
+            "count": 40,
+            "examples": [
+              {
+                "date": "2026-05-04T03:41:33.000Z",
+                "id": "14026065721",
+                "rating": 1,
+                "store": "ios",
+                "text": "Too much transaction fee. Horrible",
+                "title": "Few"
+              },
+              {
+                "date": "2026-05-07T20:32:02.000Z",
+                "id": "14039237224",
+                "rating": 1,
+                "store": "ios",
+                "text": "The fee is too much to send money",
+                "title": "Fee"
+              },
+              {
+                "date": "2026-06-03T15:23:39.000Z",
+                "id": "14139494169",
+                "rating": 1,
+                "store": "ios",
+                "text": "CV",
+                "title": "New Fee"
+              }
+            ],
+            "sharePct": 8,
+            "theme": "Fees"
+          },
+          {
+            "count": 67,
+            "examples": [
+              {
+                "date": "2026-02-19T18:21:56.000Z",
+                "id": "13767140727",
+                "rating": 1,
+                "store": "ios",
+                "text": "At 1st the money would transfer to walmart or oxxo within seconds/minutes. Not it is pending approval for a day or two. Not sure why this is happening but really stopped using the app for this reason. I really loved how easy it was.",
+                "title": "Confused"
+              },
+              {
+                "date": "2026-04-19T23:33:16.000Z",
+                "id": "13976435077",
+                "rating": 1,
+                "store": "ios",
+                "text": "According to the website, transactions are fast, but it's been 8 business days since I sent a transfer and the money still hasn't arrived for my family member. In contrast, they charge you immediately, so it's a bad experience. Poor tracking from Xoom. I don't recommend them; Western Union is better and more efficient.",
+                "title": "slow transactions"
+              },
+              {
+                "date": "2026-06-13T18:52:00.000Z",
+                "id": "14178911679",
+                "rating": 1,
+                "store": "ios",
+                "text": "XOOM’s service is completely unacceptable. They advertise fast transfers and make it sound like your money will arrive in 30 minutes, but in reality, transfers can take days. This has not been a one-time issue either. I have been dealing with delayed transfers for months, and more than 20 of my transfers have arrived late. What makes this even worse is the complete lack of accountability. Management never responds, and customer service repeatedly blames their overseas “partner” for the delays. Then they claim the issue has been fixed and that the money will be sent right away. That statement is consistently false. The transfer still does not go through on time. At this point, it feels less like a reliable financial service and more like a company making promises it has no intention of keeping. If XOOM says 30 minutes, do not believe it. Based on my repeated experience, “30 minutes” can actually mean several days. For a company handling people’s money, this level of unreliability, poor communication, and dishonesty is inexcusable.",
+                "title": "AVOID!!"
+              }
+            ],
+            "sharePct": 13.4,
+            "theme": "Speed"
+          },
+          {
+            "count": 94,
+            "examples": [
+              {
+                "date": "2026-06-19T16:55:42.000Z",
+                "id": "14201993038",
+                "rating": 1,
+                "store": "ios",
+                "text": "This app sends a large number of spam \"engagement\" notifications that can't be turned off without disabling all notifications at the OS level.",
+                "title": "Spam notifications"
+              },
+              {
+                "date": "2026-06-24T01:25:53.000Z",
+                "id": "14218800789",
+                "rating": 1,
+                "store": "ios",
+                "text": "I was able to send money one day and the next my account was closed. Called customer service only for them to tell me that they couldn’t verify my information, there was no way they can help, and I can never use the app again. After telling me that I can try through PayPal only for them to go back and say that wouldn’t work either. Basically I’m never allowed to use this app. I can assure you I will never try again to use it(not that I could) or let anyone I know use it. 0stars",
+                "title": "Customer Service and the whole company Sucks!"
+              },
+              {
+                "date": "2026-07-01T21:04:34.000Z",
+                "id": "14251042253",
+                "rating": 1,
+                "store": "ios",
+                "text": "So basically, my transaction got stuck for some sort of verification and when I call customer care, she says we cannot make your transaction because we could not verify your information and I said what’s the reason what’s not there she says we cannot share those information so I said, that means I cannot make my transaction?? And she said yes, so I said do I have to uninstall this app? It’s not useful. She says yes, you should uninstall l. Wth",
+                "title": "Hilarious how customer support team responded"
+              }
+            ],
+            "sharePct": 18.8,
+            "theme": "App bugs"
+          }
+        ],
+        "window": {
+          "from": "2025-07-18",
+          "to": "2026-07-04"
+        }
+      },
+      {
+        "averageRating": 3.8,
+        "competitor": "Crobo",
+        "sampleSize": 121,
+        "store": "ios",
+        "themes": [
+          {
+            "count": 11,
+            "examples": [
+              {
+                "date": "2025-08-21T14:23:44.000Z",
+                "id": "13043451091",
+                "rating": 1,
+                "store": "ios",
+                "text": "This has been one of the most disappointing experiences I’ve ever had with a financial application. While trying to send $3,500, your app such collapsed and locked me out. I was unable to log in for 10-12 hours, which is completely unacceptable for a financial service. To make things worse, your customer care is unresponsive and unhelpful(not clear). At a time when I needed urgent support, there was absolutely no one to assist me. For a money transfer application that deals with people’s hard-earned money, such negligence is shocking. Because of this terrible experience, I have lost all trust in Crobo. I will stop using your application immediately and I will not recommend Crobo to anyone. Financial platforms must provide reliability, security, and fast support - your service has failed on all fronts. Unless you take immediate and serious steps to fix these critical issues, I believe many customers will walk away just like I am doing now.",
+                "title": "This is Finance application and down for 10-12 hrs on 20th August 2025"
+              },
+              {
+                "date": "2025-10-30T02:57:28.000Z",
+                "id": "13331931979",
+                "rating": 1,
+                "store": "ios",
+                "text": "it keeps amount in pending status. we can’t trust this app.",
+                "title": "Transaction Pending after expected date"
+              },
+              {
+                "date": "2025-11-25T08:13:44.000Z",
+                "id": "13438607759",
+                "rating": 1,
+                "store": "ios",
+                "text": "Please avoid this to getting into a scam it will create documentation problems",
+                "title": "Using 3rd party application to send money"
+              }
+            ],
+            "sharePct": 9.1,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 31,
+            "examples": [
+              {
+                "date": "2026-04-09T15:22:01.000Z",
+                "id": "13939646169",
+                "rating": 1,
+                "store": "ios",
+                "text": "Saying this out of experience they show one price and give price and the instant transaction doesn’t work they take around5 days and the customer service is the worst",
+                "title": "False price"
+              },
+              {
+                "date": "2026-06-17T11:58:37.000Z",
+                "id": "14193147909",
+                "rating": 1,
+                "store": "ios",
+                "text": "To many app glitch. And lack of customer support",
+                "title": "App glitch lack of customer support"
+              },
+              {
+                "date": "2026-07-03T00:26:45.000Z",
+                "id": "14255830342",
+                "rating": 1,
+                "store": "ios",
+                "text": "They mention everywhere that transfers are processed in 3 business days but somehow everytime you initiate a transaction the date you see after you complete it will be atleast 7-8 days from the date of transfer. There is no intimation about this before you initiate the transaction. Worst support service, it always hets delayed and they have stupid reasons and they say its 5 business days as mentioned to you when you reach out to the customer care",
+                "title": "Fake promises"
+              }
+            ],
+            "sharePct": 25.6,
+            "theme": "Support"
+          },
+          {
+            "count": 33,
+            "examples": [
+              {
+                "date": "2026-04-09T15:22:01.000Z",
+                "id": "13939646169",
+                "rating": 1,
+                "store": "ios",
+                "text": "Saying this out of experience they show one price and give price and the instant transaction doesn’t work they take around5 days and the customer service is the worst",
+                "title": "False price"
+              },
+              {
+                "date": "2026-04-29T00:01:42.000Z",
+                "id": "14007462265",
+                "rating": 1,
+                "store": "ios",
+                "text": "It was initially stated that the processing time would be 3 business days. However, it has now been 6 days and I still have not received my money. I am now being told to wait an additional 24-48 business hours",
+                "title": "Very delay in transactions"
+              },
+              {
+                "date": "2026-07-03T00:26:45.000Z",
+                "id": "14255830342",
+                "rating": 1,
+                "store": "ios",
+                "text": "They mention everywhere that transfers are processed in 3 business days but somehow everytime you initiate a transaction the date you see after you complete it will be atleast 7-8 days from the date of transfer. There is no intimation about this before you initiate the transaction. Worst support service, it always hets delayed and they have stupid reasons and they say its 5 business days as mentioned to you when you reach out to the customer care",
+                "title": "Fake promises"
+              }
+            ],
+            "sharePct": 27.3,
+            "theme": "Speed"
+          },
+          {
+            "count": 6,
+            "examples": [
+              {
+                "date": "2025-07-19T16:03:43.000Z",
+                "id": "12911149053",
+                "rating": 1,
+                "store": "ios",
+                "text": "Tried to sign up but didn’t allow me to proceed to sign in even after submitting the ID verification. Just keep loading and loading forever.",
+                "title": "Never allow you to verify ID"
+              },
+              {
+                "date": "2025-08-16T16:58:58.000Z",
+                "id": "13024005428",
+                "rating": 1,
+                "store": "ios",
+                "text": "I have been trying to use this app since a month. I am not sure why are they asking data/id verification for small amounts like 1000$ or 2000$ , while other apps don’t ask verification unless the transaction is above 2999$. And the worst part, it doesn’t let you upload your id pictures manually and when capturing it detects and captures automatically which is blurry and then it shows a message, database connection lost and if somehow you were able to capture, it will say couldn’t read id and failed. After which it gives an option to retry which doesn’t work. Stupid App!",
+                "title": "Worst app"
+              },
+              {
+                "date": "2025-11-24T13:03:00.000Z",
+                "id": "13435570142",
+                "rating": 1,
+                "store": "ios",
+                "text": "Is this a worst app or something else also that is not working. For my experience, App upon login defaults to bank verification without having id credentials in the first place. Customer service is pathetic as well no way to contact them over phone number? Only WhatsApp that collects personal contact data from each chat.",
+                "title": "App setup is misleading and customer service non responsive"
+              }
+            ],
+            "sharePct": 5,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 64,
+            "examples": [
+              {
+                "date": "2026-01-12T17:13:29.000Z",
+                "id": "13625835564",
+                "rating": 1,
+                "store": "ios",
+                "text": "This app is completely waste , it says it will transfer in 3-5 business days but I faced problems where it took more than 7 business days for the transfer to complete and they keep changing the transfer rates on the spot while making a transaction",
+                "title": "Not recommended"
+              },
+              {
+                "date": "2026-01-27T15:01:32.000Z",
+                "id": "13681928731",
+                "rating": 1,
+                "store": "ios",
+                "text": "Cons: - Transfers fail every single time. Tried three times - Tried adding and deleting my bank account - no luck. - Customer support unable to identify issue. They just said “try a different sender bank,” which is pointless if you only have one account. Other apps work fine with the same bank. In short, never transfer. Cannot share ETA or experience because all attempts failed",
+                "title": "App crashes, transactions fails"
+              },
+              {
+                "date": "2026-06-17T11:58:37.000Z",
+                "id": "14193147909",
+                "rating": 1,
+                "store": "ios",
+                "text": "To many app glitch. And lack of customer support",
+                "title": "App glitch lack of customer support"
+              }
+            ],
+            "sharePct": 52.9,
+            "theme": "App bugs"
+          },
+          {
+            "count": 64,
+            "examples": [
+              {
+                "date": "2026-01-12T17:13:29.000Z",
+                "id": "13625835564",
+                "rating": 1,
+                "store": "ios",
+                "text": "This app is completely waste , it says it will transfer in 3-5 business days but I faced problems where it took more than 7 business days for the transfer to complete and they keep changing the transfer rates on the spot while making a transaction",
+                "title": "Not recommended"
+              },
+              {
+                "date": "2026-02-06T01:06:06.000Z",
+                "id": "13717685123",
+                "rating": 1,
+                "store": "ios",
+                "text": "Used it for a few transactions as they offered better rates, ended up not using it for the issues I had. Sometimes the dollar amount and the conversion doesn’t show right, sometimes it shows success and failed for same transaction. It keeps sending multiple same failure emails for succeeded transactions as well and that is a mess. I ended up getting 15 failed transaction emails to inbox and the 16th one was success",
+                "title": "Issues with payments"
+              },
+              {
+                "date": "2026-03-29T15:22:22.000Z",
+                "id": "13900247026",
+                "rating": 1,
+                "store": "ios",
+                "text": "Misleading advertising, the final rate is different after clicking transfer button, than what was initially shown.",
+                "title": "Rate is different after signing up"
+              }
+            ],
+            "sharePct": 52.9,
+            "theme": "Rates"
+          },
+          {
+            "count": 8,
+            "examples": [
+              {
+                "date": "2025-04-20T19:18:22.000Z",
+                "id": "12566684259",
+                "rating": 1,
+                "store": "ios",
+                "text": "remitly user since 2021 they have some fees little less rates but gives peace of mint which is ok crobo worst costumer service unprofessional lots of delays expected to get resolve after days and days",
+                "title": "Unprofessional"
+              }
+            ],
+            "sharePct": 6.6,
+            "theme": "Fees"
+          }
+        ],
+        "window": {
+          "from": "2024-10-02",
+          "to": "2026-07-03"
+        }
+      },
+      {
+        "averageRating": 3.8,
+        "competitor": "Crobo",
+        "sampleSize": 77,
+        "store": "android",
+        "themes": [
+          {
+            "count": 1,
+            "examples": [
+              {
+                "date": "2026-03-08T20:32:00.475Z",
+                "id": "e753a11d-d250-4e42-ba7d-deb85e4c7c13",
+                "rating": 1,
+                "store": "android",
+                "text": "should have some kind of uploading options for identity verification, just taking pictures is not a great option they have. when I contacted the customer service they wanted to try on a different device, do I need to install all devices, but bank verification and details without hesitation they took, this is really bad, I don't recommend this app.",
+                "title": ""
+              }
+            ],
+            "sharePct": 1.3,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 15,
+            "examples": [
+              {
+                "date": "2025-12-06T06:47:24.196Z",
+                "id": "926ded77-09e6-4511-8358-89b9867d5e14",
+                "rating": 1,
+                "store": "android",
+                "text": "Very bad service, the support is horrible and the money transfer is delayed by 4 days and they can't cancel the transaction like other money transfer services Ria, westernunion. So upset.",
+                "title": ""
+              },
+              {
+                "date": "2026-01-08T23:46:20.736Z",
+                "id": "fc03cab1-1bcf-4547-84ca-fc6766154a0f",
+                "rating": 1,
+                "store": "android",
+                "text": "stay from this . tried transfer the same amount $ around the same time using this and another service. the other money is already in the account with better rates. this one shows it is delayed 2 days. I hope the money goes through. there is a sense of tension of risk with this . STAY AWAY 2000 miles away from these guys.",
+                "title": ""
+              }
+            ],
+            "sharePct": 19.5,
+            "theme": "Speed"
+          },
+          {
+            "count": 18,
+            "examples": [
+              {
+                "date": "2026-03-08T20:32:00.475Z",
+                "id": "e753a11d-d250-4e42-ba7d-deb85e4c7c13",
+                "rating": 1,
+                "store": "android",
+                "text": "should have some kind of uploading options for identity verification, just taking pictures is not a great option they have. when I contacted the customer service they wanted to try on a different device, do I need to install all devices, but bank verification and details without hesitation they took, this is really bad, I don't recommend this app.",
+                "title": ""
+              },
+              {
+                "date": "2026-05-08T11:15:34.791Z",
+                "id": "75fdfc4b-3192-4ca7-ad47-84f98d279d0a",
+                "rating": 1,
+                "store": "android",
+                "text": "Worst experience in customer support. They say it will be delivered in 4 days and the money will not be delivered to bank account. Don't use Crobo, try Remitly for commitment of transfer",
+                "title": ""
+              },
+              {
+                "date": "2026-07-02T00:54:30.830Z",
+                "id": "c8e2436a-b53f-4561-ba78-b0c492c89e18",
+                "rating": 1,
+                "store": "android",
+                "text": "work ever app in terms of security. it allowed some strangers to sign and make transactions across globe to sigin and I had to call the bank to revoke the transactions. the support team is asking me to clear the dues for the unauthorized transactions. literally paying for thieves. I want them to deactivate the account. they cannot do that also",
+                "title": ""
+              }
+            ],
+            "sharePct": 23.4,
+            "theme": "Support"
+          },
+          {
+            "count": 33,
+            "examples": [
+              {
+                "date": "2025-12-06T05:02:38.136Z",
+                "id": "2122caa1-941e-4c0d-af5f-7e6769ca2038",
+                "rating": 1,
+                "store": "android",
+                "text": "worst money transfer app. offers a bit more transaction rate but delays payments till two weeks. worst experience dealing with the customer support",
+                "title": ""
+              },
+              {
+                "date": "2026-01-08T23:46:20.736Z",
+                "id": "fc03cab1-1bcf-4547-84ca-fc6766154a0f",
+                "rating": 1,
+                "store": "android",
+                "text": "stay from this . tried transfer the same amount $ around the same time using this and another service. the other money is already in the account with better rates. this one shows it is delayed 2 days. I hope the money goes through. there is a sense of tension of risk with this . STAY AWAY 2000 miles away from these guys.",
+                "title": ""
+              },
+              {
+                "date": "2026-06-03T02:35:34.308Z",
+                "id": "e4cb3ebd-34e0-4164-b8b5-dbbf7fd7cb84",
+                "rating": 2,
+                "store": "android",
+                "text": "The conversation rates are favorable, but for convenience, I cannot recommend them. There are a few factors, such as transfer limits. When I inquired about this with their customer service, they mentioned a wallet, which was not what I was asking about regarding the limit. Their application is not ideal; I suggest using their website instead.",
+                "title": ""
+              }
+            ],
+            "sharePct": 42.9,
+            "theme": "Rates"
+          },
+          {
+            "count": 33,
+            "examples": [
+              {
+                "date": "2025-12-06T05:02:38.136Z",
+                "id": "2122caa1-941e-4c0d-af5f-7e6769ca2038",
+                "rating": 1,
+                "store": "android",
+                "text": "worst money transfer app. offers a bit more transaction rate but delays payments till two weeks. worst experience dealing with the customer support",
+                "title": ""
+              },
+              {
+                "date": "2026-03-08T20:32:00.475Z",
+                "id": "e753a11d-d250-4e42-ba7d-deb85e4c7c13",
+                "rating": 1,
+                "store": "android",
+                "text": "should have some kind of uploading options for identity verification, just taking pictures is not a great option they have. when I contacted the customer service they wanted to try on a different device, do I need to install all devices, but bank verification and details without hesitation they took, this is really bad, I don't recommend this app.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-02T00:54:30.830Z",
+                "id": "c8e2436a-b53f-4561-ba78-b0c492c89e18",
+                "rating": 1,
+                "store": "android",
+                "text": "work ever app in terms of security. it allowed some strangers to sign and make transactions across globe to sigin and I had to call the bank to revoke the transactions. the support team is asking me to clear the dues for the unauthorized transactions. literally paying for thieves. I want them to deactivate the account. they cannot do that also",
+                "title": ""
+              }
+            ],
+            "sharePct": 42.9,
+            "theme": "App bugs"
+          },
+          {
+            "count": 6,
+            "examples": [
+              {
+                "date": "2025-07-18T06:13:08.760Z",
+                "id": "3fc9f51e-1659-4f3e-a96e-7a193085cecd",
+                "rating": 1,
+                "store": "android",
+                "text": "waste I have seen an instagram reel from anushkinusa and this has taken my bank login details but when I am trying to login again it just redirects me to the first login or signup page so it's really bad don't use this application i think this is a fraud.",
+                "title": ""
+              },
+              {
+                "date": "2025-10-12T18:47:06.561Z",
+                "id": "53476c06-630e-4d62-abec-f846e1661ada",
+                "rating": 2,
+                "store": "android",
+                "text": "for the first couple of transfers its good no issues and definitely best best rates u can get out of all applications BUT from 3 transfers are not happening within the time limit provided by them need to reach out to support to get it done for all 3 transactions. trust worthy wise 0",
+                "title": ""
+              },
+              {
+                "date": "2026-06-26T03:15:34.174Z",
+                "id": "32f117b1-f36a-4bfa-ba8c-0cec9e4b8fc9",
+                "rating": 1,
+                "store": "android",
+                "text": "This company seems like a scam, even basic things like logging in don't work.",
+                "title": ""
+              }
+            ],
+            "sharePct": 7.8,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 9,
+            "examples": [
+              {
+                "date": "2025-08-22T16:25:49.872Z",
+                "id": "73b81aaf-3d3d-4a47-ad6a-f8f3cb328d15",
+                "rating": 1,
+                "store": "android",
+                "text": "There was no prior mention of any cancellation fees, but after I canceled the transaction, 1% of the amount was deducted as a cancellation charge.",
+                "title": ""
+              }
+            ],
+            "sharePct": 11.7,
+            "theme": "Fees"
+          }
+        ],
+        "window": {
+          "from": "2025-04-23",
+          "to": "2026-07-02"
+        }
+      },
+      {
+        "averageRating": 3.8,
+        "competitor": "Xpat",
+        "sampleSize": 44,
+        "store": "android",
+        "themes": [
+          {
+            "count": 1,
+            "examples": [],
+            "sharePct": 2.3,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 11,
+            "examples": [
+              {
+                "date": "2026-02-13T15:40:53.368Z",
+                "id": "b5a4a3aa-c873-4d31-8d45-9c6649f3600a",
+                "rating": 1,
+                "store": "android",
+                "text": "My experience has been very disappointing - their support team appears unreachable and unresponsive. Thankfully, I sought assistance before transferring any money. I’m concerned about what might have happened if I had completed the payment without clarification.",
+                "title": ""
+              },
+              {
+                "date": "2026-04-25T21:40:03.725Z",
+                "id": "637d6269-0eb3-4e25-8923-d2780dc858c9",
+                "rating": 1,
+                "store": "android",
+                "text": "There are many hidden issues With kyc verification and not able to resolve for years. The support is not helping forever. avoid this app they need bank statements. Western union knows top users rated and best in solving the problem.",
+                "title": ""
+              },
+              {
+                "date": "2026-06-24T18:40:01.814Z",
+                "id": "9a59b0c3-8d84-4a1e-a3b8-6c66f9a43b13",
+                "rating": 1,
+                "store": "android",
+                "text": "​Avoid this money transfer platform; it is highly unreliable. First, there is no basic cancellation option like other services offer, meaning if you change your mind or make an error, you are completely trapped and at the mercy of their support team. Second, their customer support is practically non-existent. My transfer has been stuck for the past 15 days, and whenever I try to message an agent, I get the exact same automated response: \"will check with team, thanks for patience.\" To make matter",
+                "title": ""
+              }
+            ],
+            "sharePct": 25,
+            "theme": "Support"
+          },
+          {
+            "count": 19,
+            "examples": [
+              {
+                "date": "2026-04-06T16:24:25.251Z",
+                "id": "d5a3e813-caa9-4c90-a944-69583ba80424",
+                "rating": 1,
+                "store": "android",
+                "text": "Not able to login. It redirects to the login page. please fix the bug",
+                "title": ""
+              },
+              {
+                "date": "2026-04-25T21:40:03.725Z",
+                "id": "637d6269-0eb3-4e25-8923-d2780dc858c9",
+                "rating": 1,
+                "store": "android",
+                "text": "There are many hidden issues With kyc verification and not able to resolve for years. The support is not helping forever. avoid this app they need bank statements. Western union knows top users rated and best in solving the problem.",
+                "title": ""
+              },
+              {
+                "date": "2026-06-24T18:40:01.814Z",
+                "id": "9a59b0c3-8d84-4a1e-a3b8-6c66f9a43b13",
+                "rating": 1,
+                "store": "android",
+                "text": "​Avoid this money transfer platform; it is highly unreliable. First, there is no basic cancellation option like other services offer, meaning if you change your mind or make an error, you are completely trapped and at the mercy of their support team. Second, their customer support is practically non-existent. My transfer has been stuck for the past 15 days, and whenever I try to message an agent, I get the exact same automated response: \"will check with team, thanks for patience.\" To make matter",
+                "title": ""
+              }
+            ],
+            "sharePct": 43.2,
+            "theme": "App bugs"
+          },
+          {
+            "count": 4,
+            "examples": [],
+            "sharePct": 9.1,
+            "theme": "Fees"
+          },
+          {
+            "count": 4,
+            "examples": [
+              {
+                "date": "2024-12-26T09:00:52.170Z",
+                "id": "e96ef5c2-ed8c-4855-abdb-450672319c01",
+                "rating": 1,
+                "store": "android",
+                "text": "Poor customer support. If it doesn't verify your photo, they take 24-48 hours to reset! They never reply to your messages.",
+                "title": ""
+              },
+              {
+                "date": "2026-03-19T11:03:08.408Z",
+                "id": "a9dcb552-7651-41c9-b59d-f3d4fd16028b",
+                "rating": 2,
+                "store": "android",
+                "text": "I used to love remit2any until they decided I cannot transfer any longer. They have a weird policy that someone in India with money in US cannot transfer money to India. It was all good when I was in US. I recently moved back to India for good. But remit2any is asking me to update US KYC with valid US driver's licence or visa. Since all my US documents are expired, I am forced to stop using remit2any. I am still able to use remitly, which means this US KYC is remit2any's own invention.",
+                "title": ""
+              },
+              {
+                "date": "2026-04-25T21:40:03.725Z",
+                "id": "637d6269-0eb3-4e25-8923-d2780dc858c9",
+                "rating": 1,
+                "store": "android",
+                "text": "There are many hidden issues With kyc verification and not able to resolve for years. The support is not helping forever. avoid this app they need bank statements. Western union knows top users rated and best in solving the problem.",
+                "title": ""
+              }
+            ],
+            "sharePct": 9.1,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 8,
+            "examples": [
+              {
+                "date": "2025-04-19T01:58:33.559Z",
+                "id": "e3ae728b-fe2d-462d-b283-f34dd1caa3a7",
+                "rating": 1,
+                "store": "android",
+                "text": "They make excuses like the bank system down or holiday and never transfer on time...instant money transfers take 12 hours easily...not recommended for instant transfers..lots of glitches in UI too...not recommended...Lemify and Remitly are far better reliable, fast and easy to use ..Remitly is spot on with estimated remit times..",
+                "title": ""
+              },
+              {
+                "date": "2026-03-29T15:18:47.983Z",
+                "id": "2d33c962-925d-4213-81e1-eb6518cc2d8f",
+                "rating": 1,
+                "store": "android",
+                "text": "this apps trick ...show sent money quick asking so many questions say sent 2.50lakh after add promo show only 100 ......dont i stall wasting time ....",
+                "title": ""
+              }
+            ],
+            "sharePct": 18.2,
+            "theme": "Speed"
+          },
+          {
+            "count": 9,
+            "examples": [
+              {
+                "date": "2025-11-09T02:53:14.620Z",
+                "id": "6f768718-4d4c-4bfb-8299-511b90df1620",
+                "rating": 1,
+                "store": "android",
+                "text": "The support team is inefficient, acknowledging issues without details and only asking for them upon follow-up, despite offering good transfer rates. If you have some urgency with funds transfer, avoid this. otherwise you can give a try.",
+                "title": ""
+              }
+            ],
+            "sharePct": 20.5,
+            "theme": "Rates"
+          }
+        ],
+        "window": {
+          "from": "2024-11-21",
+          "to": "2026-06-24"
+        }
+      },
+      {
+        "averageRating": 4.1,
+        "competitor": "Western Union",
+        "sampleSize": 402,
+        "store": "ios",
+        "themes": [
+          {
+            "count": 13,
+            "examples": [
+              {
+                "date": "2026-05-25T06:00:09.000Z",
+                "id": "14103250088",
+                "rating": 2,
+                "store": "ios",
+                "text": "I experienced slow delivery, low rate",
+                "title": "Slow delivery"
+              },
+              {
+                "date": "2026-06-25T03:54:39.000Z",
+                "id": "14223143139",
+                "rating": 2,
+                "store": "ios",
+                "text": "WU takes too much money. They charge the sender and then one can see the value of the dollar in exchange and they keep money through the exchange, they are double dipping. The exchange rate tells you what it is worth but WU comes out with their own value.",
+                "title": "WU CHARGES TOO MUCH"
+              },
+              {
+                "date": "2026-06-25T10:08:02.000Z",
+                "id": "14224002270",
+                "rating": 1,
+                "store": "ios",
+                "text": "Your Phillipine peso to dollar rate is P2.00 pesos lower than the real western union",
+                "title": "Rate"
+              }
+            ],
+            "sharePct": 3.2,
+            "theme": "Rates"
+          },
+          {
+            "count": 19,
+            "examples": [
+              {
+                "date": "2026-03-07T18:57:28.000Z",
+                "id": "13824306792",
+                "rating": 1,
+                "store": "ios",
+                "text": "Yes, the app works great in WesternUnion makes it very easy to take your money. But when you go to the location, it’s a different story. I visited three different places and they’re either never open or their system is down. I guess this is how Western Union makes their money. They should be shut down.",
+                "title": "Scam! Look at the reviews for the store locations. They are never open."
+              },
+              {
+                "date": "2026-04-27T20:47:19.000Z",
+                "id": "14003631963",
+                "rating": 1,
+                "store": "ios",
+                "text": "do not accept any cash back from them lol. If it’s not points coming from the app otherwise don’t. They tried to sign me up for cash back , through a link when I put my card that had no money it declined it, lol why decline if I’m receiving the cash back , I opened the term and services then it says I will be charged 1 now and then after that 20 dollars a month lol what a crazy scam. Western union do better with the pages you accompanied with. Or maybe you are apart of the scam . Either way I will not be fooled.",
+                "title": "Be careful of scams"
+              },
+              {
+                "date": "2026-06-15T14:56:40.000Z",
+                "id": "14185918383",
+                "rating": 1,
+                "store": "ios",
+                "text": "I was scammed a few yrs back and they made wait for 3 yrs just tell me that I’m not getting back what I lost after I took all the steps to get my money Definitely feel like we’re in on the scam too.",
+                "title": "My money"
+              }
+            ],
+            "sharePct": 4.7,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 2,
+            "examples": [
+              {
+                "date": "2026-04-20T17:20:50.000Z",
+                "id": "13978951071",
+                "rating": 1,
+                "store": "ios",
+                "text": "Customer Support is horrible, they put me on hold for half and hour, then hold me on transfer another half and hour for the team to review/verify such &such.",
+                "title": "Long Hour wait time!"
+              },
+              {
+                "date": "2026-05-18T01:57:17.000Z",
+                "id": "14076881603",
+                "rating": 1,
+                "store": "ios",
+                "text": "I have tried several times to login ! Impossible . I already have an account . Tried to use the app . When you click login , it sends you to login/register. Tried that . Then it asks for a phone number to send a verification code. After I put my number it always pops an error message .",
+                "title": "Can’t even sign in !!!"
+              }
+            ],
+            "sharePct": 0.5,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 24,
+            "examples": [
+              {
+                "date": "2026-05-07T11:10:43.000Z",
+                "id": "14037627148",
+                "rating": 1,
+                "store": "ios",
+                "text": "Don’t use western union too much service charge",
+                "title": "High service charge"
+              },
+              {
+                "date": "2026-05-21T21:35:22.000Z",
+                "id": "14090719372",
+                "rating": 1,
+                "store": "ios",
+                "text": "I don’t like the fact that the transfer fee amount changed just because I updated my payment info it went from free to $89 thats unacceptable .",
+                "title": "Fee Change"
+              },
+              {
+                "date": "2026-05-23T20:29:16.000Z",
+                "id": "14098083433",
+                "rating": 1,
+                "store": "ios",
+                "text": "Since we're at it, let's just not send money to anyone else and give it all to you.",
+                "title": "Expensive"
+              }
+            ],
+            "sharePct": 6,
+            "theme": "Fees"
+          },
+          {
+            "count": 25,
+            "examples": [
+              {
+                "date": "2026-06-06T12:43:24.000Z",
+                "id": "14150551228",
+                "rating": 1,
+                "store": "ios",
+                "text": "They constantly delay transfers for days on end. I’ve had my money transfer delayed as in progress for a week now and all the chat people can respond with is they’re working on it. It’s been days? This is the 4th time since downloading this app that this has happened.",
+                "title": "Delayed transfers"
+              },
+              {
+                "date": "2026-06-08T14:46:09.000Z",
+                "id": "14158613453",
+                "rating": 1,
+                "store": "ios",
+                "text": "Poo",
+                "title": "Poor customer service"
+              },
+              {
+                "date": "2026-06-17T00:04:50.000Z",
+                "id": "14191428970",
+                "rating": 1,
+                "store": "ios",
+                "text": "I can’t send money and the staff have lied to me when I call to ask why things are not going through. The tech and it help are clueless. That company may be good. Until you have a problem that needs to be fixed. Then you are going to have to endure rude and at times , staff that lies.",
+                "title": "The staff are hard to work with. I can’t send money."
+              }
+            ],
+            "sharePct": 6.2,
+            "theme": "Support"
+          },
+          {
+            "count": 53,
+            "examples": [
+              {
+                "date": "2026-06-05T16:37:24.000Z",
+                "id": "14147420658",
+                "rating": 1,
+                "store": "ios",
+                "text": "Nag me, get 1 star. And for an app as glitchy and slow as Western Union, 0 stars is generous. All that money and they still haven’t figured out how an app or a website works.",
+                "title": "Don’t nag me for a review"
+              },
+              {
+                "date": "2026-06-06T12:43:24.000Z",
+                "id": "14150551228",
+                "rating": 1,
+                "store": "ios",
+                "text": "They constantly delay transfers for days on end. I’ve had my money transfer delayed as in progress for a week now and all the chat people can respond with is they’re working on it. It’s been days? This is the 4th time since downloading this app that this has happened.",
+                "title": "Delayed transfers"
+              },
+              {
+                "date": "2026-06-28T05:59:20.000Z",
+                "id": "14235647381",
+                "rating": 1,
+                "store": "ios",
+                "text": "One of the worst abs and websites ever so slow every time I never had a good experience with their website or application",
+                "title": "Worst app and website ever"
+              }
+            ],
+            "sharePct": 13.2,
+            "theme": "Speed"
+          },
+          {
+            "count": 83,
+            "examples": [
+              {
+                "date": "2026-06-05T16:37:24.000Z",
+                "id": "14147420658",
+                "rating": 1,
+                "store": "ios",
+                "text": "Nag me, get 1 star. And for an app as glitchy and slow as Western Union, 0 stars is generous. All that money and they still haven’t figured out how an app or a website works.",
+                "title": "Don’t nag me for a review"
+              },
+              {
+                "date": "2026-06-06T12:43:24.000Z",
+                "id": "14150551228",
+                "rating": 1,
+                "store": "ios",
+                "text": "They constantly delay transfers for days on end. I’ve had my money transfer delayed as in progress for a week now and all the chat people can respond with is they’re working on it. It’s been days? This is the 4th time since downloading this app that this has happened.",
+                "title": "Delayed transfers"
+              },
+              {
+                "date": "2026-06-28T05:59:20.000Z",
+                "id": "14235647381",
+                "rating": 1,
+                "store": "ios",
+                "text": "One of the worst abs and websites ever so slow every time I never had a good experience with their website or application",
+                "title": "Worst app and website ever"
+              }
+            ],
+            "sharePct": 20.6,
+            "theme": "App bugs"
+          }
+        ],
+        "window": {
+          "from": "2026-02-13",
+          "to": "2026-07-01"
+        }
+      },
+      {
+        "averageRating": 4.1,
+        "competitor": "Wise",
+        "sampleSize": 500,
+        "store": "android",
+        "themes": [
+          {
+            "count": 12,
+            "examples": [
+              {
+                "date": "2026-07-03T09:11:44.502Z",
+                "id": "ad0883db-449f-45d8-9f3f-ebc135972ac7",
+                "rating": 1,
+                "store": "android",
+                "text": "Miserables! Apps DL from sg unable to open in Malaysia! Using biometrics enter still need to prove myself! Yet I follow the step, then the picture can't submit in app. only bring 1 device to oversea! Tell me how to verify? Don't have local number unable to call for service! Frustrated!",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T11:07:06.755Z",
+                "id": "44ca5a3a-95f7-43b4-9c24-143d950027ec",
+                "rating": 1,
+                "store": "android",
+                "text": "Worst app on earth. They harass 77 year olds. Ashok from the verification team does not even know what a Virtual Assistant or a Personal Assistant does and he has not verified my father's account after 7 attempts. You still have the audacity to tell me about your 'guidelines'? RBI guidelines can never say you can harass anybody. Shame on you!",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T07:03:42.598Z",
+                "id": "2f5cd30e-8876-47d0-baef-7a5e9b3622d2",
+                "rating": 1,
+                "store": "android",
+                "text": "This was a great company for 6 years until their verification and help processes turned miserable. As an EU citizen with a EU business with easily traceable funds Wise is now keeping my business account hostage for a week and a half already. Support and their due dilligence team are horrendous and of no help, and they even ask me for 6 months of bank statements from another bank (I do not have another bank, why would I have another bank? Aren't you a damn bank??).",
+                "title": ""
+              }
+            ],
+            "sharePct": 2.4,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 13,
+            "examples": [
+              {
+                "date": "2026-07-01T14:57:46.800Z",
+                "id": "d6210a67-04bb-47dc-8a13-74a1df41f90c",
+                "rating": 1,
+                "store": "android",
+                "text": "this guys are fraud they suspended my account my account over a deposit of 900$ y'all are just acting angels when you are doing terrible things to people claiming the world fast money that's lie I work with top influencers they are gonna ruin wise soon",
+                "title": ""
+              },
+              {
+                "date": "2026-07-01T16:33:17.759Z",
+                "id": "dba34ba6-5623-4644-86fa-3bf9a6f8e195",
+                "rating": 1,
+                "store": "android",
+                "text": "Absolute diabolical garbage institution (not a bank not subject to same rules/controls). They WILL block your account for ANY reason they feel appropriate WITHOUT any attempt to contact you. They blocked my account & demanded information. impossible to give through the app. NOTHING had changed. I sent the documents via chat and eventually my account was restored. 3 days later, account blocked. REVOLUT is the way to go. EDIT \"fell short\" you're a joke. Nothing's changed but you keep blocking me.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T11:53:09.220Z",
+                "id": "71b29079-fa77-4cc5-bf05-b6f1b262cbec",
+                "rating": 1,
+                "store": "android",
+                "text": "you are not able to use it on a rooted device because my safety is the biggest scam of all. It's okay if you don't want people to have rooted phones to use the app, but at least don't lie and praise yourself how you do it because my safety",
+                "title": ""
+              }
+            ],
+            "sharePct": 2.6,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 26,
+            "examples": [
+              {
+                "date": "2026-07-03T14:25:51.208Z",
+                "id": "505f44c6-6174-40c6-905a-959a5fc302ac",
+                "rating": 1,
+                "store": "android",
+                "text": "Infuriating experience trying to load currency on account and then pay. As a South African in Europe I had to buy Rands at a Euro exchange rate so that I can pay a bill with Euros because the app would not allow me to swap the currencies. I had to pay unneccesary exchange rate charges for this and now that I have finally loaded the account, it won't let me pay because \"The 2 Factor Authentication\" is not setup properly on my phone and I am unable to use the chat for help function. Mind boggling",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T07:03:42.598Z",
+                "id": "2f5cd30e-8876-47d0-baef-7a5e9b3622d2",
+                "rating": 1,
+                "store": "android",
+                "text": "This was a great company for 6 years until their verification and help processes turned miserable. As an EU citizen with a EU business with easily traceable funds Wise is now keeping my business account hostage for a week and a half already. Support and their due dilligence team are horrendous and of no help, and they even ask me for 6 months of bank statements from another bank (I do not have another bank, why would I have another bank? Aren't you a damn bank??).",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T13:56:26.200Z",
+                "id": "9a0634de-8bed-4465-b958-07bfb9b843a3",
+                "rating": 1,
+                "store": "android",
+                "text": "the support is disaster!!!",
+                "title": ""
+              }
+            ],
+            "sharePct": 5.2,
+            "theme": "Support"
+          },
+          {
+            "count": 29,
+            "examples": [
+              {
+                "date": "2026-07-03T14:11:45.736Z",
+                "id": "51c3098b-a068-4da1-ab19-5193b43700cd",
+                "rating": 3,
+                "store": "android",
+                "text": "rates are fair but transfers are slow and even slower if your transfer involves a weekend because your money does not move on weekends.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T14:25:51.208Z",
+                "id": "505f44c6-6174-40c6-905a-959a5fc302ac",
+                "rating": 1,
+                "store": "android",
+                "text": "Infuriating experience trying to load currency on account and then pay. As a South African in Europe I had to buy Rands at a Euro exchange rate so that I can pay a bill with Euros because the app would not allow me to swap the currencies. I had to pay unneccesary exchange rate charges for this and now that I have finally loaded the account, it won't let me pay because \"The 2 Factor Authentication\" is not setup properly on my phone and I am unable to use the chat for help function. Mind boggling",
+                "title": ""
+              },
+              {
+                "date": "2026-07-04T05:57:15.470Z",
+                "id": "2db537ff-7452-4017-9d50-18832247e5e2",
+                "rating": 2,
+                "store": "android",
+                "text": "Fees have gone up e.g. it's no longer free to transfer with the same currency. Now there is a fee to transfer from 1 currency to another + a fee to transfer from local currency to a local currency account. This negates the slightly higher xchange rate. Considering the high fees, customer service is poor. It took 1 month to locate missing funds sent to Wise and the only reason I had resolution was because I reported Wise to the Australian Financial Complaints Authority AFCA",
+                "title": ""
+              }
+            ],
+            "sharePct": 5.8,
+            "theme": "Rates"
+          },
+          {
+            "count": 36,
+            "examples": [
+              {
+                "date": "2026-07-01T00:08:52.494Z",
+                "id": "7828081d-2b87-46ef-9a8d-adf0c5be31ec",
+                "rating": 1,
+                "store": "android",
+                "text": "too much cost",
+                "title": ""
+              },
+              {
+                "date": "2026-07-01T01:20:10.613Z",
+                "id": "cf2cda99-715b-4a3e-b1ec-ff50adca841f",
+                "rating": 1,
+                "store": "android",
+                "text": "to many fees. I charges a fee to receive the transaction. then if you want to move the money between different currencies it charges you too, when global66 app gives you that option for free and then you only have to pay for the actual transfer. it's ridiculous taking into consideration that we have so manu options in the market that are way cheaper.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T14:25:51.208Z",
+                "id": "505f44c6-6174-40c6-905a-959a5fc302ac",
+                "rating": 1,
+                "store": "android",
+                "text": "Infuriating experience trying to load currency on account and then pay. As a South African in Europe I had to buy Rands at a Euro exchange rate so that I can pay a bill with Euros because the app would not allow me to swap the currencies. I had to pay unneccesary exchange rate charges for this and now that I have finally loaded the account, it won't let me pay because \"The 2 Factor Authentication\" is not setup properly on my phone and I am unable to use the chat for help function. Mind boggling",
+                "title": ""
+              }
+            ],
+            "sharePct": 7.2,
+            "theme": "Fees"
+          },
+          {
+            "count": 85,
+            "examples": [
+              {
+                "date": "2026-07-01T02:02:02.147Z",
+                "id": "7ea922a8-b004-4dc8-b416-0d7812393d9f",
+                "rating": 1,
+                "store": "android",
+                "text": "this is a very slow service",
+                "title": ""
+              },
+              {
+                "date": "2026-07-01T14:57:46.800Z",
+                "id": "d6210a67-04bb-47dc-8a13-74a1df41f90c",
+                "rating": 1,
+                "store": "android",
+                "text": "this guys are fraud they suspended my account my account over a deposit of 900$ y'all are just acting angels when you are doing terrible things to people claiming the world fast money that's lie I work with top influencers they are gonna ruin wise soon",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T22:25:38.750Z",
+                "id": "cede3114-e633-4534-8477-0e19ae833038",
+                "rating": 1,
+                "store": "android",
+                "text": "to slow to add money even thu i transfer immediately",
+                "title": ""
+              }
+            ],
+            "sharePct": 17,
+            "theme": "Speed"
+          },
+          {
+            "count": 96,
+            "examples": [
+              {
+                "date": "2026-07-04T11:17:25.439Z",
+                "id": "3748bc33-5e31-45ec-8b29-2786f1397457",
+                "rating": 1,
+                "store": "android",
+                "text": "The app won't let me close the account even though I never used it because it didn't have the currency I needed and the country I went to accepted visa. let me leave this is ridiculous",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T02:25:52.917Z",
+                "id": "22aff382-0f64-4d6f-81ad-e8945f11088f",
+                "rating": 1,
+                "store": "android",
+                "text": "YOUR LOGIN SYSTEM IS SO ANNOYING I CANNOT FREAKING RECEIVE THE YES IT'S ME NOTIFICATION ON MY APP AND ON THE OTHER DEVICE THAT I USE PLEASE FIX THIS!!!!!!!!",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T11:53:09.220Z",
+                "id": "71b29079-fa77-4cc5-bf05-b6f1b262cbec",
+                "rating": 1,
+                "store": "android",
+                "text": "you are not able to use it on a rooted device because my safety is the biggest scam of all. It's okay if you don't want people to have rooted phones to use the app, but at least don't lie and praise yourself how you do it because my safety",
+                "title": ""
+              }
+            ],
+            "sharePct": 19.2,
+            "theme": "App bugs"
+          }
+        ],
+        "window": {
+          "from": "2026-06-29",
+          "to": "2026-07-05"
+        }
+      },
+      {
+        "averageRating": 4.2,
+        "competitor": "Western Union",
+        "sampleSize": 500,
+        "store": "android",
+        "themes": [
+          {
+            "count": 102,
+            "examples": [
+              {
+                "date": "2026-06-26T21:57:20.346Z",
+                "id": "90e88ab4-b2b0-4c9d-90b9-9c827c5a95b8",
+                "rating": 1,
+                "store": "android",
+                "text": "The app is very slow and irritating they say it's simple and easy to use but no it's not It has so many problems and then now the fee has gotten ridiculous to send money I'm going to start using something else to send money",
+                "title": ""
+              },
+              {
+                "date": "2026-06-29T05:40:39.296Z",
+                "id": "a002b064-8888-4a63-93ea-957faa1db0f2",
+                "rating": 1,
+                "store": "android",
+                "text": "So slow",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T17:19:50.899Z",
+                "id": "4fc7f689-9911-4231-a0fd-d9dcc2a031b5",
+                "rating": 1,
+                "store": "android",
+                "text": "slow and clunky takes up to 5 minutes for a simple transfer",
+                "title": ""
+              }
+            ],
+            "sharePct": 20.4,
+            "theme": "Speed"
+          },
+          {
+            "count": 11,
+            "examples": [
+              {
+                "date": "2026-06-17T15:03:49.772Z",
+                "id": "3c981450-78ce-4db1-8a38-8e60a2b90272",
+                "rating": 1,
+                "store": "android",
+                "text": "Deleted all history, over charges both in rates and fees",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T02:11:36.778Z",
+                "id": "52c7c871-148d-4829-9b3b-a153b02bd87f",
+                "rating": 1,
+                "store": "android",
+                "text": "This App is perfectly fine, certainly 5 stars, EXCEPT it harasses me each and every single time to rate this App, so I'm dropping it one star. I will lower the rating every 10th time it asks me to rate the app. The popup never goes away. It wants to be constantly rated even if you already rated it. If you select \"later\" it will pop up later. If you rate it, it will still pop up later.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T13:44:14.559Z",
+                "id": "66b0d84a-dcf4-4dc2-b4bd-683baac734e1",
+                "rating": 1,
+                "store": "android",
+                "text": "July 3, 2026 - still asks for a review AFTER EVERY TRANSFER! RIDICULOUS! App works fine, but the \"Rate me now\" pop up dialog is CONSTANT and EXTREMELY ANNOYING! I have reviewed this app before, so leave me alone! Here I am again, asking you to stop the constant \"Rate me now\" pop up. Other than the absolutely annoying rating request on EVERY SINGLE transfer I make, the app works well. It is still asking for an app rating after EVERY transfer! Make it stop!",
+                "title": ""
+              }
+            ],
+            "sharePct": 2.2,
+            "theme": "Rates"
+          },
+          {
+            "count": 14,
+            "examples": [
+              {
+                "date": "2026-06-09T17:52:03.664Z",
+                "id": "8f3272f0-89a1-451b-a9b1-4158ffe2c631",
+                "rating": 1,
+                "store": "android",
+                "text": "went to change the card I was paying and order, the app automatically cancelled the order al together, and support wasn't much help either",
+                "title": ""
+              },
+              {
+                "date": "2026-06-17T03:50:56.928Z",
+                "id": "697a755c-10ef-4cd8-a915-568b2f51e18d",
+                "rating": 1,
+                "store": "android",
+                "text": "this app sucks, you do a transfer but you don't know how much time it's gonna take. spoke to agent but had fixed response, it's like talking to chatbot only",
+                "title": ""
+              },
+              {
+                "date": "2026-06-23T13:36:26.520Z",
+                "id": "52a17567-24f9-4dec-bbcf-44bf38c903d7",
+                "rating": 1,
+                "store": "android",
+                "text": "it worked easier than going in the actual store. I wrote that initially on April 4th when I thought it was easier than going to the store since then it's been nothing but a nightmare trying to get a refund from a transaction they denied which I had to use some bootleg app named Barry to complete the actual transaction and getting my refund has taken over 2 months instead of some email telling me I had to do this and do that to get my I talked to Christopher customer service today which is the 23",
+                "title": ""
+              }
+            ],
+            "sharePct": 2.8,
+            "theme": "Support"
+          },
+          {
+            "count": 19,
+            "examples": [
+              {
+                "date": "2026-06-07T22:45:56.143Z",
+                "id": "39ddc45e-d590-4029-a848-b493b5759b17",
+                "rating": 1,
+                "store": "android",
+                "text": "Western union just stole a $1 from me without my consent. Pretending they were going to give me a bonus of $20 and send it to my debit card account. When I put in the information, they took a dollar from my account and never sent me the $20. Just another American greedy scam... Shameless. I think I'll stop using Western Union",
+                "title": ""
+              },
+              {
+                "date": "2026-06-21T18:00:09.110Z",
+                "id": "0597453e-68bf-44ae-93b7-1f93a32d1282",
+                "rating": 1,
+                "store": "android",
+                "text": "They randomly decide i can't send my fiance money, so I have to use their competitors. Pretty irritating. Everything to them is a Scam. I tried to WU my fiancee money for her plan ticket. We were meeting up in the Caribbean to get married and wait out her visa process. They congratulated me on the wedding, but decided me sending her money for a plane ticket was a scam!! Too many other apps that dont play these Games!!",
+                "title": ""
+              }
+            ],
+            "sharePct": 3.8,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 21,
+            "examples": [
+              {
+                "date": "2026-06-17T15:03:49.772Z",
+                "id": "3c981450-78ce-4db1-8a38-8e60a2b90272",
+                "rating": 1,
+                "store": "android",
+                "text": "Deleted all history, over charges both in rates and fees",
+                "title": ""
+              },
+              {
+                "date": "2026-06-22T20:27:39.264Z",
+                "id": "7d9b5432-c30c-472c-90b5-25a59032e10d",
+                "rating": 1,
+                "store": "android",
+                "text": "garbage app and website. crashes constantly, having to re-log in every time. Oh, I'm in another country than what my account is? Gotta relog in again! Has failed to send payments causing issues and fees. Takes nearly 10 days to be accessible by recipient. Would never recommend.",
+                "title": ""
+              },
+              {
+                "date": "2026-06-26T21:57:20.346Z",
+                "id": "90e88ab4-b2b0-4c9d-90b9-9c827c5a95b8",
+                "rating": 1,
+                "store": "android",
+                "text": "The app is very slow and irritating they say it's simple and easy to use but no it's not It has so many problems and then now the fee has gotten ridiculous to send money I'm going to start using something else to send money",
+                "title": ""
+              }
+            ],
+            "sharePct": 4.2,
+            "theme": "Fees"
+          },
+          {
+            "count": 5,
+            "examples": [
+              {
+                "date": "2026-06-16T23:23:44.460Z",
+                "id": "5c6811e8-fec3-482e-a616-45b5ea683742",
+                "rating": 1,
+                "store": "android",
+                "text": "sluggish app, inconsistent fees, endless verification looping ...",
+                "title": ""
+              },
+              {
+                "date": "2026-07-01T23:06:55.535Z",
+                "id": "9fdd72e5-dd8d-487c-bfa3-c5d797a67893",
+                "rating": 1,
+                "store": "android",
+                "text": "UPDATE: the app has always been flaky with an ancient and unintuitive interface, but now they are spamming my phone with NOTIFICATION ADS THAT CANT BE DISABLED. Seriously ridiculous. It works but I have to do identity verification for EVERY SINGLE TRANSFER. It's ridiculous, save the information like everything else.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T00:45:40.397Z",
+                "id": "9bd15053-a2e1-44a7-b7eb-8cd896493ab4",
+                "rating": 1,
+                "store": "android",
+                "text": "too buggy, needs better sms verification code times. did not send at all...",
+                "title": ""
+              }
+            ],
+            "sharePct": 1,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 99,
+            "examples": [
+              {
+                "date": "2026-07-03T09:42:08.515Z",
+                "id": "001ee31f-5348-4f85-8bd7-2c4085e460b2",
+                "rating": 1,
+                "store": "android",
+                "text": "the app is ok since the last update my transaction history has been erased",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T13:44:14.559Z",
+                "id": "66b0d84a-dcf4-4dc2-b4bd-683baac734e1",
+                "rating": 1,
+                "store": "android",
+                "text": "July 3, 2026 - still asks for a review AFTER EVERY TRANSFER! RIDICULOUS! App works fine, but the \"Rate me now\" pop up dialog is CONSTANT and EXTREMELY ANNOYING! I have reviewed this app before, so leave me alone! Here I am again, asking you to stop the constant \"Rate me now\" pop up. Other than the absolutely annoying rating request on EVERY SINGLE transfer I make, the app works well. It is still asking for an app rating after EVERY transfer! Make it stop!",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T17:37:07.718Z",
+                "id": "305fc198-e3d0-48c1-90e6-eed4afb3e57c",
+                "rating": 1,
+                "store": "android",
+                "text": "I believe this site only has Bots Farmers, giving them good reviews for money. if you expect anyone to use your site, or your app. then you need to seriously think about fixing your app, and your site. if it can't be used how do you expect to stay in business? completely horrible.",
+                "title": ""
+              }
+            ],
+            "sharePct": 19.8,
+            "theme": "App bugs"
+          }
+        ],
+        "window": {
+          "from": "2026-05-21",
+          "to": "2026-07-05"
+        }
+      },
+      {
+        "averageRating": 4.4,
+        "competitor": "Aspora",
+        "sampleSize": 500,
+        "store": "android",
+        "themes": [
+          {
+            "count": 110,
+            "examples": [
+              {
+                "date": "2026-07-02T02:42:52.150Z",
+                "id": "b55af922-9769-4073-abc3-d4057870075a",
+                "rating": 1,
+                "store": "android",
+                "text": "Extremely disappointed with Aspora's service. I sent money through the app for a medical emergency because I needed the funds to reach my family urgently. Before the transfer, I was told it would take only 2 minutes. After hours of waiting, customer support changed the timeline and asked me to wait more than 24 hours. This delay caused my family serious hardship during an emergency. If your service cannot deliver within the promised time, you should be transparent instead of giving customers....",
+                "title": ""
+              },
+              {
+                "date": "2026-07-02T08:53:34.204Z",
+                "id": "b61c3805-d2dc-4ee1-9311-9c6a4b2fd952",
+                "rating": 1,
+                "store": "android",
+                "text": "Absolutely terrible app with some of the worst customer support I’ve ever experienced. Once they have your money, don’t expect any real help when something goes wrong. Support is slow, dismissive, and completely useless. Issues go unresolved for days, and it feels like they simply do not care about their users at all. I strongly recommend staying away from this app. There are far better alternatives out there that actually value their customers and provide proper support. Save yourself the frus",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T16:00:39.142Z",
+                "id": "c76555fb-36a7-49ac-acea-2204b1de049e",
+                "rating": 1,
+                "store": "android",
+                "text": "​Extremely disappointed. Sent money 5 days ago and still not credited. I chose Aspora expecting fast transfers, but waiting 5 days for a remittance to hit the recipient's account is completely unacceptable. Customer support hasn't provided a clear update either. Be careful using this app if you are sending money for anything time-sensitive. zero stars from my side but there is no option from google for 0 star",
+                "title": ""
+              }
+            ],
+            "sharePct": 22,
+            "theme": "Speed"
+          },
+          {
+            "count": 112,
+            "examples": [
+              {
+                "date": "2026-07-04T10:41:35.728Z",
+                "id": "49310c81-cc32-4685-842e-0b14a7b6c304",
+                "rating": 1,
+                "store": "android",
+                "text": "Not happy with Aspora app customer support and also not providing any free transfers. Every time I enter the app it says you got a free transfer but when you go to transfer they charge % of transaction. Must not use such apps.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-04T16:26:47.612Z",
+                "id": "0f80fba4-6f92-49b8-9301-9bd2a3bcf355",
+                "rating": 1,
+                "store": "android",
+                "text": "I had a great experience while I've transferred money for the first time from the UAE to India, and this app is providing the actual google live exchange rate which is currently the highest rate you are getting as compared to all the other options of transfer. overall I can say it was an amazing experience. but now you are applying transfer charges similar as other apps 🙄 🤔..business tricks haha...first gives benefits and then robbery...",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T04:49:21.874Z",
+                "id": "c8297ebe-1398-4b3c-a2eb-21080f60d3a5",
+                "rating": 1,
+                "store": "android",
+                "text": "I transferred AED 5,583.37 to your Emirates NBD account under the name Lulu International Exchange LLC as manual tranfer, but the app still shows “awaiting money sent from my bank.” It has been more than 8 hours since I made the transfer, and the sending bank says the amount was correctly transferred and credited. My father needs the money urgently, so I kindly request you to check whether there is any issue with this transfer and confirm how long I need to wait.",
+                "title": ""
+              }
+            ],
+            "sharePct": 22.4,
+            "theme": "App bugs"
+          },
+          {
+            "count": 22,
+            "examples": [
+              {
+                "date": "2026-07-02T21:44:27.320Z",
+                "id": "1699722b-97c3-4884-83d8-1ffead9fdf6f",
+                "rating": 1,
+                "store": "android",
+                "text": "Sorry to say this, I really got a bad experience from the team. I tried to sent money back home. They had taken the money from the my bank because it taking long to transfer to my home bank account I asked them to cancel the order. The order got cancelled and its been 12 days after that I haven't got it back yet. Now they don't even answer the calls no reply through chat. I feel like abandoned. Hope no one have to go through the situation I am having now. Take care",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T16:00:39.142Z",
+                "id": "c76555fb-36a7-49ac-acea-2204b1de049e",
+                "rating": 1,
+                "store": "android",
+                "text": "​Extremely disappointed. Sent money 5 days ago and still not credited. I chose Aspora expecting fast transfers, but waiting 5 days for a remittance to hit the recipient's account is completely unacceptable. Customer support hasn't provided a clear update either. Be careful using this app if you are sending money for anything time-sensitive. zero stars from my side but there is no option from google for 0 star",
+                "title": ""
+              },
+              {
+                "date": "2026-07-04T10:41:35.728Z",
+                "id": "49310c81-cc32-4685-842e-0b14a7b6c304",
+                "rating": 1,
+                "store": "android",
+                "text": "Not happy with Aspora app customer support and also not providing any free transfers. Every time I enter the app it says you got a free transfer but when you go to transfer they charge % of transaction. Must not use such apps.",
+                "title": ""
+              }
+            ],
+            "sharePct": 4.4,
+            "theme": "Support"
+          },
+          {
+            "count": 28,
+            "examples": [
+              {
+                "date": "2026-07-02T06:30:50.391Z",
+                "id": "2518f9c9-4f7a-4be5-8aef-b77e11e4a459",
+                "rating": 2,
+                "store": "android",
+                "text": "Aspora is a good platform for sending money. I sent money to India and the process was very smooth for my first transaction. However, I faced an issue with my second transaction. It was declined four times, and when I tried to contact customer care, I did not receive any callback even after 12 hours When it comes to money transfers, trust in the application and timely customer support are extremely important. I believe customer care should respond immediately or within a reasonable time",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T05:52:11.166Z",
+                "id": "80b8c3dd-65f9-469f-8ac4-1cf3bb9c7246",
+                "rating": 1,
+                "store": "android",
+                "text": "I was send money from uk to india and his intermediate company india is was involved in cyber and my account was frozen was this money total stuck my whole money don't trust this app and don't send money",
+                "title": ""
+              }
+            ],
+            "sharePct": 5.6,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 43,
+            "examples": [
+              {
+                "date": "2026-07-04T06:21:45.388Z",
+                "id": "d6eba566-e75d-49db-8df2-7535caa2a1e5",
+                "rating": 1,
+                "store": "android",
+                "text": "⭐☆☆☆☆ Aspora's service has become extremely disappointing. Transfers that once arrived within hours now take 4-5 days or even longer. This is unacceptable, especially for urgent transfers. What's worse, you now charge extra fees for faster transfers while the overall service has become much slower and less reliable. Charging more for poorer service is unacceptable. Unless this improves, I cannot recommend Aspora to anyone.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-04T10:41:35.728Z",
+                "id": "49310c81-cc32-4685-842e-0b14a7b6c304",
+                "rating": 1,
+                "store": "android",
+                "text": "Not happy with Aspora app customer support and also not providing any free transfers. Every time I enter the app it says you got a free transfer but when you go to transfer they charge % of transaction. Must not use such apps.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-04T16:26:47.612Z",
+                "id": "0f80fba4-6f92-49b8-9301-9bd2a3bcf355",
+                "rating": 1,
+                "store": "android",
+                "text": "I had a great experience while I've transferred money for the first time from the UAE to India, and this app is providing the actual google live exchange rate which is currently the highest rate you are getting as compared to all the other options of transfer. overall I can say it was an amazing experience. but now you are applying transfer charges similar as other apps 🙄 🤔..business tricks haha...first gives benefits and then robbery...",
+                "title": ""
+              }
+            ],
+            "sharePct": 8.6,
+            "theme": "Fees"
+          },
+          {
+            "count": 5,
+            "examples": [
+              {
+                "date": "2026-06-21T21:12:25.770Z",
+                "id": "df8fafd0-65e6-487a-b939-19e6d6e61e2c",
+                "rating": 1,
+                "store": "android",
+                "text": "transfer rate is good and before transaction spped was good. now delaying for nothing, asking documents everytime and no option shown to upload the document..i couldn't pay my brothers college fee as it delayed by Aspora..pathetic service",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T04:29:17.379Z",
+                "id": "7952aeb0-f222-4b57-96b5-1a4909a764f3",
+                "rating": 1,
+                "store": "android",
+                "text": "worst app for the first time i used it took 1 month to verify identity later i processed transaction its been a day that my money is not transferred yet still showing under process. on one side they say we can transfer 150k aed at once after initiating transfer they hold the process deduct the money and take longer than usual.. still waiting for transfer to be completed. worst app",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T10:54:06.964Z",
+                "id": "b600fac4-fdbb-42c5-9642-facf3dda8a21",
+                "rating": 1,
+                "store": "android",
+                "text": "I thought to give it a try, so I installed it. But now I am not able to receive OTP in my mobile number for verification.",
+                "title": ""
+              }
+            ],
+            "sharePct": 1,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 69,
+            "examples": [
+              {
+                "date": "2026-07-03T16:41:51.651Z",
+                "id": "99f02ec1-39a8-4267-922f-5b8c68f9ffd1",
+                "rating": 1,
+                "store": "android",
+                "text": "This application not as per the advertisement, they said the transfer is 2 hours but am struggling even after 2 full days. they said exchange rate is as per google but it is not..(my other froends also faced this) they will told twill give 200 aed penalty of late butbhidden rules not explained hidden rule hidden rules to utikize tgat 200 aed are 1 we mustbtransfer 2500 aed transfer and at one transaction maximum 40 aed only can be deducted from aed 200 as i inderstood by other user",
+                "title": ""
+              },
+              {
+                "date": "2026-07-04T16:26:47.612Z",
+                "id": "0f80fba4-6f92-49b8-9301-9bd2a3bcf355",
+                "rating": 1,
+                "store": "android",
+                "text": "I had a great experience while I've transferred money for the first time from the UAE to India, and this app is providing the actual google live exchange rate which is currently the highest rate you are getting as compared to all the other options of transfer. overall I can say it was an amazing experience. but now you are applying transfer charges similar as other apps 🙄 🤔..business tricks haha...first gives benefits and then robbery...",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T04:49:21.874Z",
+                "id": "c8297ebe-1398-4b3c-a2eb-21080f60d3a5",
+                "rating": 1,
+                "store": "android",
+                "text": "I transferred AED 5,583.37 to your Emirates NBD account under the name Lulu International Exchange LLC as manual tranfer, but the app still shows “awaiting money sent from my bank.” It has been more than 8 hours since I made the transfer, and the sending bank says the amount was correctly transferred and credited. My father needs the money urgently, so I kindly request you to check whether there is any issue with this transfer and confirm how long I need to wait.",
+                "title": ""
+              }
+            ],
+            "sharePct": 13.8,
+            "theme": "Rates"
+          }
+        ],
+        "window": {
+          "from": "2026-06-06",
+          "to": "2026-07-05"
+        }
+      },
+      {
+        "averageRating": 4.4,
+        "competitor": "Remitly",
+        "sampleSize": 500,
+        "store": "android",
+        "themes": [
+          {
+            "count": 16,
+            "examples": [
+              {
+                "date": "2026-07-01T23:06:18.912Z",
+                "id": "ced29ef5-7764-4e5f-81fd-a6315273cf99",
+                "rating": 1,
+                "store": "android",
+                "text": "Does not support US military overseas. Will not accept APO/FPO even though it is a valid address for a bank. Customer service doesn't understand how military OCONUS assignments work at all.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-02T13:32:13.445Z",
+                "id": "aa58367a-800a-4ada-aff6-46636a26e062",
+                "rating": 1,
+                "store": "android",
+                "text": "This app is really haptic for those who need to open a Usd account they are very bad at support I'm trying to verify my account and they are asking me to resolve issues but nothing happened. very bad experience with remitly.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-02T22:05:36.990Z",
+                "id": "44c757f5-1a19-41f4-9e1b-81eebe8a8348",
+                "rating": 1,
+                "store": "android",
+                "text": "one of the worst app interfaces with one of the worst customer support. If reliability is your priority never use this app.",
+                "title": ""
+              }
+            ],
+            "sharePct": 3.2,
+            "theme": "Support"
+          },
+          {
+            "count": 17,
+            "examples": [
+              {
+                "date": "2026-06-28T18:48:29.326Z",
+                "id": "ae1d5dd5-f5ef-4708-a6bc-533e89f4563c",
+                "rating": 1,
+                "store": "android",
+                "text": "Don't be scammed with their free service charge for first time user. There's a hidden fee and it will show after the transaction. Very greedy, kachara app.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-02T02:18:06.489Z",
+                "id": "51e6e50c-64a0-4038-be3f-3ae2f79798e8",
+                "rating": 1,
+                "store": "android",
+                "text": "They advertise a flat rate $1.99 transfer fee but they use a below market exchange rate. A $500 transfer to Vietnam costs $12.42 due to the exchange rate in addition to the $1.99 flat fee. They offer an \"economy\" transfer with a better exchange rate but every time I select that option, the transaction fails with no explanation.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T17:03:50.930Z",
+                "id": "2cbe9fb1-45a7-4759-8ddc-42f39d0fdaf9",
+                "rating": 1,
+                "store": "android",
+                "text": "Bad experience the wave my first tranction fee but my debit card deduct 6 aed so next I will pay double fee for sending money home from remitky and my debit card.",
+                "title": ""
+              }
+            ],
+            "sharePct": 3.4,
+            "theme": "Fees"
+          },
+          {
+            "count": 21,
+            "examples": [
+              {
+                "date": "2026-06-28T07:27:29.886Z",
+                "id": "e78bda2b-d8ab-4d3a-9731-bc65beed14c3",
+                "rating": 1,
+                "store": "android",
+                "text": "Thought I'd try this app again, but Remitly are are too lazy to sort out how information is filled in. Why do they need an address? Especially if its blocked by their badly designed app because they can't be bothered to create something usable. For example you choose English as your language so they require an English address assuming that is where you live. lazy and greedy company just like the banks who have forgotten what service actually is. When will these people wake up.",
+                "title": ""
+              },
+              {
+                "date": "2026-06-28T09:00:50.499Z",
+                "id": "47d926fa-ad57-4a3d-a2f8-317042806f1a",
+                "rating": 1,
+                "store": "android",
+                "text": "Remitly closed my account because I'm not from the \"right\" country, even though I own a legitimate U.S. business. Worse, shortly after a call with customer support, I started getting unauthorized charges on a virtual card I had created exclusively for one subscription (Remitly). I have proof. This completely destroyed my trust in the company. Be careful.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T14:21:13.939Z",
+                "id": "135e3ddc-ff8c-4caa-bd51-8b8c7e1b4e8a",
+                "rating": 1,
+                "store": "android",
+                "text": "FRAUD CAREFUL !!! I sent money and they rerouted it to another account making it seems they refunded it but transferred to another account which doesn't belong to my or the recipient. give me my money back!!!!! I'VE BEEN CONTACTING YOU LIVE AND NOTHING!!!MORE THAN 1 MONTH CONTACTING.",
+                "title": ""
+              }
+            ],
+            "sharePct": 4.2,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 26,
+            "examples": [
+              {
+                "date": "2026-06-29T14:52:04.630Z",
+                "id": "f6120e94-83f7-46d4-a32e-212ae8e87f52",
+                "rating": 1,
+                "store": "android",
+                "text": "remitly uses misleading exchange rates, the actual rate is lower than what they show on top of the screen, and they only offer the rate shown for transfers above 5000$.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-02T02:18:06.489Z",
+                "id": "51e6e50c-64a0-4038-be3f-3ae2f79798e8",
+                "rating": 1,
+                "store": "android",
+                "text": "They advertise a flat rate $1.99 transfer fee but they use a below market exchange rate. A $500 transfer to Vietnam costs $12.42 due to the exchange rate in addition to the $1.99 flat fee. They offer an \"economy\" transfer with a better exchange rate but every time I select that option, the transaction fails with no explanation.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-04T13:26:09.826Z",
+                "id": "1f4623c5-ee9b-4767-9f40-d66bbf608291",
+                "rating": 1,
+                "store": "android",
+                "text": "low rate",
+                "title": ""
+              }
+            ],
+            "sharePct": 5.2,
+            "theme": "Rates"
+          },
+          {
+            "count": 4,
+            "examples": [
+              {
+                "date": "2026-07-02T13:32:13.445Z",
+                "id": "aa58367a-800a-4ada-aff6-46636a26e062",
+                "rating": 1,
+                "store": "android",
+                "text": "This app is really haptic for those who need to open a Usd account they are very bad at support I'm trying to verify my account and they are asking me to resolve issues but nothing happened. very bad experience with remitly.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-02T19:27:05.176Z",
+                "id": "e45e6782-65eb-493d-8471-4b8fb39e89b7",
+                "rating": 1,
+                "store": "android",
+                "text": "Remitly did extremely well and efficiently in the beginning but afterwards they were horrible. Extended delays in the name of verification taking days and days. The delayed is erroneously claimed to increase in funds transfer l strongly recommend not to use this platform.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-03T05:28:36.745Z",
+                "id": "f7da1dab-6cc0-455f-ae4d-b42e8f843709",
+                "rating": 1,
+                "store": "android",
+                "text": "tried to transfer to Indonesia. sent on 30th Jun but untill now it's not delivered to my bank account in Indonesia. They said my transaction already over the limit and asked more documents.. already sent photo of bank account but they ask for pdf file.. how to send protected pdf files ? they shoul think about this.",
+                "title": ""
+              }
+            ],
+            "sharePct": 0.8,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 85,
+            "examples": [
+              {
+                "date": "2026-07-05T11:25:31.630Z",
+                "id": "29810cdf-6277-4bc6-ba0e-c2d9a027156e",
+                "rating": 1,
+                "store": "android",
+                "text": "This was pathetic experience this time i sent money back Pakistan first it was showing that it will 24 hours, after 18 hours i received message from remilty that the payment is received by receipent but when i confirmed with my friend she did not received the payment then they told that confirm her again there ia issue from her side but when i sent money from another app it was received immediately then i asked her to send me bank statmement . it was clear that remilty didnot transfer money",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T13:42:19.459Z",
+                "id": "1a92515a-916c-49d6-9aeb-ea5348c51a74",
+                "rating": 1,
+                "store": "android",
+                "text": "I have to pay for the app",
+                "title": ""
+              },
+              {
+                "date": "2026-07-05T15:03:40.238Z",
+                "id": "8855c44c-d4c8-477f-a497-dd23d02d13e4",
+                "rating": 1,
+                "store": "android",
+                "text": "I hate this app. Never Again",
+                "title": ""
+              }
+            ],
+            "sharePct": 17,
+            "theme": "App bugs"
+          },
+          {
+            "count": 88,
+            "examples": [
+              {
+                "date": "2026-06-30T01:18:25.799Z",
+                "id": "cebbe4db-fbab-4636-8fb6-7385f4545e8c",
+                "rating": 1,
+                "store": "android",
+                "text": "after updating app I cannot send money as fast as before and now remitly is asking for reasons why I'm sending money and on top of that it's taking 3-4 hours to a day to send it through mobile wallet transfer ridiculous!!!! 😡😡😡 going back to Western Union 👍👍👍",
+                "title": ""
+              },
+              {
+                "date": "2026-07-01T21:10:26.322Z",
+                "id": "11552dad-9505-400e-ada5-a93235e2c6fe",
+                "rating": 1,
+                "store": "android",
+                "text": "the application is decent. had issues getting transfers thru and will tell you there customer service is horrible. people are poorly trained and seem are dealing with many people at same time. quick response from developer but does not resolve issues. one core issue is that as it would need to assistance is built on a chat it but the knowledge base is not good enough, but the flow doesn't let you reach a person for a while. and when you do person is poorly trained. DO NOT RECOMMED.",
+                "title": ""
+              },
+              {
+                "date": "2026-07-02T19:27:05.176Z",
+                "id": "e45e6782-65eb-493d-8471-4b8fb39e89b7",
+                "rating": 1,
+                "store": "android",
+                "text": "Remitly did extremely well and efficiently in the beginning but afterwards they were horrible. Extended delays in the name of verification taking days and days. The delayed is erroneously claimed to increase in funds transfer l strongly recommend not to use this platform.",
+                "title": ""
+              }
+            ],
+            "sharePct": 17.6,
+            "theme": "Speed"
+          }
+        ],
+        "window": {
+          "from": "2026-06-27",
+          "to": "2026-07-05"
+        }
+      },
+      {
+        "averageRating": 4.6,
+        "competitor": "Remitly",
+        "sampleSize": 194,
+        "store": "ios",
+        "themes": [
+          {
+            "count": 23,
+            "examples": [
+              {
+                "date": "2026-07-02T01:09:43.000Z",
+                "id": "14251702806",
+                "rating": 1,
+                "store": "ios",
+                "text": "Remitly is giving you lower rate for express deliveries, which sometimes is acceptable seeing how urgent u need funds transferred. In express delivery, they charge you expense technically and give you lesser money but also not deliver as express. Hold your money for more than they promise and also keeps on adding wait time, there are fake in express, they only work on their regular slow schedule which is 3-6 business days, but that one too is expensive rate than other competitors.",
+                "title": "Do not deliver as they promise"
+              },
+              {
+                "date": "2026-07-02T03:30:34.000Z",
+                "id": "14252093082",
+                "rating": 1,
+                "store": "ios",
+                "text": "I am not part of or affiliated with wise but this company remitly advertises as it’s in seconds or minutes of taking hours and always having to contact them and reverify things I provided them with before and they blame compliance, with wise my transfer was actually in seconds and now I understand how terrible this service is! For context I have done about 20 transfers with remitly if not more. This is a 1 star review but I wish I could’ve given it a -5 star review, never using this again, would never recommend to anyone!",
+                "title": "Remitly is extremely slow compared to wise the international finance app"
+              },
+              {
+                "date": "2026-07-02T18:47:00.000Z",
+                "id": "14254875123",
+                "rating": 1,
+                "store": "ios",
+                "text": "They have sent my last 2 transactions under review, its so slow avoid if you’re sending money for an emergency",
+                "title": "Slow"
+              }
+            ],
+            "sharePct": 11.9,
+            "theme": "Speed"
+          },
+          {
+            "count": 33,
+            "examples": [
+              {
+                "date": "2026-06-27T05:53:47.000Z",
+                "id": "14231543241",
+                "rating": 1,
+                "store": "ios",
+                "text": "I been using the app and it was great. But yesterday I had to make a transfer to family because of an emergency and once I made the transfer, my account was put on hold for review. I understand it and provided all the information that was requested. On the app, it said it should take 1hr for the review, I called in after a few hours and I was told 1-24hrs for review. I called after 24hrs and now I’m told it could take another day and if I cancel it cam take up to 10 days for refund. My family has an emergency and waiting for this and this is not acceptable. I could have used another means if Remitly had been honest about how long the review can take. Now it’s a weekend and I cannot do anything. I do not have any other option. This is unacceptable.",
+                "title": "Verification taking too long and false information provided"
+              },
+              {
+                "date": "2026-06-27T21:15:24.000Z",
+                "id": "14234283618",
+                "rating": 1,
+                "store": "ios",
+                "text": "Me bloque la cuenta porque pensaron que Asia fraude por mandar envíos pequeños no quiero volver a saber de esta app y tampoco son elegibles para mandar mi dinero",
+                "title": "No sirveinútilesnacos"
+              },
+              {
+                "date": "2026-07-02T03:30:34.000Z",
+                "id": "14252093082",
+                "rating": 1,
+                "store": "ios",
+                "text": "I am not part of or affiliated with wise but this company remitly advertises as it’s in seconds or minutes of taking hours and always having to contact them and reverify things I provided them with before and they blame compliance, with wise my transfer was actually in seconds and now I understand how terrible this service is! For context I have done about 20 transfers with remitly if not more. This is a 1 star review but I wish I could’ve given it a -5 star review, never using this again, would never recommend to anyone!",
+                "title": "Remitly is extremely slow compared to wise the international finance app"
+              }
+            ],
+            "sharePct": 17,
+            "theme": "App bugs"
+          },
+          {
+            "count": 4,
+            "examples": [
+              {
+                "date": "2026-06-27T05:53:47.000Z",
+                "id": "14231543241",
+                "rating": 1,
+                "store": "ios",
+                "text": "I been using the app and it was great. But yesterday I had to make a transfer to family because of an emergency and once I made the transfer, my account was put on hold for review. I understand it and provided all the information that was requested. On the app, it said it should take 1hr for the review, I called in after a few hours and I was told 1-24hrs for review. I called after 24hrs and now I’m told it could take another day and if I cancel it cam take up to 10 days for refund. My family has an emergency and waiting for this and this is not acceptable. I could have used another means if Remitly had been honest about how long the review can take. Now it’s a weekend and I cannot do anything. I do not have any other option. This is unacceptable.",
+                "title": "Verification taking too long and false information provided"
+              },
+              {
+                "date": "2026-06-30T20:28:44.000Z",
+                "id": "14246620999",
+                "rating": 1,
+                "store": "ios",
+                "text": "If you are traveling & sending money to where you are staying to someone be ready to have to call every single time you wire money. Calls are recorded & they retain all provided information so unless new verification is required on something not formerly requested no further verification should be needed when making a transaction. With Remitly this is not the case you will have to call each time & verify the same exact information for each transaction before they release funds according to their policy. Until this is fixed I don’t recommend anyone use Remitly.",
+                "title": "Not Good for Abroad Transfers"
+              },
+              {
+                "date": "2026-07-04T19:36:27.000Z",
+                "id": "14263281327",
+                "rating": 1,
+                "store": "ios",
+                "text": "I’ve been a legitimate customer using Remitly for 2 years to send money to people I’ve personally met while traveling internationally. Out of nowhere, my account was suspended pending additional review. I fully cooperated and provided every piece of information they requested. What was most disappointing wasn’t the review itself, it was how I was treated. During my support chat, I asked multiple times to speak with a manager because I wanted to understand what was happening with my account. The representative told me they were scheduling a call and specifically stated that someone would call me. Instead, the chat was immediately closed without any manager, explanation, or opportunity to continue the conversation. Being told you’ll receive a call only to have the conversation abruptly ended leaves you feeling ignored rather than helped. Compliance reviews are understandable. Every financial institution has an obligation to follow AML and KYC regulations. What isn’t acceptable is making promises to customers that aren’t honored and leaving them without clear communication. I hope someone from Remitly’s management team reviews this experience because this isn’t the level of customer service I expected from a company handling people’s finances. I would appreciate someone from Remitly Leadership or Executive Customer Relations reaching out to review my case and the way it was handled.",
+                "title": "Extremely disappointed with Remitly’s customer service."
+              }
+            ],
+            "sharePct": 2.1,
+            "theme": "KYC friction"
+          },
+          {
+            "count": 5,
+            "examples": [
+              {
+                "date": "2026-07-03T14:52:30.000Z",
+                "id": "14258265658",
+                "rating": 1,
+                "store": "ios",
+                "text": "This is a terrible company. I got scammed, followed their prompts to contact my bank. My bank protected me from the scam by sending back my money. Remitly did not care and only wanted me to repay them for this. Two years later still will not let a transaction happen until i repay them even though my bank protected me from the scam. Do not use them. Other apps out there to send money internationally.",
+                "title": "Never protects you against scams, only cares about money."
+              }
+            ],
+            "sharePct": 2.6,
+            "theme": "Trust and safety"
+          },
+          {
+            "count": 6,
+            "examples": [
+              {
+                "date": "2026-06-30T20:28:44.000Z",
+                "id": "14246620999",
+                "rating": 1,
+                "store": "ios",
+                "text": "If you are traveling & sending money to where you are staying to someone be ready to have to call every single time you wire money. Calls are recorded & they retain all provided information so unless new verification is required on something not formerly requested no further verification should be needed when making a transaction. With Remitly this is not the case you will have to call each time & verify the same exact information for each transaction before they release funds according to their policy. Until this is fixed I don’t recommend anyone use Remitly.",
+                "title": "Not Good for Abroad Transfers"
+              },
+              {
+                "date": "2026-07-04T19:36:27.000Z",
+                "id": "14263281327",
+                "rating": 1,
+                "store": "ios",
+                "text": "I’ve been a legitimate customer using Remitly for 2 years to send money to people I’ve personally met while traveling internationally. Out of nowhere, my account was suspended pending additional review. I fully cooperated and provided every piece of information they requested. What was most disappointing wasn’t the review itself, it was how I was treated. During my support chat, I asked multiple times to speak with a manager because I wanted to understand what was happening with my account. The representative told me they were scheduling a call and specifically stated that someone would call me. Instead, the chat was immediately closed without any manager, explanation, or opportunity to continue the conversation. Being told you’ll receive a call only to have the conversation abruptly ended leaves you feeling ignored rather than helped. Compliance reviews are understandable. Every financial institution has an obligation to follow AML and KYC regulations. What isn’t acceptable is making promises to customers that aren’t honored and leaving them without clear communication. I hope someone from Remitly’s management team reviews this experience because this isn’t the level of customer service I expected from a company handling people’s finances. I would appreciate someone from Remitly Leadership or Executive Customer Relations reaching out to review my case and the way it was handled.",
+                "title": "Extremely disappointed with Remitly’s customer service."
+              }
+            ],
+            "sharePct": 3.1,
+            "theme": "Support"
+          },
+          {
+            "count": 8,
+            "examples": [
+              {
+                "date": "2026-06-28T16:49:17.000Z",
+                "id": "14237563699",
+                "rating": 1,
+                "store": "ios",
+                "text": "Not good deal",
+                "title": "Exchange"
+              },
+              {
+                "date": "2026-06-29T06:43:47.000Z",
+                "id": "14239752113",
+                "rating": 1,
+                "store": "ios",
+                "text": "Very Low Exchange Rates comprising others",
+                "title": "Rated not Competitive"
+              },
+              {
+                "date": "2026-07-02T01:09:43.000Z",
+                "id": "14251702806",
+                "rating": 1,
+                "store": "ios",
+                "text": "Remitly is giving you lower rate for express deliveries, which sometimes is acceptable seeing how urgent u need funds transferred. In express delivery, they charge you expense technically and give you lesser money but also not deliver as express. Hold your money for more than they promise and also keeps on adding wait time, there are fake in express, they only work on their regular slow schedule which is 3-6 business days, but that one too is expensive rate than other competitors.",
+                "title": "Do not deliver as they promise"
+              }
+            ],
+            "sharePct": 4.1,
+            "theme": "Rates"
+          },
+          {
+            "count": 9,
+            "examples": [
+              {
+                "date": "2026-07-02T01:09:43.000Z",
+                "id": "14251702806",
+                "rating": 1,
+                "store": "ios",
+                "text": "Remitly is giving you lower rate for express deliveries, which sometimes is acceptable seeing how urgent u need funds transferred. In express delivery, they charge you expense technically and give you lesser money but also not deliver as express. Hold your money for more than they promise and also keeps on adding wait time, there are fake in express, they only work on their regular slow schedule which is 3-6 business days, but that one too is expensive rate than other competitors.",
+                "title": "Do not deliver as they promise"
+              }
+            ],
+            "sharePct": 4.6,
+            "theme": "Fees"
+          }
+        ],
+        "window": {
+          "from": "2026-06-26",
+          "to": "2026-07-05"
+        }
+      }
+    ],
+    "rules": [
+      {
+        "patterns": [
+          "\\bagent\\b",
+          "\\bcall\\b",
+          "\\bchat\\b",
+          "\\bcustomer service\\b",
+          "\\bhelp\\b",
+          "\\bsupport\\b"
+        ],
+        "theme": "Support"
+      },
+      {
+        "patterns": [
+          "\\bapp\\b",
+          "\\bbug(?:s)?\\b",
+          "\\bcrash(?:es|ed)?\\b",
+          "\\berror\\b",
+          "\\bfreeze\\b",
+          "\\blogin\\b",
+          "\\bupdate\\b"
+        ],
+        "theme": "App bugs"
+      },
+      {
+        "patterns": [
+          "\\bblocked\\b",
+          "\\bfraud\\b",
+          "\\blocked\\b",
+          "\\bsafe\\b",
+          "\\bscam\\b",
+          "\\bsecure\\b",
+          "\\btrust\\b"
+        ],
+        "theme": "Trust and safety"
+      },
+      {
+        "patterns": [
+          "\\bcharge(?:d|s)?\\b",
+          "\\bcost\\b",
+          "\\bexpensive\\b",
+          "\\bfee(?:s)?\\b",
+          "\\bhidden fee\\b"
+        ],
+        "theme": "Fees"
+      },
+      {
+        "patterns": [
+          "\\bdelay(?:ed)?\\b",
+          "\\bfast\\b",
+          "\\binstant\\b",
+          "\\bminutes?\\b",
+          "\\bquick\\b",
+          "\\bslow\\b"
+        ],
+        "theme": "Speed"
+      },
+      {
+        "patterns": [
+          "\\bdocument(?:s)?\\b",
+          "\\bidentity\\b",
+          "\\bkyc\\b",
+          "\\bselfie\\b",
+          "\\bverification\\b",
+          "\\bverify\\b"
+        ],
+        "theme": "KYC friction"
+      },
+      {
+        "patterns": [
+          "\\bexchange\\b",
+          "\\binr\\b",
+          "\\brate(?:s)?\\b",
+          "\\brupee(?:s)?\\b"
+        ],
+        "theme": "Rates"
+      }
+    ]
+  },
+  "meta": {
+    "caveats": [
+      "A single review can count toward more than one theme.",
+      "Public review themes do not prove acquisition, conversion, retention, or revenue performance.",
+      "Theme counts use transparent keyword rules, not LLM-written summaries."
+    ],
+    "family": "review-themes",
+    "generatedAt": "2026-07-06T23:36:00.000Z",
+    "method": "Rule-based classifier over public App Store and Google Play review excerpts. Themes are speed, fees, rates, KYC friction, trust and safety, support, and app bugs.",
+    "provenance": "snapshot",
+    "refreshCadence": "weekly manual sweep",
+    "source": "data/raw/reviews/latest.json",
+    "version": 1
+  }
+}

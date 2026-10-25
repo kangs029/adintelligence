@@ -1,0 +1,1408 @@
+{
+  "meta": {
+    "caveats": [
+      "capturedAt is the sweep time; publishedAt is the Reddit post creation time.",
+      "Data is retrieved via Mindcase Reddit Posts API — reflects Reddit's public index.",
+      "Post body text is included when available (text posts only; link posts have no body).",
+      "Recent means published within 60 days of capturedAt."
+    ],
+    "classifiedAt": "2026-09-07T10:01:56.701Z",
+    "family": "community-threads",
+    "generatedAt": "2026-09-17T00:00:00.000Z",
+    "method": "Search configured subreddits for remittance and competitor terms via Mindcase Reddit Posts API. Mindcase provides compliant Reddit access without requiring a Reddit developer application. Configure MINDCASE_API_KEY to enable sweeps.",
+    "provenance": "snapshot",
+    "refreshCadence": "weekly manual sweep",
+    "source": "Mindcase Reddit Posts API (mindcase.co)",
+    "version": 1
+  },
+  "data": {
+    "classifiedCount": 425,
+    "classifyErrors": 0,
+    "draftReadyCount": 113,
+    "historicalCount": 38,
+    "queries": [
+      {
+        "query": "money transfer kyc",
+        "subreddits": [
+          "h1b",
+          "immigration",
+          "india",
+          "nri"
+        ]
+      },
+      {
+        "query": "remittance india",
+        "subreddits": [
+          "india",
+          "IndiaInvestments",
+          "nri",
+          "personalfinance"
+        ]
+      },
+      {
+        "query": "send money to india",
+        "subreddits": [
+          "ABCDesis",
+          "h1b",
+          "india",
+          "nri",
+          "personalfinance"
+        ]
+      },
+      {
+        "query": "transfer failed india",
+        "subreddits": [
+          "bangalore",
+          "chennai",
+          "h1b",
+          "hyderabad",
+          "nri"
+        ]
+      },
+      {
+        "query": "wise remitly xoom",
+        "subreddits": [
+          "ABCDesis",
+          "h1b",
+          "india",
+          "nri"
+        ]
+      }
+    ],
+    "recentCount": 17,
+    "status": "ok",
+    "sweepErrors": [],
+    "threads": [
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1wibeqn",
+        "matchedQueries": [],
+        "numComments": 8,
+        "publishedAt": "2026-09-16T22:06:51.000Z",
+        "recency": "recent",
+        "score": 2,
+        "subreddit": "nri",
+        "body": "I need to send a notarized Power of Attorney and some other papers to india and looking for some reasonable options. Fedex and UPS are quoting roughly $200 but I came across other heavily discounted options via Pirate Ship, Parcel Monkey etc. who say they’ll provide a UPS label. Are these reliable and generally used options? Any insight will be appreciated. Thanks.",
+        "themes": [
+          "kyc",
+          "pricing"
+        ],
+        "title": "Options for sending documents to India from USA",
+        "url": "https://www.reddit.com/r/nri/comments/1wibeqn/options_for_sending_documents_to_india_from_usa/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1wgxhf8",
+        "matchedQueries": [],
+        "numComments": 8,
+        "publishedAt": "2026-09-15T11:16:53.000Z",
+        "recency": "recent",
+        "score": 1,
+        "subreddit": "nri",
+        "body": "There are mixed answers online, some say immediately while others say 3-7 months. Whats the exact timeline?",
+        "themes": [
+          "community"
+        ],
+        "title": "When to convert nre and fcnr deposit after returning to India?",
+        "url": "https://www.reddit.com/r/nri/comments/1wgxhf8/when_to_convert_nre_and_fcnr_deposit_after/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1wgm2rd",
+        "matchedQueries": [],
+        "numComments": 14,
+        "publishedAt": "2026-09-15T01:14:00.000Z",
+        "recency": "recent",
+        "score": 3,
+        "subreddit": "nri",
+        "body": "Which option is cheaper ? Option A: Fidelity to US Bank to Remittance apps (Ria, Xoom etc) to HDFC Option B: Wire transfer from fidelity to HDFC If option A: I have no clarity on which bank is the best non-resident bank ? I got capital one, discover, charles schwab and chase but does anyone share their experience please. Chase seem to be needing 1500$ minimum or 15$ fee. Edit: I have majority of my funds in fidelity 401k account, I plan to move it to India during the RNOR period 50% in 2027 and 50% in 2028",
+        "themes": [
+          "remittance",
+          "pricing",
+          "competitor"
+        ],
+        "title": "After becoming US non-resident, during the RNOR, Is remittance from US bank to remittance app to Indian bank better or wire transfer better ?",
+        "url": "https://www.reddit.com/r/nri/comments/1wgm2rd/after_becoming_us_nonresident_during_the_rnor_is/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1wgh9z3",
+        "matchedQueries": [],
+        "numComments": 13,
+        "publishedAt": "2026-09-14T21:49:40.000Z",
+        "recency": "recent",
+        "score": 4,
+        "subreddit": "nri",
+        "body": "I will be returning to India in couple of weeks. Before returning I want to open a new US checking bank account so that I can withdraw my 401k money in the next two years during my RNOR period. I currently have CHASE account. I see that the minimum balance is 1500 or 15$ monthly fee. Is there a bank account with no minimums or fees which I can continue to hold after moving back to India ? TIA",
+        "themes": [
+          "pricing"
+        ],
+        "title": "Which is the best US bank account for returnees?",
+        "url": "https://www.reddit.com/r/nri/comments/1wgh9z3/which_is_the_best_us_bank_account_for_returnees/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1wcseb3",
+        "matchedQueries": [],
+        "numComments": 8,
+        "publishedAt": "2026-09-10T19:00:28.000Z",
+        "recency": "recent",
+        "score": 0,
+        "subreddit": "nri",
+        "body": "Hi everyone! 😊 If anyone in the USA is looking to send money to their parents/family in Mumbai, and wants to avoid the hassle of exchange rates and bank/remittance charges, maybe we can help each other. I’m looking for around $1,000–$1,500 USD in the USA. In return, I can give the equivalent INR amount to your parents/family in person in South Mumbai. If anyone is interested, please DM me and we can discuss the exchange rate and details. Thanks! 🙏",
+        "themes": [
+          "remittance",
+          "pricing"
+        ],
+        "title": "Sending money to india",
+        "url": "https://www.reddit.com/r/nri/comments/1wcseb3/sending_money_to_india/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1wbqrei",
+        "matchedQueries": [],
+        "numComments": 12,
+        "publishedAt": "2026-09-09T16:39:29.000Z",
+        "recency": "recent",
+        "score": 1,
+        "subreddit": "nri",
+        "body": "I want to send around $40k to India to a close family member. They will be repaying the same amount in USD in few months. 1- Will they have to pay taxes on that amount? 2- Will I have to pay US tax when I receive the amount? 3- What is the easiest way to do this? TIA!",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Money transfer to and back from India",
+        "url": "https://www.reddit.com/r/nri/comments/1wbqrei/money_transfer_to_and_back_from_india/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1wb35bd",
+        "matchedQueries": [],
+        "numComments": 3,
+        "publishedAt": "2026-09-08T22:21:03.000Z",
+        "recency": "recent",
+        "score": 1,
+        "subreddit": "nri",
+        "body": "I need to transfer money to India to fund a land purchase that will be half in my name and half in my sisters. She has an NRE account but I don’t. Can I send money to sisters account to fund my share of purchase ? I heard about some FEMA regulations around this. But not clear. It will be around 30k USD",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Best way to send money to fund a real estate purchase",
+        "url": "https://www.reddit.com/r/nri/comments/1wb35bd/best_way_to_send_money_to_fund_a_real_estate/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1w5keo8",
+        "matchedQueries": [],
+        "numComments": 6,
+        "publishedAt": "2026-09-02T19:27:26.000Z",
+        "recency": "recent",
+        "score": 0,
+        "subreddit": "nri",
+        "body": "Indian Tax department charge more fees and taxes to NRI when sell property and buy and in other cases too. don’t they have gratitude for money remittances and investment by NRIs in india? they should actually do opposite like giving tax break and give more flexibility and no charges. imagine Indian economy without NRIs remittances from several years.",
+        "themes": [
+          "remittance",
+          "pricing"
+        ],
+        "title": "Why india Charge more fees and Taxes from NRIs when economy and GDP growth was done by NRI Remittances",
+        "url": "https://www.reddit.com/r/nri/comments/1w5keo8/why_india_charge_more_fees_and_taxes_from_nris/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1w5dstx",
+        "matchedQueries": [],
+        "numComments": 14,
+        "publishedAt": "2026-09-02T15:35:39.000Z",
+        "recency": "recent",
+        "score": 1,
+        "subreddit": "nri",
+        "body": "I worked in India for a couple of years before moving to the US and have a considerable amount of savings in my Indian bank account. After becoming an NRI, I converted the account to an NRO account and have mostly kept the money in FDs because I thought that would make things relatively straightforward from a US tax-filing perspective. However, I’m now a bit confused about the tax implications. Tax is being deducted in India on the FD interest, and I’m also reporting the interest on my US tax return, so it feels like I’m losing a significant amount to taxes between the two countries. For those of you living in the US with substantial savings in NRO accounts: Are you keeping the money in FDs, or using other investment options? How do you handle the India + US tax implications?",
+        "themes": [
+          "pricing"
+        ],
+        "title": "What are people doing with their NRO savings while living in the US?",
+        "url": "https://www.reddit.com/r/nri/comments/1w5dstx/what_are_people_doing_with_their_nro_savings/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1w2o87g",
+        "matchedQueries": [],
+        "numComments": 15,
+        "publishedAt": "2026-08-30T17:49:04.000Z",
+        "recency": "recent",
+        "score": 1,
+        "subreddit": "nri",
+        "body": "Hey guys I need to transfer 25k usd to my new account from usa to india What are the best options Was thinking about remitly Will I need to pay any tax apart from convenience fees? What about Indian taxes?",
+        "themes": [
+          "remittance",
+          "pricing",
+          "competitor"
+        ],
+        "title": "Transfer usd to INR",
+        "url": "https://www.reddit.com/r/nri/comments/1w2o87g/transfer_usd_to_inr/"
+      },
+      {
+        "body": "I would really appreciate it if you guys can give me some suggestions. It’s ridiculous that I can send money to him from the USA, but the one time I need money from him, he is having a hard time sending it.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-07T09:43:13.745Z",
+        "competitorMentions": [],
+        "direction": "inbound",
+        "id": "t3_1w1toac",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "money transfer kyc",
+          "send money to india",
+          "transfer failed india"
+        ],
+        "numComments": 4,
+        "publishedAt": "2026-08-29T18:13:55.000Z",
+        "recency": "recent",
+        "relevanceScore": 0.92,
+        "score": 3,
+        "sentiment": "negative",
+        "subreddit": "nri",
+        "themes": [
+          "kyc",
+          "pain",
+          "remittance"
+        ],
+        "title": "Is it possible at all to send money from India to the USA? My father is trying to send me some money, but he said the fact that I’m no longer a student makes me nigh on impossible to transfer.",
+        "urgency": "high",
+        "url": "https://www.reddit.com/r/nri/comments/1w1toac/is_it_possible_at_all_to_send_money_from_india_to/",
+        "useCase": "repeat"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1vyax8q",
+        "matchedQueries": [],
+        "numComments": 8,
+        "publishedAt": "2026-08-25T20:07:34.000Z",
+        "recency": "recent",
+        "score": 0,
+        "subreddit": "nri",
+        "body": "Hi everyone, I’m planning to remit **$50,000 (USD)** from my **mother’s HDFC Bank saving account** to myself for family maintenance needs. Before I initiate the transfer, I have a few specific questions regarding the costs and tax implications: 1. **Total cost** , fees etc.? 2. **TCS rate** – ? 3. **Refund process** – Mom has little to no taxable income. Will the TCS automatically get refunded when I file her ITR, or is there a separate claim process? How long does it take? Anyone done a similar transfer recently? Appreciate any guidance.. Ty.",
+        "themes": [
+          "remittance",
+          "pricing"
+        ],
+        "title": "India bank remit process to US account",
+        "url": "https://www.reddit.com/r/nri/comments/1vyax8q/india_bank_remit_process_to_us_account/"
+      },
+      {
+        "body": "I came across this recent LiveMint article and thought it was worth sharing here because I’m guessing a lot of NRIs on this sub regularly send money to their parents in India. The Case was like: a US-based NRI transferred ₹11 lakh to his parents’ bank account in India. Under Indian tax law, gifting money to parents is 100% tax-free with no monetary limit. but because there was no proper paper trail or gift deed, the IT department flagged it as unexplained income and slapped a tax notice. However, the case eventually went to the ITAT, which accepted the transaction and ruled in the NRI's favour but it took the guy 6 full years of legal back-and-forth. The Takeaway is pretty clear: sending money to parents is completely fine; everyone does this, but you need to pay special attention to some basic things while sending money such as documentation. Otherwise, just like this case even a genuine transfer to parents turns into a legal headache for years. **Has anyone here ever faced something similar?** And if you've been through something like this, **what's one tip you'd give other NRIs to avoid the same headache?** Would be good to hear some real experiences.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-07T09:39:20.107Z",
+        "competitorMentions": [],
+        "direction": "outbound",
+        "id": "t3_1vxs1w7",
+        "intent": "community_recommendation",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india"
+        ],
+        "numComments": 23,
+        "publishedAt": "2026-08-25T06:39:32.000Z",
+        "recency": "recent",
+        "relevanceScore": 0.72,
+        "score": 0,
+        "sentiment": "negative",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "kyc",
+          "remittance"
+        ],
+        "title": "How an US NRI sending money to his parents turned into a 6-year tax battle.",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1vxs1w7/how_an_us_nri_sending_money_to_his_parents_turned/",
+        "useCase": "repeat"
+      },
+      {
+        "body": "Which app you all using to send money to India ? which one is offering the best rates right now ?",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:55:37.785Z",
+        "competitorMentions": [],
+        "direction": "outbound",
+        "id": "t3_1vuq7qy",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "money transfer kyc"
+        ],
+        "numComments": 4,
+        "publishedAt": "2026-08-21T19:32:04.000Z",
+        "recency": "recent",
+        "relevanceScore": 0.92,
+        "score": 1,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "kyc",
+          "pricing",
+          "remittance"
+        ],
+        "title": "Money Transfer",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1vuq7qy/money_transfer/",
+        "useCase": "rate_shopping"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1vrjmxg",
+        "matchedQueries": [],
+        "numComments": 23,
+        "publishedAt": "2026-08-18T08:52:11.000Z",
+        "recency": "recent",
+        "score": 0,
+        "subreddit": "nri",
+        "body": "Hi everyone, I’m moving to the US soon on an immigrant visa and I’m completely new to this, so would really appreciate some advice. I currently have multiple savings accounts in India. I’ll be closing 2–3 of them but will likely keep around three accounts with a decent amount of savings. I’ll also need to use some of this money to pay off a loan in India. Should I convert my existing accounts to NRE or NRO? What would be the best way to manage the existing savings and loan payments, and how does TDS work on the interest? I’d especially like to understand how to avoid unnecessary/high TDS legally. I’ve searched online but can’t find a simple explanation that covers this situation. If anyone has gone through something similar, I’d really appreciate your advice! Thanks!",
+        "themes": [
+          "community"
+        ],
+        "title": "Moving to the US — NRE or NRO for existing savings accounts",
+        "url": "https://www.reddit.com/r/nri/comments/1vrjmxg/moving_to_the_us_nre_or_nro_for_existing_savings/"
+      },
+      {
+        "body": "Hey folks, I'm eventually planning to return to India next year so need to send my hard earned money back to the motherland. My options as a permanent resident in Latin American country: 1. Send via Wise as a gift to Indian account of Sister, Mother, Father in chunks till next year. Do I need to create gift deed / certificate? 2. Don't have NRE/NRO account ( my old Indian accounts are frozen till KYC is done). Do I need to open this account? 3. Wire transfer is better? What option can you recommend? Amount would be above 1 Crore. Experts please give your opinions. Thanks in advance.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-07T09:31:44.241Z",
+        "competitorMentions": [
+          "Wise"
+        ],
+        "direction": "inbound",
+        "id": "t3_1vr7ww0",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "money transfer kyc",
+          "send money to india"
+        ],
+        "numComments": 11,
+        "publishedAt": "2026-08-17T23:06:00.000Z",
+        "recency": "recent",
+        "relevanceScore": 0.85,
+        "score": 3,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "kyc",
+          "remittance"
+        ],
+        "title": "Sending money to India",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1vr7ww0/sending_money_to_india/",
+        "useCase": "other"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1vkze42",
+        "matchedQueries": [],
+        "numComments": 7,
+        "publishedAt": "2026-08-10T22:25:35.000Z",
+        "recency": "recent",
+        "score": 3,
+        "subreddit": "nri",
+        "body": "I am planning to move some money online from India (SBI NRE account) to US (Bank of America). Anything that I should be aware of - paper work or tax implications (India or USA) ? Thank you for any advice you can provide.",
+        "themes": [
+          "community"
+        ],
+        "title": "Moving money from India to US",
+        "url": "https://www.reddit.com/r/nri/comments/1vkze42/moving_money_from_india_to_us/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1uzdr77",
+        "matchedQueries": [],
+        "numComments": 6,
+        "publishedAt": "2026-07-17T22:08:06.000Z",
+        "recency": "historical",
+        "score": 3,
+        "subreddit": "nri",
+        "body": "\\- Do I need to submit form 145 and 146 (earlier 15CA/CB) from CA? Is this a India Income tax requirement? \\- are these form required for US income tax? Asking because fund transfer can raise a question.",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Money transfer from India NRO account to US bank account (&gt;5 lakhs)",
+        "url": "https://www.reddit.com/r/nri/comments/1uzdr77/money_transfer_from_india_nro_account_to_us_bank/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1uuf6t8",
+        "matchedQueries": [],
+        "numComments": 22,
+        "publishedAt": "2026-07-12T13:14:52.000Z",
+        "recency": "historical",
+        "score": 39,
+        "subreddit": "IndiaInvestments",
+        "body": "**Is USD transfer post-RSU sale from employer stock account to IBKR legal?** I'd like to transfer USD from the proceeds of RSU sales from my employer stock account at ETrade to my personal one at IBKR (not looking to ACATS at the moment). This is to avoid double currency conversion, TCS under LRS and international wiring charges if first bought to India. 1. Is such a transfer legal? There have been a [couple](https://www.reddit.com/r/personalfinanceindia/s/AByL0PRjTI) of [threads](https://www.reddit.com/r/personalfinanceindia/s/tmN86SBi79) on this topic, but I wanted to double check, especially since [u/AbhinavGulechha](https://www.reddit.com/user/AbhinavGulechha/) [says](https://www.reddit.com/r/IndiaInvestments/comments/1o24rsb/comment/njlxnsn/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button) \"In my view, if you have earned RSUs being an Indian resident, FEMA regulations require you to bring funds first to India and then you are free to remit it again under the Liberalised Remittance Scheme - reinvesting these funds outside India is not in line with FEMA to my reading of the law.\" 2. Does such a transfer fall outside the ambit of the LRS since the transfer is not from India, thereby not requiring me to comply with the TCS rules? 3. Is it legal to invest such USD in assets whose types are not in keeping with RSUs (i.e., investing not in US-situs equity but debt ETFs etc.)? **Can USD remitted to an IBKR account under one LRS purpose code be used to purchase asset classes covered by a different purpose code?** 1. If I remit USD from India to my IBKR account under the LRS purpose code “S0001: Indian investment abroad in equity capital (shares),” use the funds to buy equities, and later sell those equities and reinvest the proceeds in debt ETFs, would that be legally permitted?",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Questions regarding investments abroad (RSUs, IBKR, LRS, purpose codes)",
+        "url": "https://www.reddit.com/r/IndiaInvestments/comments/1uuf6t8/questions_regarding_investments_abroad_rsus_ibkr/"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-07T09:59:14.412Z",
+        "competitorMentions": [],
+        "direction": "unclear",
+        "id": "t3_1u8e363",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "transfer failed india"
+        ],
+        "numComments": 7,
+        "publishedAt": "2026-06-17T15:54:21.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 0,
+        "sentiment": "neutral",
+        "subreddit": "h1b",
+        "themes": [
+          "pain",
+          "pricing",
+          "remittance"
+        ],
+        "title": "If we apply H1B extention or H1B transfer from India ,Is this flag 100k fee ?",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/h1b/comments/1u8e363/if_we_apply_h1b_extention_or_h1b_transfer_from/",
+        "useCase": "other"
+      },
+      {
+        "body": "Hey Fellow NRI's, I sent some 5K USD to India few months back thinking I might need it. It's been 3 months now and never really needed that money in India and I just left it there. Now looking at the rupee falling and I, not really needing rupees I just wanna get my money back to the US. When i look at the websites like Wise, Remitly, Xe, Western union, Xoom etc none of them are allowing this INR to USD transfer? WTH? How/Where can i move my INR to USD and also get good rates?",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-07T09:31:30.605Z",
+        "competitorMentions": [
+          "Remitly",
+          "Western Union",
+          "Wise",
+          "Xe",
+          "Xoom"
+        ],
+        "direction": "inbound",
+        "id": "t3_1ti0sgh",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india",
+          "wise remitly xoom"
+        ],
+        "numComments": 32,
+        "publishedAt": "2026-05-19T21:21:26.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.92,
+        "score": 28,
+        "sentiment": "negative",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "WTH? Now we cannot move money from India back to USA? Wise, Remitly, Xe, western union none of them have this option anymore?",
+        "urgency": "high",
+        "url": "https://www.reddit.com/r/nri/comments/1ti0sgh/wth_now_we_cannot_move_money_from_india_back_to/",
+        "useCase": "repeat"
+      },
+      {
+        "body": "For the people using Wise/Remitly for a while now. Genuinely curious - does the amount your family actually receives match what the app promised at checkout? Because I feel like there's always some gap. Also- what made you pick your current app? Asking because I've been on this for a while and genuinely want to understand where the friction actually is - not from a blog post, but from people who actually send money every month.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:25:12.981Z",
+        "competitorMentions": [
+          "Remitly",
+          "Wise"
+        ],
+        "direction": "outbound",
+        "id": "t3_1swvxes",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "wise remitly xoom"
+        ],
+        "numComments": 6,
+        "publishedAt": "2026-04-27T06:47:34.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.85,
+        "score": 1,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "Do remittance apps actually deliver the exact amount they show?",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1swvxes/do_remittance_apps_actually_deliver_the_exact/",
+        "useCase": "repeat"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1stafu3",
+        "matchedQueries": [],
+        "numComments": 14,
+        "publishedAt": "2026-04-23T06:11:03.000Z",
+        "recency": "historical",
+        "score": 0,
+        "subreddit": "nri",
+        "body": "Hey - for people sending money from the US to India, what do you usually send it for? Is it mostly family support, or things like investments, loans, big expenses, etc.? Just trying to understand how people usually approach this.",
+        "themes": [
+          "remittance"
+        ],
+        "title": "What do you guys usually send money to India for?",
+        "url": "https://www.reddit.com/r/nri/comments/1stafu3/what_do_you_guys_usually_send_money_to_india_for/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1so92fl",
+        "matchedQueries": [],
+        "numComments": 13,
+        "publishedAt": "2026-04-17T18:19:31.000Z",
+        "recency": "historical",
+        "score": 2,
+        "subreddit": "nri",
+        "body": "Hey everyone, I need to receive around $7,000 USD from a client in the US, and this is my first time dealing with an international payment. I'm thinking of using Wise, but had a few doubts: \\-Is Wise reliable for this amount? \\-I’ve heard the exchange rate is better than a regular bank transfer — is that actually true? \\-If I link my Indian bank account, will the money come directly into my bank account or stay in the Wise wallet first? \\-Do I need any kind of advanced/paid account for receiving this amount? Would really appreciate any advice or personal experiences — just want to avoid unnecessary fees or issues. Thanks in advance!",
+        "themes": [
+          "remittance",
+          "pricing",
+          "pain",
+          "competitor"
+        ],
+        "title": "Money transfer USD to INR. Is wise a good option as s indian bank Holder",
+        "url": "https://www.reddit.com/r/nri/comments/1so92fl/money_transfer_usd_to_inr_is_wise_a_good_option/"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1sl8263",
+        "matchedQueries": [],
+        "numComments": 20,
+        "publishedAt": "2026-04-14T13:01:51.000Z",
+        "recency": "historical",
+        "score": 0,
+        "subreddit": "nri",
+        "body": "Hey everyone, I am trying to understand the real issues NRIs face when sending money from the US to India. I work in this industry and am researching real problems. A few questions from my side are: * what frustrates you the most while sending money? * which apps are you using right now? * do you feel this is already solved or still messy? Would love to hear real experiences or anything you want to add. Thanks.",
+        "themes": [
+          "pricing",
+          "pain"
+        ],
+        "title": "What problems do you face as an NRI while sending money from US to India?",
+        "url": "https://www.reddit.com/r/nri/comments/1sl8263/what_problems_do_you_face_as_an_nri_while_sending/"
+      },
+      {
+        "body": "My parents live on phonepe so bank deposit was always an unnecessary extra step that I wanted to skip. taptapsend, wise, and remitly all do UPI for india now which means money lands directly on their phone in minutes. Wise charges roughly 0.5 to 1.5% from USD depending on payment method and gives you the actual mid market rate. taptapsend has no fee above $200, builds their cost into a slightly below mid market rate. Remitly is $3.99 under $1000 plus a rate markup, and that first transfer promo rate is not what you'll actually pay ongoing so don't get too excited. Typical $400 send the INR received is close between wise and taptapsend, one wins by 100 to 300 rupees depending on the day. Bank wires from US banks ($25 to $45, terrible rates) are objectively worse than all three. Xoom works but rates are declining.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:48:27.343Z",
+        "competitorMentions": [
+          "Remitly",
+          "Taptapsend",
+          "Wise",
+          "Xoom"
+        ],
+        "direction": "outbound",
+        "id": "t3_1s7jxwe",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india",
+          "wise remitly xoom"
+        ],
+        "numComments": 9,
+        "publishedAt": "2026-03-30T07:34:53.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.72,
+        "score": 4,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "pain",
+          "pricing",
+          "remittance"
+        ],
+        "title": "how to send money to india from usa with UPI support, compared the apps that actually work",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/nri/comments/1s7jxwe/how_to_send_money_to_india_from_usa_with_upi/",
+        "useCase": "rate_shopping"
+      },
+      {
+        "body": "I want to transfer about $100k to India. Bank rates are very bad. How should I send?",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:41:28.309Z",
+        "competitorMentions": [],
+        "direction": "outbound",
+        "id": "t3_1qid3up",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india"
+        ],
+        "numComments": 48,
+        "publishedAt": "2026-01-20T20:51:00.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.95,
+        "score": 3,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "pricing",
+          "remittance"
+        ],
+        "title": "Send money from US to India",
+        "urgency": "high",
+        "url": "https://www.reddit.com/r/nri/comments/1qid3up/send_money_from_us_to_india/",
+        "useCase": "rate_shopping"
+      },
+      {
+        "body": "Sharing few referral links that help you avoid transfer fee for your signup and first transfer only. 1. [WISE.COM](http://WISE.COM) [https://wise.com/invite/dic/vikass34](https://wise.com/invite/dic/vikass34) Vishal has given you a fee-free transfer of up to 600 USD 2. [REMITLY.COM](http://REMITLY.COM) Give 15 Get 25 - [https://remit.ly/29j7ugf6](https://remit.ly/29j7ugf6) Get $15 off, zero fees, and a special rate on your first transfer When you send at least $300. Your friend VISHAL will also get $25 for referring you.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:50:32.399Z",
+        "competitorMentions": [
+          "Remitly",
+          "Wise"
+        ],
+        "direction": "outbound",
+        "id": "t3_1q92csi",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india",
+          "wise remitly xoom"
+        ],
+        "numComments": 14,
+        "publishedAt": "2026-01-10T12:00:45.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.85,
+        "score": 0,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "Best ways to transfer money from US to INDIA",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/nri/comments/1q92csi/best_ways_to_transfer_money_from_us_to_india/",
+        "useCase": "first_transfer"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:57:49.611Z",
+        "competitorMentions": [
+          "Aspora",
+          "Remit2any",
+          "Unplex"
+        ],
+        "direction": "outbound",
+        "id": "t3_1pyjqlt",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 6,
+        "publishedAt": "2025-12-29T11:14:33.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.85,
+        "score": 1,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "Has anyone used Aspora / Remit2any / Unplex for US to India Remittance? Would love to understand the experience of the transfer? Do you feel the service is good and reliable? Would it be possible for someone the onboarding flows for above - I will be super thankful to those who can help..",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1pyjqlt/has_anyone_used_aspora_remit2any_unplex_for_us_to/",
+        "useCase": "first_transfer"
+      },
+      {
+        "body": "My h1b got picked in 2024, I travelled to USA and worked for 6 months and came back. My doubt is if I want to change my employer in India does it cost 100k?",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:48:02.970Z",
+        "competitorMentions": [],
+        "direction": "unclear",
+        "id": "t3_1o819gr",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "transfer failed india"
+        ],
+        "numComments": 5,
+        "publishedAt": "2025-10-16T09:07:54.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 0,
+        "sentiment": "neutral",
+        "subreddit": "h1b",
+        "themes": [
+          "pain",
+          "pricing",
+          "remittance"
+        ],
+        "title": "Does h1b transfers while inside india costs 100k?",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/h1b/comments/1o819gr/does_h1b_transfers_while_inside_india_costs_100k/",
+        "useCase": "other"
+      },
+      {
+        "body": "Recently naturalized US citizen, few months ago. HavenΓÇÖt gotten around to surrendering Indian passport yet. Indian citizen parent wants to send gift from their Indian bank account (INR) to my US Bank account (USD). A2 form is typically required, would it be okay to use American passport for ID of recipient? Or can US State ID be used? Or does the Indian passport need to be surrendered before remittance can be done?",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:50:11.519Z",
+        "competitorMentions": [],
+        "direction": "inbound",
+        "id": "t3_1nn6000",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 3,
+        "publishedAt": "2025-09-21T22:44:17.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.05,
+        "score": 5,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Using US passport for outward remittance from India to US ( Indian passport not yet surrendered)",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1nn6000/using_us_passport_for_outward_remittance_from/",
+        "useCase": "other"
+      },
+      {
+        "body": "Trying to find out which Private Bank or reputed authorized dealer gets you the best rates for converting money from INR to USD for outward remittance. I only want to assess based on the published card rates, not based on the negotiated special rates behind the scene. I have known IOB and SBI having the best card rates, but their service quality is questionable. I am therefore researching/looking at private banks or newage fintechs, if any. I am looking only for no-contact pricing, whereby you can do online transfers at published forex rates. This is not for a resident, but for NRIs not located in India and has money in NRE a/c which is freely transferable. There is no TDS either. All that is needed is: online remittance facility, great currency rate and low transfer fees. I have looked at HDFC and ICICI, but both have pretty bad 'card' rates. Not sure if Axis, Indusind, IDFC, Kotak etc are any better. I am hoping this community can help me great insight at a faster speed.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:54:07.572Z",
+        "competitorMentions": [],
+        "direction": "inbound",
+        "id": "t3_1my5o44",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 9,
+        "publishedAt": "2025-08-23T16:17:06.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.05,
+        "score": 1,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "pricing",
+          "remittance"
+        ],
+        "title": "Best forex rates for OUTWARD remittance FROM India",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1my5o44/best_forex_rates_for_outward_remittance_from_india/",
+        "useCase": "other"
+      },
+      {
+        "body": "I wanted to know if I transfer $200k from my 401k in USA to India how much penalty and tax I will have to pay in US and in India. I moved back 5 years ago. CanΓÇÖt wait till 59.5 of age, need that money now to pay off some loans",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:41:38.160Z",
+        "competitorMentions": [],
+        "direction": "outbound",
+        "id": "t3_1mgp66x",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "transfer failed india"
+        ],
+        "numComments": 41,
+        "publishedAt": "2025-08-03T17:33:19.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 21,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "pain",
+          "remittance"
+        ],
+        "title": "401k transfer from USA to India",
+        "urgency": "high",
+        "url": "https://www.reddit.com/r/nri/comments/1mgp66x/401k_transfer_from_usa_to_india/",
+        "useCase": "other"
+      },
+      {
+        "body": "Remitly is only asking for the recipients bank name and their account number. Nothing on IFSC or Swift code. I find it rather odd. How can a bank transfer work without IFSC code? Is it a standard procedure while using Remitly? How safe is it? I want to send around $20k USD. [EDIT] - I sent the money after positive feedback to this post. It infact did not need the IFSC code for bank transfer. Transfer went through under 5 min, I confirmed with the recipient. I found the exchange rate, atleast for 1st time user the best here.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:50:14.924Z",
+        "competitorMentions": [
+          "Remitly"
+        ],
+        "direction": "outbound",
+        "id": "t3_1lt6scs",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india"
+        ],
+        "numComments": 80,
+        "publishedAt": "2025-07-06T17:26:02.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.85,
+        "score": 7,
+        "sentiment": "positive",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "Has anyone sent money through \"Remitly\" to India?",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1lt6scs/has_anyone_sent_money_through_remitly_to_india/",
+        "useCase": "first_transfer"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:57:27.722Z",
+        "competitorMentions": [],
+        "direction": "outbound",
+        "id": "t3_1lmmzck",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india",
+          "send money to india"
+        ],
+        "numComments": 45,
+        "publishedAt": "2025-06-28T13:35:38.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.75,
+        "score": 357,
+        "sentiment": "neutral",
+        "subreddit": "india",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Sending money to India? US Senate softens remittance tax to 1% from 3.5%",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/india/comments/1lmmzck/sending_money_to_india_us_senate_softens/",
+        "useCase": "other"
+      },
+      {
+        "body": "Sending money from US to India is a very common thing, however most of us are just used to paying exorbitant fees to sites like Remitly, Wise etc. They also give pretty shitty rates after one time promotion. ItΓÇÖs time apps like Clink pay became more mainstream which offer rates even better than Google. They are able to do that due to the revolutionary stablecoin tech which are yet to become mainstream. I came across this through a friend and wished I knew about this sooner. Sharing it here with all my friends so it can benefit everyone. https://apps.apple.com/us/app/clink-money/id6740692087",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:50:27.812Z",
+        "competitorMentions": [
+          "Clink",
+          "Remitly",
+          "Wise"
+        ],
+        "direction": "outbound",
+        "id": "t3_1l3shba",
+        "intent": "competitor_complaint",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 6,
+        "publishedAt": "2025-06-05T06:45:06.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.75,
+        "score": 0,
+        "sentiment": "negative",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "US-&gt;India remittance",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1l3shba/usindia_remittance/",
+        "useCase": "rate_shopping"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:57:20.938Z",
+        "competitorMentions": [],
+        "direction": "inbound",
+        "id": "t3_1jr8a5q",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 1,
+        "publishedAt": "2025-04-04T10:03:27.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 18,
+        "sentiment": "neutral",
+        "subreddit": "india",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Remittances to India from advanced economies surpass Gulf inflows: RBI",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/india/comments/1jr8a5q/remittances_to_india_from_advanced_economies/",
+        "useCase": "other"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:57:15.591Z",
+        "competitorMentions": [],
+        "direction": "outbound",
+        "id": "t3_1j8qkl8",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india"
+        ],
+        "numComments": 58,
+        "publishedAt": "2025-03-11T13:20:30.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.92,
+        "score": 6,
+        "sentiment": "negative",
+        "subreddit": "nri",
+        "themes": [
+          "pricing",
+          "remittance"
+        ],
+        "title": "Been sending money to India for a while, but I feel like I'm losing a lot on fees and bad rates. Anyone found a better way?",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1j8qkl8/been_sending_money_to_india_for_a_while_but_i/",
+        "useCase": "rate_shopping"
+      },
+      {
+        "body": "Can we use Remitly, Rio or Transferwise (wise) to transfer money into my NRE or NRO accounts? Or I need to use bank forex rate ? This is because I plan to make monthly deposits of small amount for Recurring Deposits (RD) and Mutual Fund investment into NRE. Usually Remitly, Rio has rates closer to market rate. Will I have flexibility to choose or need to stick with banks rate of exchange? Thanks!",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:23:33.673Z",
+        "competitorMentions": [
+          "Remitly",
+          "Rio",
+          "Wise"
+        ],
+        "direction": "outbound",
+        "id": "t3_1el8vfe",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "wise remitly xoom"
+        ],
+        "numComments": 4,
+        "publishedAt": "2024-08-06T04:37:02.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.85,
+        "score": 1,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "Can I use Remitly, Rio or Transferwise (wise) to transfer money into my NRE or NRO accounts? Or I need to use bank forex rate ?",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/nri/comments/1el8vfe/can_i_use_remitly_rio_or_transferwise_wise_to/",
+        "useCase": "repeat"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:57:04.263Z",
+        "competitorMentions": [],
+        "direction": "both",
+        "id": "t3_1e7r5cy",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 63,
+        "publishedAt": "2024-07-20T08:44:34.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.25,
+        "score": 46,
+        "sentiment": "neutral",
+        "subreddit": "nri",
+        "themes": [
+          "remittance"
+        ],
+        "title": "What are some NRI \"hacks\" that you use when travelling to and staying in India? All responses ranging from those related to passing through immigration to inward remittances are welcome.",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/nri/comments/1e7r5cy/what_are_some_nri_hacks_that_you_use_when/",
+        "useCase": "other"
+      },
+      {
+        "body": "Can you all suggest how to send money over to a merchant in India without paying too much in conversion fees or no fees at all? Also, can one do it so that the merchant does not get to see one's cc numbers? Can venmo, paypal or something like this work? What are some other ways pls? Thanks.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:23:38.471Z",
+        "competitorMentions": [
+          "PayPal",
+          "Venmo"
+        ],
+        "direction": "outbound",
+        "id": "t3_1amdqrk",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india"
+        ],
+        "numComments": 11,
+        "publishedAt": "2024-02-09T02:47:20.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.82,
+        "score": 1,
+        "sentiment": "neutral",
+        "subreddit": "ABCDesis",
+        "themes": [
+          "pricing",
+          "remittance"
+        ],
+        "title": "Making payments.....",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/ABCDesis/comments/1amdqrk/making_payments/",
+        "useCase": "rate_shopping"
+      },
+      {
+        "body": "I need to currency exchange INR ( rupees ) to USD ( dollars ). I have accounts both in India and in the United States. I have access to both my accounts, and I am in the US, and am assuming I don't need to be in India for me to transfer from and to both these accounts, especially through Wise. I know there are a lot of ways to do this, but I'm trying to search for the best rates possible. I have checked out Wise, which seems trustworthy, but I'm still trying to search for better options, as there are ways that are cheaper, but are through less well known services which I'm wary about. Is the best way to just use my Bank or Wise or anyother. Please let me know and any other tips.",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:40:46.641Z",
+        "competitorMentions": [
+          "Wise"
+        ],
+        "direction": "inbound",
+        "id": "t3_1ahkkm4",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india"
+        ],
+        "numComments": 4,
+        "publishedAt": "2024-02-03T01:50:09.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 1,
+        "sentiment": "neutral",
+        "subreddit": "personalfinance",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "What is the best way to send money from MY Indian bank account to MY American account - Currency Exchange",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1ahkkm4/what_is_the_best_way_to_send_money_from_my_indian/",
+        "useCase": "rate_shopping"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_18mj208",
+        "matchedQueries": [],
+        "numComments": 2,
+        "publishedAt": "2023-12-20T02:05:04.000Z",
+        "recency": "historical",
+        "score": 14,
+        "subreddit": "india",
+        "body": "[https://www.thehindubusinessline.com/economy/india-leads-global-remittance-charts-with-usd-125-billion-in-2023-world-bank-report/article67649834.ece](https://www.thehindubusinessline.com/economy/india-leads-global-remittance-charts-with-usd-125-billion-in-2023-world-bank-report/article67649834.ece)",
+        "themes": [
+          "remittance"
+        ],
+        "title": "India leads global remittance charts with $125 billion in 2023: World Bank report",
+        "url": "https://www.reddit.com/r/india/comments/18mj208/india_leads_global_remittance_charts_with_125/"
+      },
+      {
+        "body": "What does everyone use other than hawala to send money?",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:55:12.176Z",
+        "competitorMentions": [],
+        "direction": "outbound",
+        "id": "t3_1642vjh",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india",
+          "wise remitly xoom"
+        ],
+        "numComments": 10,
+        "publishedAt": "2023-08-29T00:15:48.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.92,
+        "score": 2,
+        "sentiment": "neutral",
+        "subreddit": "ABCDesis",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "What service is best to send money to India without huge fees?",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/ABCDesis/comments/1642vjh/what_service_is_best_to_send_money_to_india/",
+        "useCase": "rate_shopping"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_10uxde1",
+        "matchedQueries": [],
+        "numComments": 7,
+        "publishedAt": "2023-02-06T04:19:21.000Z",
+        "recency": "historical",
+        "score": 3,
+        "subreddit": "ABCDesis",
+        "body": "**Anybody know of any good services to send money from India to US?** **Hows ICICI bank for transfer if I have an account there?**",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Send money from India to US",
+        "url": "https://www.reddit.com/r/ABCDesis/comments/10uxde1/send_money_from_india_to_us/"
+      },
+      {
+        "body": "Sorry this is unrelated to H1B but I really donΓÇÖt know where else to ask. Please remove the post if IΓÇÖm breaking rules. IΓÇÖm sending money to my family in India and so far IΓÇÖve been doing a chase wire transfer. Is there a reliable way that gives competitive rates that you use?",
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:52:04.962Z",
+        "competitorMentions": [],
+        "direction": "outbound",
+        "id": "t3_10uoh5u",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "send money to india",
+          "wise remitly xoom"
+        ],
+        "numComments": 25,
+        "publishedAt": "2023-02-05T21:44:38.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.85,
+        "score": 3,
+        "sentiment": "neutral",
+        "subreddit": "h1b",
+        "themes": [
+          "competitor",
+          "pricing",
+          "remittance"
+        ],
+        "title": "How do you send money to India?",
+        "urgency": "medium",
+        "url": "https://www.reddit.com/r/h1b/comments/10uoh5u/how_do_you_send_money_to_india/",
+        "useCase": "repeat"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T08:00:48.570Z",
+        "competitorMentions": [],
+        "direction": "both",
+        "id": "t3_nni8sa",
+        "intent": "remittance_comparison",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 0,
+        "publishedAt": "2021-05-29T07:38:06.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.45,
+        "score": 17,
+        "sentiment": "neutral",
+        "subreddit": "india",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Remittances to India vs from India",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/india/comments/nni8sa/remittances_to_india_vs_from_india/",
+        "useCase": "other"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_bqcdri",
+        "matchedQueries": [],
+        "numComments": 19,
+        "publishedAt": "2019-05-19T03:21:26.000Z",
+        "recency": "historical",
+        "score": 26,
+        "subreddit": "IndiaInvestments",
+        "body": "- Is online remittance the only way to move funds to India? - Is there an upper cap on how much you could transfer at once? - Is there any tax consideration once you move your funds from NRE to NRO and then convert NRO to Residents Savings Account? Thanks!",
+        "themes": [
+          "remittance",
+          "pricing"
+        ],
+        "title": "NRIs of the world - what’s your strategy to move funds back to India once you are homeward bound?",
+        "url": "https://www.reddit.com/r/IndiaInvestments/comments/bqcdri/nris_of_the_world_whats_your_strategy_to_move/"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T08:00:04.719Z",
+        "competitorMentions": [],
+        "direction": "unclear",
+        "id": "t3_7mdtx8",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 0,
+        "publishedAt": "2017-12-27T08:24:16.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 37,
+        "sentiment": "neutral",
+        "subreddit": "india",
+        "themes": [
+          "remittance"
+        ],
+        "title": "India is the top remittance receiving country in the world",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/india/comments/7mdtx8/india_is_the_top_remittance_receiving_country_in/",
+        "useCase": "other"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T08:00:00.896Z",
+        "competitorMentions": [],
+        "direction": "inbound",
+        "id": "t3_7h8h49",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 14,
+        "publishedAt": "2017-12-03T07:39:59.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 45,
+        "sentiment": "neutral",
+        "subreddit": "india",
+        "themes": [
+          "remittance"
+        ],
+        "title": "India's highest amount of remittances comes from the gulf [NP]",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/india/comments/7h8h49/indias_highest_amount_of_remittances_comes_from/",
+        "useCase": "other"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:59:48.211Z",
+        "competitorMentions": [],
+        "direction": "inbound",
+        "id": "t3_746et1",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 1,
+        "publishedAt": "2017-10-04T06:31:39.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.05,
+        "score": 25,
+        "sentiment": "neutral",
+        "subreddit": "india",
+        "themes": [
+          "remittance"
+        ],
+        "title": "India to be the top recipient of remittances from its diaspora in 2017",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/india/comments/746et1/india_to_be_the_top_recipient_of_remittances_from/",
+        "useCase": "other"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:59:45.068Z",
+        "competitorMentions": [],
+        "direction": "inbound",
+        "id": "t3_740xo8",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 5,
+        "publishedAt": "2017-10-03T14:59:20.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 27,
+        "sentiment": "neutral",
+        "subreddit": "india",
+        "themes": [
+          "remittance"
+        ],
+        "title": "India to be the top recipient of remittances from its diaspora in 2017",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/india/comments/740xo8/india_to_be_the_top_recipient_of_remittances_from/",
+        "useCase": "other"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:59:32.403Z",
+        "competitorMentions": [],
+        "direction": "unclear",
+        "id": "t3_66qjf9",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 20,
+        "publishedAt": "2017-04-21T17:08:58.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 42,
+        "sentiment": "neutral",
+        "subreddit": "india",
+        "themes": [
+          "remittance"
+        ],
+        "title": "India tops global remittances at $62.7 billion in 2016: World Bank",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/india/comments/66qjf9/india_tops_global_remittances_at_627_billion_in/",
+        "useCase": "other"
+      },
+      {
+        "capturedAt": "2026-09-01T00:00:00.000Z",
+        "classifiedAt": "2026-09-03T07:59:14.815Z",
+        "competitorMentions": [],
+        "direction": "inbound",
+        "id": "t3_56h52a",
+        "intent": "other",
+        "language": "English",
+        "matchedQueries": [
+          "remittance india"
+        ],
+        "numComments": 4,
+        "publishedAt": "2016-10-08T14:21:25.000Z",
+        "recency": "historical",
+        "relevanceScore": 0.15,
+        "score": 23,
+        "sentiment": "neutral",
+        "subreddit": "india",
+        "themes": [
+          "remittance"
+        ],
+        "title": "Remittances to India to decline by 5% in 2016: World Bank",
+        "urgency": "low",
+        "url": "https://www.reddit.com/r/india/comments/56h52a/remittances_to_india_to_decline_by_5_in_2016/",
+        "useCase": "other"
+      },
+      {
+        "capturedAt": "2026-09-17T00:00:00.000Z",
+        "id": "t3_1h5y17",
+        "matchedQueries": [],
+        "numComments": 44,
+        "publishedAt": "2013-06-27T06:51:23.000Z",
+        "recency": "historical",
+        "score": 18,
+        "subreddit": "india",
+        "body": "* CAD is 17 billion, Gold Import 9 bn. * 2012 NRI Remittance was 70 billion. Approximately 6 billion/month. * Almost 1/3 of CAD comes from remittance. Don't you think, India should start rolling out red carpet for fucking NRIs. * What happens if NRI stop remittance for couple of months because they think rupees will dip to 65? * Do you think it will hit to 65 in next 2-3 months? Should I wait to send money to India? I am not an expert, I just want to know from other experts.",
+        "themes": [
+          "remittance"
+        ],
+        "title": "If NRIs decides to not to remittance money to India for next 2-3 of month, do you think rupee will dip to 65 or 70 against USD? See my comment.",
+        "url": "https://www.reddit.com/r/india/comments/1h5y17/if_nris_decides_to_not_to_remittance_money_to/"
+      }
+    ]
+  }
+}

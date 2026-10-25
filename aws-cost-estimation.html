@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XPAT Platform — AWS Cost Estimation</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f0f2f5; padding: 32px; color: #1a1a2e;
+    }
+    .page {
+      max-width: 1060px; margin: 0 auto; background: #fff;
+      border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+      padding: 36px 40px 32px;
+    }
+
+    /* Header */
+    .header {
+      display: flex; align-items: flex-start;
+      justify-content: space-between; margin-bottom: 28px;
+      padding-bottom: 18px; border-bottom: 2px solid #e8ecf0;
+    }
+    .header h1 { font-size: 21px; font-weight: 700; color: #0d1b2a; }
+    .header p  { font-size: 12px; color: #6b7280; margin-top: 4px; line-height: 1.5; }
+    .header-badges { display: flex; gap: 8px; flex-shrink: 0; margin-top: 2px; }
+    .badge {
+      font-size: 11px; font-weight: 600; padding: 4px 12px;
+      border-radius: 12px; border: 1px solid;
+    }
+    .badge-blue  { background: #e8f4fd; color: #0972d3; border-color: #b3d5f5; }
+    .badge-green { background: #f0fdf4; color: #166534; border-color: #86efac; }
+
+    /* Scenario toggle */
+    .scenarios {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 16px; margin-bottom: 28px;
+    }
+    .scenario {
+      border: 2px solid #e2e8f0; border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .scenario.demo { border-color: #93c5fd; background: #eff6ff; }
+    .scenario.prod { border-color: #86efac; background: #f0fdf4; }
+    .scenario-title {
+      font-size: 13px; font-weight: 700; margin-bottom: 4px;
+    }
+    .scenario.demo .scenario-title { color: #1e40af; }
+    .scenario.prod .scenario-title { color: #166534; }
+    .scenario-desc { font-size: 11px; color: #64748b; line-height: 1.5; }
+    .scenario-total {
+      margin-top: 10px; font-size: 22px; font-weight: 800;
+    }
+    .scenario.demo .scenario-total { color: #1d4ed8; }
+    .scenario.prod .scenario-total { color: #15803d; }
+    .scenario-sub { font-size: 11px; color: #94a3b8; margin-top: 2px; }
+
+    /* Table */
+    table {
+      width: 100%; border-collapse: collapse;
+      font-size: 12px; margin-bottom: 24px;
+    }
+    thead tr { background: #f8fafc; }
+    th {
+      text-align: left; padding: 10px 12px;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      color: #64748b; border-bottom: 2px solid #e2e8f0;
+    }
+    th.num { text-align: right; }
+    td { padding: 10px 12px; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    tr:hover td { background: #fafbfc; }
+
+    /* Section header row */
+    .section-row td {
+      background: #f8fafc; font-weight: 700;
+      font-size: 11px; letter-spacing: 0.06em;
+      text-transform: uppercase; color: #374151;
+      padding: 8px 12px; border-bottom: 1px solid #e2e8f0;
+    }
+
+    /* Colour dots for service */
+    .svc-cell { display: flex; align-items: center; gap: 8px; }
+    .dot {
+      width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+    }
+    .svc-name-main { font-weight: 600; color: #1e293b; }
+    .svc-name-sub  { font-size: 11px; color: #94a3b8; margin-top: 1px; }
+
+    /* Free / paid tags */
+    .free-tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      padding: 1px 7px; border-radius: 8px;
+      background: #dcfce7; color: #166534;
+    }
+    .paid-tag {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      padding: 1px 7px; border-radius: 8px;
+      background: #fef3c7; color: #92400e;
+    }
+
+    /* Total rows */
+    .total-row td {
+      font-weight: 700; font-size: 13px;
+      background: #f8fafc; border-top: 2px solid #e2e8f0;
+      padding: 12px 12px;
+    }
+    .grand-total td {
+      font-weight: 800; font-size: 14px;
+      background: #0d1b2a; color: #fff;
+      border-radius: 0;
+    }
+    .grand-total td.demo-col { color: #93c5fd; }
+    .grand-total td.prod-col { color: #86efac; }
+
+    /* Notes */
+    .notes {
+      background: #f8fafc; border: 1px solid #e2e8f0;
+      border-radius: 10px; padding: 16px 18px; margin-bottom: 20px;
+    }
+    .notes h3 { font-size: 12px; font-weight: 700; color: #374151; margin-bottom: 10px; }
+    .notes ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .notes li { font-size: 11px; color: #6b7280; padding-left: 14px; position: relative; }
+    .notes li::before { content: "•"; position: absolute; left: 0; color: #94a3b8; }
+
+    /* Footer */
+    .footer {
+      display: flex; justify-content: space-between;
+      align-items: center; font-size: 11px; color: #9ca3af;
+    }
+    a { color: #0972d3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <div>
+      <h1>XPAT Intelligence Platform — AWS Monthly Cost Estimation</h1>
+      <p>Based on AWS official pricing · ap-southeast-2 (Sydney) · Bedrock: us-east-1<br>
+      Source: aws.amazon.com/pricing · August 2026</p>
+    </div>
+    <div class="header-badges">
+      <span class="badge badge-blue">Demo</span>
+      <span class="badge badge-green">Production</span>
+    </div>
+  </div>
+
+  <!-- Scenario Summary -->
+  <div class="scenarios">
+    <div class="scenario demo">
+      <div class="scenario-title">🧪 Demo / PoC</div>
+      <div class="scenario-desc">
+        Low traffic · ~100 Ad Analyst queries/month<br>
+        1 Amplify build/week · Manual pipeline refresh<br>
+        Small team internal use
+      </div>
+      <div class="scenario-total">~$4.50 / mo</div>
+      <div class="scenario-sub">Well within AWS free tier for most services</div>
+    </div>
+    <div class="scenario prod">
+      <div class="scenario-title">🚀 Light Production</div>
+      <div class="scenario-desc">
+        ~1,000 Ad Analyst queries/month<br>
+        4 Amplify builds/month · Automated Lambda every 2 days<br>
+        Marketing team daily use
+      </div>
+      <div class="scenario-total">~$23.50 / mo</div>
+      <div class="scenario-sub">Bedrock token usage is the primary cost driver</div>
+    </div>
+  </div>
+
+  <!-- Cost Table -->
+  <table>
+    <thead>
+      <tr>
+        <th style="width:28%">Service</th>
+        <th style="width:22%">Pricing Basis</th>
+        <th style="width:18%">Demo Usage</th>
+        <th class="num" style="width:14%">Demo Cost</th>
+        <th style="width:18%">Prod Usage</th>
+        <th class="num" style="width:14%">Prod Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- HOSTING -->
+      <tr class="section-row"><td colspan="6">Hosting — AWS Amplify</td></tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#9333ea"></div>
+            <div>
+              <div class="svc-name-main">Build Minutes</div>
+              <div class="svc-name-sub">$0.01/min · 1,000 free/mo</div>
+            </div>
+          </div>
+        </td>
+        <td>per build minute</td>
+        <td>~40 min/mo (1 build/wk × 10 min)<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+        <td>~40 min/mo (4 builds × 10 min)<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#9333ea"></div>
+            <div>
+              <div class="svc-name-main">SSR Requests</div>
+              <div class="svc-name-sub">$0.30/1M req · 500K free/mo</div>
+            </div>
+          </div>
+        </td>
+        <td>per request</td>
+        <td>~5,000 req/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+        <td>~50,000 req/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#9333ea"></div>
+            <div>
+              <div class="svc-name-main">SSR Compute Duration</div>
+              <div class="svc-name-sub">$0.20/GB-hr · 100 GB-hr free/mo</div>
+            </div>
+          </div>
+        </td>
+        <td>per GB-hour</td>
+        <td>~2 GB-hr/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+        <td>~10 GB-hr/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#9333ea"></div>
+            <div>
+              <div class="svc-name-main">Data Transfer Out</div>
+              <div class="svc-name-sub">$0.15/GB · 15 GB free/mo</div>
+            </div>
+          </div>
+        </td>
+        <td>per GB served</td>
+        <td>~1 GB/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+        <td>~5 GB/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+      </tr>
+
+      <!-- AI -->
+      <tr class="section-row"><td colspan="6">AI — Amazon Bedrock · Claude Sonnet 4.5</td></tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#3b82f6"></div>
+            <div>
+              <div class="svc-name-main">Input Tokens</div>
+              <div class="svc-name-sub">$3.00 per 1M tokens · No free tier</div>
+            </div>
+          </div>
+        </td>
+        <td>per 1M tokens</td>
+        <td>~300K tokens/mo<br>(100 queries × ~3K tokens)<br><span class="paid-tag">Billed</span></td>
+        <td class="num">$0.90</td>
+        <td>~3M tokens/mo<br>(1,000 queries × ~3K tokens)<br><span class="paid-tag">Billed</span></td>
+        <td class="num">$9.00</td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#3b82f6"></div>
+            <div>
+              <div class="svc-name-main">Output Tokens</div>
+              <div class="svc-name-sub">$15.00 per 1M tokens · No free tier</div>
+            </div>
+          </div>
+        </td>
+        <td>per 1M tokens</td>
+        <td>~50K tokens/mo<br>(100 queries × ~500 tokens)<br><span class="paid-tag">Billed</span></td>
+        <td class="num">$0.75</td>
+        <td>~500K tokens/mo<br>(1,000 queries × ~500 tokens)<br><span class="paid-tag">Billed</span></td>
+        <td class="num">$7.50</td>
+      </tr>
+
+      <!-- PIPELINE -->
+      <tr class="section-row"><td colspan="6">Pipeline — Lambda + EventBridge</td></tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#f97316"></div>
+            <div>
+              <div class="svc-name-main">Lambda Invocations</div>
+              <div class="svc-name-sub">$0.20/1M req · 1M free/mo</div>
+            </div>
+          </div>
+        </td>
+        <td>per invocation</td>
+        <td>~4/mo (manual)<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+        <td>~15/mo (every 2 days)<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#f97316"></div>
+            <div>
+              <div class="svc-name-main">Lambda Compute</div>
+              <div class="svc-name-sub">$0.0000166667/GB-sec · 400K GB-sec free/mo</div>
+            </div>
+          </div>
+        </td>
+        <td>per GB-second</td>
+        <td>~1,200 GB-sec/mo<br>(4 runs × 300sec × 1GB)<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+        <td>~4,500 GB-sec/mo<br>(15 runs × 300sec × 1GB)<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#f97316"></div>
+            <div>
+              <div class="svc-name-main">EventBridge Scheduler</div>
+              <div class="svc-name-sub">$1.00/1M invocations · 14M free/mo</div>
+            </div>
+          </div>
+        </td>
+        <td>per invocation</td>
+        <td>~4 invocations/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+        <td>~15 invocations/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+      </tr>
+
+      <!-- STORAGE -->
+      <tr class="section-row"><td colspan="6">Storage — Amazon S3</td></tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#22c55e"></div>
+            <div>
+              <div class="svc-name-main">S3 Storage (both buckets)</div>
+              <div class="svc-name-sub">$0.023/GB/month</div>
+            </div>
+          </div>
+        </td>
+        <td>per GB/month</td>
+        <td>~0.5 GB (artifact + raw files)<br><span class="paid-tag">Billed</span></td>
+        <td class="num">$0.01</td>
+        <td>~2 GB (cumulative monthly)<br><span class="paid-tag">Billed</span></td>
+        <td class="num">$0.05</td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#22c55e"></div>
+            <div>
+              <div class="svc-name-main">S3 Requests (PUT + GET)</div>
+              <div class="svc-name-sub">PUT: $0.005/1K · GET: $0.0004/1K</div>
+            </div>
+          </div>
+        </td>
+        <td>per 1,000 requests</td>
+        <td>~200 requests/mo</td>
+        <td class="num">$0.00</td>
+        <td>~2,000 requests/mo</td>
+        <td class="num">$0.01</td>
+      </tr>
+
+      <!-- SECRETS -->
+      <tr class="section-row"><td colspan="6">Security — AWS Secrets Manager</td></tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#ef4444"></div>
+            <div>
+              <div class="svc-name-main">Secrets Stored</div>
+              <div class="svc-name-sub">$0.40/secret/month · No free tier</div>
+            </div>
+          </div>
+        </td>
+        <td>per secret/month</td>
+        <td>1 secret (xpat/ads/credentials)<br><span class="paid-tag">Billed</span></td>
+        <td class="num">$0.40</td>
+        <td>1 secret<br><span class="paid-tag">Billed</span></td>
+        <td class="num">$0.40</td>
+      </tr>
+
+      <!-- MONITORING -->
+      <tr class="section-row"><td colspan="6">Monitoring — Amazon CloudWatch</td></tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#0ea5e9"></div>
+            <div>
+              <div class="svc-name-main">Log Ingestion + Storage</div>
+              <div class="svc-name-sub">$0.50/GB ingested · 5 GB free/mo</div>
+            </div>
+          </div>
+        </td>
+        <td>per GB ingested</td>
+        <td>~0.01 GB/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+        <td>~0.05 GB/mo<br><span class="free-tag">Free tier</span></td>
+        <td class="num">$0.00</td>
+      </tr>
+
+      <!-- CODECOMMIT -->
+      <tr class="section-row"><td colspan="6">Source Control — AWS CodeCommit</td></tr>
+
+      <tr>
+        <td>
+          <div class="svc-cell">
+            <div class="dot" style="background:#10b981"></div>
+            <div>
+              <div class="svc-name-main">CodeCommit</div>
+              <div class="svc-name-sub">Free for ≤5 active users</div>
+            </div>
+          </div>
+        </td>
+        <td>per active user</td>
+        <td>1 user<br><span class="free-tag">Free</span></td>
+        <td class="num">$0.00</td>
+        <td>1 user<br><span class="free-tag">Free</span></td>
+        <td class="num">$0.00</td>
+      </tr>
+
+      <!-- Subtotals -->
+      <tr class="total-row">
+        <td colspan="3">💻 Hosting (Amplify)</td>
+        <td class="num">$0.00</td>
+        <td></td>
+        <td class="num">$0.00</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3">🤖 AI (Bedrock Claude Sonnet 4.5)</td>
+        <td class="num">$1.65</td>
+        <td></td>
+        <td class="num">$16.50</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3">⚙️ Pipeline (Lambda + EventBridge)</td>
+        <td class="num">$0.00</td>
+        <td></td>
+        <td class="num">$0.00</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3">🗄️ Storage (S3)</td>
+        <td class="num">$0.01</td>
+        <td></td>
+        <td class="num">$0.06</td>
+      </tr>
+      <tr class="total-row">
+        <td colspan="3">🔐 Security + Monitoring</td>
+        <td class="num">$0.40</td>
+        <td></td>
+        <td class="num">$0.40</td>
+      </tr>
+
+      <!-- Grand total -->
+      <tr class="grand-total">
+        <td colspan="3" style="font-size:14px">📊 TOTAL ESTIMATED MONTHLY COST</td>
+        <td class="num demo-col" style="font-size:16px">~$4.50</td>
+        <td></td>
+        <td class="num prod-col" style="font-size:16px">~$23.50</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <!-- Notes -->
+  <div class="notes">
+    <h3>📌 Assumptions & Notes</h3>
+    <ul>
+      <li>Bedrock is the dominant cost — every Ad Analyst query consumes ~3,000 input tokens + ~500 output tokens (includes system prompt, tool definitions, and artifact data slice)</li>
+      <li>Amplify free tier covers all hosting for both demo and light production scenarios (500K SSR requests, 100 GB-hours/month free)</li>
+      <li>Lambda runs entirely within the perpetual free tier (1M free requests/month, 400K GB-sec/month)</li>
+      <li>EventBridge Scheduler: 14 million free invocations/month — pipeline runs (max 15/month) cost $0.00</li>
+      <li>All prices sourced from AWS official pricing pages · August 2026</li>
+      <li>Prices shown are for ap-southeast-2 (Sydney) except Bedrock which is us-east-1 — both regions have identical pricing for these services</li>
+      <li>Costs scale linearly with Ad Analyst usage: each 1,000 additional queries adds ~$16.50 to monthly Bedrock cost</li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div>
+      Sources:
+      <a href="https://aws.amazon.com/amplify/pricing/" target="_blank">Amplify</a> ·
+      <a href="https://aws.amazon.com/bedrock/pricing/" target="_blank">Bedrock</a> ·
+      <a href="https://aws.amazon.com/lambda/pricing/" target="_blank">Lambda</a> ·
+      <a href="https://aws.amazon.com/s3/pricing/" target="_blank">S3</a> ·
+      <a href="https://aws.amazon.com/eventbridge/pricing/" target="_blank">EventBridge</a> ·
+      <a href="https://aws.amazon.com/secrets-manager/pricing/" target="_blank">Secrets Manager</a> ·
+      <a href="https://aws.amazon.com/cloudwatch/pricing/" target="_blank">CloudWatch</a>
+    </div>
+    <div>XPAT Intelligence Platform · Infinitra Innovations · Aug 2026</div>
+  </div>
+
+</div>
+</body>
+</html>

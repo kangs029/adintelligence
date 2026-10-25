@@ -1,0 +1,6112 @@
+{
+  "data": {
+    "heldOut": [
+      {
+        "asianIndian": 0,
+        "cbsa": "10480",
+        "geoid": "31000US10480",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Alamosa, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "10760",
+        "geoid": "31000US10760",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Alexander City, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "10820",
+        "geoid": "31000US10820",
+        "moe": 21,
+        "moeReliability": "low",
+        "name": "Alexandria, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "10860",
+        "geoid": "31000US10860",
+        "moe": 31,
+        "moeReliability": "low",
+        "name": "Alice, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "11060",
+        "geoid": "31000US11060",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Altus, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "11380",
+        "geoid": "31000US11380",
+        "moe": 23,
+        "moeReliability": "low",
+        "name": "Andrews, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "11580",
+        "geoid": "31000US11580",
+        "moe": 32,
+        "moeReliability": "low",
+        "name": "Arcadia, FL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "11860",
+        "geoid": "31000US11860",
+        "moe": 18,
+        "moeReliability": "low",
+        "name": "Atchison, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "12520",
+        "geoid": "31000US12520",
+        "moe": 21,
+        "moeReliability": "low",
+        "name": "Baker City, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "13100",
+        "geoid": "31000US13100",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Beatrice, NE Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "13260",
+        "geoid": "31000US13260",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Bedford, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "13700",
+        "geoid": "31000US13700",
+        "moe": 31,
+        "moeReliability": "low",
+        "name": "Big Spring, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "13940",
+        "geoid": "31000US13940",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Blackfoot, ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "14220",
+        "geoid": "31000US14220",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Bogalusa, LA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "14420",
+        "geoid": "31000US14420",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Borger, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "15420",
+        "geoid": "31000US15420",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Burley, ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "15580",
+        "geoid": "31000US15580",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Butte-Silver Bow, MT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "15740",
+        "geoid": "31000US15740",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Cambridge, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "16140",
+        "geoid": "31000US16140",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Carroll, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "17540",
+        "geoid": "31000US17540",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "Clinton, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "17620",
+        "geoid": "31000US17620",
+        "moe": 36,
+        "moeReliability": "low",
+        "name": "Coamo, PR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "17640",
+        "geoid": "31000US17640",
+        "moe": 29,
+        "moeReliability": "low",
+        "name": "Coco, PR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "18100",
+        "geoid": "31000US18100",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "Columbus, NE Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "18220",
+        "geoid": "31000US18220",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Connersville, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "18860",
+        "geoid": "31000US18860",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Crescent City, CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "18900",
+        "geoid": "31000US18900",
+        "moe": 33,
+        "moeReliability": "low",
+        "name": "Crossville, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "18980",
+        "geoid": "31000US18980",
+        "moe": 31,
+        "moeReliability": "low",
+        "name": "Cullman, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "19540",
+        "geoid": "31000US19540",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Decatur, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "21120",
+        "geoid": "31000US21120",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Elk City, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "21180",
+        "geoid": "31000US21180",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Elkins, WV Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "21580",
+        "geoid": "31000US21580",
+        "moe": 29,
+        "moeReliability": "low",
+        "name": "Española, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "21740",
+        "geoid": "31000US21740",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Evanston, WY-UT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "21980",
+        "geoid": "31000US21980",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Fallon, NV Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "22340",
+        "geoid": "31000US22340",
+        "moe": 23,
+        "moeReliability": "low",
+        "name": "Fitzgerald, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "22620",
+        "geoid": "31000US22620",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Forrest City, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "22820",
+        "geoid": "31000US22820",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Fort Morgan, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "23190",
+        "geoid": "31000US23190",
+        "moe": 20,
+        "moeReliability": "low",
+        "name": "Franklin, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "23340",
+        "geoid": "31000US23340",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "Fremont, NE Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "23780",
+        "geoid": "31000US23780",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Garden City, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "23940",
+        "geoid": "31000US23940",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Gillette, WY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "24620",
+        "geoid": "31000US24620",
+        "moe": 33,
+        "moeReliability": "low",
+        "name": "Greeneville, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "24700",
+        "geoid": "31000US24700",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Greensburg, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "24980",
+        "geoid": "31000US24980",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Grenada, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "25020",
+        "geoid": "31000US25020",
+        "moe": 36,
+        "moeReliability": "low",
+        "name": "Guayama, PR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "25100",
+        "geoid": "31000US25100",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Guymon, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "25200",
+        "geoid": "31000US25200",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Hailey, ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "25300",
+        "geoid": "31000US25300",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Hannibal, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "25460",
+        "geoid": "31000US25460",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Harrison, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "25580",
+        "geoid": "31000US25580",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "Hastings, NE Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "25820",
+        "geoid": "31000US25820",
+        "moe": 23,
+        "moeReliability": "low",
+        "name": "Hereford, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "25880",
+        "geoid": "31000US25880",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Hillsdale, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "26220",
+        "geoid": "31000US26220",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Hood River, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "26700",
+        "geoid": "31000US26700",
+        "moe": 16,
+        "moeReliability": "low",
+        "name": "Huron, SD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "27020",
+        "geoid": "31000US27020",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Iron Mountain, MI-WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "27420",
+        "geoid": "31000US27420",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Jamestown, ND Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "28340",
+        "geoid": "31000US28340",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Kendallville, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "29470",
+        "geoid": "31000US29470",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Lake of the Woods, VA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "30280",
+        "geoid": "31000US30280",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Lewisburg, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "30420",
+        "geoid": "31000US30420",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Lexington, NE Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "30900",
+        "geoid": "31000US30900",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Logansport, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "31500",
+        "geoid": "31000US31500",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Madison, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "31580",
+        "geoid": "31000US31580",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Madisonville, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "31680",
+        "geoid": "31000US31680",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Malvern, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "32540",
+        "geoid": "31000US32540",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "McAlester, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "32700",
+        "geoid": "31000US32700",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "McPherson, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "33020",
+        "geoid": "31000US33020",
+        "moe": 23,
+        "moeReliability": "low",
+        "name": "Mexico, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "33180",
+        "geoid": "31000US33180",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Middlesborough, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "33420",
+        "geoid": "31000US33420",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Mineral Wells, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "33580",
+        "geoid": "31000US33580",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Mitchell, SD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "33900",
+        "geoid": "31000US33900",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Monticello, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "33940",
+        "geoid": "31000US33940",
+        "moe": 29,
+        "moeReliability": "low",
+        "name": "Montrose, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "34020",
+        "geoid": "31000US34020",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Morgan City, LA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "34260",
+        "geoid": "31000US34260",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Mountain Home, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "34540",
+        "geoid": "31000US34540",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Mount Vernon, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "34680",
+        "geoid": "31000US34680",
+        "moe": 33,
+        "moeReliability": "low",
+        "name": "Murrells Inlet, SC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "35580",
+        "geoid": "31000US35580",
+        "moe": 18,
+        "moeReliability": "low",
+        "name": "New Ulm, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "35820",
+        "geoid": "31000US35820",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "North Platte, NE Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "35900",
+        "geoid": "31000US35900",
+        "moe": 32,
+        "moeReliability": "low",
+        "name": "North Wilkesboro, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "36820",
+        "geoid": "31000US36820",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Oskaloosa, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "36830",
+        "geoid": "31000US36830",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Othello, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "36840",
+        "geoid": "31000US36840",
+        "moe": 21,
+        "moeReliability": "low",
+        "name": "Ottawa, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "37300",
+        "geoid": "31000US37300",
+        "moe": 35,
+        "moeReliability": "low",
+        "name": "Palestine, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "37500",
+        "geoid": "31000US37500",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Paragould, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "37740",
+        "geoid": "31000US37740",
+        "moe": 33,
+        "moeReliability": "low",
+        "name": "Payson, AZ Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "37950",
+        "geoid": "31000US37950",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Petoskey, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "38180",
+        "geoid": "31000US38180",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Pierre, SD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "38620",
+        "geoid": "31000US38620",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "Ponca City, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "38740",
+        "geoid": "31000US38740",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Poplar Bluff, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "39220",
+        "geoid": "31000US39220",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Price, UT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "39700",
+        "geoid": "31000US39700",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Raymondville, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "39780",
+        "geoid": "31000US39780",
+        "moe": 32,
+        "moeReliability": "low",
+        "name": "Red Bluff, CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "39940",
+        "geoid": "31000US39940",
+        "moe": 29,
+        "moeReliability": "low",
+        "name": "Rexburg, ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "40100",
+        "geoid": "31000US40100",
+        "moe": 35,
+        "moeReliability": "low",
+        "name": "Rio Grande City-Roma, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "40180",
+        "geoid": "31000US40180",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Riverton, WY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "40770",
+        "geoid": "31000US40770",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Russellville, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "40940",
+        "geoid": "31000US40940",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Safford, AZ Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "41760",
+        "geoid": "31000US41760",
+        "moe": 29,
+        "moeReliability": "low",
+        "name": "Sandpoint, ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "42460",
+        "geoid": "31000US42460",
+        "moe": 31,
+        "moeReliability": "low",
+        "name": "Scottsboro, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "43660",
+        "geoid": "31000US43660",
+        "moe": 23,
+        "moeReliability": "low",
+        "name": "Snyder, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "43980",
+        "geoid": "31000US43980",
+        "moe": 16,
+        "moeReliability": "low",
+        "name": "Spencer, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "44020",
+        "geoid": "31000US44020",
+        "moe": 16,
+        "moeReliability": "low",
+        "name": "Spirit Lake, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "44460",
+        "geoid": "31000US44460",
+        "moe": 29,
+        "moeReliability": "low",
+        "name": "Steamboat Springs, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "44540",
+        "geoid": "31000US44540",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Sterling, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "46460",
+        "geoid": "31000US46460",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Union City, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "46900",
+        "geoid": "31000US46900",
+        "moe": 23,
+        "moeReliability": "low",
+        "name": "Vernon, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "47180",
+        "geoid": "31000US47180",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Vincennes, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "47340",
+        "geoid": "31000US47340",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Wabash, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "47420",
+        "geoid": "31000US47420",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Wahpeton, ND-MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "47820",
+        "geoid": "31000US47820",
+        "moe": 29,
+        "moeReliability": "low",
+        "name": "Washington, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "47920",
+        "geoid": "31000US47920",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Washington Court House, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "47980",
+        "geoid": "31000US47980",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Watertown, SD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "48940",
+        "geoid": "31000US48940",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Wilmington, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "49080",
+        "geoid": "31000US49080",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "Winnemucca, NV Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "49260",
+        "geoid": "31000US49260",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Woodward, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "49780",
+        "geoid": "31000US49780",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Zanesville, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 0,
+        "cbsa": "49820",
+        "geoid": "31000US49820",
+        "moe": 23,
+        "moeReliability": "low",
+        "name": "Zapata, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 1,
+        "cbsa": "18380",
+        "geoid": "31000US18380",
+        "moe": 2,
+        "moeReliability": "low",
+        "name": "Cordele, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 1,
+        "cbsa": "29780",
+        "geoid": "31000US29780",
+        "moe": 4,
+        "moeReliability": "low",
+        "name": "Las Vegas, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 1,
+        "cbsa": "41780",
+        "geoid": "31000US41780",
+        "moe": 3,
+        "moeReliability": "low",
+        "name": "Sandusky, OH Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 1,
+        "cbsa": "45000",
+        "geoid": "31000US45000",
+        "moe": 2,
+        "moeReliability": "low",
+        "name": "Susanville, CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 10,
+        "cbsa": "31930",
+        "geoid": "31000US31930",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Marietta, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 10,
+        "cbsa": "34420",
+        "geoid": "31000US34420",
+        "moe": 14,
+        "moeReliability": "low",
+        "name": "Mount Pleasant, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 10,
+        "cbsa": "37420",
+        "geoid": "31000US37420",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Pampa, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 10,
+        "cbsa": "45880",
+        "geoid": "31000US45880",
+        "moe": 16,
+        "moeReliability": "low",
+        "name": "Town of Pecos, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 100,
+        "cbsa": "36580",
+        "geoid": "31000US36580",
+        "moe": 67,
+        "moeReliability": "medium",
+        "name": "Oneonta, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 100,
+        "cbsa": "38920",
+        "geoid": "31000US38920",
+        "moe": 77,
+        "moeReliability": "medium",
+        "name": "Port Lavaca, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 100,
+        "cbsa": "40260",
+        "geoid": "31000US40260",
+        "moe": 71,
+        "moeReliability": "medium",
+        "name": "Roanoke Rapids, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 100,
+        "cbsa": "48700",
+        "geoid": "31000US48700",
+        "moe": 98,
+        "moeReliability": "medium",
+        "name": "Williamsport, PA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 101,
+        "cbsa": "24260",
+        "geoid": "31000US24260",
+        "moe": 74,
+        "moeReliability": "medium",
+        "name": "Grand Island, NE Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 102,
+        "cbsa": "32380",
+        "geoid": "31000US32380",
+        "moe": 109,
+        "moeReliability": "low",
+        "name": "Mason City, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 102,
+        "cbsa": "45620",
+        "geoid": "31000US45620",
+        "moe": 97,
+        "moeReliability": "medium",
+        "name": "Thomasville, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 103,
+        "cbsa": "21820",
+        "geoid": "31000US21820",
+        "moe": 126,
+        "moeReliability": "low",
+        "name": "Fairbanks-College, AK Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 103,
+        "cbsa": "48680",
+        "geoid": "31000US48680",
+        "moe": 116,
+        "moeReliability": "low",
+        "name": "Wildwood-The Villages, FL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 104,
+        "cbsa": "26860",
+        "geoid": "31000US26860",
+        "moe": 114,
+        "moeReliability": "low",
+        "name": "Indiana, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 104,
+        "cbsa": "33300",
+        "geoid": "31000US33300",
+        "moe": 152,
+        "moeReliability": "low",
+        "name": "Milledgeville, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 105,
+        "cbsa": "15020",
+        "geoid": "31000US15020",
+        "moe": 83,
+        "moeReliability": "medium",
+        "name": "Brookhaven, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 106,
+        "cbsa": "11140",
+        "geoid": "31000US11140",
+        "moe": 138,
+        "moeReliability": "low",
+        "name": "Americus, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 106,
+        "cbsa": "11220",
+        "geoid": "31000US11220",
+        "moe": 118,
+        "moeReliability": "low",
+        "name": "Amsterdam, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 106,
+        "cbsa": "18460",
+        "geoid": "31000US18460",
+        "moe": 92,
+        "moeReliability": "medium",
+        "name": "Cornelia, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 106,
+        "cbsa": "28780",
+        "geoid": "31000US28780",
+        "moe": 111,
+        "moeReliability": "low",
+        "name": "Kingsville, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 106,
+        "cbsa": "42820",
+        "geoid": "31000US42820",
+        "moe": 109,
+        "moeReliability": "low",
+        "name": "Selma, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 107,
+        "cbsa": "23820",
+        "geoid": "31000US23820",
+        "moe": 99,
+        "moeReliability": "medium",
+        "name": "Gardnerville Ranchos, NV-CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 107,
+        "cbsa": "24600",
+        "geoid": "31000US24600",
+        "moe": 90,
+        "moeReliability": "medium",
+        "name": "Greencastle, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 108,
+        "cbsa": "10700",
+        "geoid": "31000US10700",
+        "moe": 62,
+        "moeReliability": "medium",
+        "name": "Albertville, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 108,
+        "cbsa": "30860",
+        "geoid": "31000US30860",
+        "moe": 101,
+        "moeReliability": "medium",
+        "name": "Logan, UT-ID Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 108,
+        "cbsa": "33980",
+        "geoid": "31000US33980",
+        "moe": 97,
+        "moeReliability": "medium",
+        "name": "Morehead City, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 11,
+        "cbsa": "15620",
+        "geoid": "31000US15620",
+        "moe": 12,
+        "moeReliability": "low",
+        "name": "Cadillac, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 11,
+        "cbsa": "15700",
+        "geoid": "31000US15700",
+        "moe": 17,
+        "moeReliability": "low",
+        "name": "Cambridge, MD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 11,
+        "cbsa": "17650",
+        "geoid": "31000US17650",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Cody, WY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 11,
+        "cbsa": "33060",
+        "geoid": "31000US33060",
+        "moe": 11,
+        "moeReliability": "medium",
+        "name": "Miami, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 11,
+        "cbsa": "40820",
+        "geoid": "31000US40820",
+        "moe": 21,
+        "moeReliability": "low",
+        "name": "Ruston, LA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 11,
+        "cbsa": "41460",
+        "geoid": "31000US41460",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Salina, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 11,
+        "cbsa": "43500",
+        "geoid": "31000US43500",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Silver City, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 110,
+        "cbsa": "20940",
+        "geoid": "31000US20940",
+        "moe": 79,
+        "moeReliability": "medium",
+        "name": "El Centro, CA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 110,
+        "cbsa": "45660",
+        "geoid": "31000US45660",
+        "moe": 108,
+        "moeReliability": "medium",
+        "name": "Tiffin, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 112,
+        "cbsa": "11660",
+        "geoid": "31000US11660",
+        "moe": 159,
+        "moeReliability": "low",
+        "name": "Arkadelphia, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 112,
+        "cbsa": "35940",
+        "geoid": "31000US35940",
+        "moe": 98,
+        "moeReliability": "medium",
+        "name": "Norwalk, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 112,
+        "cbsa": "37580",
+        "geoid": "31000US37580",
+        "moe": 91,
+        "moeReliability": "medium",
+        "name": "Paris, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 113,
+        "cbsa": "12740",
+        "geoid": "31000US12740",
+        "moe": 42,
+        "moeReliability": "medium",
+        "name": "Barre, VT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 113,
+        "cbsa": "14780",
+        "geoid": "31000US14780",
+        "moe": 93,
+        "moeReliability": "medium",
+        "name": "Brenham, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 114,
+        "cbsa": "30340",
+        "geoid": "31000US30340",
+        "moe": 143,
+        "moeReliability": "low",
+        "name": "Lewiston-Auburn, ME Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 115,
+        "cbsa": "13220",
+        "geoid": "31000US13220",
+        "moe": 81,
+        "moeReliability": "medium",
+        "name": "Beckley, WV Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 115,
+        "cbsa": "25940",
+        "geoid": "31000US25940",
+        "moe": 159,
+        "moeReliability": "low",
+        "name": "Hilton Head Island-Bluffton-Port Royal, SC Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 115,
+        "cbsa": "32420",
+        "geoid": "31000US32420",
+        "moe": 114,
+        "moeReliability": "medium",
+        "name": "Mayagüez, PR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 115,
+        "cbsa": "44620",
+        "geoid": "31000US44620",
+        "moe": 135,
+        "moeReliability": "low",
+        "name": "Stevens Point-Plover, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 115,
+        "cbsa": "48580",
+        "geoid": "31000US48580",
+        "moe": 89,
+        "moeReliability": "medium",
+        "name": "Whitewater-Elkhorn, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 117,
+        "cbsa": "32780",
+        "geoid": "31000US32780",
+        "moe": 89,
+        "moeReliability": "medium",
+        "name": "Medford, OR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 117,
+        "cbsa": "43060",
+        "geoid": "31000US43060",
+        "moe": 135,
+        "moeReliability": "low",
+        "name": "Shawnee, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 117,
+        "cbsa": "46860",
+        "geoid": "31000US46860",
+        "moe": 191,
+        "moeReliability": "low",
+        "name": "Vernal, UT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 119,
+        "cbsa": "31060",
+        "geoid": "31000US31060",
+        "moe": 96,
+        "moeReliability": "medium",
+        "name": "Los Alamos, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 119,
+        "cbsa": "40700",
+        "geoid": "31000US40700",
+        "moe": 93,
+        "moeReliability": "medium",
+        "name": "Roseburg, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 12,
+        "cbsa": "13740",
+        "geoid": "31000US13740",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Billings, MT Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 12,
+        "cbsa": "15780",
+        "geoid": "31000US15780",
+        "moe": 15,
+        "moeReliability": "low",
+        "name": "Camden, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 12,
+        "cbsa": "31940",
+        "geoid": "31000US31940",
+        "moe": 13,
+        "moeReliability": "low",
+        "name": "Marinette, WI-MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 12,
+        "cbsa": "32280",
+        "geoid": "31000US32280",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Martin, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 12,
+        "cbsa": "36940",
+        "geoid": "31000US36940",
+        "moe": 17,
+        "moeReliability": "low",
+        "name": "Owatonna, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 12,
+        "cbsa": "47240",
+        "geoid": "31000US47240",
+        "moe": 16,
+        "moeReliability": "low",
+        "name": "Vineyard Haven, MA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 120,
+        "cbsa": "28540",
+        "geoid": "31000US28540",
+        "moe": 134,
+        "moeReliability": "low",
+        "name": "Ketchikan, AK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 121,
+        "cbsa": "20820",
+        "geoid": "31000US20820",
+        "moe": 85,
+        "moeReliability": "medium",
+        "name": "Effingham, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 122,
+        "cbsa": "18420",
+        "geoid": "31000US18420",
+        "moe": 124,
+        "moeReliability": "low",
+        "name": "Corinth, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 122,
+        "cbsa": "32860",
+        "geoid": "31000US32860",
+        "moe": 108,
+        "moeReliability": "medium",
+        "name": "Menomonie, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 122,
+        "cbsa": "33780",
+        "geoid": "31000US33780",
+        "moe": 124,
+        "moeReliability": "low",
+        "name": "Monroe, MI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 124,
+        "cbsa": "23700",
+        "geoid": "31000US23700",
+        "moe": 96,
+        "moeReliability": "medium",
+        "name": "Gallup, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 125,
+        "cbsa": "10540",
+        "geoid": "31000US10540",
+        "moe": 124,
+        "moeReliability": "medium",
+        "name": "Albany, OR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 125,
+        "cbsa": "13300",
+        "geoid": "31000US13300",
+        "moe": 102,
+        "moeReliability": "medium",
+        "name": "Beeville, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 125,
+        "cbsa": "20060",
+        "geoid": "31000US20060",
+        "moe": 186,
+        "moeReliability": "low",
+        "name": "Douglas, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 125,
+        "cbsa": "42860",
+        "geoid": "31000US42860",
+        "moe": 110,
+        "moeReliability": "medium",
+        "name": "Seneca, SC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 125,
+        "cbsa": "42900",
+        "geoid": "31000US42900",
+        "moe": 83,
+        "moeReliability": "medium",
+        "name": "Seneca Falls, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 126,
+        "cbsa": "11620",
+        "geoid": "31000US11620",
+        "moe": 139,
+        "moeReliability": "low",
+        "name": "Ardmore, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 127,
+        "cbsa": "43580",
+        "geoid": "31000US43580",
+        "moe": 85,
+        "moeReliability": "medium",
+        "name": "Sioux City, IA-NE-SD Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 127,
+        "cbsa": "45700",
+        "geoid": "31000US45700",
+        "moe": 164,
+        "moeReliability": "low",
+        "name": "Tifton, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 128,
+        "cbsa": "16940",
+        "geoid": "31000US16940",
+        "moe": 129,
+        "moeReliability": "low",
+        "name": "Cheyenne, WY Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 129,
+        "cbsa": "15660",
+        "geoid": "31000US15660",
+        "moe": 140,
+        "moeReliability": "low",
+        "name": "Calhoun, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 129,
+        "cbsa": "48540",
+        "geoid": "31000US48540",
+        "moe": 68,
+        "moeReliability": "medium",
+        "name": "Wheeling, WV-OH Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 13,
+        "cbsa": "26540",
+        "geoid": "31000US26540",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Huntington, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 13,
+        "cbsa": "32740",
+        "geoid": "31000US32740",
+        "moe": 17,
+        "moeReliability": "low",
+        "name": "Meadville, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 130,
+        "cbsa": "27500",
+        "geoid": "31000US27500",
+        "moe": 147,
+        "moeReliability": "low",
+        "name": "Janesville-Beloit, WI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 131,
+        "cbsa": "28820",
+        "geoid": "31000US28820",
+        "moe": 143,
+        "moeReliability": "low",
+        "name": "Kinston, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 132,
+        "cbsa": "31900",
+        "geoid": "31000US31900",
+        "moe": 119,
+        "moeReliability": "medium",
+        "name": "Mansfield, OH Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 132,
+        "cbsa": "43220",
+        "geoid": "31000US43220",
+        "moe": 138,
+        "moeReliability": "low",
+        "name": "Shelton, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 133,
+        "cbsa": "25775",
+        "geoid": "31000US25775",
+        "moe": 89,
+        "moeReliability": "medium",
+        "name": "Henderson, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 134,
+        "cbsa": "16500",
+        "geoid": "31000US16500",
+        "moe": 132,
+        "moeReliability": "medium",
+        "name": "Centralia, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 134,
+        "cbsa": "24740",
+        "geoid": "31000US24740",
+        "moe": 91,
+        "moeReliability": "medium",
+        "name": "Greenville, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 134,
+        "cbsa": "27980",
+        "geoid": "31000US27980",
+        "moe": 93,
+        "moeReliability": "medium",
+        "name": "Kahului-Wailuku, HI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 135,
+        "cbsa": "10220",
+        "geoid": "31000US10220",
+        "moe": 131,
+        "moeReliability": "medium",
+        "name": "Ada, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 136,
+        "cbsa": "12300",
+        "geoid": "31000US12300",
+        "moe": 114,
+        "moeReliability": "medium",
+        "name": "Augusta-Waterville, ME Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 136,
+        "cbsa": "35460",
+        "geoid": "31000US35460",
+        "moe": 81,
+        "moeReliability": "medium",
+        "name": "Newport, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 136,
+        "cbsa": "49100",
+        "geoid": "31000US49100",
+        "moe": 116,
+        "moeReliability": "medium",
+        "name": "Winona, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 137,
+        "cbsa": "42980",
+        "geoid": "31000US42980",
+        "moe": 97,
+        "moeReliability": "medium",
+        "name": "Seymour, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 138,
+        "cbsa": "43180",
+        "geoid": "31000US43180",
+        "moe": 141,
+        "moeReliability": "low",
+        "name": "Shelbyville, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 14,
+        "cbsa": "11980",
+        "geoid": "31000US11980",
+        "moe": 38,
+        "moeReliability": "low",
+        "name": "Athens, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 14,
+        "cbsa": "20300",
+        "geoid": "31000US20300",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Dumas, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 14,
+        "cbsa": "22140",
+        "geoid": "31000US22140",
+        "moe": 15,
+        "moeReliability": "low",
+        "name": "Farmington, NM Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 14,
+        "cbsa": "33620",
+        "geoid": "31000US33620",
+        "moe": 21,
+        "moeReliability": "low",
+        "name": "Moberly, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 14,
+        "cbsa": "40540",
+        "geoid": "31000US40540",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "Rock Springs, WY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 14,
+        "cbsa": "42300",
+        "geoid": "31000US42300",
+        "moe": 17,
+        "moeReliability": "low",
+        "name": "Sault Ste. Marie, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 141,
+        "cbsa": "32300",
+        "geoid": "31000US32300",
+        "moe": 137,
+        "moeReliability": "medium",
+        "name": "Martinsville, VA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 141,
+        "cbsa": "44780",
+        "geoid": "31000US44780",
+        "moe": 90,
+        "moeReliability": "medium",
+        "name": "Sturgis, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 142,
+        "cbsa": "25700",
+        "geoid": "31000US25700",
+        "moe": 150,
+        "moeReliability": "low",
+        "name": "Hays, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 143,
+        "cbsa": "38240",
+        "geoid": "31000US38240",
+        "moe": 116,
+        "moeReliability": "medium",
+        "name": "Pinehurst-Southern Pines, NC Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 146,
+        "cbsa": "18340",
+        "geoid": "31000US18340",
+        "moe": 113,
+        "moeReliability": "medium",
+        "name": "Corbin, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 146,
+        "cbsa": "27700",
+        "geoid": "31000US27700",
+        "moe": 176,
+        "moeReliability": "low",
+        "name": "Jesup, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 146,
+        "cbsa": "37140",
+        "geoid": "31000US37140",
+        "moe": 108,
+        "moeReliability": "medium",
+        "name": "Paducah, KY-IL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 146,
+        "cbsa": "44420",
+        "geoid": "31000US44420",
+        "moe": 91,
+        "moeReliability": "medium",
+        "name": "Staunton-Stuarts Draft, VA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 147,
+        "cbsa": "28860",
+        "geoid": "31000US28860",
+        "moe": 169,
+        "moeReliability": "low",
+        "name": "Kirksville, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 147,
+        "cbsa": "40620",
+        "geoid": "31000US40620",
+        "moe": 125,
+        "moeReliability": "medium",
+        "name": "Rolla, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 148,
+        "cbsa": "20540",
+        "geoid": "31000US20540",
+        "moe": 94,
+        "moeReliability": "medium",
+        "name": "Dyersburg, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 148,
+        "cbsa": "25620",
+        "geoid": "31000US25620",
+        "moe": 134,
+        "moeReliability": "medium",
+        "name": "Hattiesburg, MS Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 15,
+        "cbsa": "23980",
+        "geoid": "31000US23980",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Glasgow, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 15,
+        "cbsa": "28380",
+        "geoid": "31000US28380",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Kennett, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 15,
+        "cbsa": "29860",
+        "geoid": "31000US29860",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Laurel, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 15,
+        "cbsa": "34500",
+        "geoid": "31000US34500",
+        "moe": 18,
+        "moeReliability": "low",
+        "name": "Mount Vernon, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 150,
+        "cbsa": "11940",
+        "geoid": "31000US11940",
+        "moe": 113,
+        "moeReliability": "medium",
+        "name": "Athens, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 150,
+        "cbsa": "40460",
+        "geoid": "31000US40460",
+        "moe": 154,
+        "moeReliability": "low",
+        "name": "Rockingham, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 150,
+        "cbsa": "43140",
+        "geoid": "31000US43140",
+        "moe": 106,
+        "moeReliability": "medium",
+        "name": "Shelby-Kings Mountain, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 151,
+        "cbsa": "13180",
+        "geoid": "31000US13180",
+        "moe": 120,
+        "moeReliability": "medium",
+        "name": "Beaver Dam, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 153,
+        "cbsa": "13900",
+        "geoid": "31000US13900",
+        "moe": 124,
+        "moeReliability": "medium",
+        "name": "Bismarck, ND Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 154,
+        "cbsa": "41660",
+        "geoid": "31000US41660",
+        "moe": 90,
+        "moeReliability": "medium",
+        "name": "San Angelo, TX Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 154,
+        "cbsa": "44500",
+        "geoid": "31000US44500",
+        "moe": 162,
+        "moeReliability": "low",
+        "name": "Stephenville, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 155,
+        "cbsa": "14700",
+        "geoid": "31000US14700",
+        "moe": 132,
+        "moeReliability": "medium",
+        "name": "Branson, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 156,
+        "cbsa": "34700",
+        "geoid": "31000US34700",
+        "moe": 116,
+        "moeReliability": "medium",
+        "name": "Muscatine, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 156,
+        "cbsa": "37620",
+        "geoid": "31000US37620",
+        "moe": 67,
+        "moeReliability": "medium",
+        "name": "Parkersburg-Vienna, WV Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 156,
+        "cbsa": "49220",
+        "geoid": "31000US49220",
+        "moe": 134,
+        "moeReliability": "medium",
+        "name": "Wisconsin Rapids-Marshfield, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 157,
+        "cbsa": "24820",
+        "geoid": "31000US24820",
+        "moe": 164,
+        "moeReliability": "low",
+        "name": "Greenville, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 157,
+        "cbsa": "27460",
+        "geoid": "31000US27460",
+        "moe": 83,
+        "moeReliability": "medium",
+        "name": "Jamestown-Dunkirk, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 158,
+        "cbsa": "19260",
+        "geoid": "31000US19260",
+        "moe": 117,
+        "moeReliability": "medium",
+        "name": "Danville, VA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 159,
+        "cbsa": "24020",
+        "geoid": "31000US24020",
+        "moe": 102,
+        "moeReliability": "medium",
+        "name": "Glens Falls, NY Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 159,
+        "cbsa": "29060",
+        "geoid": "31000US29060",
+        "moe": 121,
+        "moeReliability": "medium",
+        "name": "Laconia, NH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 159,
+        "cbsa": "43420",
+        "geoid": "31000US43420",
+        "moe": 175,
+        "moeReliability": "low",
+        "name": "Sierra Vista-Douglas, AZ Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 16,
+        "cbsa": "25720",
+        "geoid": "31000US25720",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Heber, UT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 16,
+        "cbsa": "29720",
+        "geoid": "31000US29720",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Lares, PR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 16,
+        "cbsa": "44900",
+        "geoid": "31000US44900",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Summerville, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 16,
+        "cbsa": "45580",
+        "geoid": "31000US45580",
+        "moe": 27,
+        "moeReliability": "low",
+        "name": "Thomaston, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 16,
+        "cbsa": "48820",
+        "geoid": "31000US48820",
+        "moe": 23,
+        "moeReliability": "low",
+        "name": "Willmar, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 161,
+        "cbsa": "18060",
+        "geoid": "31000US18060",
+        "moe": 137,
+        "moeReliability": "medium",
+        "name": "Columbus, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 162,
+        "cbsa": "29380",
+        "geoid": "31000US29380",
+        "moe": 157,
+        "moeReliability": "medium",
+        "name": "Lake City, FL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 162,
+        "cbsa": "48300",
+        "geoid": "31000US48300",
+        "moe": 155,
+        "moeReliability": "medium",
+        "name": "Wenatchee-East Wenatchee, WA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 163,
+        "cbsa": "26820",
+        "geoid": "31000US26820",
+        "moe": 141,
+        "moeReliability": "medium",
+        "name": "Idaho Falls, ID Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 164,
+        "cbsa": "14620",
+        "geoid": "31000US14620",
+        "moe": 103,
+        "moeReliability": "medium",
+        "name": "Bradford, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 164,
+        "cbsa": "24940",
+        "geoid": "31000US24940",
+        "moe": 121,
+        "moeReliability": "medium",
+        "name": "Greenwood, SC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 165,
+        "cbsa": "41820",
+        "geoid": "31000US41820",
+        "moe": 126,
+        "moeReliability": "medium",
+        "name": "Sanford, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 169,
+        "cbsa": "14140",
+        "geoid": "31000US14140",
+        "moe": 147,
+        "moeReliability": "medium",
+        "name": "Bluefield, WV-VA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 17,
+        "cbsa": "16220",
+        "geoid": "31000US16220",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Casper, WY Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 17,
+        "cbsa": "39960",
+        "geoid": "31000US39960",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Rice Lake, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 17,
+        "cbsa": "47080",
+        "geoid": "31000US47080",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Vidalia, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 170,
+        "cbsa": "29020",
+        "geoid": "31000US29020",
+        "moe": 136,
+        "moeReliability": "medium",
+        "name": "Kokomo, IN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 170,
+        "cbsa": "36180",
+        "geoid": "31000US36180",
+        "moe": 114,
+        "moeReliability": "medium",
+        "name": "Ocean Pines, MD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 171,
+        "cbsa": "36220",
+        "geoid": "31000US36220",
+        "moe": 124,
+        "moeReliability": "medium",
+        "name": "Odessa, TX Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 172,
+        "cbsa": "18260",
+        "geoid": "31000US18260",
+        "moe": 153,
+        "moeReliability": "medium",
+        "name": "Cookeville, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 172,
+        "cbsa": "23380",
+        "geoid": "31000US23380",
+        "moe": 110,
+        "moeReliability": "medium",
+        "name": "Fremont, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 172,
+        "cbsa": "30620",
+        "geoid": "31000US30620",
+        "moe": 104,
+        "moeReliability": "medium",
+        "name": "Lima, OH Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 173,
+        "cbsa": "39380",
+        "geoid": "31000US39380",
+        "moe": 121,
+        "moeReliability": "medium",
+        "name": "Pueblo, CO Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 173,
+        "cbsa": "45900",
+        "geoid": "31000US45900",
+        "moe": 86,
+        "moeReliability": "medium",
+        "name": "Traverse City, MI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 176,
+        "cbsa": "14580",
+        "geoid": "31000US14580",
+        "moe": 133,
+        "moeReliability": "medium",
+        "name": "Bozeman, MT Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 176,
+        "cbsa": "23460",
+        "geoid": "31000US23460",
+        "moe": 153,
+        "moeReliability": "medium",
+        "name": "Gadsden, AL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 176,
+        "cbsa": "39460",
+        "geoid": "31000US39460",
+        "moe": 102,
+        "moeReliability": "medium",
+        "name": "Punta Gorda, FL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 177,
+        "cbsa": "12700",
+        "geoid": "31000US12700",
+        "moe": 126,
+        "moeReliability": "medium",
+        "name": "Barnstable Town, MA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "10460",
+        "geoid": "31000US10460",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Alamogordo, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "14180",
+        "geoid": "31000US14180",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Blytheville, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "22540",
+        "geoid": "31000US22540",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Fond du Lac, WI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "23680",
+        "geoid": "31000US23680",
+        "moe": 38,
+        "moeReliability": "low",
+        "name": "Gallipolis, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "24180",
+        "geoid": "31000US24180",
+        "moe": 19,
+        "moeReliability": "low",
+        "name": "Granbury, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "30660",
+        "geoid": "31000US30660",
+        "moe": 32,
+        "moeReliability": "low",
+        "name": "Lincoln, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "30820",
+        "geoid": "31000US30820",
+        "moe": 14,
+        "moeReliability": "medium",
+        "name": "Lock Haven, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "33380",
+        "geoid": "31000US33380",
+        "moe": 29,
+        "moeReliability": "low",
+        "name": "Minden, LA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "40090",
+        "geoid": "31000US40090",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Rifle, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 18,
+        "cbsa": "47780",
+        "geoid": "31000US47780",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Washington, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 181,
+        "cbsa": "12460",
+        "geoid": "31000US12460",
+        "moe": 47,
+        "moeReliability": "high",
+        "name": "Bainbridge, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 181,
+        "cbsa": "34180",
+        "geoid": "31000US34180",
+        "moe": 137,
+        "moeReliability": "medium",
+        "name": "Moses Lake, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 183,
+        "cbsa": "49300",
+        "geoid": "31000US49300",
+        "moe": 126,
+        "moeReliability": "medium",
+        "name": "Wooster, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 184,
+        "cbsa": "20740",
+        "geoid": "31000US20740",
+        "moe": 165,
+        "moeReliability": "medium",
+        "name": "Eau Claire, WI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 185,
+        "cbsa": "16660",
+        "geoid": "31000US16660",
+        "moe": 117,
+        "moeReliability": "medium",
+        "name": "Charleston-Mattoon, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 186,
+        "cbsa": "12620",
+        "geoid": "31000US12620",
+        "moe": 129,
+        "moeReliability": "medium",
+        "name": "Bangor, ME Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 186,
+        "cbsa": "32940",
+        "geoid": "31000US32940",
+        "moe": 157,
+        "moeReliability": "medium",
+        "name": "Meridian, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 187,
+        "cbsa": "31980",
+        "geoid": "31000US31980",
+        "moe": 144,
+        "moeReliability": "medium",
+        "name": "Marion, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 189,
+        "cbsa": "28100",
+        "geoid": "31000US28100",
+        "moe": 93,
+        "moeReliability": "medium",
+        "name": "Kankakee, IL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 19,
+        "cbsa": "32180",
+        "geoid": "31000US32180",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Marshall, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 19,
+        "cbsa": "40300",
+        "geoid": "31000US40300",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Rochelle, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 19,
+        "cbsa": "43700",
+        "geoid": "31000US43700",
+        "moe": 29,
+        "moeReliability": "low",
+        "name": "Somerset, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 191,
+        "cbsa": "10500",
+        "geoid": "31000US10500",
+        "moe": 249,
+        "moeReliability": "low",
+        "name": "Albany, GA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 191,
+        "cbsa": "25770",
+        "geoid": "31000US25770",
+        "moe": 100,
+        "moeReliability": "medium",
+        "name": "Hemlock Farms, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 192,
+        "cbsa": "10180",
+        "geoid": "31000US10180",
+        "moe": 102,
+        "moeReliability": "medium",
+        "name": "Abilene, TX Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 195,
+        "cbsa": "16260",
+        "geoid": "31000US16260",
+        "moe": 191,
+        "moeReliability": "medium",
+        "name": "Cedar City, UT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 196,
+        "cbsa": "45740",
+        "geoid": "31000US45740",
+        "moe": 86,
+        "moeReliability": "medium",
+        "name": "Toccoa, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 197,
+        "cbsa": "13460",
+        "geoid": "31000US13460",
+        "moe": 171,
+        "moeReliability": "medium",
+        "name": "Bend, OR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 197,
+        "cbsa": "48980",
+        "geoid": "31000US48980",
+        "moe": 165,
+        "moeReliability": "medium",
+        "name": "Wilson, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 198,
+        "cbsa": "34740",
+        "geoid": "31000US34740",
+        "moe": 97,
+        "moeReliability": "medium",
+        "name": "Muskegon-Norton Shores, MI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "10660",
+        "geoid": "31000US10660",
+        "moe": 2,
+        "moeReliability": "medium",
+        "name": "Albert Lea, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "11680",
+        "geoid": "31000US11680",
+        "moe": 5,
+        "moeReliability": "low",
+        "name": "Arkansas City-Winfield, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "15060",
+        "geoid": "31000US15060",
+        "moe": 6,
+        "moeReliability": "low",
+        "name": "Brookings, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "15860",
+        "geoid": "31000US15860",
+        "moe": 3,
+        "moeReliability": "low",
+        "name": "Cañon City, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "18740",
+        "geoid": "31000US18740",
+        "moe": 4,
+        "moeReliability": "low",
+        "name": "Coshocton, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "21640",
+        "geoid": "31000US21640",
+        "moe": 4,
+        "moeReliability": "low",
+        "name": "Eufaula, AL-GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "24460",
+        "geoid": "31000US24460",
+        "moe": 3,
+        "moeReliability": "low",
+        "name": "Great Bend, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "34460",
+        "geoid": "31000US34460",
+        "moe": 7,
+        "moeReliability": "low",
+        "name": "Mount Sterling, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "37260",
+        "geoid": "31000US37260",
+        "moe": 5,
+        "moeReliability": "low",
+        "name": "Palatka, FL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "37940",
+        "geoid": "31000US37940",
+        "moe": 5,
+        "moeReliability": "low",
+        "name": "Peru, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "41400",
+        "geoid": "31000US41400",
+        "moe": 3,
+        "moeReliability": "low",
+        "name": "Salem, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 2,
+        "cbsa": "46780",
+        "geoid": "31000US46780",
+        "moe": 4,
+        "moeReliability": "low",
+        "name": "Van Wert, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 20,
+        "cbsa": "35140",
+        "geoid": "31000US35140",
+        "moe": 80,
+        "moeReliability": "low",
+        "name": "Newberry, SC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 20,
+        "cbsa": "35220",
+        "geoid": "31000US35220",
+        "moe": 31,
+        "moeReliability": "low",
+        "name": "New Castle, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 20,
+        "cbsa": "35420",
+        "geoid": "31000US35420",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "New Philadelphia-Dover, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 20,
+        "cbsa": "49460",
+        "geoid": "31000US49460",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Yankton, SD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 201,
+        "cbsa": "15260",
+        "geoid": "31000US15260",
+        "moe": 180,
+        "moeReliability": "medium",
+        "name": "Brunswick-St. Simons, GA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 204,
+        "cbsa": "11820",
+        "geoid": "31000US11820",
+        "moe": 132,
+        "moeReliability": "medium",
+        "name": "Astoria, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 204,
+        "cbsa": "38460",
+        "geoid": "31000US38460",
+        "moe": 118,
+        "moeReliability": "medium",
+        "name": "Plattsburgh, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 206,
+        "cbsa": "21700",
+        "geoid": "31000US21700",
+        "moe": 115,
+        "moeReliability": "medium",
+        "name": "Eureka-Arcata, CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 207,
+        "cbsa": "23900",
+        "geoid": "31000US23900",
+        "moe": 139,
+        "moeReliability": "medium",
+        "name": "Gettysburg, PA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 207,
+        "cbsa": "29900",
+        "geoid": "31000US29900",
+        "moe": 143,
+        "moeReliability": "medium",
+        "name": "Laurinburg, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 207,
+        "cbsa": "46100",
+        "geoid": "31000US46100",
+        "moe": 163,
+        "moeReliability": "medium",
+        "name": "Tullahoma-Manchester, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 208,
+        "cbsa": "45980",
+        "geoid": "31000US45980",
+        "moe": 128,
+        "moeReliability": "medium",
+        "name": "Troy, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 209,
+        "cbsa": "11500",
+        "geoid": "31000US11500",
+        "moe": 136,
+        "moeReliability": "medium",
+        "name": "Anniston-Oxford, AL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 209,
+        "cbsa": "32060",
+        "geoid": "31000US32060",
+        "moe": 114,
+        "moeReliability": "medium",
+        "name": "Marion-Herrin, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 21,
+        "cbsa": "19620",
+        "geoid": "31000US19620",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Del Rio, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 21,
+        "cbsa": "25840",
+        "geoid": "31000US25840",
+        "moe": 38,
+        "moeReliability": "low",
+        "name": "Hermiston-Pendleton, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 21,
+        "cbsa": "32260",
+        "geoid": "31000US32260",
+        "moe": 35,
+        "moeReliability": "low",
+        "name": "Marshalltown, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 21,
+        "cbsa": "36620",
+        "geoid": "31000US36620",
+        "moe": 111,
+        "moeReliability": "low",
+        "name": "Ontario, OR-ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 21,
+        "cbsa": "37220",
+        "geoid": "31000US37220",
+        "moe": 32,
+        "moeReliability": "low",
+        "name": "Pahrump, NV Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 21,
+        "cbsa": "42740",
+        "geoid": "31000US42740",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Sedalia, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 21,
+        "cbsa": "43020",
+        "geoid": "31000US43020",
+        "moe": 38,
+        "moeReliability": "low",
+        "name": "Shawano, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 210,
+        "cbsa": "32660",
+        "geoid": "31000US32660",
+        "moe": 201,
+        "moeReliability": "medium",
+        "name": "McMinnville, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 211,
+        "cbsa": "46820",
+        "geoid": "31000US46820",
+        "moe": 145,
+        "moeReliability": "medium",
+        "name": "Vermillion, SD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 211,
+        "cbsa": "47020",
+        "geoid": "31000US47020",
+        "moe": 124,
+        "moeReliability": "medium",
+        "name": "Victoria, TX Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 213,
+        "cbsa": "40740",
+        "geoid": "31000US40740",
+        "moe": 170,
+        "moeReliability": "medium",
+        "name": "Roswell, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 214,
+        "cbsa": "39150",
+        "geoid": "31000US39150",
+        "moe": 113,
+        "moeReliability": "medium",
+        "name": "Prescott Valley-Prescott, AZ Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 215,
+        "cbsa": "11900",
+        "geoid": "31000US11900",
+        "moe": 151,
+        "moeReliability": "medium",
+        "name": "Athens, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 216,
+        "cbsa": "13060",
+        "geoid": "31000US13060",
+        "moe": 200,
+        "moeReliability": "medium",
+        "name": "Bay City, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 218,
+        "cbsa": "20020",
+        "geoid": "31000US20020",
+        "moe": 103,
+        "moeReliability": "medium",
+        "name": "Dothan, AL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 22,
+        "cbsa": "10300",
+        "geoid": "31000US10300",
+        "moe": 24,
+        "moeReliability": "low",
+        "name": "Adrian, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 22,
+        "cbsa": "10620",
+        "geoid": "31000US10620",
+        "moe": 39,
+        "moeReliability": "low",
+        "name": "Albemarle, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 22,
+        "cbsa": "10980",
+        "geoid": "31000US10980",
+        "moe": 32,
+        "moeReliability": "low",
+        "name": "Alpena, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 22,
+        "cbsa": "14710",
+        "geoid": "31000US14710",
+        "moe": 28,
+        "moeReliability": "low",
+        "name": "Brattleboro, VT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 22,
+        "cbsa": "30060",
+        "geoid": "31000US30060",
+        "moe": 37,
+        "moeReliability": "low",
+        "name": "Lebanon, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 22,
+        "cbsa": "39660",
+        "geoid": "31000US39660",
+        "moe": 35,
+        "moeReliability": "low",
+        "name": "Rapid City, SD Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 22,
+        "cbsa": "42620",
+        "geoid": "31000US42620",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Searcy, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 220,
+        "cbsa": "32340",
+        "geoid": "31000US32340",
+        "moe": 70,
+        "moeReliability": "high",
+        "name": "Maryville, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 220,
+        "cbsa": "45500",
+        "geoid": "31000US45500",
+        "moe": 160,
+        "moeReliability": "medium",
+        "name": "Texarkana, TX-AR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 225,
+        "cbsa": "27600",
+        "geoid": "31000US27600",
+        "moe": 143,
+        "moeReliability": "medium",
+        "name": "Jefferson, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 225,
+        "cbsa": "44940",
+        "geoid": "31000US44940",
+        "moe": 128,
+        "moeReliability": "medium",
+        "name": "Sumter, SC Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 228,
+        "cbsa": "11020",
+        "geoid": "31000US11020",
+        "moe": 117,
+        "moeReliability": "medium",
+        "name": "Altoona, PA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 23,
+        "cbsa": "22780",
+        "geoid": "31000US22780",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Fort Leonard Wood, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 23,
+        "cbsa": "22800",
+        "geoid": "31000US22800",
+        "moe": 36,
+        "moeReliability": "low",
+        "name": "Fort Madison, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 23,
+        "cbsa": "35700",
+        "geoid": "31000US35700",
+        "moe": 34,
+        "moeReliability": "low",
+        "name": "Nogales, AZ Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 233,
+        "cbsa": "14720",
+        "geoid": "31000US14720",
+        "moe": 177,
+        "moeReliability": "medium",
+        "name": "Breckenridge, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 238,
+        "cbsa": "26660",
+        "geoid": "31000US26660",
+        "moe": 151,
+        "moeReliability": "medium",
+        "name": "Huntsville, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 238,
+        "cbsa": "27180",
+        "geoid": "31000US27180",
+        "moe": 149,
+        "moeReliability": "medium",
+        "name": "Jackson, TN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 24,
+        "cbsa": "14940",
+        "geoid": "31000US14940",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Brigham City, UT-ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 24,
+        "cbsa": "17060",
+        "geoid": "31000US17060",
+        "moe": 32,
+        "moeReliability": "low",
+        "name": "Chillicothe, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 24,
+        "cbsa": "19220",
+        "geoid": "31000US19220",
+        "moe": 25,
+        "moeReliability": "low",
+        "name": "Danville, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 24,
+        "cbsa": "21860",
+        "geoid": "31000US21860",
+        "moe": 31,
+        "moeReliability": "low",
+        "name": "Fairmont, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 24,
+        "cbsa": "43740",
+        "geoid": "31000US43740",
+        "moe": 41,
+        "moeReliability": "low",
+        "name": "Somerset, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 240,
+        "cbsa": "22900",
+        "geoid": "31000US22900",
+        "moe": 160,
+        "moeReliability": "medium",
+        "name": "Fort Smith, AR-OK Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 242,
+        "cbsa": "32390",
+        "geoid": "31000US32390",
+        "moe": 150,
+        "moeReliability": "medium",
+        "name": "Massena-Ogdensburg, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 242,
+        "cbsa": "36020",
+        "geoid": "31000US36020",
+        "moe": 157,
+        "moeReliability": "medium",
+        "name": "Oak Harbor, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 242,
+        "cbsa": "49740",
+        "geoid": "31000US49740",
+        "moe": 151,
+        "moeReliability": "medium",
+        "name": "Yuma, AZ Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 245,
+        "cbsa": "48180",
+        "geoid": "31000US48180",
+        "moe": 121,
+        "moeReliability": "medium",
+        "name": "Waycross, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 249,
+        "cbsa": "23660",
+        "geoid": "31000US23660",
+        "moe": 117,
+        "moeReliability": "medium",
+        "name": "Galesburg, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 25,
+        "cbsa": "14660",
+        "geoid": "31000US14660",
+        "moe": 23,
+        "moeReliability": "medium",
+        "name": "Brainerd, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 25,
+        "cbsa": "19810",
+        "geoid": "31000US19810",
+        "moe": 26,
+        "moeReliability": "low",
+        "name": "Detroit Lakes, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 25,
+        "cbsa": "22580",
+        "geoid": "31000US22580",
+        "moe": 44,
+        "moeReliability": "low",
+        "name": "Forest City, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 25,
+        "cbsa": "23500",
+        "geoid": "31000US23500",
+        "moe": 51,
+        "moeReliability": "low",
+        "name": "Gaffney, SC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 25,
+        "cbsa": "31020",
+        "geoid": "31000US31020",
+        "moe": 38,
+        "moeReliability": "low",
+        "name": "Longview-Kelso, WA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 25,
+        "cbsa": "40860",
+        "geoid": "31000US40860",
+        "moe": 22,
+        "moeReliability": "medium",
+        "name": "Rutland, VT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 25,
+        "cbsa": "46500",
+        "geoid": "31000US46500",
+        "moe": 37,
+        "moeReliability": "low",
+        "name": "Urbana, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 250,
+        "cbsa": "41540",
+        "geoid": "31000US41540",
+        "moe": 161,
+        "moeReliability": "medium",
+        "name": "Salisbury, MD Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 255,
+        "cbsa": "16540",
+        "geoid": "31000US16540",
+        "moe": 153,
+        "moeReliability": "medium",
+        "name": "Chambersburg, PA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 256,
+        "cbsa": "24640",
+        "geoid": "31000US24640",
+        "moe": 152,
+        "moeReliability": "medium",
+        "name": "Greenfield, MA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 256,
+        "cbsa": "47660",
+        "geoid": "31000US47660",
+        "moe": 121,
+        "moeReliability": "medium",
+        "name": "Warrensburg, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 259,
+        "cbsa": "34380",
+        "geoid": "31000US34380",
+        "moe": 134,
+        "moeReliability": "medium",
+        "name": "Mount Pleasant, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 26,
+        "cbsa": "10380",
+        "geoid": "31000US10380",
+        "moe": 41,
+        "moeReliability": "low",
+        "name": "Aguadilla, PR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 26,
+        "cbsa": "17340",
+        "geoid": "31000US17340",
+        "moe": 43,
+        "moeReliability": "low",
+        "name": "Clearlake, CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 26,
+        "cbsa": "19940",
+        "geoid": "31000US19940",
+        "moe": 23,
+        "moeReliability": "medium",
+        "name": "Dixon, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 26,
+        "cbsa": "36900",
+        "geoid": "31000US36900",
+        "moe": 38,
+        "moeReliability": "low",
+        "name": "Ottumwa, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 26,
+        "cbsa": "45140",
+        "geoid": "31000US45140",
+        "moe": 38,
+        "moeReliability": "low",
+        "name": "Tahlequah, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 262,
+        "cbsa": "31860",
+        "geoid": "31000US31860",
+        "moe": 171,
+        "moeReliability": "medium",
+        "name": "Mankato, MN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 263,
+        "cbsa": "22520",
+        "geoid": "31000US22520",
+        "moe": 185,
+        "moeReliability": "medium",
+        "name": "Florence-Muscle Shoals, AL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 267,
+        "cbsa": "21220",
+        "geoid": "31000US21220",
+        "moe": 129,
+        "moeReliability": "medium",
+        "name": "Elko, NV Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 27,
+        "cbsa": "39860",
+        "geoid": "31000US39860",
+        "moe": 22,
+        "moeReliability": "medium",
+        "name": "Red Wing, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 272,
+        "cbsa": "41140",
+        "geoid": "31000US41140",
+        "moe": 182,
+        "moeReliability": "medium",
+        "name": "St. Joseph, MO-KS Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 28,
+        "cbsa": "29260",
+        "geoid": "31000US29260",
+        "moe": 22,
+        "moeReliability": "medium",
+        "name": "La Grande, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 28,
+        "cbsa": "34860",
+        "geoid": "31000US34860",
+        "moe": 44,
+        "moeReliability": "low",
+        "name": "Nacogdoches, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 28,
+        "cbsa": "35440",
+        "geoid": "31000US35440",
+        "moe": 30,
+        "moeReliability": "low",
+        "name": "Newport, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 28,
+        "cbsa": "41260",
+        "geoid": "31000US41260",
+        "moe": 34,
+        "moeReliability": "low",
+        "name": "St. Marys, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 280,
+        "cbsa": "19180",
+        "geoid": "31000US19180",
+        "moe": 157,
+        "moeReliability": "medium",
+        "name": "Danville, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 281,
+        "cbsa": "31380",
+        "geoid": "31000US31380",
+        "moe": 199,
+        "moeReliability": "medium",
+        "name": "Macomb, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 281,
+        "cbsa": "38220",
+        "geoid": "31000US38220",
+        "moe": 166,
+        "moeReliability": "medium",
+        "name": "Pine Bluff, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 281,
+        "cbsa": "43100",
+        "geoid": "31000US43100",
+        "moe": 193,
+        "moeReliability": "medium",
+        "name": "Sheboygan, WI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 281,
+        "cbsa": "44220",
+        "geoid": "31000US44220",
+        "moe": 225,
+        "moeReliability": "medium",
+        "name": "Springfield, OH Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 282,
+        "cbsa": "39480",
+        "geoid": "31000US39480",
+        "moe": 163,
+        "moeReliability": "medium",
+        "name": "Putnam, CT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 283,
+        "cbsa": "30140",
+        "geoid": "31000US30140",
+        "moe": 159,
+        "moeReliability": "medium",
+        "name": "Lebanon, PA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 289,
+        "cbsa": "46020",
+        "geoid": "31000US46020",
+        "moe": 148,
+        "moeReliability": "medium",
+        "name": "Truckee-Grass Valley, CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 29,
+        "cbsa": "10940",
+        "geoid": "31000US10940",
+        "moe": 29,
+        "moeReliability": "medium",
+        "name": "Alma, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 29,
+        "cbsa": "23240",
+        "geoid": "31000US23240",
+        "moe": 23,
+        "moeReliability": "medium",
+        "name": "Fredericksburg, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 293,
+        "cbsa": "44980",
+        "geoid": "31000US44980",
+        "moe": 158,
+        "moeReliability": "medium",
+        "name": "Sunbury, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 296,
+        "cbsa": "31300",
+        "geoid": "31000US31300",
+        "moe": 191,
+        "moeReliability": "medium",
+        "name": "Lumberton, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 3,
+        "cbsa": "12660",
+        "geoid": "31000US12660",
+        "moe": 3,
+        "moeReliability": "medium",
+        "name": "Baraboo, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 3,
+        "cbsa": "16180",
+        "geoid": "31000US16180",
+        "moe": 10,
+        "moeReliability": "low",
+        "name": "Carson City, NV Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 3,
+        "cbsa": "19460",
+        "geoid": "31000US19460",
+        "moe": 10,
+        "moeReliability": "low",
+        "name": "Decatur, AL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 3,
+        "cbsa": "19580",
+        "geoid": "31000US19580",
+        "moe": 7,
+        "moeReliability": "low",
+        "name": "Defiance, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 3,
+        "cbsa": "21900",
+        "geoid": "31000US21900",
+        "moe": 6,
+        "moeReliability": "low",
+        "name": "Fairmont, WV Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 3,
+        "cbsa": "26780",
+        "geoid": "31000US26780",
+        "moe": 4,
+        "moeReliability": "low",
+        "name": "Hutchinson, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 3,
+        "cbsa": "33500",
+        "geoid": "31000US33500",
+        "moe": 6,
+        "moeReliability": "low",
+        "name": "Minot, ND Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 3,
+        "cbsa": "43460",
+        "geoid": "31000US43460",
+        "moe": 6,
+        "moeReliability": "low",
+        "name": "Sikeston, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 3,
+        "cbsa": "45520",
+        "geoid": "31000US45520",
+        "moe": 5,
+        "moeReliability": "low",
+        "name": "The Dalles, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 30,
+        "cbsa": "12380",
+        "geoid": "31000US12380",
+        "moe": 39,
+        "moeReliability": "low",
+        "name": "Austin, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 30,
+        "cbsa": "28900",
+        "geoid": "31000US28900",
+        "moe": 39,
+        "moeReliability": "low",
+        "name": "Klamath Falls, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 30,
+        "cbsa": "34780",
+        "geoid": "31000US34780",
+        "moe": 33,
+        "moeReliability": "low",
+        "name": "Muskogee, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 303,
+        "cbsa": "15460",
+        "geoid": "31000US15460",
+        "moe": 213,
+        "moeReliability": "medium",
+        "name": "Burlington, IA-IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 304,
+        "cbsa": "22300",
+        "geoid": "31000US22300",
+        "moe": 255,
+        "moeReliability": "medium",
+        "name": "Findlay, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 307,
+        "cbsa": "42700",
+        "geoid": "31000US42700",
+        "moe": 189,
+        "moeReliability": "medium",
+        "name": "Sebring, FL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 308,
+        "cbsa": "20220",
+        "geoid": "31000US20220",
+        "moe": 141,
+        "moeReliability": "medium",
+        "name": "Dubuque, IA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 309,
+        "cbsa": "42140",
+        "geoid": "31000US42140",
+        "moe": 161,
+        "moeReliability": "medium",
+        "name": "Santa Fe, NM Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 31,
+        "cbsa": "17380",
+        "geoid": "31000US17380",
+        "moe": 35,
+        "moeReliability": "low",
+        "name": "Cleveland, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 31,
+        "cbsa": "20180",
+        "geoid": "31000US20180",
+        "moe": 29,
+        "moeReliability": "medium",
+        "name": "DuBois, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 31,
+        "cbsa": "20340",
+        "geoid": "31000US20340",
+        "moe": 49,
+        "moeReliability": "low",
+        "name": "Duncan, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 31,
+        "cbsa": "30580",
+        "geoid": "31000US30580",
+        "moe": 52,
+        "moeReliability": "low",
+        "name": "Liberal, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 31,
+        "cbsa": "32000",
+        "geoid": "31000US32000",
+        "moe": 57,
+        "moeReliability": "low",
+        "name": "Marion, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 31,
+        "cbsa": "42780",
+        "geoid": "31000US42780",
+        "moe": 39,
+        "moeReliability": "low",
+        "name": "Selinsgrove, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 31,
+        "cbsa": "44860",
+        "geoid": "31000US44860",
+        "moe": 45,
+        "moeReliability": "low",
+        "name": "Sulphur Springs, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 310,
+        "cbsa": "30260",
+        "geoid": "31000US30260",
+        "moe": 161,
+        "moeReliability": "medium",
+        "name": "Lewisburg, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 318,
+        "cbsa": "24220",
+        "geoid": "31000US24220",
+        "moe": 217,
+        "moeReliability": "medium",
+        "name": "Grand Forks, ND-MN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 32,
+        "cbsa": "24900",
+        "geoid": "31000US24900",
+        "moe": 54,
+        "moeReliability": "low",
+        "name": "Greenwood, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 32,
+        "cbsa": "34660",
+        "geoid": "31000US34660",
+        "moe": 44,
+        "moeReliability": "low",
+        "name": "Murray, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 32,
+        "cbsa": "38380",
+        "geoid": "31000US38380",
+        "moe": 40,
+        "moeReliability": "low",
+        "name": "Plainview, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 320,
+        "cbsa": "25500",
+        "geoid": "31000US25500",
+        "moe": 126,
+        "moeReliability": "medium",
+        "name": "Harrisonburg, VA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 322,
+        "cbsa": "27900",
+        "geoid": "31000US27900",
+        "moe": 156,
+        "moeReliability": "medium",
+        "name": "Joplin, MO-KS Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 325,
+        "cbsa": "21300",
+        "geoid": "31000US21300",
+        "moe": 144,
+        "moeReliability": "medium",
+        "name": "Elmira, NY Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 325,
+        "cbsa": "44260",
+        "geoid": "31000US44260",
+        "moe": 125,
+        "moeReliability": "medium",
+        "name": "Starkville, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 326,
+        "cbsa": "34620",
+        "geoid": "31000US34620",
+        "moe": 171,
+        "moeReliability": "medium",
+        "name": "Muncie, IN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 327,
+        "cbsa": "18180",
+        "geoid": "31000US18180",
+        "moe": 210,
+        "moeReliability": "medium",
+        "name": "Concord, NH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 329,
+        "cbsa": "28680",
+        "geoid": "31000US28680",
+        "moe": 237,
+        "moeReliability": "medium",
+        "name": "Kingsland, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 33,
+        "cbsa": "20780",
+        "geoid": "31000US20780",
+        "moe": 37,
+        "moeReliability": "low",
+        "name": "Edwards, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 33,
+        "cbsa": "20900",
+        "geoid": "31000US20900",
+        "moe": 35,
+        "moeReliability": "low",
+        "name": "El Campo, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 33,
+        "cbsa": "32100",
+        "geoid": "31000US32100",
+        "moe": 38,
+        "moeReliability": "low",
+        "name": "Marquette, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 330,
+        "cbsa": "24140",
+        "geoid": "31000US24140",
+        "moe": 213,
+        "moeReliability": "medium",
+        "name": "Goldsboro, NC Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 332,
+        "cbsa": "27860",
+        "geoid": "31000US27860",
+        "moe": 244,
+        "moeReliability": "medium",
+        "name": "Jonesboro, AR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 334,
+        "cbsa": "36780",
+        "geoid": "31000US36780",
+        "moe": 221,
+        "moeReliability": "medium",
+        "name": "Oshkosh-Neenah, WI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 335,
+        "cbsa": "18500",
+        "geoid": "31000US18500",
+        "moe": 125,
+        "moeReliability": "medium",
+        "name": "Corning, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 338,
+        "cbsa": "16020",
+        "geoid": "31000US16020",
+        "moe": 167,
+        "moeReliability": "medium",
+        "name": "Cape Girardeau, MO-IL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 338,
+        "cbsa": "28500",
+        "geoid": "31000US28500",
+        "moe": 143,
+        "moeReliability": "medium",
+        "name": "Kerrville, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 338,
+        "cbsa": "48660",
+        "geoid": "31000US48660",
+        "moe": 232,
+        "moeReliability": "medium",
+        "name": "Wichita Falls, TX Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 339,
+        "cbsa": "26380",
+        "geoid": "31000US26380",
+        "moe": 254,
+        "moeReliability": "medium",
+        "name": "Houma-Bayou Cane-Thibodaux, LA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 34,
+        "cbsa": "15220",
+        "geoid": "31000US15220",
+        "moe": 84,
+        "moeReliability": "low",
+        "name": "Brownwood, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 34,
+        "cbsa": "30380",
+        "geoid": "31000US30380",
+        "moe": 57,
+        "moeReliability": "low",
+        "name": "Lewistown, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 34,
+        "cbsa": "48460",
+        "geoid": "31000US48460",
+        "moe": 40,
+        "moeReliability": "low",
+        "name": "West Plains, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 341,
+        "cbsa": "36980",
+        "geoid": "31000US36980",
+        "moe": 219,
+        "moeReliability": "medium",
+        "name": "Owensboro, KY Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 343,
+        "cbsa": "38820",
+        "geoid": "31000US38820",
+        "moe": 216,
+        "moeReliability": "medium",
+        "name": "Port Angeles, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 344,
+        "cbsa": "26140",
+        "geoid": "31000US26140",
+        "moe": 192,
+        "moeReliability": "medium",
+        "name": "Homosassa Springs, FL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 345,
+        "cbsa": "46180",
+        "geoid": "31000US46180",
+        "moe": 235,
+        "moeReliability": "medium",
+        "name": "Tupelo, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 346,
+        "cbsa": "25860",
+        "geoid": "31000US25860",
+        "moe": 241,
+        "moeReliability": "medium",
+        "name": "Hickory-Lenoir-Morganton, NC Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 346,
+        "cbsa": "36460",
+        "geoid": "31000US36460",
+        "moe": 133,
+        "moeReliability": "medium",
+        "name": "Olean, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 349,
+        "cbsa": "21140",
+        "geoid": "31000US21140",
+        "moe": 142,
+        "moeReliability": "medium",
+        "name": "Elkhart-Goshen, IN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 35,
+        "cbsa": "22840",
+        "geoid": "31000US22840",
+        "moe": 40,
+        "moeReliability": "low",
+        "name": "Fort Payne, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 35,
+        "cbsa": "24500",
+        "geoid": "31000US24500",
+        "moe": 47,
+        "moeReliability": "low",
+        "name": "Great Falls, MT Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 351,
+        "cbsa": "40580",
+        "geoid": "31000US40580",
+        "moe": 200,
+        "moeReliability": "medium",
+        "name": "Rocky Mount, NC Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 351,
+        "cbsa": "48060",
+        "geoid": "31000US48060",
+        "moe": 195,
+        "moeReliability": "medium",
+        "name": "Watertown-Fort Drum, NY Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 352,
+        "cbsa": "44340",
+        "geoid": "31000US44340",
+        "moe": 183,
+        "moeReliability": "medium",
+        "name": "Statesboro, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 353,
+        "cbsa": "10780",
+        "geoid": "31000US10780",
+        "moe": 203,
+        "moeReliability": "medium",
+        "name": "Alexandria, LA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 355,
+        "cbsa": "45860",
+        "geoid": "31000US45860",
+        "moe": 175,
+        "moeReliability": "medium",
+        "name": "Torrington, CT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 356,
+        "cbsa": "12780",
+        "geoid": "31000US12780",
+        "moe": 174,
+        "moeReliability": "medium",
+        "name": "Bartlesville, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 356,
+        "cbsa": "29100",
+        "geoid": "31000US29100",
+        "moe": 171,
+        "moeReliability": "medium",
+        "name": "La Crosse-Onalaska, WI-MN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 357,
+        "cbsa": "19300",
+        "geoid": "31000US19300",
+        "moe": 220,
+        "moeReliability": "medium",
+        "name": "Daphne-Fairhope-Foley, AL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 357,
+        "cbsa": "27740",
+        "geoid": "31000US27740",
+        "moe": 158,
+        "moeReliability": "medium",
+        "name": "Johnson City, TN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 36,
+        "cbsa": "13540",
+        "geoid": "31000US13540",
+        "moe": 38,
+        "moeReliability": "low",
+        "name": "Bennington, VT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 36,
+        "cbsa": "15340",
+        "geoid": "31000US15340",
+        "moe": 54,
+        "moeReliability": "low",
+        "name": "Bucyrus, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 36,
+        "cbsa": "37120",
+        "geoid": "31000US37120",
+        "moe": 53,
+        "moeReliability": "low",
+        "name": "Ozark, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 36,
+        "cbsa": "38500",
+        "geoid": "31000US38500",
+        "moe": 36,
+        "moeReliability": "medium",
+        "name": "Plymouth, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 365,
+        "cbsa": "25980",
+        "geoid": "31000US25980",
+        "moe": 234,
+        "moeReliability": "medium",
+        "name": "Hinesville, GA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 37,
+        "cbsa": "25220",
+        "geoid": "31000US25220",
+        "moe": 42,
+        "moeReliability": "low",
+        "name": "Hammond, LA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 37,
+        "cbsa": "26500",
+        "geoid": "31000US26500",
+        "moe": 35,
+        "moeReliability": "medium",
+        "name": "Huntingdon, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 371,
+        "cbsa": "49420",
+        "geoid": "31000US49420",
+        "moe": 292,
+        "moeReliability": "medium",
+        "name": "Yakima, WA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 38,
+        "cbsa": "48260",
+        "geoid": "31000US48260",
+        "moe": 33,
+        "moeReliability": "medium",
+        "name": "Weirton-Steubenville, WV-OH Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 381,
+        "cbsa": "20140",
+        "geoid": "31000US20140",
+        "moe": 170,
+        "moeReliability": "medium",
+        "name": "Dublin, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 381,
+        "cbsa": "26340",
+        "geoid": "31000US26340",
+        "moe": 121,
+        "moeReliability": "high",
+        "name": "Houghton, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 383,
+        "cbsa": "17500",
+        "geoid": "31000US17500",
+        "moe": 169,
+        "moeReliability": "medium",
+        "name": "Clewiston, FL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 383,
+        "cbsa": "36700",
+        "geoid": "31000US36700",
+        "moe": 247,
+        "moeReliability": "medium",
+        "name": "Orangeburg, SC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 384,
+        "cbsa": "48140",
+        "geoid": "31000US48140",
+        "moe": 262,
+        "moeReliability": "medium",
+        "name": "Wausau, WI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 39,
+        "cbsa": "15820",
+        "geoid": "31000US15820",
+        "moe": 30,
+        "moeReliability": "medium",
+        "name": "Campbellsville, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 39,
+        "cbsa": "46380",
+        "geoid": "31000US46380",
+        "moe": 36,
+        "moeReliability": "medium",
+        "name": "Ukiah, CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 4,
+        "cbsa": "11420",
+        "geoid": "31000US11420",
+        "moe": 9,
+        "moeReliability": "low",
+        "name": "Angola, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 4,
+        "cbsa": "13420",
+        "geoid": "31000US13420",
+        "moe": 5,
+        "moeReliability": "low",
+        "name": "Bemidji, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 4,
+        "cbsa": "16460",
+        "geoid": "31000US16460",
+        "moe": 5,
+        "moeReliability": "low",
+        "name": "Centralia, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 4,
+        "cbsa": "19980",
+        "geoid": "31000US19980",
+        "moe": 6,
+        "moeReliability": "low",
+        "name": "Dodge City, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 4,
+        "cbsa": "20580",
+        "geoid": "31000US20580",
+        "moe": 7,
+        "moeReliability": "low",
+        "name": "Eagle Pass, TX Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 4,
+        "cbsa": "23620",
+        "geoid": "31000US23620",
+        "moe": 10,
+        "moeReliability": "low",
+        "name": "Gainesville, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 40,
+        "cbsa": "25740",
+        "geoid": "31000US25740",
+        "moe": 62,
+        "moeReliability": "low",
+        "name": "Helena, MT Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 400,
+        "cbsa": "30020",
+        "geoid": "31000US30020",
+        "moe": 222,
+        "moeReliability": "medium",
+        "name": "Lawton, OK Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 404,
+        "cbsa": "23180",
+        "geoid": "31000US23180",
+        "moe": 172,
+        "moeReliability": "medium",
+        "name": "Frankfort, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 406,
+        "cbsa": "40660",
+        "geoid": "31000US40660",
+        "moe": 194,
+        "moeReliability": "medium",
+        "name": "Rome, GA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 407,
+        "cbsa": "39420",
+        "geoid": "31000US39420",
+        "moe": 134,
+        "moeReliability": "high",
+        "name": "Pullman, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 41,
+        "cbsa": "29980",
+        "geoid": "31000US29980",
+        "moe": 49,
+        "moeReliability": "low",
+        "name": "Lawrenceburg, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 41,
+        "cbsa": "34880",
+        "geoid": "31000US34880",
+        "moe": 57,
+        "moeReliability": "low",
+        "name": "Nantucket, MA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 411,
+        "cbsa": "46660",
+        "geoid": "31000US46660",
+        "moe": 279,
+        "moeReliability": "medium",
+        "name": "Valdosta, GA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 417,
+        "cbsa": "38340",
+        "geoid": "31000US38340",
+        "moe": 183,
+        "moeReliability": "medium",
+        "name": "Pittsfield, MA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 42,
+        "cbsa": "12140",
+        "geoid": "31000US12140",
+        "moe": 51,
+        "moeReliability": "low",
+        "name": "Auburn, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 42,
+        "cbsa": "19760",
+        "geoid": "31000US19760",
+        "moe": 42,
+        "moeReliability": "medium",
+        "name": "DeRidder, LA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 42,
+        "cbsa": "22260",
+        "geoid": "31000US22260",
+        "moe": 41,
+        "moeReliability": "medium",
+        "name": "Fergus Falls, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 42,
+        "cbsa": "27540",
+        "geoid": "31000US27540",
+        "moe": 64,
+        "moeReliability": "low",
+        "name": "Jasper, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 42,
+        "cbsa": "31220",
+        "geoid": "31000US31220",
+        "moe": 37,
+        "moeReliability": "medium",
+        "name": "Ludington, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 42,
+        "cbsa": "33540",
+        "geoid": "31000US33540",
+        "moe": 31,
+        "moeReliability": "medium",
+        "name": "Missoula, MT Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 42,
+        "cbsa": "36340",
+        "geoid": "31000US36340",
+        "moe": 43,
+        "moeReliability": "low",
+        "name": "Oil City, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 423,
+        "cbsa": "34580",
+        "geoid": "31000US34580",
+        "moe": 217,
+        "moeReliability": "medium",
+        "name": "Mount Vernon-Anacortes, WA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 423,
+        "cbsa": "41060",
+        "geoid": "31000US41060",
+        "moe": 227,
+        "moeReliability": "medium",
+        "name": "St. Cloud, MN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 424,
+        "cbsa": "29660",
+        "geoid": "31000US29660",
+        "moe": 254,
+        "moeReliability": "medium",
+        "name": "Laramie, WY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 43,
+        "cbsa": "28580",
+        "geoid": "31000US28580",
+        "moe": 33,
+        "moeReliability": "medium",
+        "name": "Key West-Key Largo, FL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 430,
+        "cbsa": "37060",
+        "geoid": "31000US37060",
+        "moe": 178,
+        "moeReliability": "medium",
+        "name": "Oxford, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 433,
+        "cbsa": "25900",
+        "geoid": "31000US25900",
+        "moe": 322,
+        "moeReliability": "medium",
+        "name": "Hilo-Kailua, HI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 436,
+        "cbsa": "36837",
+        "geoid": "31000US36837",
+        "moe": 147,
+        "moeReliability": "medium",
+        "name": "Ottawa, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 438,
+        "cbsa": "37460",
+        "geoid": "31000US37460",
+        "moe": 302,
+        "moeReliability": "medium",
+        "name": "Panama City-Panama City Beach, FL Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 44,
+        "cbsa": "20420",
+        "geoid": "31000US20420",
+        "moe": 40,
+        "moeReliability": "medium",
+        "name": "Durango, CO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 44,
+        "cbsa": "47540",
+        "geoid": "31000US47540",
+        "moe": 40,
+        "moeReliability": "medium",
+        "name": "Wapakoneta, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 44,
+        "cbsa": "48020",
+        "geoid": "31000US48020",
+        "moe": 36,
+        "moeReliability": "medium",
+        "name": "Watertown-Fort Atkinson, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 440,
+        "cbsa": "24540",
+        "geoid": "31000US24540",
+        "moe": 205,
+        "moeReliability": "medium",
+        "name": "Greeley, CO Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 45,
+        "cbsa": "11740",
+        "geoid": "31000US11740",
+        "moe": 38,
+        "moeReliability": "medium",
+        "name": "Ashland, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 45,
+        "cbsa": "24100",
+        "geoid": "31000US24100",
+        "moe": 51,
+        "moeReliability": "low",
+        "name": "Gloversville, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 45,
+        "cbsa": "29700",
+        "geoid": "31000US29700",
+        "moe": 71,
+        "moeReliability": "low",
+        "name": "Laredo, TX Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 45,
+        "cbsa": "48200",
+        "geoid": "31000US48200",
+        "moe": 47,
+        "moeReliability": "low",
+        "name": "Waynesville, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 454,
+        "cbsa": "26460",
+        "geoid": "31000US26460",
+        "moe": 173,
+        "moeReliability": "medium",
+        "name": "Hudson, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 457,
+        "cbsa": "15100",
+        "geoid": "31000US15100",
+        "moe": 204,
+        "moeReliability": "medium",
+        "name": "Brookings, SD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 458,
+        "cbsa": "22380",
+        "geoid": "31000US22380",
+        "moe": 213,
+        "moeReliability": "medium",
+        "name": "Flagstaff, AZ Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 46,
+        "cbsa": "18300",
+        "geoid": "31000US18300",
+        "moe": 66,
+        "moeReliability": "low",
+        "name": "Coos Bay-North Bend, OR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 46,
+        "cbsa": "28260",
+        "geoid": "31000US28260",
+        "moe": 48,
+        "moeReliability": "low",
+        "name": "Kearney, NE Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 46,
+        "cbsa": "45340",
+        "geoid": "31000US45340",
+        "moe": 58,
+        "moeReliability": "low",
+        "name": "Taos, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 462,
+        "cbsa": "35100",
+        "geoid": "31000US35100",
+        "moe": 312,
+        "moeReliability": "medium",
+        "name": "New Bern, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 464,
+        "cbsa": "26580",
+        "geoid": "31000US26580",
+        "moe": 185,
+        "moeReliability": "medium",
+        "name": "Huntington-Ashland, WV-KY-OH Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 47,
+        "cbsa": "14820",
+        "geoid": "31000US14820",
+        "moe": 63,
+        "moeReliability": "low",
+        "name": "Brevard, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 47,
+        "cbsa": "17220",
+        "geoid": "31000US17220",
+        "moe": 63,
+        "moeReliability": "low",
+        "name": "Clarksburg, WV Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 47,
+        "cbsa": "26020",
+        "geoid": "31000US26020",
+        "moe": 53,
+        "moeReliability": "low",
+        "name": "Hobbs, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 48,
+        "cbsa": "18820",
+        "geoid": "31000US18820",
+        "moe": 55,
+        "moeReliability": "low",
+        "name": "Crawfordsville, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 48,
+        "cbsa": "28180",
+        "geoid": "31000US28180",
+        "moe": 38,
+        "moeReliability": "medium",
+        "name": "Kapaa, HI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 48,
+        "cbsa": "36380",
+        "geoid": "31000US36380",
+        "moe": 65,
+        "moeReliability": "low",
+        "name": "Okeechobee, FL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 48,
+        "cbsa": "38420",
+        "geoid": "31000US38420",
+        "moe": 45,
+        "moeReliability": "medium",
+        "name": "Platteville, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 48,
+        "cbsa": "47620",
+        "geoid": "31000US47620",
+        "moe": 53,
+        "moeReliability": "low",
+        "name": "Warren, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 484,
+        "cbsa": "20260",
+        "geoid": "31000US20260",
+        "moe": 192,
+        "moeReliability": "medium",
+        "name": "Duluth, MN-WI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 49,
+        "cbsa": "35060",
+        "geoid": "31000US35060",
+        "moe": 29,
+        "moeReliability": "medium",
+        "name": "Natchitoches, LA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 490,
+        "cbsa": "27100",
+        "geoid": "31000US27100",
+        "moe": 220,
+        "moeReliability": "medium",
+        "name": "Jackson, MI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 491,
+        "cbsa": "16060",
+        "geoid": "31000US16060",
+        "moe": 247,
+        "moeReliability": "medium",
+        "name": "Carbondale, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 5,
+        "cbsa": "10100",
+        "geoid": "31000US10100",
+        "moe": 9,
+        "moeReliability": "low",
+        "name": "Aberdeen, SD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 5,
+        "cbsa": "19700",
+        "geoid": "31000US19700",
+        "moe": 11,
+        "moeReliability": "low",
+        "name": "Deming, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 5,
+        "cbsa": "43940",
+        "geoid": "31000US43940",
+        "moe": 12,
+        "moeReliability": "low",
+        "name": "Spearfish, SD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 5,
+        "cbsa": "44740",
+        "geoid": "31000US44740",
+        "moe": 9,
+        "moeReliability": "low",
+        "name": "Storm Lake, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 50,
+        "cbsa": "20460",
+        "geoid": "31000US20460",
+        "moe": 69,
+        "moeReliability": "low",
+        "name": "Durant, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 50,
+        "cbsa": "34340",
+        "geoid": "31000US34340",
+        "moe": 56,
+        "moeReliability": "low",
+        "name": "Mount Airy, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 51,
+        "cbsa": "12900",
+        "geoid": "31000US12900",
+        "moe": 71,
+        "moeReliability": "low",
+        "name": "Batesville, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 51,
+        "cbsa": "40760",
+        "geoid": "31000US40760",
+        "moe": 46,
+        "moeReliability": "medium",
+        "name": "Ruidoso, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 53,
+        "cbsa": "13020",
+        "geoid": "31000US13020",
+        "moe": 51,
+        "moeReliability": "medium",
+        "name": "Bay City, MI Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 53,
+        "cbsa": "14100",
+        "geoid": "31000US14100",
+        "moe": 66,
+        "moeReliability": "low",
+        "name": "Bloomsburg-Berwick, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 53,
+        "cbsa": "17260",
+        "geoid": "31000US17260",
+        "moe": 82,
+        "moeReliability": "low",
+        "name": "Clarksdale, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 53,
+        "cbsa": "21460",
+        "geoid": "31000US21460",
+        "moe": 66,
+        "moeReliability": "low",
+        "name": "Enterprise, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 53,
+        "cbsa": "21540",
+        "geoid": "31000US21540",
+        "moe": 68,
+        "moeReliability": "low",
+        "name": "Escanaba, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 53,
+        "cbsa": "27220",
+        "geoid": "31000US27220",
+        "moe": 81,
+        "moeReliability": "low",
+        "name": "Jackson, WY-ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 54,
+        "cbsa": "34220",
+        "geoid": "31000US34220",
+        "moe": 79,
+        "moeReliability": "low",
+        "name": "Moultrie, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 57,
+        "cbsa": "28060",
+        "geoid": "31000US28060",
+        "moe": 70,
+        "moeReliability": "low",
+        "name": "Kalispell, MT Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 57,
+        "cbsa": "38260",
+        "geoid": "31000US38260",
+        "moe": 70,
+        "moeReliability": "low",
+        "name": "Pittsburg, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 58,
+        "cbsa": "13340",
+        "geoid": "31000US13340",
+        "moe": 80,
+        "moeReliability": "low",
+        "name": "Bellefontaine, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 59,
+        "cbsa": "10140",
+        "geoid": "31000US10140",
+        "moe": 70,
+        "moeReliability": "low",
+        "name": "Aberdeen, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 59,
+        "cbsa": "16380",
+        "geoid": "31000US16380",
+        "moe": 73,
+        "moeReliability": "low",
+        "name": "Celina, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 6,
+        "cbsa": "22700",
+        "geoid": "31000US22700",
+        "moe": 12,
+        "moeReliability": "low",
+        "name": "Fort Dodge, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 6,
+        "cbsa": "27380",
+        "geoid": "31000US27380",
+        "moe": 12,
+        "moeReliability": "low",
+        "name": "Jacksonville, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 6,
+        "cbsa": "30180",
+        "geoid": "31000US30180",
+        "moe": 10,
+        "moeReliability": "low",
+        "name": "Le Mars, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 6,
+        "cbsa": "39040",
+        "geoid": "31000US39040",
+        "moe": 10,
+        "moeReliability": "low",
+        "name": "Port Townsend, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 6,
+        "cbsa": "43320",
+        "geoid": "31000US43320",
+        "moe": 15,
+        "moeReliability": "low",
+        "name": "Show Low, AZ Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 6,
+        "cbsa": "45020",
+        "geoid": "31000US45020",
+        "moe": 16,
+        "moeReliability": "low",
+        "name": "Sweetwater, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 60,
+        "cbsa": "16100",
+        "geoid": "31000US16100",
+        "moe": 69,
+        "moeReliability": "low",
+        "name": "Carlsbad-Artesia, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 60,
+        "cbsa": "17580",
+        "geoid": "31000US17580",
+        "moe": 67,
+        "moeReliability": "low",
+        "name": "Clovis, NM Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 60,
+        "cbsa": "23140",
+        "geoid": "31000US23140",
+        "moe": 60,
+        "moeReliability": "medium",
+        "name": "Frankfort, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 62,
+        "cbsa": "24420",
+        "geoid": "31000US24420",
+        "moe": 64,
+        "moeReliability": "low",
+        "name": "Grants Pass, OR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 62,
+        "cbsa": "32620",
+        "geoid": "31000US32620",
+        "moe": 61,
+        "moeReliability": "medium",
+        "name": "McComb, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 63,
+        "cbsa": "44580",
+        "geoid": "31000US44580",
+        "moe": 54,
+        "moeReliability": "medium",
+        "name": "Sterling, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 64,
+        "cbsa": "13860",
+        "geoid": "31000US13860",
+        "moe": 73,
+        "moeReliability": "low",
+        "name": "Bishop, CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 64,
+        "cbsa": "22060",
+        "geoid": "31000US22060",
+        "moe": 58,
+        "moeReliability": "medium",
+        "name": "Faribault-Northfield, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 64,
+        "cbsa": "24330",
+        "geoid": "31000US24330",
+        "moe": 70,
+        "moeReliability": "low",
+        "name": "Grand Rapids, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 64,
+        "cbsa": "25850",
+        "geoid": "31000US25850",
+        "moe": 69,
+        "moeReliability": "low",
+        "name": "Hermitage, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 64,
+        "cbsa": "39980",
+        "geoid": "31000US39980",
+        "moe": 56,
+        "moeReliability": "medium",
+        "name": "Richmond, IN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 64,
+        "cbsa": "46620",
+        "geoid": "31000US46620",
+        "moe": 98,
+        "moeReliability": "low",
+        "name": "Uvalde, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 65,
+        "cbsa": "31260",
+        "geoid": "31000US31260",
+        "moe": 79,
+        "moeReliability": "low",
+        "name": "Lufkin, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 66,
+        "cbsa": "39020",
+        "geoid": "31000US39020",
+        "moe": 51,
+        "moeReliability": "medium",
+        "name": "Portsmouth, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 66,
+        "cbsa": "41100",
+        "geoid": "31000US41100",
+        "moe": 61,
+        "moeReliability": "medium",
+        "name": "St. George, UT Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 67,
+        "cbsa": "40780",
+        "geoid": "31000US40780",
+        "moe": 106,
+        "moeReliability": "low",
+        "name": "Russellville, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 68,
+        "cbsa": "13660",
+        "geoid": "31000US13660",
+        "moe": 79,
+        "moeReliability": "low",
+        "name": "Big Rapids, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 7,
+        "cbsa": "15900",
+        "geoid": "31000US15900",
+        "moe": 9,
+        "moeReliability": "low",
+        "name": "Canton, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 7,
+        "cbsa": "43380",
+        "geoid": "31000US43380",
+        "moe": 12,
+        "moeReliability": "low",
+        "name": "Sidney, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 70,
+        "cbsa": "48220",
+        "geoid": "31000US48220",
+        "moe": 85,
+        "moeReliability": "low",
+        "name": "Weatherford, OK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 71,
+        "cbsa": "12180",
+        "geoid": "31000US12180",
+        "moe": 55,
+        "moeReliability": "medium",
+        "name": "Auburn, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 72,
+        "cbsa": "12860",
+        "geoid": "31000US12860",
+        "moe": 72,
+        "moeReliability": "medium",
+        "name": "Batavia, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 72,
+        "cbsa": "21020",
+        "geoid": "31000US21020",
+        "moe": 84,
+        "moeReliability": "low",
+        "name": "Elizabeth City, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 72,
+        "cbsa": "28300",
+        "geoid": "31000US28300",
+        "moe": 74,
+        "moeReliability": "low",
+        "name": "Keene, NH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 72,
+        "cbsa": "38100",
+        "geoid": "31000US38100",
+        "moe": 72,
+        "moeReliability": "medium",
+        "name": "Picayune, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 72,
+        "cbsa": "45380",
+        "geoid": "31000US45380",
+        "moe": 66,
+        "moeReliability": "medium",
+        "name": "Taylorville, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 73,
+        "cbsa": "21380",
+        "geoid": "31000US21380",
+        "moe": 74,
+        "moeReliability": "low",
+        "name": "Emporia, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 73,
+        "cbsa": "23300",
+        "geoid": "31000US23300",
+        "moe": 45,
+        "moeReliability": "medium",
+        "name": "Freeport, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 74,
+        "cbsa": "16340",
+        "geoid": "31000US16340",
+        "moe": 107,
+        "moeReliability": "low",
+        "name": "Cedartown, GA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 74,
+        "cbsa": "18620",
+        "geoid": "31000US18620",
+        "moe": 98,
+        "moeReliability": "low",
+        "name": "Corsicana, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 74,
+        "cbsa": "35020",
+        "geoid": "31000US35020",
+        "moe": 85,
+        "moeReliability": "low",
+        "name": "Natchez, MS-LA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 75,
+        "cbsa": "26090",
+        "geoid": "31000US26090",
+        "moe": 75,
+        "moeReliability": "medium",
+        "name": "Holland, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 75,
+        "cbsa": "27780",
+        "geoid": "31000US27780",
+        "moe": 59,
+        "moeReliability": "medium",
+        "name": "Johnstown, PA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 76,
+        "cbsa": "25780",
+        "geoid": "31000US25780",
+        "moe": 106,
+        "moeReliability": "low",
+        "name": "Henderson, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 77,
+        "cbsa": "25260",
+        "geoid": "31000US25260",
+        "moe": 80,
+        "moeReliability": "low",
+        "name": "Hanford-Corcoran, CA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 78,
+        "cbsa": "42420",
+        "geoid": "31000US42420",
+        "moe": 84,
+        "moeReliability": "low",
+        "name": "Scottsbluff, NE Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 79,
+        "cbsa": "37540",
+        "geoid": "31000US37540",
+        "moe": 98,
+        "moeReliability": "low",
+        "name": "Paris, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 79,
+        "cbsa": "38700",
+        "geoid": "31000US38700",
+        "moe": 65,
+        "moeReliability": "medium",
+        "name": "Pontiac, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 79,
+        "cbsa": "46580",
+        "geoid": "31000US46580",
+        "moe": 76,
+        "moeReliability": "medium",
+        "name": "Utuado, PR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 8,
+        "cbsa": "22100",
+        "geoid": "31000US22100",
+        "moe": 17,
+        "moeReliability": "low",
+        "name": "Farmington, MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 8,
+        "cbsa": "27300",
+        "geoid": "31000US27300",
+        "moe": 12,
+        "moeReliability": "low",
+        "name": "Jacksonville, IL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 8,
+        "cbsa": "28620",
+        "geoid": "31000US28620",
+        "moe": 14,
+        "moeReliability": "low",
+        "name": "Kill Devil Hills, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 8,
+        "cbsa": "34300",
+        "geoid": "31000US34300",
+        "moe": 13,
+        "moeReliability": "low",
+        "name": "Mountain Home, ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 8,
+        "cbsa": "35340",
+        "geoid": "31000US35340",
+        "moe": 17,
+        "moeReliability": "low",
+        "name": "New Iberia, LA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 8,
+        "cbsa": "49380",
+        "geoid": "31000US49380",
+        "moe": 8,
+        "moeReliability": "medium",
+        "name": "Worthington, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 80,
+        "cbsa": "19860",
+        "geoid": "31000US19860",
+        "moe": 93,
+        "moeReliability": "low",
+        "name": "Dickinson, ND Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 80,
+        "cbsa": "29420",
+        "geoid": "31000US29420",
+        "moe": 77,
+        "moeReliability": "medium",
+        "name": "Lake Havasu City-Kingman, AZ Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 81,
+        "cbsa": "18660",
+        "geoid": "31000US18660",
+        "moe": 66,
+        "moeReliability": "medium",
+        "name": "Cortland, NY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 81,
+        "cbsa": "19060",
+        "geoid": "31000US19060",
+        "moe": 61,
+        "moeReliability": "medium",
+        "name": "Cumberland, MD-WV Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 81,
+        "cbsa": "31820",
+        "geoid": "31000US31820",
+        "moe": 95,
+        "moeReliability": "low",
+        "name": "Manitowoc, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 81,
+        "cbsa": "39500",
+        "geoid": "31000US39500",
+        "moe": 70,
+        "moeReliability": "medium",
+        "name": "Quincy, IL-MO Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 82,
+        "cbsa": "30300",
+        "geoid": "31000US30300",
+        "moe": 70,
+        "moeReliability": "medium",
+        "name": "Lewiston, ID-WA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 82,
+        "cbsa": "38540",
+        "geoid": "31000US38540",
+        "moe": 78,
+        "moeReliability": "medium",
+        "name": "Pocatello, ID Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 82,
+        "cbsa": "42380",
+        "geoid": "31000US42380",
+        "moe": 78,
+        "moeReliability": "medium",
+        "name": "Sayre, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 84,
+        "cbsa": "32140",
+        "geoid": "31000US32140",
+        "moe": 95,
+        "moeReliability": "low",
+        "name": "Marshall, MN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 85,
+        "cbsa": "46980",
+        "geoid": "31000US46980",
+        "moe": 47,
+        "moeReliability": "medium",
+        "name": "Vicksburg, MS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 86,
+        "cbsa": "21420",
+        "geoid": "31000US21420",
+        "moe": 113,
+        "moeReliability": "low",
+        "name": "Enid, OK Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 86,
+        "cbsa": "26300",
+        "geoid": "31000US26300",
+        "moe": 71,
+        "moeReliability": "medium",
+        "name": "Hot Springs, AR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 86,
+        "cbsa": "49010",
+        "geoid": "31000US49010",
+        "moe": 94,
+        "moeReliability": "low",
+        "name": "Winchester, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 87,
+        "cbsa": "20980",
+        "geoid": "31000US20980",
+        "moe": 110,
+        "moeReliability": "low",
+        "name": "El Dorado, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 87,
+        "cbsa": "22190",
+        "geoid": "31000US22190",
+        "moe": 95,
+        "moeReliability": "low",
+        "name": "Fayetteville, TN Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 87,
+        "cbsa": "32460",
+        "geoid": "31000US32460",
+        "moe": 82,
+        "moeReliability": "medium",
+        "name": "Mayfield, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 87,
+        "cbsa": "33140",
+        "geoid": "31000US33140",
+        "moe": 122,
+        "moeReliability": "low",
+        "name": "Michigan City-La Porte, IN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 88,
+        "cbsa": "26740",
+        "geoid": "31000US26740",
+        "moe": 97,
+        "moeReliability": "low",
+        "name": "Hutchinson, KS Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 88,
+        "cbsa": "32020",
+        "geoid": "31000US32020",
+        "moe": 84,
+        "moeReliability": "medium",
+        "name": "Marion, OH Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 88,
+        "cbsa": "37800",
+        "geoid": "31000US37800",
+        "moe": 61,
+        "moeReliability": "medium",
+        "name": "Pella, IA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 88,
+        "cbsa": "39060",
+        "geoid": "31000US39060",
+        "moe": 53,
+        "moeReliability": "medium",
+        "name": "Pottsville, PA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 89,
+        "cbsa": "34140",
+        "geoid": "31000US34140",
+        "moe": 61,
+        "moeReliability": "medium",
+        "name": "Moscow, ID Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 9,
+        "cbsa": "14300",
+        "geoid": "31000US14300",
+        "moe": 13,
+        "moeReliability": "low",
+        "name": "Bonham, TX Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 9,
+        "cbsa": "14380",
+        "geoid": "31000US14380",
+        "moe": 12,
+        "moeReliability": "low",
+        "name": "Boone, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 9,
+        "cbsa": "27940",
+        "geoid": "31000US27940",
+        "moe": 14,
+        "moeReliability": "low",
+        "name": "Juneau, AK Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 9,
+        "cbsa": "31620",
+        "geoid": "31000US31620",
+        "moe": 22,
+        "moeReliability": "low",
+        "name": "Magnolia, AR Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 9,
+        "cbsa": "43260",
+        "geoid": "31000US43260",
+        "moe": 9,
+        "moeReliability": "medium",
+        "name": "Sheridan, WY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 9,
+        "cbsa": "48780",
+        "geoid": "31000US48780",
+        "moe": 21,
+        "moeReliability": "low",
+        "name": "Williston, ND Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 90,
+        "cbsa": "17740",
+        "geoid": "31000US17740",
+        "moe": 74,
+        "moeReliability": "medium",
+        "name": "Coldwater, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 91,
+        "cbsa": "21260",
+        "geoid": "31000US21260",
+        "moe": 89,
+        "moeReliability": "medium",
+        "name": "Ellensburg, WA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 92,
+        "cbsa": "17660",
+        "geoid": "31000US17660",
+        "moe": 93,
+        "moeReliability": "low",
+        "name": "Coeur d'Alene, ID Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 92,
+        "cbsa": "34100",
+        "geoid": "31000US34100",
+        "moe": 106,
+        "moeReliability": "low",
+        "name": "Morristown, TN Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 92,
+        "cbsa": "38210",
+        "geoid": "31000US38210",
+        "moe": 67,
+        "moeReliability": "medium",
+        "name": "Pikeville, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 93,
+        "cbsa": "24300",
+        "geoid": "31000US24300",
+        "moe": 112,
+        "moeReliability": "low",
+        "name": "Grand Junction, CO Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 93,
+        "cbsa": "43890",
+        "geoid": "31000US43890",
+        "moe": 104,
+        "moeReliability": "low",
+        "name": "Sparta, WI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 94,
+        "cbsa": "11360",
+        "geoid": "31000US11360",
+        "moe": 98,
+        "moeReliability": "low",
+        "name": "Anderson Creek, NC Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 94,
+        "cbsa": "43760",
+        "geoid": "31000US43760",
+        "moe": 69,
+        "moeReliability": "medium",
+        "name": "Sonora, CA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 95,
+        "cbsa": "47460",
+        "geoid": "31000US47460",
+        "moe": 59,
+        "moeReliability": "medium",
+        "name": "Walla Walla, WA Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 96,
+        "cbsa": "35740",
+        "geoid": "31000US35740",
+        "moe": 96,
+        "moeReliability": "medium",
+        "name": "Norfolk, NE Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 96,
+        "cbsa": "36660",
+        "geoid": "31000US36660",
+        "moe": 145,
+        "moeReliability": "low",
+        "name": "Opelousas, LA Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 96,
+        "cbsa": "37020",
+        "geoid": "31000US37020",
+        "moe": 85,
+        "moeReliability": "medium",
+        "name": "Owosso, MI Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 97,
+        "cbsa": "38660",
+        "geoid": "31000US38660",
+        "moe": 91,
+        "moeReliability": "medium",
+        "name": "Ponce, PR Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 98,
+        "cbsa": "45180",
+        "geoid": "31000US45180",
+        "moe": 101,
+        "moeReliability": "low",
+        "name": "Talladega-Sylacauga, AL Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 98,
+        "cbsa": "46300",
+        "geoid": "31000US46300",
+        "moe": 127,
+        "moeReliability": "low",
+        "name": "Twin Falls, ID Metro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 99,
+        "cbsa": "20660",
+        "geoid": "31000US20660",
+        "moe": 89,
+        "moeReliability": "medium",
+        "name": "Easton, MD Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      },
+      {
+        "asianIndian": 99,
+        "cbsa": "40080",
+        "geoid": "31000US40080",
+        "moe": 66,
+        "moeReliability": "medium",
+        "name": "Richmond-Berea, KY Micro Area",
+        "reason": "asian-indian-estimate-below-500"
+      }
+    ],
+    "release": "ACS 2024 5-year",
+    "summary": {
+      "heldOutRows": 675,
+      "includedRows": 260,
+      "inputRows": 935,
+      "nationalAsianIndian": 4625449,
+      "nationalPopulation": 334922499
+    },
+    "variables": {
+      "asianIndian": "B02015_021E",
+      "asianIndianMoe": "B02015_021M",
+      "medianHouseholdIncome": "B19013_001E",
+      "medianHouseholdIncomeMoe": "B19013_001M",
+      "totalPopulation": "B01003_001E",
+      "totalPopulationMoe": "B01003_001M"
+    }
+  },
+  "meta": {
+    "caveats": [
+      "ACS estimates include margins of error.",
+      "Low-quality CBSAs are kept in markets-audit.json instead of silently discarded.",
+      "Score and tier fields use available public signals; missing anchor, employment, and student joins score as zero until those artifacts are generated.",
+      "Scores and tiers are added by the scoring pipeline."
+    ],
+    "family": "markets-audit",
+    "generatedAt": "2026-07-05T00:00:00.000Z",
+    "method": "ACS CBSA rows joined to Census TIGERweb internal points; included 260; held out 675.",
+    "provenance": "grounded",
+    "refreshCadence": "per ACS 5-year release",
+    "source": "US Census ACS 2024 5-year Detailed Tables and Census TIGERweb ACS 2024 CBSA layers",
+    "version": 1
+  }
+}

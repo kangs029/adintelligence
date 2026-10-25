@@ -1,0 +1,605 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: XPAT Ads Intelligence Pipeline - S3, DynamoDB, Lambda, EventBridge
+
+# ============================================================================
+# PARAMETERS
+# ============================================================================
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+    AllowedValues:
+      - dev
+      - prod
+    Description: Environment name (dev or prod)
+
+  DataRetentionDays:
+    Type: Number
+    Default: 90
+    Description: Number of days to retain raw data in S3
+
+# ============================================================================
+# RESOURCES
+# ============================================================================
+Resources:
+
+  # --------------------------------------------------------------------------
+  # S3 BUCKET - Raw Data Storage
+  # --------------------------------------------------------------------------
+  RawDataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub xpat-ads-raw-data-${Environment}
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
+      LifecycleConfiguration:
+        Rules:
+          - Id: ExpireOldData
+            Status: Enabled
+            ExpirationInDays: !Ref DataRetentionDays
+            NoncurrentVersionExpiration:
+              NoncurrentDays: 30
+          # Keep signups folder indefinitely (no prefix filter = applies to all except below)
+          - Id: KeepSignupsForever
+            Status: Enabled
+            Prefix: signups/
+            ExpirationInDays: 3650  # 10 years (effectively forever)
+      # Note: S3 notification is configured via custom resource below to avoid circular dependency
+      Tags:
+        - Key: Project
+          Value: xpat-ads-pipeline
+        - Key: Environment
+          Value: !Ref Environment
+
+  # S3 Bucket Policy
+  RawDataBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref RawDataBucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: EnforceTLS
+            Effect: Deny
+            Principal: '*'
+            Action: s3:*
+            Resource:
+              - !GetAtt RawDataBucket.Arn
+              - !Sub ${RawDataBucket.Arn}/*
+            Condition:
+              Bool:
+                aws:SecureTransport: 'false'
+
+  # --------------------------------------------------------------------------
+  # DYNAMODB TABLE - Processed Intelligence Data
+  # --------------------------------------------------------------------------
+  IntelligenceTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub xpat-ads-intelligence-${Environment}
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        # Primary Key attributes
+        - AttributeName: PK
+          AttributeType: S
+        - AttributeName: SK
+          AttributeType: S
+        # GSI attributes
+        - AttributeName: GSI1PK
+          AttributeType: S
+        - AttributeName: GSI1SK
+          AttributeType: S
+        - AttributeName: GSI2PK
+          AttributeType: S
+        - AttributeName: GSI2SK
+          AttributeType: S
+      KeySchema:
+        - AttributeName: PK
+          KeyType: HASH
+        - AttributeName: SK
+          KeyType: RANGE
+      GlobalSecondaryIndexes:
+        # GSI-ByDate: Query all data for a specific date
+        - IndexName: GSI-ByDate
+          KeySchema:
+            - AttributeName: GSI1PK
+              KeyType: HASH
+            - AttributeName: GSI1SK
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        # GSI-ByKeyword: Query data for a specific keyword
+        - IndexName: GSI-ByKeyword
+          KeySchema:
+            - AttributeName: GSI2PK
+              KeyType: HASH
+            - AttributeName: GSI2SK
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+      TimeToLiveSpecification:
+        AttributeName: ttl
+        Enabled: true
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      Tags:
+        - Key: Project
+          Value: xpat-ads-pipeline
+        - Key: Environment
+          Value: !Ref Environment
+
+  # --------------------------------------------------------------------------
+  # SECRETS MANAGER - Google Ads Credentials
+  # --------------------------------------------------------------------------
+  GoogleAdsSecret:
+    Type: AWS::SecretsManager::Secret
+    Properties:
+      Name: !Sub xpat-ads-pipeline/${Environment}/google-ads
+      Description: Google Ads API credentials for XPAT ads pipeline
+      SecretString: !Sub |
+        {
+          "GOOGLE_ADS_CLIENT_ID": "PLACEHOLDER_UPDATE_AFTER_DEPLOY",
+          "GOOGLE_ADS_CLIENT_SECRET": "PLACEHOLDER_UPDATE_AFTER_DEPLOY",
+          "GOOGLE_ADS_REFRESH_TOKEN": "PLACEHOLDER_UPDATE_AFTER_DEPLOY",
+          "GOOGLE_ADS_DEVELOPER_TOKEN": "PLACEHOLDER_UPDATE_AFTER_DEPLOY",
+          "GOOGLE_ADS_CUSTOMER_ID": "PLACEHOLDER_UPDATE_AFTER_DEPLOY",
+          "GOOGLE_ADS_LOGIN_CUSTOMER_ID": "PLACEHOLDER_UPDATE_AFTER_DEPLOY"
+        }
+      Tags:
+        - Key: Project
+          Value: xpat-ads-pipeline
+        - Key: Environment
+          Value: !Ref Environment
+
+  # --------------------------------------------------------------------------
+  # IAM ROLE - Ingest Lambda
+  # --------------------------------------------------------------------------
+  IngestLambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub xpat-ads-ingest-lambda-role-${Environment}
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: IngestLambdaPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              # S3 Write Access
+              - Effect: Allow
+                Action:
+                  - s3:PutObject
+                  - s3:GetObject
+                  - s3:ListBucket
+                Resource:
+                  - !GetAtt RawDataBucket.Arn
+                  - !Sub ${RawDataBucket.Arn}/*
+              # Secrets Manager Read Access
+              - Effect: Allow
+                Action:
+                  - secretsmanager:GetSecretValue
+                Resource: !Ref GoogleAdsSecret
+      Tags:
+        - Key: Project
+          Value: xpat-ads-pipeline
+        - Key: Environment
+          Value: !Ref Environment
+
+  # --------------------------------------------------------------------------
+  # IAM ROLE - Transform Lambda
+  # --------------------------------------------------------------------------
+  TransformLambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub xpat-ads-transform-lambda-role-${Environment}
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: TransformLambdaPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              # S3 Read Access
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:ListBucket
+                Resource:
+                  - !GetAtt RawDataBucket.Arn
+                  - !Sub ${RawDataBucket.Arn}/*
+              # DynamoDB Write Access
+              - Effect: Allow
+                Action:
+                  - dynamodb:PutItem
+                  - dynamodb:BatchWriteItem
+                  - dynamodb:UpdateItem
+                  - dynamodb:GetItem
+                  - dynamodb:Query
+                Resource:
+                  - !GetAtt IntelligenceTable.Arn
+                  - !Sub ${IntelligenceTable.Arn}/index/*
+      Tags:
+        - Key: Project
+          Value: xpat-ads-pipeline
+        - Key: Environment
+          Value: !Ref Environment
+
+  # --------------------------------------------------------------------------
+  # LAMBDA - Ingest (Google Ads → S3)
+  # --------------------------------------------------------------------------
+  IngestLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub xpat-ads-ingest-${Environment}
+      Description: Pulls data from Google Ads API and stores in S3
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt IngestLambdaRole.Arn
+      Timeout: 300
+      MemorySize: 512
+      Environment:
+        Variables:
+          ENVIRONMENT: !Ref Environment
+          RAW_BUCKET_NAME: !Ref RawDataBucket
+          SECRETS_ARN: !Ref GoogleAdsSecret
+      Code:
+        ZipFile: |
+          // Placeholder - will be replaced by actual deployment
+          exports.handler = async (event) => {
+            console.log('Ingest Lambda placeholder - deploy actual code');
+            return { statusCode: 200, body: 'Placeholder' };
+          };
+      Tags:
+        - Key: Project
+          Value: xpat-ads-pipeline
+        - Key: Environment
+          Value: !Ref Environment
+
+  # --------------------------------------------------------------------------
+  # LAMBDA - Transform (S3 → DynamoDB)
+  # --------------------------------------------------------------------------
+  TransformLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub xpat-ads-transform-${Environment}
+      Description: Transforms and joins raw data, writes to DynamoDB
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt TransformLambdaRole.Arn
+      Timeout: 300
+      MemorySize: 512
+      Environment:
+        Variables:
+          ENVIRONMENT: !Ref Environment
+          RAW_BUCKET_NAME: !Ref RawDataBucket
+          DYNAMODB_TABLE: !Ref IntelligenceTable
+      Code:
+        ZipFile: |
+          // Placeholder - will be replaced by actual deployment
+          exports.handler = async (event) => {
+            console.log('Transform Lambda placeholder - deploy actual code');
+            return { statusCode: 200, body: 'Placeholder' };
+          };
+      Tags:
+        - Key: Project
+          Value: xpat-ads-pipeline
+        - Key: Environment
+          Value: !Ref Environment
+
+  # Lambda Permission for S3 to invoke Transform Lambda
+  TransformLambdaS3Permission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref TransformLambda
+      Action: lambda:InvokeFunction
+      Principal: s3.amazonaws.com
+      SourceArn: !GetAtt RawDataBucket.Arn
+      SourceAccount: !Ref AWS::AccountId
+
+  # --------------------------------------------------------------------------
+  # CUSTOM RESOURCE - S3 Notification Configuration
+  # --------------------------------------------------------------------------
+  S3NotificationConfigRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub xpat-ads-s3-notification-config-role-${Environment}
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: S3NotificationConfigPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:PutBucketNotification
+                  - s3:GetBucketNotification
+                Resource: !GetAtt RawDataBucket.Arn
+
+  S3NotificationConfigLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub xpat-ads-s3-notification-config-${Environment}
+      Description: Custom resource to configure S3 bucket notifications
+      Runtime: nodejs20.x
+      Handler: index.handler
+      Role: !GetAtt S3NotificationConfigRole.Arn
+      Timeout: 60
+      MemorySize: 128
+      Code:
+        ZipFile: |
+          const { S3Client, PutBucketNotificationConfigurationCommand } = require('@aws-sdk/client-s3');
+          const https = require('https');
+          const url = require('url');
+
+          const s3 = new S3Client({});
+
+          exports.handler = async (event, context) => {
+            console.log('Event:', JSON.stringify(event, null, 2));
+            
+            const responseData = {};
+            let status = 'SUCCESS';
+            
+            try {
+              if (event.RequestType === 'Delete') {
+                // Clear notifications on delete
+                await s3.send(new PutBucketNotificationConfigurationCommand({
+                  Bucket: event.ResourceProperties.BucketName,
+                  NotificationConfiguration: {}
+                }));
+              } else {
+                // Create or Update
+                await s3.send(new PutBucketNotificationConfigurationCommand({
+                  Bucket: event.ResourceProperties.BucketName,
+                  NotificationConfiguration: {
+                    LambdaFunctionConfigurations: [{
+                      Events: ['s3:ObjectCreated:*'],
+                      LambdaFunctionArn: event.ResourceProperties.LambdaArn,
+                      Filter: {
+                        Key: {
+                          FilterRules: [
+                            { Name: 'prefix', Value: 'campaigns/' },
+                            { Name: 'suffix', Value: 'data.json' }
+                          ]
+                        }
+                      }
+                    }]
+                  }
+                }));
+              }
+            } catch (error) {
+              console.error('Error:', error);
+              status = 'FAILED';
+              responseData.Error = error.message;
+            }
+            
+            // Send response to CloudFormation
+            return await sendResponse(event, context, status, responseData);
+          };
+
+          async function sendResponse(event, context, status, data) {
+            const responseBody = JSON.stringify({
+              Status: status,
+              Reason: `See CloudWatch Log Stream: ${context.logStreamName}`,
+              PhysicalResourceId: context.logStreamName,
+              StackId: event.StackId,
+              RequestId: event.RequestId,
+              LogicalResourceId: event.LogicalResourceId,
+              Data: data
+            });
+
+            const parsedUrl = url.parse(event.ResponseURL);
+            const options = {
+              hostname: parsedUrl.hostname,
+              port: 443,
+              path: parsedUrl.path,
+              method: 'PUT',
+              headers: {
+                'Content-Type': '',
+                'Content-Length': responseBody.length
+              }
+            };
+
+            return new Promise((resolve, reject) => {
+              const request = https.request(options, (response) => {
+                console.log(`Status code: ${response.statusCode}`);
+                resolve();
+              });
+              request.on('error', (error) => {
+                console.error('sendResponse error:', error);
+                reject(error);
+              });
+              request.write(responseBody);
+              request.end();
+            });
+          }
+
+  S3NotificationConfig:
+    Type: Custom::S3NotificationConfig
+    DependsOn:
+      - TransformLambdaS3Permission
+      - RawDataBucket
+      - TransformLambda
+    Properties:
+      ServiceToken: !GetAtt S3NotificationConfigLambda.Arn
+      BucketName: !Ref RawDataBucket
+      LambdaArn: !GetAtt TransformLambda.Arn
+
+  # --------------------------------------------------------------------------
+  # EVENTBRIDGE - Daily Schedule for Ingest Lambda
+  # --------------------------------------------------------------------------
+  DailyIngestSchedule:
+    Type: AWS::Events::Rule
+    Properties:
+      Name: !Sub xpat-ads-daily-ingest-${Environment}
+      Description: Triggers Google Ads data ingestion daily at 6 AM UTC
+      ScheduleExpression: cron(0 6 * * ? *)
+      State: ENABLED
+      Targets:
+        - Id: IngestLambdaTarget
+          Arn: !GetAtt IngestLambda.Arn
+
+  # Permission for EventBridge to invoke Ingest Lambda
+  IngestLambdaEventPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref IngestLambda
+      Action: lambda:InvokeFunction
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt DailyIngestSchedule.Arn
+
+  # --------------------------------------------------------------------------
+  # SNS TOPIC - Lambda Failure Alerts
+  # --------------------------------------------------------------------------
+  PipelineAlertsTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: !Sub xpat-ads-pipeline-alerts-${Environment}
+      DisplayName: XPAT Ads Pipeline Alerts
+      Tags:
+        - Key: Project
+          Value: xpat-ads-pipeline
+        - Key: Environment
+          Value: !Ref Environment
+
+  # CloudWatch Alarm for Ingest Lambda Errors
+  IngestLambdaErrorAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub xpat-ads-ingest-errors-${Environment}
+      AlarmDescription: Alerts when Ingest Lambda has errors
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions:
+        - Name: FunctionName
+          Value: !Ref IngestLambda
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions:
+        - !Ref PipelineAlertsTopic
+      OKActions:
+        - !Ref PipelineAlertsTopic
+
+  # CloudWatch Alarm for Transform Lambda Errors
+  TransformLambdaErrorAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub xpat-ads-transform-errors-${Environment}
+      AlarmDescription: Alerts when Transform Lambda has errors
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions:
+        - Name: FunctionName
+          Value: !Ref TransformLambda
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions:
+        - !Ref PipelineAlertsTopic
+      OKActions:
+        - !Ref PipelineAlertsTopic
+
+  # CloudWatch Alarm for Ingest Lambda Duration (timeout warning)
+  IngestLambdaDurationAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub xpat-ads-ingest-duration-${Environment}
+      AlarmDescription: Alerts when Ingest Lambda is approaching timeout
+      Namespace: AWS/Lambda
+      MetricName: Duration
+      Dimensions:
+        - Name: FunctionName
+          Value: !Ref IngestLambda
+      Statistic: Maximum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 240000
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions:
+        - !Ref PipelineAlertsTopic
+
+# ============================================================================
+# OUTPUTS
+# ============================================================================
+Outputs:
+  RawDataBucketName:
+    Description: S3 bucket for raw Google Ads data
+    Value: !Ref RawDataBucket
+    Export:
+      Name: !Sub ${AWS::StackName}-RawDataBucket
+
+  RawDataBucketArn:
+    Description: ARN of the S3 bucket
+    Value: !GetAtt RawDataBucket.Arn
+    Export:
+      Name: !Sub ${AWS::StackName}-RawDataBucketArn
+
+  IntelligenceTableName:
+    Description: DynamoDB table for processed intelligence data
+    Value: !Ref IntelligenceTable
+    Export:
+      Name: !Sub ${AWS::StackName}-IntelligenceTable
+
+  IntelligenceTableArn:
+    Description: ARN of the DynamoDB table
+    Value: !GetAtt IntelligenceTable.Arn
+    Export:
+      Name: !Sub ${AWS::StackName}-IntelligenceTableArn
+
+  GoogleAdsSecretArn:
+    Description: ARN of the Secrets Manager secret for Google Ads credentials
+    Value: !Ref GoogleAdsSecret
+    Export:
+      Name: !Sub ${AWS::StackName}-GoogleAdsSecretArn
+
+  IngestLambdaArn:
+    Description: ARN of the Ingest Lambda function
+    Value: !GetAtt IngestLambda.Arn
+    Export:
+      Name: !Sub ${AWS::StackName}-IngestLambdaArn
+
+  TransformLambdaArn:
+    Description: ARN of the Transform Lambda function
+    Value: !GetAtt TransformLambda.Arn
+    Export:
+      Name: !Sub ${AWS::StackName}-TransformLambdaArn
+
+  PipelineAlertsTopicArn:
+    Description: ARN of the SNS topic for pipeline alerts
+    Value: !Ref PipelineAlertsTopic
+    Export:
+      Name: !Sub ${AWS::StackName}-PipelineAlertsTopic

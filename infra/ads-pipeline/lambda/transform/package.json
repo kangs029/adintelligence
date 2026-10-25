@@ -1,0 +1,19 @@
+{
+  "name": "xpat-ads-transform-lambda",
+  "version": "1.0.0",
+  "description": "Lambda to transform and join raw Google Ads data into DynamoDB",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node --test",
+    "zip": "zip -r ../transform-lambda.zip ."
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.650.0",
+    "@aws-sdk/client-dynamodb": "^3.650.0",
+    "@aws-sdk/lib-dynamodb": "^3.650.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

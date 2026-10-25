@@ -1,0 +1,257 @@
+{
+  "data": {
+    "assistants": [
+      "ChatGPT",
+      "Gemini",
+      "Claude",
+      "Perplexity"
+    ],
+    "capturedAnswers": 0,
+    "cells": [
+      {
+        "assistant": "ChatGPT",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "best way to send money from USA to India",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Gemini",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "best way to send money from USA to India",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Claude",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "best way to send money from USA to India",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Perplexity",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "best way to send money from USA to India",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "ChatGPT",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "cheapest USD to INR transfer",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Gemini",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "cheapest USD to INR transfer",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Claude",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "cheapest USD to INR transfer",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Perplexity",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "cheapest USD to INR transfer",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "ChatGPT",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "best remittance app for NRIs",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Gemini",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "best remittance app for NRIs",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Claude",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "best remittance app for NRIs",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Perplexity",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "best remittance app for NRIs",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "ChatGPT",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "Wise vs Remitly for India",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Gemini",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "Wise vs Remitly for India",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Claude",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "Wise vs Remitly for India",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Perplexity",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "Wise vs Remitly for India",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "ChatGPT",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "is Xpat money transfer legit",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Gemini",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "is Xpat money transfer legit",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Claude",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "is Xpat money transfer legit",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      },
+      {
+        "assistant": "Perplexity",
+        "capturedAt": null,
+        "evidenceScreenshotPath": null,
+        "method": "manual capture",
+        "pendingReason": "Manual assistant answer capture is pending. Do not infer named providers without a screenshot.",
+        "providersNamed": [],
+        "query": "is Xpat money transfer legit",
+        "status": "capture-pending",
+        "xpatMentioned": false
+      }
+    ],
+    "competitorsAppearing": [],
+    "queries": [
+      "best way to send money from USA to India",
+      "cheapest USD to INR transfer",
+      "best remittance app for NRIs",
+      "Wise vs Remitly for India",
+      "is Xpat money transfer legit"
+    ],
+    "status": "partial",
+    "totalCells": 20,
+    "xpatMentions": 0
+  },
+  "meta": {
+    "caveats": [
+      "AI assistants are a growing discovery surface for corridor queries. This grid is a dated visibility benchmark, re-run monthly.",
+      "Pending cells mean no answer screenshot was captured, not that a provider was absent."
+    ],
+    "family": "geo-visibility",
+    "generatedAt": "2026-07-06T00:00:00.000Z",
+    "method": "Manual capture grid for assistant answers. Each captured answer must include named providers and a screenshot path under data/raw/geo.",
+    "provenance": "snapshot",
+    "refreshCadence": "monthly manual capture",
+    "source": "docs/geo-capture-protocol.md",
+    "version": 1
+  }
+}

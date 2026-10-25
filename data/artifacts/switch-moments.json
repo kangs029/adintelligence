@@ -1,0 +1,199 @@
+{
+  "data": {
+    "moments": [
+      {
+        "excerpt": "Can’t use changes stink where is delete account",
+        "id": "Wise:ios:14260619122",
+        "matchedPattern": "delete",
+        "provider": "Wise",
+        "reviewDate": "2026-07-04T04:21:19.000Z",
+        "store": "ios",
+        "theme": "Review excerpt"
+      },
+      {
+        "excerpt": "It used to be reliable, But now days I'm having HORRIBLE EXPERIENCE WITH THE TRANSACTIONS. THE MONEY NEVER TRANSFER THESE DAYS, AND THE REFUND TAKES FOREVER TO GET TO YOUR ACCOUNT. AND THE TRANSFER FEE NEVER GETS REFUNDED. THERE PROMISES ARE TRASH, THE EXPERIENCE IS TRASH. VERY DISSATISFIED AND DISAPPOINTED. UNINSTALLING.",
+        "id": "Aspora:android:c5e0f1ee-b7d7-4cf4-928a-79ac9dcb3d76",
+        "matchedPattern": "uninstall",
+        "provider": "Aspora",
+        "reviewDate": "2026-07-04T04:15:36.111Z",
+        "store": "android",
+        "theme": "Fees"
+      },
+      {
+        "excerpt": "So basically, my transaction got stuck for some sort of verification and when I call customer care, she says we cannot make your transaction because we could not verify your information and I said what’s the reason what’s not there she says we cannot share those information so I said, that means I cannot make my transaction?? And she said yes, so I said do I have to uninstall this app? It’s not useful. She says yes, you should uninstall l. Wth",
+        "id": "Xoom:ios:14251042253",
+        "matchedPattern": "uninstall",
+        "provider": "Xoom",
+        "reviewDate": "2026-07-01T21:04:34.000Z",
+        "store": "ios",
+        "theme": "KYC friction"
+      },
+      {
+        "excerpt": "I was going to use the app but then never ended up using it and have tried to delete my account but the close account button is greyed out even after clicking on any number of reasons why I want to close it. Should not be this difficult to close my account.",
+        "id": "Wise:ios:14213012427",
+        "matchedPattern": "delete",
+        "provider": "Wise",
+        "reviewDate": "2026-06-22T14:13:44.000Z",
+        "store": "ios",
+        "theme": "App bugs"
+      },
+      {
+        "excerpt": "Horrible customer service. Expect long hold times, constant transfers, and little to no help when issues come up. The worst part is they can place holds on transactions, cancel transfers, or even close your account with little explanation, leaving you stuck waiting for answers. Since PayPal took over, the service seems to have gone downhill. I switched to Wise and the difference is night and day. Save yourself the headache and use something else. No Stars for this if I could.",
+        "id": "Xoom:ios:14166412318",
+        "matchedPattern": "switched to",
+        "provider": "Xoom",
+        "reviewDate": "2026-06-10T15:13:04.000Z",
+        "store": "ios",
+        "theme": "Support"
+      },
+      {
+        "excerpt": "Terrible customer service, I’ve moved to US they blocked my account, I’ve uploaded all documents required and still they can’t verify me. The support through chat is awful. Will definitely be deleting my account soon though",
+        "id": "Wise:ios:14162608671",
+        "matchedPattern": "delete",
+        "provider": "Wise",
+        "reviewDate": "2026-06-09T15:28:01.000Z",
+        "store": "ios",
+        "theme": "KYC friction"
+      },
+      {
+        "excerpt": "The most frustrating app I’ve ever used. So much friction just to get someone paid. If it weren’t for it being the cheapest option for my team I’d delete this app and be overjoyed to do so. Like I said, TRASH.",
+        "id": "Wise:ios:14099716390",
+        "matchedPattern": "delete",
+        "provider": "Wise",
+        "reviewDate": "2026-05-24T07:49:17.000Z",
+        "store": "ios",
+        "theme": "App bugs"
+      },
+      {
+        "excerpt": "Tried to use the app for the first time. Logged in with Apple account. After entering country it won't scroll to the state. Deleted app and re-downloaded. Same problem. On to the competitor's app because your IT team can't figure this issue out.",
+        "id": "Wise:ios:14098961583",
+        "matchedPattern": "delete",
+        "provider": "Wise",
+        "reviewDate": "2026-05-24T02:18:20.000Z",
+        "store": "ios",
+        "theme": "App bugs"
+      },
+      {
+        "excerpt": "I am deleting this app after a very disappointing start to using the app. Was preparing for a trip out of the US. I ordered a card and paid the extra shipping fee to expedite the card arriving before I left. Without any indication that it would be sent this way they required a signature to receive the card. When I missed the first delivery I tried to sign digitally with UPS. Was informed by UPS that Wise that wasn’t an option because of Wise policy. Have received every other credit card without signature as card is not valid until activation. Left on trip without a card and tried to transfer money into account to be used with digital card. 5 days later after still no money I cancelled the bank transfer. Company told me it was all on me to be there to receive the card and refused to refund fee I paid. Completely unsatisfied I am cancelling the account.",
+        "id": "Wise:ios:14085865261",
+        "matchedPattern": "delete",
+        "provider": "Wise",
+        "reviewDate": "2026-05-20T14:34:23.000Z",
+        "store": "ios",
+        "theme": "Fees"
+      },
+      {
+        "excerpt": "I was showed 96.63 rupee per dollar and after transaction I see that I was given 95.51 rupee on the dollar. The app crashed after sending my first transaction. As I was reading the reviews, people are right about wanting to know too much info. It was weird they asked for receivers home address. Suspicious the app crashed after the first transaction raises concern over the platforms privacy. I am deleting my account and leaving the app right away.",
+        "id": "Crobo:ios:14081608721",
+        "matchedPattern": "delete",
+        "provider": "Crobo",
+        "reviewDate": "2026-05-19T11:06:30.000Z",
+        "store": "ios",
+        "theme": "Rates"
+      },
+      {
+        "excerpt": "Couldn’t use my preferred payment method or three others. What a joke. Terrible service and will be deleting this app now.",
+        "id": "Western Union:ios:13792575850",
+        "matchedPattern": "delete",
+        "provider": "Western Union",
+        "reviewDate": "2026-02-26T20:27:41.000Z",
+        "store": "ios",
+        "theme": "App bugs"
+      },
+      {
+        "excerpt": "Xoom now wants me to submit my full login info for my bank? That's a hard NO. Uninstalling immediately and will find an alternative.",
+        "id": "Xoom:android:c64db671-dcef-49e5-81f8-5b1f19757e41",
+        "matchedPattern": "uninstall",
+        "provider": "Xoom",
+        "reviewDate": "2025-10-23T00:31:51.626Z",
+        "store": "android",
+        "theme": "App bugs"
+      },
+      {
+        "excerpt": "Horrible app, worst customer service, they will not cancel any transaction, I lost my money! I'm deleting the app.",
+        "id": "Xoom:android:aad48804-7622-4c3f-b974-30fbd94f8511",
+        "matchedPattern": "delete",
+        "provider": "Xoom",
+        "reviewDate": "2025-10-01T10:42:36.702Z",
+        "store": "android",
+        "theme": "Support"
+      },
+      {
+        "excerpt": "Useless app when needed, I uninstalled. I tried to send money and after I put all the information needed to send, it started like was processing the transaction but it did not work anymore, I tried again, and I got the same results. Useless app, waste of time. Today is Saturday, March 01 of 2025 and this app is still very slow...useless!!! Someone has to do something about this app, today is doing the same thing...August 5 2025",
+        "id": "Xoom:android:c2d3f9e5-7391-4a52-877c-61ab9511cdd6",
+        "matchedPattern": "uninstall",
+        "provider": "Xoom",
+        "reviewDate": "2025-08-05T13:39:35.403Z",
+        "store": "android",
+        "theme": "Speed"
+      },
+      {
+        "excerpt": "Unable to transfer even after verifying all the details . Deleting the app.",
+        "id": "Xoom:ios:12965612519",
+        "matchedPattern": "delete",
+        "provider": "Xoom",
+        "reviewDate": "2025-08-02T04:22:05.000Z",
+        "store": "ios",
+        "theme": "App bugs"
+      },
+      {
+        "excerpt": "It’s not available in US yet, but not sure why it’s available in US App Store. Maybe to collect users phoneme and email. No option to delete account as well.",
+        "id": "Aspora:ios:11394464051",
+        "matchedPattern": "delete",
+        "provider": "Aspora",
+        "reviewDate": "2024-06-18T09:11:15.000Z",
+        "store": "ios",
+        "theme": "App bugs"
+      }
+    ],
+    "rules": [
+      {
+        "label": "switched to",
+        "pattern": "\\bswitched\\s+to\\b"
+      },
+      {
+        "label": "switching from",
+        "pattern": "\\bswitching\\s+from\\b"
+      },
+      {
+        "label": "moved to",
+        "pattern": "\\bmoved\\s+to\\b"
+      },
+      {
+        "label": "moving my transfers",
+        "pattern": "\\bmoving\\s+my\\s+transfers?\\b"
+      },
+      {
+        "label": "uninstall",
+        "pattern": "\\buninstall(?:ed|ing)?\\b"
+      },
+      {
+        "label": "delete",
+        "pattern": "\\bdelet(?:e|ed|ing)\\b"
+      },
+      {
+        "label": "left provider",
+        "pattern": "\\bleft\\s+(?:wise|remitly|xoom|western union|xpat|remit2any|aspora|crobo|provider|app)\\b"
+      }
+    ],
+    "scannedExcerpts": 4452,
+    "sourceReviewExcerpts": 4452,
+    "status": "ok",
+    "switchIntentCount": 16,
+    "unsafeMatchCount": 1
+  },
+  "meta": {
+    "caveats": [
+      "Public review excerpts showing switch intent. Presence evidence for messaging tests, not conversion data.",
+      "This artifact scans the full public review corpus during review mining before theme examples are truncated.",
+      "Matched excerpts that fail the rendered-copy guard are excluded rather than rewritten."
+    ],
+    "family": "switch-moments",
+    "generatedAt": "2026-07-06T23:36:00.000Z",
+    "method": "Rule pass over full public App Store and Google Play review excerpts using transparent switch-intent keyword patterns.",
+    "provenance": "derived",
+    "refreshCadence": "weekly with review-theme refresh",
+    "source": "data/raw/reviews/latest.json",
+    "version": 1
+  }
+}

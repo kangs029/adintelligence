@@ -1,0 +1,203 @@
+{
+  "data": {
+    "channels": [
+      {
+        "benchmarkReferenceMarket": "Dallas playbook reference market",
+        "evidenceToCheck": [
+          "Search demand export",
+          "Rate-table comparison",
+          "Review pain themes"
+        ],
+        "fitWeights": {
+          "concentration": 0.25,
+          "income": 0.2,
+          "lcaDensity": 0.15,
+          "population": 0.25,
+          "studentShare": 0.15
+        },
+        "id": "google-search",
+        "measurementPath": "Quote-page click and saved-comparison event path, requires Xpat exports for downstream funnel proof.",
+        "name": "Google Search",
+        "successMetric": "Qualified comparison clicks during the test window.",
+        "suggestedTestBudgetEstimate": "Suggested test budget, estimate: $750 to $2,000.",
+        "whenFits": "High-intent query testing in large or high-concentration markets."
+      },
+      {
+        "benchmarkReferenceMarket": "San Jose playbook reference market",
+        "evidenceToCheck": [
+          "Public creative library",
+          "Persona fit score",
+          "Community place density"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.25,
+          "concentration": 0.2,
+          "groceries": 0.15,
+          "population": 0.25,
+          "temples": 0.15
+        },
+        "id": "meta",
+        "measurementPath": "Landing-page engagement path, requires Xpat exports for downstream funnel proof.",
+        "name": "Meta community education",
+        "successMetric": "Saved comparison and quote-page engagement from transparent rate-education creative during the test window.",
+        "suggestedTestBudgetEstimate": "Suggested test budget, estimate: $500 to $1,500.",
+        "whenFits": "Transparent rate-education creative for community audiences where broad reach and local community places both matter."
+      },
+      {
+        "benchmarkReferenceMarket": "Dallas playbook reference market",
+        "evidenceToCheck": [
+          "Creator discovery artifact",
+          "Audience-fit note",
+          "Recent relevant videos"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.2,
+          "concentration": 0.2,
+          "income": 0.15,
+          "population": 0.25,
+          "studentShare": 0.2
+        },
+        "id": "youtube-creators",
+        "measurementPath": "Creator link click and comparison-page engagement path.",
+        "name": "YouTube creators",
+        "successMetric": "Audience-qualified traffic to comparison content.",
+        "suggestedTestBudgetEstimate": "Suggested test budget, estimate: connector-needed until outreach occurs.",
+        "whenFits": "Markets with student or professional audiences and public creator overlap."
+      },
+      {
+        "benchmarkReferenceMarket": "San Jose playbook reference market",
+        "evidenceToCheck": [
+          "Signals creators section",
+          "Observed Aspora and Crobo sponsor examples",
+          "Audience-fit note"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.1,
+          "concentration": 0.3,
+          "income": 0.1,
+          "population": 0.35,
+          "studentShare": 0.15
+        },
+        "id": "creator-sponsorship",
+        "measurementPath": "Tracked creator links and Xpat-owned promo-code export path; code redemptions require Xpat-owned data.",
+        "name": "Creator sponsorship",
+        "successMetric": "Creator-link clicks and promo-code redemptions once Xpat issues codes during the test window.",
+        "suggestedTestBudgetEstimate": "Suggested test budget, estimate: $500 to $1,500.",
+        "whenFits": "Creators whose audience is US-based Indians, not just Indian-content creators. Competitors already use this channel: Aspora and Crobo sponsorships are publicly observable."
+      },
+      {
+        "benchmarkReferenceMarket": "San Jose playbook reference market",
+        "evidenceToCheck": [
+          "Named Indian grocery surfaces",
+          "OSM source links",
+          "Market community-place density"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.25,
+          "concentration": 0.15,
+          "groceries": 0.45,
+          "population": 0.15
+        },
+        "id": "grocery-retail-media",
+        "measurementPath": "QR scan and quote-page engagement path.",
+        "name": "Grocery retail media",
+        "successMetric": "QR scans and saved comparisons during the test window.",
+        "suggestedTestBudgetEstimate": "Suggested test budget, estimate: $300 to $900.",
+        "whenFits": "Markets with named Indian grocery surfaces and enough population to support offline testing."
+      },
+      {
+        "benchmarkReferenceMarket": "Detroit playbook reference market",
+        "evidenceToCheck": [
+          "Named temple and community surfaces",
+          "OSM source links",
+          "Market concentration"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.25,
+          "concentration": 0.15,
+          "population": 0.15,
+          "temples": 0.45
+        },
+        "id": "temple-community",
+        "measurementPath": "Event QR scan and comparison-page engagement path.",
+        "name": "Temple and community sponsorship",
+        "successMetric": "QR scans and opt-in comparison saves during the test window.",
+        "suggestedTestBudgetEstimate": "Suggested test budget, estimate: $250 to $800.",
+        "whenFits": "Markets with named temple and community surfaces."
+      },
+      {
+        "benchmarkReferenceMarket": "Dallas playbook reference market",
+        "evidenceToCheck": [
+          "Named cricket grounds",
+          "OSM source links",
+          "Community place density"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.2,
+          "concentration": 0.1,
+          "cricket": 0.55,
+          "population": 0.15
+        },
+        "id": "cricket-sponsorship",
+        "measurementPath": "League QR scan and comparison-page engagement path.",
+        "name": "Cricket sponsorship",
+        "successMetric": "QR scans from named cricket surfaces during the test window.",
+        "suggestedTestBudgetEstimate": "Suggested test budget, estimate: $300 to $1,000.",
+        "whenFits": "Markets with cricket grounds and enough local population for event testing."
+      },
+      {
+        "benchmarkReferenceMarket": "San Jose playbook reference market",
+        "evidenceToCheck": [
+          "Cinema footprint artifact",
+          "Release-window timing",
+          "Market population"
+        ],
+        "fitWeights": {
+          "anchorDensity": 0.1,
+          "concentration": 0.15,
+          "population": 0.2,
+          "theaters": 0.55
+        },
+        "id": "theater-lobby",
+        "measurementPath": "Release-window QR scan and comparison-page engagement path.",
+        "name": "Theater lobby",
+        "successMetric": "QR scans during a defined release window.",
+        "suggestedTestBudgetEstimate": "Suggested test budget, estimate: $250 to $900.",
+        "whenFits": "Markets with Indian cinema footprint and dated release windows."
+      },
+      {
+        "benchmarkReferenceMarket": "Indianapolis playbook reference market",
+        "evidenceToCheck": [
+          "Student allocation",
+          "Campus surface list",
+          "First-time remitter persona fit"
+        ],
+        "fitWeights": {
+          "concentration": 0.1,
+          "population": 0.1,
+          "studentShare": 0.45,
+          "studentVolume": 0.35
+        },
+        "id": "campus",
+        "measurementPath": "Campus QR scan and setup-guide engagement path.",
+        "name": "Campus",
+        "successMetric": "Setup-guide engagement during the test window.",
+        "suggestedTestBudgetEstimate": "Suggested test budget, estimate: $200 to $700.",
+        "whenFits": "Markets with high student share or large state-allocated student volume."
+      }
+    ]
+  },
+  "meta": {
+    "caveats": [
+      "Channel scores are planning recommendations with reference markets.",
+      "Downstream funnel proof requires Xpat-owned exports."
+    ],
+    "family": "channels",
+    "generatedAt": "2026-07-03T00:00:00.000Z",
+    "method": "Curated channel cards scored by a pure function over market features and evidence requirements.",
+    "provenance": "derived",
+    "refreshCadence": "manual when channel strategy changes",
+    "source": "Xpat OS PRD and derived market artifacts",
+    "version": 1
+  }
+}

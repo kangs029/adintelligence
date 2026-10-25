@@ -1,0 +1,110 @@
+{
+  "data": {
+    "profiles": [
+      {
+        "capturedAt": "2026-07-06T23:33:44.241Z",
+        "caveat": null,
+        "competitor": "Aspora",
+        "feeClaim": "Zero fee for 3 transfers.",
+        "headline": "Global finance for global Indians",
+        "introOffer": "Zero fee for 3 transfers.",
+        "landingPageUrl": "https://www.aspora.com/us",
+        "positioningLine": "Global finance for global Indians with guaranteed Google rates and NRI banking adjacencies.",
+        "screenshotRawPath": "data/raw/positioning/aspora.png",
+        "speedClaim": "Secure, lightning fast transfers at guaranteed Google rates.",
+        "status": "snapshot"
+      },
+      {
+        "capturedAt": "2026-07-06T23:33:44.241Z",
+        "caveat": null,
+        "competitor": "Crobo",
+        "feeClaim": "Zero fees. What you see is what you get, no surprises, no extra charges.",
+        "headline": "Transfer money to India at Google rates",
+        "introOffer": "Download the app now.",
+        "landingPageUrl": "https://www.crobo.money/",
+        "positioningLine": "Transfer money from the USA to India at Google rates with instant transfer, zero fees, and bank-account delivery.",
+        "screenshotRawPath": "data/raw/positioning/crobo.png",
+        "speedClaim": "Instant transfer, zero fees, best exchange rate.",
+        "status": "snapshot"
+      },
+      {
+        "capturedAt": "2026-07-06T23:33:44.241Z",
+        "caveat": null,
+        "competitor": "Remitly",
+        "feeClaim": "Enjoy consistently great rates and no hidden fees.",
+        "headline": "Send money to India from the United States",
+        "introOffer": "Limited time offer.",
+        "landingPageUrl": "https://www.remitly.com/us/en/india",
+        "positioningLine": "Send money to India from the United States with delivery options and transfer status updates.",
+        "screenshotRawPath": "data/raw/positioning/remitly.png",
+        "speedClaim": "Delivery time guaranteed You can trust that transfers will be delivered on time or we’ll refund your fees.",
+        "status": "snapshot"
+      },
+      {
+        "capturedAt": "2026-07-06T23:33:44.241Z",
+        "caveat": null,
+        "competitor": "Western Union",
+        "feeClaim": "Fees and rates subject to change without notice.",
+        "headline": "Send Money to India",
+        "introOffer": "Offer not available for Quick Collect, transfers within the United Sates, credit cards and Google Play.",
+        "landingPageUrl": "https://www.westernunion.com/us/en/send-money-to-india.html",
+        "positioningLine": "Send money to India online with convenient pricing, rewards, and transfer status tracking.",
+        "screenshotRawPath": "data/raw/positioning/western-union.png",
+        "speedClaim": "Fast online money transfers with convenient pricing and rewards.",
+        "status": "snapshot"
+      },
+      {
+        "capturedAt": "2026-07-06T23:33:44.241Z",
+        "caveat": null,
+        "competitor": "Wise",
+        "feeClaim": "If your provider says there's no fee, check their exchange rate against the one Wise offers.",
+        "headline": "Send money to India",
+        "introOffer": "Create free account now Larger transfers.",
+        "landingPageUrl": "https://wise.com/us/send-money/send-money-to-india",
+        "positioningLine": "Send money to India with Wise using transparent fees and exchange-rate comparison.",
+        "screenshotRawPath": "data/raw/positioning/wise.png",
+        "speedClaim": "People who care, 24/7 With over 1,000 anti-fraud specialists, and real human help available every minute, we're on hand when you've got questions.",
+        "status": "snapshot"
+      },
+      {
+        "capturedAt": "2026-07-06T23:33:44.241Z",
+        "caveat": null,
+        "competitor": "Xoom",
+        "feeClaim": "Enjoy a promotional first time rate on your initial transfer plus no Xoom transfer fees on eligible transactions.",
+        "headline": "Send money to India",
+        "introOffer": null,
+        "landingPageUrl": "https://www.xoom.com/india/send-money",
+        "positioningLine": "Send money to India with fast, secure online transfers and promotional first-transfer pricing.",
+        "screenshotRawPath": "data/raw/positioning/xoom.png",
+        "speedClaim": "Send money to India Fast, secure, and affordable online money transfers to India.",
+        "status": "snapshot"
+      },
+      {
+        "capturedAt": "2026-07-06T23:33:44.241Z",
+        "caveat": null,
+        "competitor": "Xpat",
+        "feeClaim": "Zero fees, best rates, and complete peace of mind.",
+        "headline": "Xpat (formerly Remit2Any) | Safe & Secure Money transfers to India | Zero Fees",
+        "introOffer": "US - TO - US TRANSFERS AT ZERO COST Supporting loved ones in all 50 states, completely free.",
+        "landingPageUrl": "https://xpat.money/",
+        "positioningLine": "Money transfers for smart NRIs with zero fees, published rates, and India-focused support.",
+        "screenshotRawPath": "data/raw/positioning/xpat.png",
+        "speedClaim": "money got credited to Indian bank account in less than 10 minutes.",
+        "status": "snapshot"
+      }
+    ]
+  },
+  "meta": {
+    "caveats": [
+      "Positioning cards quote or summarize public landing-page copy only.",
+      "Public page copy does not prove targeting, delivery, or performance."
+    ],
+    "family": "competitor-positioning",
+    "generatedAt": "2026-07-06T23:33:44.241Z",
+    "method": "Weekly-max Playwright capture of each competitor US to India landing page. Raw screenshots stay in data/raw/positioning. Curated overlay merges hand-reviewed positioning copy.",
+    "provenance": "snapshot",
+    "refreshCadence": "weekly manual sweep",
+    "source": "Competitor public landing pages",
+    "version": 1
+  }
+}

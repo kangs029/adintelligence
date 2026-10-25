@@ -1,0 +1,14 @@
+{
+  "notes": "Hand-captured from the Xpat dashboard quote widget (logged-in customer quote, not a public marketing page). Quote shown at a $100 send amount: $100.00 to INR 9,515.00, zero fees. Do not render this as rate evidence for the $1,000 table because no public or matching $1,000 quote was captured. TODO: fill numeric fields only after a public or matching $1,000 quote capture.",
+  "quotes": [
+    {
+      "capturedAt": "2026-07-06T02:05:00.000Z",
+      "feeUSD": null,
+      "method": "manual",
+      "provider": "Xpat",
+      "quotedRate": null,
+      "receiveAmountFor1000USD": null,
+      "sourceUrl": "https://xpat.money/"
+    }
+  ]
+}

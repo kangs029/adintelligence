@@ -1,0 +1,30 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - corepack enable
+        - corepack prepare pnpm@11.7.0 --activate
+        - pnpm install --frozen-lockfile
+    build:
+      commands:
+        # Write env vars to .env.production so Next.js SSR runtime can read them.
+        # Uses printenv which exits 0 whether or not the var is set.
+        # See: https://docs.aws.amazon.com/amplify/latest/userguide/ssr-environment-variables.html
+        - printenv BEDROCK_ACCESS_KEY_ID | xargs -I{} echo "BEDROCK_ACCESS_KEY_ID={}" >> .env.production || true
+        - printenv BEDROCK_SECRET_ACCESS_KEY | xargs -I{} echo "BEDROCK_SECRET_ACCESS_KEY={}" >> .env.production || true
+        - printenv BEDROCK_AWS_REGION | xargs -I{} echo "BEDROCK_AWS_REGION={}" >> .env.production || true
+        - printenv BEDROCK_MODEL_ID | xargs -I{} echo "BEDROCK_MODEL_ID={}" >> .env.production || true
+        - printenv NEXT_TELEMETRY_DISABLED | xargs -I{} echo "NEXT_TELEMETRY_DISABLED={}" >> .env.production || true
+        - printenv XPAT_ACCESS_PASSWORD | xargs -I{} echo "XPAT_ACCESS_PASSWORD={}" >> .env.production || true
+        - printenv ADS_DYNAMODB_TABLE | xargs -I{} echo "ADS_DYNAMODB_TABLE={}" >> .env.production || true
+        - printenv ADS_DYNAMODB_REGION | xargs -I{} echo "ADS_DYNAMODB_REGION={}" >> .env.production || true
+        - pnpm build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
+      - .next/cache/**/*

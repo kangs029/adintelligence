@@ -1,0 +1,42 @@
+{
+  "notes": "Hand-correct only public landing-page positioning copy after reviewing the page or screenshot. Do not add performance, CAC, spend, conversion, or ROI claims.",
+  "overrides": [
+    {
+      "competitor": "Xpat",
+      "positioningLine": "Money transfers for smart NRIs with zero fees, published rates, and India-focused support."
+    },
+    {
+      "competitor": "Remitly",
+      "feeClaim": "Enjoy consistently great rates and no hidden fees.",
+      "positioningLine": "Send money to India from the United States with delivery options and transfer status updates."
+    },
+    {
+      "competitor": "Wise",
+      "positioningLine": "Send money to India with Wise using transparent fees and exchange-rate comparison."
+    },
+    {
+      "competitor": "Xoom",
+      "positioningLine": "Send money to India with fast, secure online transfers and promotional first-transfer pricing."
+    },
+    {
+      "competitor": "Western Union",
+      "positioningLine": "Send money to India online with convenient pricing, rewards, and transfer status tracking."
+    },
+    {
+      "competitor": "Aspora",
+      "feeClaim": "Zero fee for 3 transfers.",
+      "headline": "Global finance for global Indians",
+      "introOffer": "Zero fee for 3 transfers.",
+      "positioningLine": "Global finance for global Indians with guaranteed Google rates and NRI banking adjacencies.",
+      "speedClaim": "Secure, lightning fast transfers at guaranteed Google rates."
+    },
+    {
+      "competitor": "Crobo",
+      "feeClaim": "Zero fees. What you see is what you get, no surprises, no extra charges.",
+      "headline": "Transfer money to India at Google rates",
+      "introOffer": "Download the app now.",
+      "positioningLine": "Transfer money from the USA to India at Google rates with instant transfer, zero fees, and bank-account delivery.",
+      "speedClaim": "Instant transfer, zero fees, best exchange rate."
+    }
+  ]
+}

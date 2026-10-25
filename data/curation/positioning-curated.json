@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "capturedAt": "2026-07-06T23:33:44.241Z",
+    "note": "Curated view over data/artifacts/competitor-positioning.json. Wording is cleaned from captured public landing-page copy; raw screenshots stay in data/raw/positioning.",
+    "sourceArtifact": "data/artifacts/competitor-positioning.json"
+  },
+  "providers": [
+    {
+      "capturedAt": "2026-07-06T23:33:44.241Z",
+      "claims": {
+        "differentiator": "Money transfers for smart NRIs with zero fees, published rates, and India-focused support.",
+        "feeClaim": "Zero fees, best rates, and complete peace of mind.",
+        "introOffer": "US-to-US transfers at zero cost.",
+        "speedClaim": "Bank credit in less than 10 minutes."
+      },
+      "provider": "Xpat",
+      "screenshotRawPath": "data/raw/positioning/xpat.png",
+      "sourceUrl": "https://xpat.money/"
+    },
+    {
+      "capturedAt": "2026-07-06T23:33:44.241Z",
+      "claims": {
+        "differentiator": "Delivery options and transfer status updates.",
+        "feeClaim": "Consistently great rates and no hidden fees.",
+        "introOffer": "Limited time offer.",
+        "speedClaim": "Delivery time guaranteed, with fees refunded if late."
+      },
+      "provider": "Remitly",
+      "screenshotRawPath": "data/raw/positioning/remitly.png",
+      "sourceUrl": "https://www.remitly.com/us/en/india"
+    },
+    {
+      "capturedAt": "2026-07-06T23:33:44.241Z",
+      "claims": {
+        "differentiator": "Transparent fees and exchange-rate comparison.",
+        "feeClaim": "Check exchange rates against providers that say there is no fee.",
+        "introOffer": "Create a free account.",
+        "speedClaim": "Not captured as a lead claim in this sweep."
+      },
+      "provider": "Wise",
+      "screenshotRawPath": "data/raw/positioning/wise.png",
+      "sourceUrl": "https://wise.com/us/send-money/send-money-to-india"
+    },
+    {
+      "capturedAt": "2026-07-06T23:33:44.241Z",
+      "claims": {
+        "differentiator": "Fast, secure online transfers and promotional first-time pricing.",
+        "feeClaim": "No Xoom transfer fees on eligible transactions.",
+        "introOffer": "Promotional first-time rate on the initial transfer.",
+        "speedClaim": "Fast, secure, and affordable online money transfers to India."
+      },
+      "provider": "Xoom",
+      "screenshotRawPath": "data/raw/positioning/xoom.png",
+      "sourceUrl": "https://www.xoom.com/india/send-money"
+    },
+    {
+      "capturedAt": "2026-07-06T23:33:44.241Z",
+      "claims": {
+        "differentiator": "Rewards and transfer status tracking.",
+        "feeClaim": "Convenient pricing with rewards.",
+        "introOffer": "Not captured as a lead claim in this sweep.",
+        "speedClaim": "Fast online money transfers with convenient pricing and rewards."
+      },
+      "provider": "Western Union",
+      "screenshotRawPath": "data/raw/positioning/western-union.png",
+      "sourceUrl": "https://www.westernunion.com/us/en/send-money-to-india.html"
+    },
+    {
+      "capturedAt": "2026-07-06T23:33:44.241Z",
+      "claims": {
+        "differentiator": "Global finance for global Indians with guaranteed Google rates and NRI banking adjacencies.",
+        "feeClaim": "Zero fee for 3 transfers.",
+        "introOffer": "Zero fee for 3 transfers.",
+        "speedClaim": "Secure, lightning fast transfers at guaranteed Google rates."
+      },
+      "provider": "Aspora",
+      "screenshotRawPath": "data/raw/positioning/aspora.png",
+      "sourceUrl": "https://www.aspora.com/us"
+    },
+    {
+      "capturedAt": "2026-07-06T23:33:44.241Z",
+      "claims": {
+        "differentiator": "Transfer money from the USA to India at Google rates with instant transfer, zero fees, and bank-account delivery.",
+        "feeClaim": "Zero fees. What you see is what you get, no surprises, no extra charges.",
+        "introOffer": "Download the app now.",
+        "speedClaim": "Instant transfer, zero fees, best exchange rate."
+      },
+      "provider": "Crobo",
+      "screenshotRawPath": "data/raw/positioning/crobo.png",
+      "sourceUrl": "https://www.crobo.money/"
+    }
+  ]
+}

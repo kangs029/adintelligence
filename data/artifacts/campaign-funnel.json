@@ -1,0 +1,3874 @@
+{
+  "data": {
+    "benchmarks": {
+      "avgPhoneVerifiedRate": 67.8,
+      "avgTransferRate": 19.1,
+      "avgUsBankAddedRate": 31.8,
+      "overallTransferRate": 15.4,
+      "totalSignups": 6167,
+      "totalSpendUsd": 256213.19,
+      "totalTransfers": 952
+    },
+    "campaigns": [
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 92.87,
+        "clicks": null,
+        "completedFirstTransfer": 460,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 141,
+        "impressions": null,
+        "indianBankAdded": 816,
+        "indianBankAddedRate": 58.2,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 89.56,
+        "phoneVerified": 1227,
+        "phoneVerifiedRate": 87.6,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-12-11",
+        "signupDateTo": "2026-09-08",
+        "signups": 1401,
+        "spendUsd": null,
+        "transferRate": 32.8,
+        "usBankAdded": 789,
+        "usBankAddedRate": 56.3,
+        "utmCampaignNormalized": "cr_profile",
+        "utmCampaignRaw": [
+          "cr_profile"
+        ],
+        "utmMediums": [
+          "profile"
+        ],
+        "utmSources": [
+          "compareremit"
+        ]
+      },
+      {
+        "adCampaignId": "22058403586",
+        "adCampaignName": "ST_BoF_Display_Remarketing",
+        "adDateFrom": "2025-08-25",
+        "adDateTo": "2026-04-05",
+        "adJoinMethod": "id",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 89.98,
+        "clicks": 31822,
+        "completedFirstTransfer": 0,
+        "costPerSignup": 6.67,
+        "costPerTransfer": null,
+        "cpc": 0.22,
+        "ctr": 2.55,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 156,
+        "impressions": 1249897,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 87.56,
+        "phoneVerified": 43,
+        "phoneVerifiedRate": 4.1,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-10-03",
+        "signupDateTo": "2026-04-27",
+        "signups": 1042,
+        "spendUsd": 6954.61,
+        "transferRate": 0,
+        "usBankAdded": 1,
+        "usBankAddedRate": 0.1,
+        "utmCampaignNormalized": "22058403586",
+        "utmCampaignRaw": [
+          "22058403586"
+        ],
+        "utmMediums": [
+          "display"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": "22172092703",
+        "adCampaignName": "ST_Generic_Search_Jan28",
+        "adDateFrom": "2025-08-25",
+        "adDateTo": "2026-04-21",
+        "adJoinMethod": "name",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 90.18,
+        "clicks": 10046,
+        "completedFirstTransfer": 82,
+        "costPerSignup": 29.28,
+        "costPerTransfer": 337.74,
+        "cpc": 2.76,
+        "ctr": 6.69,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 167,
+        "impressions": 150089,
+        "indianBankAdded": 185,
+        "indianBankAddedRate": 19.6,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 87.56,
+        "phoneVerified": 699,
+        "phoneVerifiedRate": 73.9,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-09-08",
+        "signupDateTo": "2026-07-16",
+        "signups": 946,
+        "spendUsd": 27694.5,
+        "transferRate": 8.7,
+        "usBankAdded": 202,
+        "usBankAddedRate": 21.4,
+        "utmCampaignNormalized": "st_generic_search_jan28",
+        "utmCampaignRaw": [
+          "ST_Generic_Search_Jan28",
+          "st_generic_search_jan28"
+        ],
+        "utmMediums": [
+          "cpc",
+          "paid_search",
+          "ppc"
+        ],
+        "utmSources": [
+          "google",
+          "googleads",
+          "st_google_ads"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 93.12,
+        "clicks": null,
+        "completedFirstTransfer": 131,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 129,
+        "impressions": null,
+        "indianBankAdded": 195,
+        "indianBankAddedRate": 45.5,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 89.85,
+        "phoneVerified": 338,
+        "phoneVerifiedRate": 78.8,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-12-31",
+        "signupDateTo": "2026-08-17",
+        "signups": 429,
+        "spendUsd": null,
+        "transferRate": 30.5,
+        "usBankAdded": 211,
+        "usBankAddedRate": 49.2,
+        "utmCampaignNormalized": "st_brand_search_feb21",
+        "utmCampaignRaw": [
+          "ST_Brand_Search_Feb21"
+        ],
+        "utmMediums": [
+          "cpc",
+          "ppc"
+        ],
+        "utmSources": [
+          "google",
+          "googleads"
+        ]
+      },
+      {
+        "adCampaignId": "22044091432",
+        "adCampaignName": "ST_Search_Competitors",
+        "adDateFrom": "2025-08-25",
+        "adDateTo": "2026-03-04",
+        "adJoinMethod": "prefix",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 89.5,
+        "clicks": 11536,
+        "completedFirstTransfer": 15,
+        "costPerSignup": 62.97,
+        "costPerTransfer": 1485.99,
+        "cpc": 1.93,
+        "ctr": 9.87,
+        "devices": [],
+        "fxDataPoints": 135,
+        "impressions": 116902,
+        "indianBankAdded": 32,
+        "indianBankAddedRate": 9,
+        "maxUsdInrRate": 92.15,
+        "minUsdInrRate": 87.56,
+        "phoneVerified": 228,
+        "phoneVerifiedRate": 64.4,
+        "platforms": [],
+        "signupDateFrom": "2025-12-09",
+        "signupDateTo": "2026-02-05",
+        "signups": 354,
+        "spendUsd": 22289.82,
+        "transferRate": 4.2,
+        "usBankAdded": 47,
+        "usBankAddedRate": 13.3,
+        "utmCampaignNormalized": "st_search_competitors_0912",
+        "utmCampaignRaw": [
+          "ST_Search_Competitors_0912"
+        ],
+        "utmMediums": [
+          "cpc",
+          "cps"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": "23875790790",
+        "adCampaignName": "EDM_Search_Brand_260526",
+        "adDateFrom": "2026-05-26",
+        "adDateTo": "2026-08-24",
+        "adJoinMethod": "name",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 95.05,
+        "clicks": 2651,
+        "completedFirstTransfer": 34,
+        "costPerSignup": 20.34,
+        "costPerTransfer": 165.11,
+        "cpc": 2.12,
+        "ctr": 12.25,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 29,
+        "impressions": 21634,
+        "indianBankAdded": 50,
+        "indianBankAddedRate": 18.1,
+        "maxUsdInrRate": 95.78,
+        "minUsdInrRate": 94.33,
+        "phoneVerified": 126,
+        "phoneVerifiedRate": 45.7,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-05-26",
+        "signupDateTo": "2026-09-08",
+        "signups": 276,
+        "spendUsd": 5613.64,
+        "transferRate": 12.3,
+        "usBankAdded": 54,
+        "usBankAddedRate": 19.6,
+        "utmCampaignNormalized": "edm_search_brand_260526",
+        "utmCampaignRaw": [
+          "EDM_Search_Brand_260526"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": "22044091432",
+        "adCampaignName": "ST_Search_Competitors",
+        "adDateFrom": "2025-08-25",
+        "adDateTo": "2026-03-04",
+        "adJoinMethod": "prefix",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 89.5,
+        "clicks": 11536,
+        "completedFirstTransfer": 28,
+        "costPerSignup": 85.73,
+        "costPerTransfer": 796.07,
+        "cpc": 1.93,
+        "ctr": 9.87,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 135,
+        "impressions": 116902,
+        "indianBankAdded": 53,
+        "indianBankAddedRate": 20.4,
+        "maxUsdInrRate": 92.15,
+        "minUsdInrRate": 87.56,
+        "phoneVerified": 159,
+        "phoneVerifiedRate": 61.2,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-02",
+        "signupDateTo": "2026-04-19",
+        "signups": 260,
+        "spendUsd": 22289.82,
+        "transferRate": 10.8,
+        "usBankAdded": 57,
+        "usBankAddedRate": 21.9,
+        "utmCampaignNormalized": "st_search_competitorskycverified",
+        "utmCampaignRaw": [
+          "ST_Search_CompetitorsKycverified"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google",
+          "googleads"
+        ]
+      },
+      {
+        "adCampaignId": "23867726121",
+        "adCampaignName": "Search Ads | Intent | May 2026",
+        "adDateFrom": "2026-05-22",
+        "adDateTo": "2026-08-24",
+        "adJoinMethod": "manual",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 95.08,
+        "clicks": 1300,
+        "completedFirstTransfer": 32,
+        "costPerSignup": 49.92,
+        "costPerTransfer": 302.65,
+        "cpc": 7.45,
+        "ctr": 4.9,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 31,
+        "impressions": 26552,
+        "indianBankAdded": 73,
+        "indianBankAddedRate": 37.6,
+        "maxUsdInrRate": 95.78,
+        "minUsdInrRate": 94.33,
+        "phoneVerified": 136,
+        "phoneVerifiedRate": 70.1,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-06-17",
+        "signupDateTo": "2026-09-08",
+        "signups": 194,
+        "spendUsd": 9684.89,
+        "transferRate": 16.5,
+        "usBankAdded": 59,
+        "usBankAddedRate": 30.4,
+        "utmCampaignNormalized": "searchi",
+        "utmCampaignRaw": [
+          "SearchI"
+        ],
+        "utmMediums": [
+          "HER",
+          "InTransfer",
+          "RRI"
+        ],
+        "utmSources": [
+          "GA"
+        ]
+      },
+      {
+        "adCampaignId": "23644143739",
+        "adCampaignName": "ST_Generic_Search_Mar10 (New)",
+        "adDateFrom": "2026-03-10",
+        "adDateTo": "2026-08-15",
+        "adJoinMethod": "prefix",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 94.41,
+        "clicks": 1617,
+        "completedFirstTransfer": 32,
+        "costPerSignup": 32.59,
+        "costPerTransfer": 157.84,
+        "cpc": 3.12,
+        "ctr": 4.42,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 81,
+        "impressions": 36545,
+        "indianBankAdded": 63,
+        "indianBankAddedRate": 40.6,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 91.96,
+        "phoneVerified": 121,
+        "phoneVerifiedRate": 78.1,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-11",
+        "signupDateTo": "2026-06-20",
+        "signups": 155,
+        "spendUsd": 5051,
+        "transferRate": 20.6,
+        "usBankAdded": 60,
+        "usBankAddedRate": 38.7,
+        "utmCampaignNormalized": "st_generic_search_mar10",
+        "utmCampaignRaw": [
+          "ST_Generic_Search_Mar10"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google",
+          "googleads"
+        ]
+      },
+      {
+        "adCampaignId": "23853084120",
+        "adCampaignName": "EDM_New_Generic_Priceing_Update_May_2026",
+        "adDateFrom": "2026-05-18",
+        "adDateTo": "2026-07-17",
+        "adJoinMethod": "name",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 95.24,
+        "clicks": 914,
+        "completedFirstTransfer": 5,
+        "costPerSignup": 51.57,
+        "costPerTransfer": 1062.43,
+        "cpc": 5.81,
+        "ctr": 4.42,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 35,
+        "impressions": 20673,
+        "indianBankAdded": 12,
+        "indianBankAddedRate": 11.7,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 94.33,
+        "phoneVerified": 62,
+        "phoneVerifiedRate": 60.2,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-12-19",
+        "signupDateTo": "2026-07-16",
+        "signups": 103,
+        "spendUsd": 5312.17,
+        "transferRate": 4.9,
+        "usBankAdded": 10,
+        "usBankAddedRate": 9.7,
+        "utmCampaignNormalized": "edm_new_generic_priceing_update_may_2026",
+        "utmCampaignRaw": [
+          "EDM_New_Generic_Priceing_Update_May_2026"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": "22629614536",
+        "adCampaignName": "ST_ToF_Display_Website",
+        "adDateFrom": "2025-08-25",
+        "adDateTo": "2026-04-14",
+        "adJoinMethod": "id",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 90.08,
+        "clicks": 6043,
+        "completedFirstTransfer": 1,
+        "costPerSignup": 65.63,
+        "costPerTransfer": 5775.58,
+        "cpc": 0.96,
+        "ctr": 0.35,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 162,
+        "impressions": 1725799,
+        "indianBankAdded": 3,
+        "indianBankAddedRate": 3.4,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 87.56,
+        "phoneVerified": 45,
+        "phoneVerifiedRate": 51.1,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-09-09",
+        "signupDateTo": "2026-05-19",
+        "signups": 88,
+        "spendUsd": 5775.58,
+        "transferRate": 1.1,
+        "usBankAdded": 6,
+        "usBankAddedRate": 6.8,
+        "utmCampaignNormalized": "22629614536",
+        "utmCampaignRaw": [
+          "22629614536"
+        ],
+        "utmMediums": [
+          "display"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": "24156745636",
+        "adCampaignName": "Generic Search _ 19 Aug 2026",
+        "adDateFrom": "2026-08-19",
+        "adDateTo": "2026-08-24",
+        "adJoinMethod": "manual",
+        "adPlatform": "Google",
+        "avgUsdInrRate": null,
+        "clicks": 119,
+        "completedFirstTransfer": 23,
+        "costPerSignup": 11.52,
+        "costPerTransfer": 40.07,
+        "cpc": 7.74,
+        "ctr": 4.03,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 0,
+        "impressions": 2954,
+        "indianBankAdded": 40,
+        "indianBankAddedRate": 50,
+        "maxUsdInrRate": null,
+        "minUsdInrRate": null,
+        "phoneVerified": 61,
+        "phoneVerifiedRate": 76.3,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-08-19",
+        "signupDateTo": "2026-09-08",
+        "signups": 80,
+        "spendUsd": 921.64,
+        "transferRate": 28.8,
+        "usBankAdded": 36,
+        "usBankAddedRate": 45,
+        "utmCampaignNormalized": "ga-gs--gste",
+        "utmCampaignRaw": [
+          "GA-GS--GSTE"
+        ],
+        "utmMediums": [
+          "GA-GS--GSTE"
+        ],
+        "utmSources": [
+          "GA-GS--GSTE"
+        ]
+      },
+      {
+        "adCampaignId": "22044091432",
+        "adCampaignName": "ST_Search_Competitors",
+        "adDateFrom": "2025-08-25",
+        "adDateTo": "2026-03-04",
+        "adJoinMethod": "name",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 89.5,
+        "clicks": 11536,
+        "completedFirstTransfer": 12,
+        "costPerSignup": 365.41,
+        "costPerTransfer": 1857.49,
+        "cpc": 1.93,
+        "ctr": 9.87,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 135,
+        "impressions": 116902,
+        "indianBankAdded": 16,
+        "indianBankAddedRate": 26.2,
+        "maxUsdInrRate": 92.15,
+        "minUsdInrRate": 87.56,
+        "phoneVerified": 50,
+        "phoneVerifiedRate": 82,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-01-23",
+        "signupDateTo": "2026-04-01",
+        "signups": 61,
+        "spendUsd": 22289.82,
+        "transferRate": 19.7,
+        "usBankAdded": 17,
+        "usBankAddedRate": 27.9,
+        "utmCampaignNormalized": "st_search_competitors",
+        "utmCampaignRaw": [
+          "ST_Search_Competitors"
+        ],
+        "utmMediums": [
+          "cpc",
+          "ppc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.78,
+        "clicks": null,
+        "completedFirstTransfer": 18,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 43,
+        "impressions": null,
+        "indianBankAdded": 31,
+        "indianBankAddedRate": 51.7,
+        "maxUsdInrRate": 91.94,
+        "minUsdInrRate": 89.8,
+        "phoneVerified": 48,
+        "phoneVerifiedRate": 80,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-12-30",
+        "signupDateTo": "2026-03-01",
+        "signups": 60,
+        "spendUsd": null,
+        "transferRate": 30,
+        "usBankAdded": 32,
+        "usBankAddedRate": 53.3,
+        "utmCampaignNormalized": "msg_campaign",
+        "utmCampaignRaw": [
+          "msg_campaign"
+        ],
+        "utmMediums": [
+          "cpc",
+          "ig_bio"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": "24127354718",
+        "adCampaignName": "Comp Brand Ads | 12 Aug 2026",
+        "adDateFrom": "2026-08-11",
+        "adDateTo": "2026-08-24",
+        "adJoinMethod": "manual",
+        "adPlatform": "Google",
+        "avgUsdInrRate": null,
+        "clicks": 311,
+        "completedFirstTransfer": 1,
+        "costPerSignup": 13.38,
+        "costPerTransfer": 722.68,
+        "cpc": 2.32,
+        "ctr": 3.63,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 0,
+        "impressions": 8575,
+        "indianBankAdded": 6,
+        "indianBankAddedRate": 11.1,
+        "maxUsdInrRate": null,
+        "minUsdInrRate": null,
+        "phoneVerified": 21,
+        "phoneVerifiedRate": 38.9,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-08-13",
+        "signupDateTo": "2026-09-08",
+        "signups": 54,
+        "spendUsd": 722.68,
+        "transferRate": 1.9,
+        "usBankAdded": 7,
+        "usBankAddedRate": 13,
+        "utmCampaignNormalized": "ga-comp",
+        "utmCampaignRaw": [
+          "GA-Comp"
+        ],
+        "utmMediums": [
+          "GA-Comp"
+        ],
+        "utmSources": [
+          "GA-Comp"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": null,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 0,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": null,
+        "minUsdInrRate": null,
+        "phoneVerified": 12,
+        "phoneVerifiedRate": 25,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-08-29",
+        "signupDateTo": "2026-09-06",
+        "signups": 48,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 1,
+        "usBankAddedRate": 2.1,
+        "utmCampaignNormalized": "ga-pmax-2k-tc",
+        "utmCampaignRaw": [
+          "GA-pmax-2k-tc"
+        ],
+        "utmMediums": [
+          "GA-pmax-2k-tc"
+        ],
+        "utmSources": [
+          "GA-pmax-2k-tc"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 93.36,
+        "clicks": null,
+        "completedFirstTransfer": 3,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 16,
+        "impressions": null,
+        "indianBankAdded": 6,
+        "indianBankAddedRate": 13.6,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 92.22,
+        "phoneVerified": 29,
+        "phoneVerifiedRate": 65.9,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-26",
+        "signupDateTo": "2026-04-20",
+        "signups": 44,
+        "spendUsd": null,
+        "transferRate": 6.8,
+        "usBankAdded": 7,
+        "usBankAddedRate": 15.9,
+        "utmCampaignNormalized": "edm_search_com_new_comp_list_march",
+        "utmCampaignRaw": [
+          "EDM_Search_Com_New_Comp_List_march"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google",
+          "googleads"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 93.37,
+        "clicks": null,
+        "completedFirstTransfer": 14,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 119,
+        "impressions": null,
+        "indianBankAdded": 25,
+        "indianBankAddedRate": 58.1,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 90.14,
+        "phoneVerified": 33,
+        "phoneVerifiedRate": 76.7,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-01-15",
+        "signupDateTo": "2026-09-07",
+        "signups": 43,
+        "spendUsd": null,
+        "transferRate": 32.6,
+        "usBankAdded": 25,
+        "usBankAddedRate": 58.1,
+        "utmCampaignNormalized": "passport_corporate_campaign",
+        "utmCampaignRaw": [
+          "passport_corporate_campaign"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "passport_unlimited"
+        ]
+      },
+      {
+        "adCampaignId": "23348659130",
+        "adCampaignName": "ST_Search_Competitors_Kyc verified_101225",
+        "adDateFrom": "2025-12-09",
+        "adDateTo": "2026-04-21",
+        "adJoinMethod": "prefix",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 91.52,
+        "clicks": 6280,
+        "completedFirstTransfer": 8,
+        "costPerSignup": 380.46,
+        "costPerTransfer": 1902.3,
+        "cpc": 2.42,
+        "ctr": 12.13,
+        "devices": [],
+        "fxDataPoints": 91,
+        "impressions": 51789,
+        "indianBankAdded": 11,
+        "indianBankAddedRate": 27.5,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 89.56,
+        "phoneVerified": 32,
+        "phoneVerifiedRate": 80,
+        "platforms": [],
+        "signupDateFrom": "2026-01-27",
+        "signupDateTo": "2026-02-18",
+        "signups": 40,
+        "spendUsd": 15218.42,
+        "transferRate": 20,
+        "usBankAdded": 13,
+        "usBankAddedRate": 32.5,
+        "utmCampaignNormalized": "st_search_competitors_kyc",
+        "utmCampaignRaw": [
+          "ST_Search_Competitors_kyc"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.71,
+        "clicks": null,
+        "completedFirstTransfer": 3,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 16,
+        "impressions": null,
+        "indianBankAdded": 5,
+        "indianBankAddedRate": 12.8,
+        "maxUsdInrRate": 92.38,
+        "minUsdInrRate": 90.9,
+        "phoneVerified": 33,
+        "phoneVerifiedRate": 84.6,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-21",
+        "signupDateTo": "2026-03-16",
+        "signups": 39,
+        "spendUsd": null,
+        "transferRate": 7.7,
+        "usBankAdded": 5,
+        "usBankAddedRate": 12.8,
+        "utmCampaignNormalized": "hindi",
+        "utmCampaignRaw": [
+          "hindi"
+        ],
+        "utmMediums": [
+          "paid",
+          "social"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.5,
+        "clicks": null,
+        "completedFirstTransfer": 3,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 36,
+        "impressions": null,
+        "indianBankAdded": 11,
+        "indianBankAddedRate": 29.7,
+        "maxUsdInrRate": 88.8,
+        "minUsdInrRate": 87.81,
+        "phoneVerified": 34,
+        "phoneVerifiedRate": 91.9,
+        "platforms": [],
+        "signupDateFrom": "2025-09-19",
+        "signupDateTo": "2025-11-08",
+        "signups": 37,
+        "spendUsd": null,
+        "transferRate": 8.1,
+        "usBankAdded": 14,
+        "usBankAddedRate": 37.8,
+        "utmCampaignNormalized": "st_tof_web_conv_broad_financialcategory_language",
+        "utmCampaignRaw": [
+          "ST_ToF_Web_Conv_Broad_FinancialCategory_Language"
+        ],
+        "utmMediums": [
+          "paid_social"
+        ],
+        "utmSources": [
+          "facebook"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.89,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 5,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 91.19,
+        "minUsdInrRate": 90.69,
+        "phoneVerified": 19,
+        "phoneVerifiedRate": 54.3,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-17",
+        "signupDateTo": "2026-02-23",
+        "signups": 35,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "st_generic_search_feb14",
+        "utmCampaignRaw": [
+          "ST_Generic_Search_Feb14"
+        ],
+        "utmMediums": [
+          "cpc",
+          "ppc"
+        ],
+        "utmSources": [
+          "googleads"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.7,
+        "clicks": null,
+        "completedFirstTransfer": 5,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop"
+        ],
+        "fxDataPoints": 198,
+        "impressions": null,
+        "indianBankAdded": 6,
+        "indianBankAddedRate": 20.7,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 87.81,
+        "phoneVerified": 7,
+        "phoneVerifiedRate": 24.1,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-09-23",
+        "signupDateTo": "2026-09-07",
+        "signups": 29,
+        "spendUsd": null,
+        "transferRate": 17.2,
+        "usBankAdded": 6,
+        "usBankAddedRate": 20.7,
+        "utmCampaignNormalized": "onelink",
+        "utmCampaignRaw": [
+          "onelink"
+        ],
+        "utmMediums": [
+          "mailer",
+          "messaging"
+        ],
+        "utmSources": [
+          "email",
+          "wa"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.04,
+        "clicks": null,
+        "completedFirstTransfer": 5,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 66,
+        "impressions": null,
+        "indianBankAdded": 9,
+        "indianBankAddedRate": 34.6,
+        "maxUsdInrRate": 91.94,
+        "minUsdInrRate": 88.49,
+        "phoneVerified": 19,
+        "phoneVerifiedRate": 73.1,
+        "platforms": [],
+        "signupDateFrom": "2025-11-05",
+        "signupDateTo": "2026-02-09",
+        "signups": 26,
+        "spendUsd": null,
+        "transferRate": 19.2,
+        "usBankAdded": 7,
+        "usBankAddedRate": 26.9,
+        "utmCampaignNormalized": "edm_adv+ – copy",
+        "utmCampaignRaw": [
+          "EDM_ADV+ – Copy"
+        ],
+        "utmMediums": [
+          "paid_social"
+        ],
+        "utmSources": [
+          "facebook"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 89.45,
+        "clicks": null,
+        "completedFirstTransfer": 2,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 93,
+        "impressions": null,
+        "indianBankAdded": 9,
+        "indianBankAddedRate": 36,
+        "maxUsdInrRate": 91.94,
+        "minUsdInrRate": 87.81,
+        "phoneVerified": 21,
+        "phoneVerifiedRate": 84,
+        "platforms": [],
+        "signupDateFrom": "2025-09-19",
+        "signupDateTo": "2026-02-01",
+        "signups": 25,
+        "spendUsd": null,
+        "transferRate": 8,
+        "usBankAdded": 6,
+        "usBankAddedRate": 24,
+        "utmCampaignNormalized": "st_tof_web_conv_financialcategory_finance_language",
+        "utmCampaignRaw": [
+          "ST_ToF_Web_Conv_FinancialCategory_Finance_Language"
+        ],
+        "utmMediums": [
+          "paid_social"
+        ],
+        "utmSources": [
+          "facebook"
+        ]
+      },
+      {
+        "adCampaignId": "22613704497",
+        "adCampaignName": "EDM_ST_ToF_Display_Language",
+        "adDateFrom": "2026-03-24",
+        "adDateTo": "2026-04-14",
+        "adJoinMethod": "name",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 93.5,
+        "clicks": 381,
+        "completedFirstTransfer": 0,
+        "costPerSignup": 39.65,
+        "costPerTransfer": null,
+        "cpc": 2.6,
+        "ctr": 3.98,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 14,
+        "impressions": 9562,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 92.22,
+        "phoneVerified": 8,
+        "phoneVerifiedRate": 32,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-25",
+        "signupDateTo": "2026-04-09",
+        "signups": 25,
+        "spendUsd": 991.19,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "edm_st_tof_display_language",
+        "utmCampaignRaw": [
+          "EDM_ST_ToF_Display_Language"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": "23348659130",
+        "adCampaignName": "ST_Search_Competitors_Kyc verified_101225",
+        "adDateFrom": "2025-12-09",
+        "adDateTo": "2026-04-21",
+        "adJoinMethod": "name",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 91.52,
+        "clicks": 6280,
+        "completedFirstTransfer": 1,
+        "costPerSignup": 634.1,
+        "costPerTransfer": 15218.42,
+        "cpc": 2.42,
+        "ctr": 12.13,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 91,
+        "impressions": 51789,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 4.2,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 89.56,
+        "phoneVerified": 18,
+        "phoneVerifiedRate": 75,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-19",
+        "signupDateTo": "2026-02-25",
+        "signups": 24,
+        "spendUsd": 15218.42,
+        "transferRate": 4.2,
+        "usBankAdded": 2,
+        "usBankAddedRate": 8.3,
+        "utmCampaignNormalized": "st_search_competitors_kyc verified_101225",
+        "utmCampaignRaw": [
+          "ST_Search_Competitors_Kyc verified_101225"
+        ],
+        "utmMediums": [
+          "ppc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.96,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 5,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 5.3,
+        "maxUsdInrRate": 91.08,
+        "minUsdInrRate": 90.9,
+        "phoneVerified": 16,
+        "phoneVerifiedRate": 84.2,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-23",
+        "signupDateTo": "2026-03-01",
+        "signups": 19,
+        "spendUsd": null,
+        "transferRate": 5.3,
+        "usBankAdded": 2,
+        "usBankAddedRate": 10.5,
+        "utmCampaignNormalized": "malyali",
+        "utmCampaignRaw": [
+          "malyali"
+        ],
+        "utmMediums": [
+          "social"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.89,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 55,
+        "impressions": null,
+        "indianBankAdded": 4,
+        "indianBankAddedRate": 25,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 90.14,
+        "phoneVerified": 10,
+        "phoneVerifiedRate": 62.5,
+        "platforms": [],
+        "signupDateFrom": "2026-01-17",
+        "signupDateTo": "2026-04-07",
+        "signups": 16,
+        "spendUsd": null,
+        "transferRate": 6.3,
+        "usBankAdded": 6,
+        "usBankAddedRate": 37.5,
+        "utmCampaignNormalized": "aoj_mv_campaign",
+        "utmCampaignRaw": [
+          "aoj_mv_campaign"
+        ],
+        "utmMediums": [
+          "EA",
+          "cpc"
+        ],
+        "utmSources": [
+          "fb",
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 93.74,
+        "clicks": null,
+        "completedFirstTransfer": 2,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop"
+        ],
+        "fxDataPoints": 102,
+        "impressions": null,
+        "indianBankAdded": 3,
+        "indianBankAddedRate": 18.8,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 90.54,
+        "phoneVerified": 6,
+        "phoneVerifiedRate": 37.5,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-07",
+        "signupDateTo": "2026-08-14",
+        "signups": 16,
+        "spendUsd": null,
+        "transferRate": 12.5,
+        "usBankAdded": 2,
+        "usBankAddedRate": 12.5,
+        "utmCampaignNormalized": "onelink_ret",
+        "utmCampaignRaw": [
+          "onelink_ret"
+        ],
+        "utmMediums": [
+          "mailer"
+        ],
+        "utmSources": [
+          "email"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.68,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 15,
+        "impressions": null,
+        "indianBankAdded": 3,
+        "indianBankAddedRate": 23.1,
+        "maxUsdInrRate": 92.38,
+        "minUsdInrRate": 90.9,
+        "phoneVerified": 7,
+        "phoneVerifiedRate": 53.8,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-22",
+        "signupDateTo": "2026-03-14",
+        "signups": 13,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 3,
+        "usBankAddedRate": 23.1,
+        "utmCampaignNormalized": "telugu",
+        "utmCampaignRaw": [
+          "telugu"
+        ],
+        "utmMediums": [
+          "paid",
+          "social"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": "23875790790",
+        "adCampaignName": "EDM_Search_Brand_260526",
+        "adDateFrom": "2026-05-26",
+        "adDateTo": "2026-08-24",
+        "adJoinMethod": "manual",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 95.05,
+        "clicks": 2651,
+        "completedFirstTransfer": 2,
+        "costPerSignup": 431.82,
+        "costPerTransfer": 2806.82,
+        "cpc": 2.12,
+        "ctr": 12.25,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 29,
+        "impressions": 21634,
+        "indianBankAdded": 8,
+        "indianBankAddedRate": 61.5,
+        "maxUsdInrRate": 95.78,
+        "minUsdInrRate": 94.33,
+        "phoneVerified": 11,
+        "phoneVerifiedRate": 84.6,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-08-08",
+        "signupDateTo": "2026-09-07",
+        "signups": 13,
+        "spendUsd": 5613.64,
+        "transferRate": 15.4,
+        "usBankAdded": 8,
+        "usBankAddedRate": 61.5,
+        "utmCampaignNormalized": "ga-edm",
+        "utmCampaignRaw": [
+          "ga-EDM"
+        ],
+        "utmMediums": [
+          "ga-EDM"
+        ],
+        "utmSources": [
+          "ga-si-cmti"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 92.89,
+        "clicks": null,
+        "completedFirstTransfer": 3,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop"
+        ],
+        "fxDataPoints": 140,
+        "impressions": null,
+        "indianBankAdded": 10,
+        "indianBankAddedRate": 83.3,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 89.56,
+        "phoneVerified": 12,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-12-12",
+        "signupDateTo": "2026-09-05",
+        "signups": 12,
+        "spendUsd": null,
+        "transferRate": 25,
+        "usBankAdded": 9,
+        "usBankAddedRate": 75,
+        "utmCampaignNormalized": "cr_profile/?c=usd_inr",
+        "utmCampaignRaw": [
+          "cr_profile/?c=usd_inr"
+        ],
+        "utmMediums": [
+          "profile"
+        ],
+        "utmSources": [
+          "compareremit"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 92.95,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 82,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 9.1,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 90.14,
+        "phoneVerified": 6,
+        "phoneVerifiedRate": 54.5,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-01-25",
+        "signupDateTo": "2026-05-23",
+        "signups": 11,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "fb4a",
+        "utmCampaignRaw": [
+          "fb4a"
+        ],
+        "utmMediums": [],
+        "utmSources": [
+          "apps.facebook.com"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 92.13,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 6,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 20,
+        "maxUsdInrRate": 92.38,
+        "minUsdInrRate": 91.83,
+        "phoneVerified": 8,
+        "phoneVerifiedRate": 80,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-06",
+        "signupDateTo": "2026-03-15",
+        "signups": 10,
+        "spendUsd": null,
+        "transferRate": 10,
+        "usBankAdded": 3,
+        "usBankAddedRate": 30,
+        "utmCampaignNormalized": "ioshindi",
+        "utmCampaignRaw": [
+          "iOShindi"
+        ],
+        "utmMediums": [
+          "paid"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.43,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 10,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 22.2,
+        "maxUsdInrRate": 92.15,
+        "minUsdInrRate": 90.9,
+        "phoneVerified": 7,
+        "phoneVerifiedRate": 77.8,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-21",
+        "signupDateTo": "2026-03-06",
+        "signups": 9,
+        "spendUsd": null,
+        "transferRate": 11.1,
+        "usBankAdded": 1,
+        "usBankAddedRate": 11.1,
+        "utmCampaignNormalized": "gujarati",
+        "utmCampaignRaw": [
+          "gujarati"
+        ],
+        "utmMediums": [
+          "paid",
+          "social"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.88,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 73,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 90.92,
+        "minUsdInrRate": 87.81,
+        "phoneVerified": 5,
+        "phoneVerifiedRate": 71.4,
+        "platforms": [],
+        "signupDateFrom": "2025-09-10",
+        "signupDateTo": "2025-12-21",
+        "signups": 7,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "st_tof_web_conv_payment_apps_indian_expats",
+        "utmCampaignRaw": [
+          "ST_ToF_Web_Conv_Payment_Apps_Indian_Expats"
+        ],
+        "utmMediums": [
+          "paid_social"
+        ],
+        "utmSources": [
+          "facebook"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.78,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 193,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 14.3,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 87.81,
+        "phoneVerified": 4,
+        "phoneVerifiedRate": 57.1,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-09-30",
+        "signupDateTo": "2026-08-28",
+        "signups": 7,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 2,
+        "usBankAddedRate": 28.6,
+        "utmCampaignNormalized": "domain_click",
+        "utmCampaignRaw": [
+          "domain_click"
+        ],
+        "utmMediums": [
+          "company_profile"
+        ],
+        "utmSources": [
+          "trustpilot"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.07,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 59,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 28.6,
+        "maxUsdInrRate": 91.94,
+        "minUsdInrRate": 88.49,
+        "phoneVerified": 7,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-11-08",
+        "signupDateTo": "2026-02-03",
+        "signups": 7,
+        "spendUsd": null,
+        "transferRate": 14.3,
+        "usBankAdded": 2,
+        "usBankAddedRate": 28.6,
+        "utmCampaignNormalized": "edm_aa+_ap_051125",
+        "utmCampaignRaw": [
+          "EDM_AA+_AP_051125"
+        ],
+        "utmMediums": [
+          "paid_social"
+        ],
+        "utmSources": [
+          "facebook"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 92.53,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 121,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 89.56,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 33.3,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-12-11",
+        "signupDateTo": "2026-06-07",
+        "signups": 6,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "onelink_activation",
+        "utmCampaignRaw": [
+          "onelink_activation"
+        ],
+        "utmMediums": [
+          "mailer"
+        ],
+        "utmSources": [
+          "email"
+        ]
+      },
+      {
+        "adCampaignId": "22044091432",
+        "adCampaignName": "ST_Search_Competitors",
+        "adDateFrom": "2025-08-25",
+        "adDateTo": "2026-03-04",
+        "adJoinMethod": "id",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 89.5,
+        "clicks": 11536,
+        "completedFirstTransfer": 1,
+        "costPerSignup": 4457.96,
+        "costPerTransfer": 22289.82,
+        "cpc": 1.93,
+        "ctr": 9.87,
+        "devices": [],
+        "fxDataPoints": 135,
+        "impressions": 116902,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 20,
+        "maxUsdInrRate": 92.15,
+        "minUsdInrRate": 87.56,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 40,
+        "platforms": [],
+        "signupDateFrom": "2025-09-16",
+        "signupDateTo": "2025-10-06",
+        "signups": 5,
+        "spendUsd": 22289.82,
+        "transferRate": 20,
+        "usBankAdded": 1,
+        "usBankAddedRate": 20,
+        "utmCampaignNormalized": "22044091432",
+        "utmCampaignRaw": [
+          "22044091432"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.69,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 11,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 88.8,
+        "minUsdInrRate": 88.06,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 40,
+        "platforms": [],
+        "signupDateFrom": "2025-10-01",
+        "signupDateTo": "2025-10-15",
+        "signups": 5,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "remit2any_usa_india",
+        "utmCampaignRaw": [
+          "remit2any_usa_india"
+        ],
+        "utmMediums": [
+          "search"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.81,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 82,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 40,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 89.8,
+        "phoneVerified": 3,
+        "phoneVerifiedRate": 60,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-12-25",
+        "signupDateTo": "2026-04-26",
+        "signups": 5,
+        "spendUsd": null,
+        "transferRate": 20,
+        "usBankAdded": 1,
+        "usBankAddedRate": 20,
+        "utmCampaignNormalized": "profile",
+        "utmCampaignRaw": [
+          "profile"
+        ],
+        "utmMediums": [
+          "listing"
+        ],
+        "utmSources": [
+          "cr",
+          "rf"
+        ]
+      },
+      {
+        "adCampaignId": "23992630973",
+        "adCampaignName": "Search Intent_India_USA to India_02 June 2026",
+        "adDateFrom": "2026-07-01",
+        "adDateTo": "2026-07-06",
+        "adJoinMethod": "manual",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 95.28,
+        "clicks": 369,
+        "completedFirstTransfer": 0,
+        "costPerSignup": 27.34,
+        "costPerTransfer": null,
+        "cpc": 0.37,
+        "ctr": 2.33,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 3,
+        "impressions": 15840,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 20,
+        "maxUsdInrRate": 95.39,
+        "minUsdInrRate": 95.21,
+        "phoneVerified": 3,
+        "phoneVerifiedRate": 60,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-07-04",
+        "signupDateTo": "2026-07-06",
+        "signups": 5,
+        "spendUsd": 136.7,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "ga_smui_u_i_02_june_2026",
+        "utmCampaignRaw": [
+          "GA_SMUI_U_I_02_June_2026"
+        ],
+        "utmMediums": [
+          "GA_SMUI_U_I_SA"
+        ],
+        "utmSources": [
+          "GA_SMUI_U_I_02_June_2026"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.45,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 18,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 25,
+        "maxUsdInrRate": 88.79,
+        "minUsdInrRate": 87.85,
+        "phoneVerified": 3,
+        "phoneVerifiedRate": 75,
+        "platforms": [],
+        "signupDateFrom": "2025-09-10",
+        "signupDateTo": "2025-10-03",
+        "signups": 4,
+        "spendUsd": null,
+        "transferRate": 25,
+        "usBankAdded": 1,
+        "usBankAddedRate": 25,
+        "utmCampaignNormalized": "22980088458",
+        "utmCampaignRaw": [
+          "22980088458"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.77,
+        "clicks": null,
+        "completedFirstTransfer": 2,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 8,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 50,
+        "maxUsdInrRate": 91.19,
+        "minUsdInrRate": 90.58,
+        "phoneVerified": 3,
+        "phoneVerifiedRate": 75,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-11",
+        "signupDateTo": "2026-02-22",
+        "signups": 4,
+        "spendUsd": null,
+        "transferRate": 50,
+        "usBankAdded": 2,
+        "usBankAddedRate": 50,
+        "utmCampaignNormalized": "signup_homepgae",
+        "utmCampaignRaw": [
+          "Signup_HomePgae"
+        ],
+        "utmMediums": [
+          "social"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.84,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop"
+        ],
+        "fxDataPoints": 8,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 91.19,
+        "minUsdInrRate": 90.61,
+        "phoneVerified": 0,
+        "phoneVerifiedRate": 0,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-13",
+        "signupDateTo": "2026-02-24",
+        "signups": 4,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "base_plus_150",
+        "utmCampaignRaw": [
+          "base_plus_150"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "passport_unlimited"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.54,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 12,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 92.3,
+        "minUsdInrRate": 90.9,
+        "phoneVerified": 3,
+        "phoneVerifiedRate": 75,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-02-23",
+        "signupDateTo": "2026-03-10",
+        "signups": 4,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "malayali",
+        "utmCampaignRaw": [
+          "malayali"
+        ],
+        "utmMediums": [
+          "social"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 95.3,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop"
+        ],
+        "fxDataPoints": 12,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 25,
+        "maxUsdInrRate": 95.78,
+        "minUsdInrRate": 94.72,
+        "phoneVerified": 3,
+        "phoneVerifiedRate": 75,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-05-29",
+        "signupDateTo": "2026-06-15",
+        "signups": 4,
+        "spendUsd": null,
+        "transferRate": 25,
+        "usBankAdded": 1,
+        "usBankAddedRate": 25,
+        "utmCampaignNormalized": "may26_liq",
+        "utmCampaignRaw": [
+          "may26_liq"
+        ],
+        "utmMediums": [
+          "email_noauto"
+        ],
+        "utmSources": [
+          "seattle_list"
+        ]
+      },
+      {
+        "adCampaignId": "23867726121",
+        "adCampaignName": "Search Ads | Intent | May 2026",
+        "adDateFrom": "2026-05-22",
+        "adDateTo": "2026-08-24",
+        "adJoinMethod": "manual",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 95.08,
+        "clicks": 1300,
+        "completedFirstTransfer": 0,
+        "costPerSignup": 2421.22,
+        "costPerTransfer": null,
+        "cpc": 7.45,
+        "ctr": 4.9,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 31,
+        "impressions": 26552,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 95.78,
+        "minUsdInrRate": 94.33,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 50,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-08-06",
+        "signupDateTo": "2026-08-29",
+        "signups": 4,
+        "spendUsd": 9684.89,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "ga-si-aplriwi",
+        "utmCampaignRaw": [
+          "ga-si-aplriwi"
+        ],
+        "utmMediums": [
+          "ga-si-aplriwi"
+        ],
+        "utmSources": [
+          "ga-si-aplriwi"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.45,
+        "clicks": null,
+        "completedFirstTransfer": 2,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 25,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 66.7,
+        "maxUsdInrRate": 88.8,
+        "minUsdInrRate": 87.81,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 66.7,
+        "platforms": [],
+        "signupDateFrom": "2025-09-25",
+        "signupDateTo": "2025-10-29",
+        "signups": 3,
+        "spendUsd": null,
+        "transferRate": 66.7,
+        "usBankAdded": 2,
+        "usBankAddedRate": 66.7,
+        "utmCampaignNormalized": "st_bof_web_visitors",
+        "utmCampaignRaw": [
+          "ST_BoF_Web_Visitors"
+        ],
+        "utmMediums": [
+          "paid_social"
+        ],
+        "utmSources": [
+          "facebook"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.58,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 33,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 33.3,
+        "maxUsdInrRate": 89.64,
+        "minUsdInrRate": 87.81,
+        "phoneVerified": 3,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-10-15",
+        "signupDateTo": "2025-11-30",
+        "signups": 3,
+        "spendUsd": null,
+        "transferRate": 33.3,
+        "usBankAdded": 1,
+        "usBankAddedRate": 33.3,
+        "utmCampaignNormalized": "st_bof_web_visitors_30days",
+        "utmCampaignRaw": [
+          "ST_BoF_Web_Visitors_30Days"
+        ],
+        "utmMediums": [
+          "paid_social"
+        ],
+        "utmSources": [
+          "facebook"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.59,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 19,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 66.7,
+        "maxUsdInrRate": 88.77,
+        "minUsdInrRate": 88.23,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 66.7,
+        "platforms": [],
+        "signupDateFrom": "2025-10-27",
+        "signupDateTo": "2025-11-20",
+        "signups": 3,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 2,
+        "usBankAddedRate": 66.7,
+        "utmCampaignNormalized": "oct_400x650.jpg",
+        "utmCampaignRaw": [
+          "oct_400x650.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.66,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 8,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 33.3,
+        "maxUsdInrRate": 90.73,
+        "minUsdInrRate": 90.54,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 66.7,
+        "platforms": [],
+        "signupDateFrom": "2026-02-09",
+        "signupDateTo": "2026-02-18",
+        "signups": 3,
+        "spendUsd": null,
+        "transferRate": 33.3,
+        "usBankAdded": 1,
+        "usBankAddedRate": 33.3,
+        "utmCampaignNormalized": "ig4a",
+        "utmCampaignRaw": [
+          "ig4a"
+        ],
+        "utmMediums": [],
+        "utmSources": [
+          "apps.instagram.com"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 92.29,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 2,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 92.38,
+        "minUsdInrRate": 92.21,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 33.3,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-12",
+        "signupDateTo": "2026-03-15",
+        "signups": 3,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "ios_malayalam",
+        "utmCampaignRaw": [
+          "iOS_malayalam"
+        ],
+        "utmMediums": [
+          "paid"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": "120243826377400579",
+        "adCampaignName": "VideoViews_Competitor_Audience",
+        "adDateFrom": "2026-03-19",
+        "adDateTo": "2026-04-14",
+        "adJoinMethod": "prefix",
+        "adPlatform": "Meta",
+        "avgUsdInrRate": 93.48,
+        "clicks": 3651,
+        "completedFirstTransfer": 0,
+        "costPerSignup": 1733.81,
+        "costPerTransfer": null,
+        "cpc": 1.42,
+        "ctr": 0.89,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 17,
+        "impressions": 408075,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 92.22,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 33.3,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-27",
+        "signupDateTo": "2026-04-08",
+        "signups": 3,
+        "spendUsd": 5201.43,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "videoviews",
+        "utmCampaignRaw": [
+          "videoviews"
+        ],
+        "utmMediums": [
+          "paid"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 94.81,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 9,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 33.3,
+        "maxUsdInrRate": 95.39,
+        "minUsdInrRate": 94.39,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 33.3,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-06-23",
+        "signupDateTo": "2026-08-30",
+        "signups": 3,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "usd2inrtransfer",
+        "utmCampaignRaw": [
+          "usd2inrtransfer"
+        ],
+        "utmMediums": [],
+        "utmSources": []
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.45,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 20,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 50,
+        "maxUsdInrRate": 88.79,
+        "minUsdInrRate": 87.85,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-09-09",
+        "signupDateTo": "2025-10-06",
+        "signups": 2,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 1,
+        "usBankAddedRate": 50,
+        "utmCampaignNormalized": "st_tof_test_indian_expats_july25",
+        "utmCampaignRaw": [
+          "ST_ToF_test_Indian_Expats_july25"
+        ],
+        "utmMediums": [
+          "paid_social"
+        ],
+        "utmSources": [
+          "facebook"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 89.49,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 81,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 50,
+        "maxUsdInrRate": 91.94,
+        "minUsdInrRate": 87.81,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-10-03",
+        "signupDateTo": "2026-01-28",
+        "signups": 2,
+        "spendUsd": null,
+        "transferRate": 50,
+        "usBankAdded": 2,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "120216274292390105",
+        "utmCampaignRaw": [
+          "120216274292390105"
+        ],
+        "utmMediums": [
+          "paid"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.37,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 61,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 94.12,
+        "minUsdInrRate": 89.85,
+        "phoneVerified": 0,
+        "phoneVerifiedRate": 0,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2025-12-31",
+        "signupDateTo": "2026-03-26",
+        "signups": 2,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "{campaignid}",
+        "utmCampaignRaw": [
+          "{campaignid}"
+        ],
+        "utmMediums": [
+          "display"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": "120241507953870579",
+        "adCampaignName": "EDM_Web_Signup_HomePgae_230126",
+        "adDateFrom": "2026-01-23",
+        "adDateTo": "2026-02-05",
+        "adJoinMethod": "name",
+        "adPlatform": "Meta",
+        "avgUsdInrRate": 91.35,
+        "clicks": 81,
+        "completedFirstTransfer": 0,
+        "costPerSignup": 66.18,
+        "costPerTransfer": null,
+        "cpc": 1.63,
+        "ctr": 0.53,
+        "devices": [],
+        "fxDataPoints": 10,
+        "impressions": 15266,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 91.94,
+        "minUsdInrRate": 90.14,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 50,
+        "platforms": [],
+        "signupDateFrom": "2026-01-28",
+        "signupDateTo": "2026-02-02",
+        "signups": 2,
+        "spendUsd": 132.36,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "edm_web_signup_homepgae_230126",
+        "utmCampaignRaw": [
+          "EDM_Web_Signup_HomePgae_230126"
+        ],
+        "utmMediums": [
+          "social"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.83,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 91.83,
+        "minUsdInrRate": 91.83,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-06",
+        "signupDateTo": "2026-03-08",
+        "signups": 2,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "malayalam",
+        "utmCampaignRaw": [
+          "malayalam"
+        ],
+        "utmMediums": [
+          "paid"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 92.22,
+        "clicks": null,
+        "completedFirstTransfer": 2,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 3,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 92.38,
+        "minUsdInrRate": 92.07,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-11",
+        "signupDateTo": "2026-03-14",
+        "signups": 2,
+        "spendUsd": null,
+        "transferRate": 100,
+        "usBankAdded": 2,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "tamil",
+        "utmCampaignRaw": [
+          "tamil"
+        ],
+        "utmMediums": [
+          "social"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": "23738388466",
+        "adCampaignName": "EDM_Comp_alternatives_080426",
+        "adDateFrom": "2026-04-08",
+        "adDateTo": "2026-04-20",
+        "adJoinMethod": "name",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 92.97,
+        "clicks": 21,
+        "completedFirstTransfer": 1,
+        "costPerSignup": 30.94,
+        "costPerTransfer": 61.87,
+        "cpc": 2.95,
+        "ctr": 9.63,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 9,
+        "impressions": 218,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 50,
+        "maxUsdInrRate": 93.44,
+        "minUsdInrRate": 92.22,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 50,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-04-08",
+        "signupDateTo": "2026-04-08",
+        "signups": 2,
+        "spendUsd": 61.87,
+        "transferRate": 50,
+        "usBankAdded": 1,
+        "usBankAddedRate": 50,
+        "utmCampaignNormalized": "edm_comp_alternatives_080426",
+        "utmCampaignRaw": [
+          "EDM_Comp_alternatives_080426"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 95.51,
+        "clicks": null,
+        "completedFirstTransfer": 2,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop"
+        ],
+        "fxDataPoints": 22,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 94.26,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-05-04",
+        "signupDateTo": "2026-06-02",
+        "signups": 2,
+        "spendUsd": null,
+        "transferRate": 100,
+        "usBankAdded": 2,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "april_970x90.jpg",
+        "utmCampaignRaw": [
+          "april_970x90.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 95.6,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 7,
+        "impressions": null,
+        "indianBankAdded": 2,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 96.35,
+        "minUsdInrRate": 94.49,
+        "phoneVerified": 2,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-05-08",
+        "signupDateTo": "2026-05-18",
+        "signups": 2,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "xpat_aparna_varma_26",
+        "utmCampaignRaw": [
+          "xpat_aparna_varma_26"
+        ],
+        "utmMediums": [
+          "online"
+        ],
+        "utmSources": [
+          "online_video"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 95.91,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop",
+          "mobile"
+        ],
+        "fxDataPoints": 12,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 96.83,
+        "minUsdInrRate": 95.24,
+        "phoneVerified": 0,
+        "phoneVerifiedRate": 0,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-05-11",
+        "signupDateTo": "2026-05-26",
+        "signups": 2,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "cb_ipl2026_v2",
+        "utmCampaignRaw": [
+          "cb_ipl2026_V2"
+        ],
+        "utmMediums": [
+          "display"
+        ],
+        "utmSources": [
+          "cricbuzz"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.12,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 88.12,
+        "minUsdInrRate": 88.12,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-09-10",
+        "signupDateTo": "2025-09-10",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "st_bof_web_visitors_180-30days",
+        "utmCampaignRaw": [
+          "ST_BoF_Web_Visitors_180-30Days"
+        ],
+        "utmMediums": [
+          "paid_social"
+        ],
+        "utmSources": [
+          "facebook"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.7,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 88.7,
+        "minUsdInrRate": 88.7,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-09-24",
+        "signupDateTo": "2025-09-24",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 100,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "september_160x600.jpg",
+        "utmCampaignRaw": [
+          "september_160x600.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.68,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 88.68,
+        "minUsdInrRate": 88.68,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-11-10",
+        "signupDateTo": "2025-11-10",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 100,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "june_970x90.jpg",
+        "utmCampaignRaw": [
+          "june_970x90.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 88.68,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 88.68,
+        "minUsdInrRate": 88.68,
+        "phoneVerified": 0,
+        "phoneVerifiedRate": 0,
+        "platforms": [],
+        "signupDateFrom": "2025-11-14",
+        "signupDateTo": "2025-11-14",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "oct_160x600.jpg",
+        "utmCampaignRaw": [
+          "oct_160x600.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": "22172092703",
+        "adCampaignName": "ST_Generic_Search_Jan28",
+        "adDateFrom": "2025-08-25",
+        "adDateTo": "2026-04-21",
+        "adJoinMethod": "id",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 90.18,
+        "clicks": 10046,
+        "completedFirstTransfer": 0,
+        "costPerSignup": 27694.5,
+        "costPerTransfer": null,
+        "cpc": 2.76,
+        "ctr": 6.69,
+        "devices": [],
+        "fxDataPoints": 167,
+        "impressions": 150089,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 94.81,
+        "minUsdInrRate": 87.56,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-12-03",
+        "signupDateTo": "2025-12-03",
+        "signups": 1,
+        "spendUsd": 27694.5,
+        "transferRate": 0,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "22172092703",
+        "utmCampaignRaw": [
+          "22172092703"
+        ],
+        "utmMediums": [
+          "cpc"
+        ],
+        "utmSources": [
+          "google"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.37,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 90.37,
+        "minUsdInrRate": 90.37,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-12-17",
+        "signupDateTo": "2025-12-17",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "dec_970x90.jpg",
+        "utmCampaignRaw": [
+          "dec_970x90.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": null,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 0,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": null,
+        "minUsdInrRate": null,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-12-20",
+        "signupDateTo": "2025-12-20",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "dec_400x650.jpg",
+        "utmCampaignRaw": [
+          "dec_400x650.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": null,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 0,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": null,
+        "minUsdInrRate": null,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2025-12-20",
+        "signupDateTo": "2025-12-20",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 100,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "dec_600x450.jpg",
+        "utmCampaignRaw": [
+          "dec_600x450.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.94,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 91.94,
+        "minUsdInrRate": 91.94,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2026-01-30",
+        "signupDateTo": "2026-01-30",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 100,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "smizf",
+        "utmCampaignRaw": [
+          "SMIZF"
+        ],
+        "utmMediums": [
+          "banner"
+        ],
+        "utmSources": [
+          "NRIPage"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 90.14,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 90.14,
+        "minUsdInrRate": 90.14,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [],
+        "signupDateFrom": "2026-02-03",
+        "signupDateTo": "2026-02-03",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "oct_600x450.jpg",
+        "utmCampaignRaw": [
+          "oct_600x450.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 91.65,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 91.65,
+        "minUsdInrRate": 91.65,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-05",
+        "signupDateTo": "2026-03-05",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 100,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "punjabi",
+        "utmCampaignRaw": [
+          "punjabi"
+        ],
+        "utmMediums": [
+          "paid"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 92.38,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 92.38,
+        "minUsdInrRate": 92.38,
+        "phoneVerified": 0,
+        "phoneVerifiedRate": 0,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-13",
+        "signupDateTo": "2026-03-13",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "iospujabi",
+        "utmCampaignRaw": [
+          "iOSpujabi"
+        ],
+        "utmMediums": [
+          "paid"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": null,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 0,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": null,
+        "minUsdInrRate": null,
+        "phoneVerified": 0,
+        "phoneVerifiedRate": 0,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-03-14",
+        "signupDateTo": "2026-03-14",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "ios_gujarati",
+        "utmCampaignRaw": [
+          "iOS_gujarati"
+        ],
+        "utmMediums": [
+          "paid"
+        ],
+        "utmSources": [
+          "fb"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 93.33,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 93.33,
+        "minUsdInrRate": 93.33,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-04-13",
+        "signupDateTo": "2026-04-13",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "cb_ipl2026",
+        "utmCampaignRaw": [
+          "cb_ipl2026"
+        ],
+        "utmMediums": [
+          "display"
+        ],
+        "utmSources": [
+          "cricbuzz"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": 93.8,
+        "clicks": null,
+        "completedFirstTransfer": 1,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "desktop"
+        ],
+        "fxDataPoints": 1,
+        "impressions": null,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 93.8,
+        "minUsdInrRate": 93.8,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-04-22",
+        "signupDateTo": "2026-04-22",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 100,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "april_600x450.jpg",
+        "utmCampaignRaw": [
+          "april_600x450.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": null,
+        "adCampaignName": null,
+        "adDateFrom": null,
+        "adDateTo": null,
+        "adJoinMethod": null,
+        "adPlatform": null,
+        "avgUsdInrRate": null,
+        "clicks": null,
+        "completedFirstTransfer": 0,
+        "costPerSignup": null,
+        "costPerTransfer": null,
+        "cpc": null,
+        "ctr": null,
+        "devices": [
+          "mobile"
+        ],
+        "fxDataPoints": 0,
+        "impressions": null,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": null,
+        "minUsdInrRate": null,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-04-25",
+        "signupDateTo": "2026-04-25",
+        "signups": 1,
+        "spendUsd": null,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "april_300x300.jpg",
+        "utmCampaignRaw": [
+          "april_300x300.jpg"
+        ],
+        "utmMediums": [
+          "ad"
+        ],
+        "utmSources": [
+          "cr"
+        ]
+      },
+      {
+        "adCampaignId": "23867726121",
+        "adCampaignName": "Search Ads | Intent | May 2026",
+        "adDateFrom": "2026-05-22",
+        "adDateTo": "2026-08-24",
+        "adJoinMethod": "manual",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 95.08,
+        "clicks": 1300,
+        "completedFirstTransfer": 0,
+        "costPerSignup": 9684.89,
+        "costPerTransfer": null,
+        "cpc": 7.45,
+        "ctr": 4.9,
+        "devices": [
+          "desktop"
+        ],
+        "fxDataPoints": 31,
+        "impressions": 26552,
+        "indianBankAdded": 0,
+        "indianBankAddedRate": 0,
+        "maxUsdInrRate": 95.78,
+        "minUsdInrRate": 94.33,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-08-02",
+        "signupDateTo": "2026-08-02",
+        "signups": 1,
+        "spendUsd": 9684.89,
+        "transferRate": 0,
+        "usBankAdded": 0,
+        "usBankAddedRate": 0,
+        "utmCampaignNormalized": "si-bmtwc",
+        "utmCampaignRaw": [
+          "SI-BMTWC"
+        ],
+        "utmMediums": [
+          "SI-BMTWC"
+        ],
+        "utmSources": [
+          "SI-BMTWC"
+        ]
+      },
+      {
+        "adCampaignId": "23867726121",
+        "adCampaignName": "Search Ads | Intent | May 2026",
+        "adDateFrom": "2026-05-22",
+        "adDateTo": "2026-08-24",
+        "adJoinMethod": "manual",
+        "adPlatform": "Google",
+        "avgUsdInrRate": 95.08,
+        "clicks": 1300,
+        "completedFirstTransfer": 0,
+        "costPerSignup": 9684.89,
+        "costPerTransfer": null,
+        "cpc": 7.45,
+        "ctr": 4.9,
+        "devices": [
+          "desktop"
+        ],
+        "fxDataPoints": 31,
+        "impressions": 26552,
+        "indianBankAdded": 1,
+        "indianBankAddedRate": 100,
+        "maxUsdInrRate": 95.78,
+        "minUsdInrRate": 94.33,
+        "phoneVerified": 1,
+        "phoneVerifiedRate": 100,
+        "platforms": [
+          "web"
+        ],
+        "signupDateFrom": "2026-08-10",
+        "signupDateTo": "2026-08-10",
+        "signups": 1,
+        "spendUsd": 9684.89,
+        "transferRate": 0,
+        "usBankAdded": 1,
+        "usBankAddedRate": 100,
+        "utmCampaignNormalized": "ga-si-intr",
+        "utmCampaignRaw": [
+          "ga-si-intr"
+        ],
+        "utmMediums": [
+          "ga-si-intr"
+        ],
+        "utmSources": [
+          "ga-si-intr"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "campaignCount": 85,
+    "caveats": [
+      "utm_campaign_normalized is the primary grouping key — use this for analysis, not utm_campaign.",
+      "Campaign ID 22058403586 is XPAT's second-largest campaign (1,042 users) but appears only as a Google Ads ID — name mapping pending.",
+      "IP, device, platform data only complete from mid-February 2026 onwards.",
+      "landing_page truncated at 200 chars — use utm_* columns for attribution.",
+      "Ad spend data joined on best-effort name/ID match — some campaigns may have partial or no spend data.",
+      "Transfer rate = completed_first_transfer / signups. Both legs of transfer must have settled."
+    ],
+    "csvPath": "D:/Infinitra Projects/xpat/online_campaign_signup_performance_12m.csv",
+    "family": "campaign-funnel",
+    "generatedAt": "2026-09-28T12:50:37.419Z",
+    "joinedWithAdPerf": 25,
+    "provenance": "snapshot",
+    "rowsInCsv": 6167,
+    "source": "Metabase CSV dump (online_campaign_signup_performance_12m.csv) joined with xpat-ad-performance.json",
+    "unmatchedCampaigns": 60,
+    "version": 1
+  }
+}

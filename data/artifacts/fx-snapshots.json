@@ -1,0 +1,294 @@
+{
+  "data": {
+    "corridor": {
+      "sendAmountUSD": 1000,
+      "sourceCurrency": "USD",
+      "targetCurrency": "INR"
+    },
+    "snapshots": [
+      {
+        "capturedAt": "2026-07-03T00:00:00.000Z",
+        "midMarket": {
+          "asOf": "2026-07-03",
+          "rate": 95.3,
+          "source": "Frankfurter v2"
+        },
+        "providers": [
+          {
+            "capturedAt": "2026-07-03T04:15:27.956047Z",
+            "feeUSD": 0,
+            "method": "page",
+            "provider": "Xoom",
+            "quotedRate": 95.2503387347,
+            "receiveAmountFor1000USD": 95250.34,
+            "sourceUrl": "https://wise.com/us/compare/xoom-exchange-rate"
+          },
+          {
+            "capturedAt": "2026-07-03T07:46:21.700407Z",
+            "feeUSD": 0,
+            "method": "page",
+            "provider": "Remitly",
+            "quotedRate": 94.9060459148,
+            "receiveAmountFor1000USD": 94906.05,
+            "sourceUrl": "https://wise.com/us/compare/remitly-usd-to-inr"
+          },
+          {
+            "capturedAt": "2026-07-03T08:15:44Z",
+            "feeUSD": 11.26,
+            "method": "api",
+            "provider": "Wise",
+            "quotedRate": 95.3338,
+            "receiveAmountFor1000USD": 94260.34,
+            "sourceUrl": "https://api.wise.com/v3/quotes"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "Western Union public pages did not expose a stable quote JSON path.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Western Union",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://www.westernunion.com/us/en/currency-converter/usd-to-inr-rate.html"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "Xpat public pages do not expose a stable quote JSON path.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Xpat",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://xpat.money/"
+          }
+        ]
+      },
+      {
+        "capturedAt": "2026-07-05T00:00:00.000Z",
+        "midMarket": {
+          "asOf": "2026-07-04",
+          "rate": 95.22,
+          "source": "Frankfurter v2"
+        },
+        "providers": [
+          {
+            "capturedAt": "2026-07-05T00:20:16.762758Z",
+            "feeUSD": 0,
+            "method": "page",
+            "provider": "Xoom",
+            "quotedRate": 95.0102,
+            "receiveAmountFor1000USD": 95010.2,
+            "sourceUrl": "https://wise.com/us/compare/xoom-exchange-rate"
+          },
+          {
+            "capturedAt": "2026-07-05T00:45:54.949802Z",
+            "feeUSD": 0,
+            "method": "page",
+            "provider": "Remitly",
+            "quotedRate": 94.76,
+            "receiveAmountFor1000USD": 94760,
+            "sourceUrl": "https://wise.com/us/compare/remitly-usd-to-inr"
+          },
+          {
+            "capturedAt": "2026-07-05T01:17:01Z",
+            "feeUSD": 11.26,
+            "method": "api",
+            "provider": "Wise",
+            "quotedRate": 95.2254,
+            "receiveAmountFor1000USD": 94153.16,
+            "sourceUrl": "https://api.wise.com/v3/quotes"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "Western Union public pages did not expose a stable quote JSON path.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Western Union",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://www.westernunion.com/us/en/currency-converter/usd-to-inr-rate.html"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "Xpat public pages do not expose a stable quote JSON path.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Xpat",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://xpat.money/"
+          }
+        ]
+      },
+      {
+        "capturedAt": "2026-07-06T00:00:00.000Z",
+        "midMarket": {
+          "asOf": "2026-07-06",
+          "rate": 95.28,
+          "source": "Frankfurter v2"
+        },
+        "providers": [
+          {
+            "capturedAt": "2026-07-06T21:39:52.230183Z",
+            "feeUSD": 0,
+            "method": "page",
+            "provider": "Xoom",
+            "quotedRate": 95.177628643,
+            "receiveAmountFor1000USD": 95177.63,
+            "sourceUrl": "https://wise.com/us/compare/xoom-exchange-rate"
+          },
+          {
+            "capturedAt": "2026-07-06T22:45:50.364929Z",
+            "feeUSD": 0,
+            "method": "page",
+            "provider": "Remitly",
+            "quotedRate": 94.8628988744,
+            "receiveAmountFor1000USD": 94862.9,
+            "sourceUrl": "https://wise.com/us/compare/remitly-usd-to-inr"
+          },
+          {
+            "capturedAt": "2026-07-06T23:34:45Z",
+            "feeUSD": 11.26,
+            "method": "api",
+            "provider": "Wise",
+            "quotedRate": 95.3739,
+            "receiveAmountFor1000USD": 94299.99,
+            "sourceUrl": "https://api.wise.com/v3/quotes"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "No public machine-readable quote path found.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Aspora",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://www.aspora.com/us"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "No public machine-readable quote path found.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Crobo",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://www.crobo.money/"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "Western Union public pages did not expose a stable quote JSON path.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Western Union",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://www.westernunion.com/us/en/currency-converter/usd-to-inr-rate.html"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "Xpat public pages do not expose a stable quote JSON path.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Xpat",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://xpat.money/"
+          }
+        ]
+      },
+      {
+        "capturedAt": "2026-07-09T00:00:00.000Z",
+        "midMarket": {
+          "asOf": "2026-07-09",
+          "rate": 95.39,
+          "source": "Frankfurter v2"
+        },
+        "providers": [
+          {
+            "capturedAt": "2026-07-09T02:39:26.725771Z",
+            "feeUSD": 0,
+            "method": "page",
+            "provider": "Xoom",
+            "quotedRate": 95.3792895891,
+            "receiveAmountFor1000USD": 95379.29,
+            "sourceUrl": "https://wise.com/us/compare/xoom-exchange-rate"
+          },
+          {
+            "capturedAt": "2026-07-09T02:45:35.801983Z",
+            "feeUSD": 0,
+            "method": "page",
+            "provider": "Remitly",
+            "quotedRate": 95.1882729864,
+            "receiveAmountFor1000USD": 95188.27,
+            "sourceUrl": "https://wise.com/us/compare/remitly-usd-to-inr"
+          },
+          {
+            "capturedAt": "2026-07-09T03:12:42Z",
+            "feeUSD": 11.26,
+            "method": "api",
+            "provider": "Wise",
+            "quotedRate": 95.5263,
+            "receiveAmountFor1000USD": 94450.67,
+            "sourceUrl": "https://api.wise.com/v3/quotes"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "No public machine-readable quote path found.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Aspora",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://www.aspora.com/us"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "No public machine-readable quote path found.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Crobo",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://www.crobo.money/"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "Western Union public pages did not expose a stable quote JSON path.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Western Union",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://www.westernunion.com/us/en/currency-converter/usd-to-inr-rate.html"
+          },
+          {
+            "capturedAt": null,
+            "caveat": "Xpat public pages do not expose a stable quote JSON path.",
+            "feeUSD": null,
+            "method": "connector-needed",
+            "provider": "Xpat",
+            "quotedRate": null,
+            "receiveAmountFor1000USD": null,
+            "sourceUrl": "https://xpat.money/"
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "caveats": [
+      "Provider page snapshots are public list-price evidence only and can change without notice.",
+      "Public FX quotes do not prove conversion, CAC, spend, targeting, or performance.",
+      "Western Union, Aspora, and Crobo remain connector-needed where no stable public machine-readable quote path was verified.",
+      "Xpat remains connector-needed unless a hand-captured public-page quote overlay has complete numbers and capturedAt."
+    ],
+    "family": "fx-snapshots",
+    "generatedAt": "2026-07-09T00:00:00.000Z",
+    "method": "Daily USD to INR snapshot for the runtime fallback. Frankfurter and Wise are fetched through documented JSON APIs; Remitly and Xoom are parsed from Wise public comparison pages; Xpat can use a curated manual public-page quote overlay when filled. Xpat, Western Union, Aspora, and Crobo stay connector-needed until a stable public machine-readable quote path is verified.",
+    "provenance": "snapshot",
+    "refreshCadence": "daily snapshot plus hourly runtime route",
+    "source": "Frankfurter v2, Wise unauthenticated quote, Wise public comparison pages, provider public pages",
+    "version": 1
+  }
+}

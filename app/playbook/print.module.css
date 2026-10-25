@@ -1,0 +1,102 @@
+.printRoot {
+  min-width: 0;
+}
+
+@media print {
+  :global(.top-nav),
+  :global(.app-footer),
+  .printRoot :global(.market-picker),
+  .printRoot :global(.playbook-toc),
+  .printRoot :global(button) {
+    display: none !important;
+  }
+
+  .printRoot {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #111827;
+  }
+
+  .printRoot :global(.page-header) {
+    margin-bottom: 14px;
+  }
+
+  .printRoot :global(.page-header h1),
+  .printRoot :global(.playbook-section h2),
+  .printRoot :global(.playbook-section h3) {
+    color: #111827;
+  }
+
+  .printRoot :global(.page-header p),
+  .printRoot :global(.playbook-section p),
+  .printRoot :global(.section-subtitle),
+  .printRoot :global(.method-note),
+  .printRoot :global(.event-list),
+  .printRoot :global(.why-list) {
+    color: #374151;
+  }
+
+  .printRoot :global(.kpi-strip),
+  .printRoot :global(.playbook-section),
+  .printRoot :global(.snapshot-grid div),
+  .printRoot :global(.persona-card),
+  .printRoot :global(.channel-row),
+  .printRoot :global(.corridor-context > div),
+  .printRoot :global(.creative-card),
+  .printRoot :global(.offline-card),
+  .printRoot :global(.proof-gate),
+  .printRoot :global(.proof-metrics div),
+  .printRoot :global(.experiment-card) {
+    border-color: #d1d5db;
+    background: #ffffff;
+    box-shadow: none;
+  }
+
+  .printRoot :global(.playbook-dossier) {
+    display: block;
+    margin-top: 12px;
+  }
+
+  .printRoot :global(.playbook-sections) {
+    display: block;
+  }
+
+  .printRoot :global(.playbook-section) {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin: 0 0 14px;
+    padding: 12px;
+  }
+
+  .printRoot :global(#experiment-plan),
+  .printRoot :global(#measurement-spec) {
+    page-break-before: always;
+  }
+
+  .printRoot :global(.snapshot-grid),
+  .printRoot :global(.persona-grid),
+  .printRoot :global(.creative-grid),
+  .printRoot :global(.offline-grid),
+  .printRoot :global(.proof-metrics),
+  .printRoot :global(.seasonal-list),
+  .printRoot :global(.experiment-grid),
+  .printRoot :global(.xpat-needs-grid) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .printRoot :global(.source-link),
+  .printRoot :global(.provenance-chip),
+  .printRoot :global(.confidence-chip) {
+    color: #111827;
+  }
+
+  .printRoot :global(.schema-box) {
+    border-color: #d1d5db;
+    background: #f9fafb;
+    color: #111827;
+    white-space: pre-wrap;
+  }
+}

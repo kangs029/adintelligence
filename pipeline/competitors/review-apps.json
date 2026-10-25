@@ -1,0 +1,83 @@
+{
+  "apps": [
+    {
+      "android": {
+        "appId": "com.remit2any",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.remit2any"
+      },
+      "competitor": "Xpat",
+      "ios": {
+        "appId": "6738339464",
+        "sourceUrl": "https://apps.apple.com/us/app/xpat-formerly-remit2any/id6738339464"
+      }
+    },
+    {
+      "android": {
+        "appId": "com.remitly.androidapp",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.remitly.androidapp"
+      },
+      "competitor": "Remitly",
+      "ios": {
+        "appId": "674258465",
+        "sourceUrl": "https://apps.apple.com/us/app/remitly-send-money-abroad/id674258465"
+      }
+    },
+    {
+      "android": {
+        "appId": "com.transferwise.android",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.transferwise.android"
+      },
+      "competitor": "Wise",
+      "ios": {
+        "appId": "612261027",
+        "sourceUrl": "https://apps.apple.com/us/app/wise-global-money/id612261027"
+      }
+    },
+    {
+      "android": {
+        "appId": "com.xoom.android.app",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.xoom.android.app"
+      },
+      "competitor": "Xoom",
+      "ios": {
+        "appId": "529615515",
+        "sourceUrl": "https://apps.apple.com/us/app/xoom-send-money-transfer/id529615515"
+      }
+    },
+    {
+      "android": {
+        "appId": "com.westernunion.android.mtapp",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.westernunion.android.mtapp"
+      },
+      "competitor": "Western Union",
+      "ios": {
+        "appId": "424716908",
+        "sourceUrl": "https://apps.apple.com/us/app/western-union-send-money/id424716908"
+      }
+    },
+    {
+      "android": {
+        "appId": "tech.vance.app",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=tech.vance.app"
+      },
+      "competitor": "Aspora",
+      "ios": {
+        "appId": "6444683240",
+        "sourceUrl": "https://apps.apple.com/us/app/aspora-send-money-to-india/id6444683240"
+      }
+    },
+    {
+      "android": {
+        "appId": "io.ionic.CROBO",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=io.ionic.CROBO"
+      },
+      "competitor": "Crobo",
+      "ios": {
+        "appId": "6474628320",
+        "sourceUrl": "https://apps.apple.com/us/app/crobo/id6474628320"
+      }
+    }
+  ],
+  "country": "us",
+  "lang": "en"
+}

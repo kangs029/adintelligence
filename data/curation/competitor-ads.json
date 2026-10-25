@@ -1,0 +1,4 @@
+{
+  "notes": "Only reviewed ad screenshots should be copied from data/raw/ads into public/evidence/ads. Keep this empty when the public sweep captured no usable ad cards.",
+  "selected": []
+}
